@@ -27,7 +27,9 @@ for name, slug in PAGES:
 def rewrite(fragment: str) -> str:
     for name, h in HASH.items():
         fragment = fragment.replace(f'href="{name}"', f'href="{h}"')
-    return fragment.replace('href="#book"', 'href="#" data-book')
+    # in-page anchors (#pricing, #book) must scroll within the visible page,
+    # not be read as a page name by the hash router
+    return re.sub(r'href="#([A-Za-z][\w-]*)"', r'href="#" data-anchor="\1"', fragment)
 
 header = rewrite(header)
 body = rewrite("\n".join(mains))
@@ -47,7 +49,9 @@ router = """
   window.addEventListener('hashchange',show); show();
   document.addEventListener('click',function(e){
     var a=e.target.closest('a'); if(!a) return;
-    if(a.hasAttribute('data-book')){ e.preventDefault(); var p=document.querySelector('.page:not([hidden]) .book'); if(p) p.scrollIntoView({behavior:'smooth'}); return; }
+    var name=a.getAttribute('data-anchor');
+    if(name){ e.preventDefault(); var pg=document.querySelector('.page:not([hidden])'); if(!pg) return;
+      var t=pg.querySelector('#'+name+'-'+pg.dataset.page)||pg.querySelector('#'+name); if(t) t.scrollIntoView({behavior:'smooth'}); return; }
     if(a.getAttribute('href')==='#') e.preventDefault();
   });
   var t=document.querySelector('.nav-toggle'),n=document.getElementById('nav');
