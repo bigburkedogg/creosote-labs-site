@@ -46,8 +46,9 @@ router = """
   }
   window.addEventListener('hashchange',show); show();
   document.addEventListener('click',function(e){
-    var a=e.target.closest('a[data-book]'); if(!a) return; e.preventDefault();
-    var p=document.querySelector('.page:not([hidden]) .book'); if(p) p.scrollIntoView({behavior:'smooth'});
+    var a=e.target.closest('a'); if(!a) return;
+    if(a.hasAttribute('data-book')){ e.preventDefault(); var p=document.querySelector('.page:not([hidden]) .book'); if(p) p.scrollIntoView({behavior:'smooth'}); return; }
+    if(a.getAttribute('href')==='#') e.preventDefault();
   });
   var t=document.querySelector('.nav-toggle'),n=document.getElementById('nav');
   if(t&&n){t.addEventListener('click',function(){var o=n.classList.toggle('open');t.setAttribute('aria-expanded',o?'true':'false');});
