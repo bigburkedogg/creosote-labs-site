@@ -7,7 +7,7 @@ import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-PAGES = [("index.html", "offerings"), ("training.html", "training"),
+PAGES = [("index.html", "services"), ("training.html", "training"),
          ("work.html", "work"), ("writing.html", "writing"), ("about.html", "about")]
 HASH = {name: "#" + slug for name, slug in PAGES}
 
@@ -64,7 +64,7 @@ out = f"""<title>Creosote Labs Site Draft</title>
 {css}
 .draft-note {{ font-family: var(--font-mono); font-size: 12px; color: var(--tk-fg); background: var(--tk-bg); text-align: center; padding: 6px 12px; }}
 </style>
-<div class="draft-note">Rough draft · yellow TK markers are placeholders · pages switch by the nav</div>
+<div class="draft-note">Rough draft · yellow items are placeholders to be filled in · pages switch by the nav</div>
 {header}
 <main>
 {body}
