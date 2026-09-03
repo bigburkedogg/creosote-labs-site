@@ -1,9 +1,9 @@
 #!/bin/zsh
 # Serve the built site locally (same paths as the live site).
 cd "$(dirname "$0")"
-/usr/bin/python3 build.py
+/opt/homebrew/bin/python3 build.py
 open "http://localhost:8785/creosote-labs-site/index.html"
-cd docs && /usr/bin/python3 -c "
+cd docs && /opt/homebrew/bin/python3 -c "
 import http.server, functools
 h = functools.partial(http.server.SimpleHTTPRequestHandler, directory='.')
 class H(h):

@@ -13,6 +13,9 @@ import shutil
 import sys
 from pathlib import Path
 
+if sys.version_info < (3, 12):
+    sys.exit("build.py needs Python 3.12 or newer (use /opt/homebrew/bin/python3)")
+
 ROOT = Path(__file__).resolve().parent
 CONTENT = ROOT / "content"
 ASSETS = ROOT / "assets"
