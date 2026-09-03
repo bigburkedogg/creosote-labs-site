@@ -1,0 +1,35 @@
+{
+  "kind": "segment-location",
+  "service": null,
+  "segment": "law-firms",
+  "location": "flagstaff",
+  "title": "Law firms in Flagstaff: AI, systems, and websites",
+  "meta_description": "Creosote Labs works with Flagstaff law firms on intake, matter tracking, document automation, websites, and AI training on the firm's own templates.",
+  "h1": "Law firms in Flagstaff: AI, systems, and websites",
+  "intro": [
+    "Small law firms generally run on a practice management platform such as Clio, MyCase, or PracticePanther, with Microsoft 365 or Google Workspace for documents and email and QuickBooks for accounting. Client intake, conflict checks, engagement letters, and deadline calendars are often managed across several of these at once. Document drafting, from demand letters to closing packets, tends to start from a partner's last version rather than a maintained template.",
+    "Creosote Labs is based in Flagstaff and works with law firms on the business side of practice. The operations review documents how a matter moves from first contact through engagement, work, billing, and close. Systems and automation projects build intake and matter tracking that feeds the platform the firm already uses, and generate standard documents from a form. Website work presents practice areas, attorneys, and a consultation request. Team AI training covers drafting, summarizing, and research support on the firm's own templates."
+  ],
+  "projects": [
+    "An online intake form that runs a conflict check against existing matters before a consultation is scheduled.",
+    "A document generator that produces engagement letters and standard pleadings from matter data in Clio or MyCase.",
+    "A deadline tracker that calculates dates from a filing and posts them to the firm calendar.",
+    "A website with practice areas, attorney bios, and a consultation request form that routes to the right attorney.",
+    "An automation that assembles a closing binder or discovery index from a folder of documents.",
+    "A one-day training session where attorneys and paralegals set up AI tools for first drafts, summaries, and client updates."
+  ],
+  "faqs": [
+    {
+      "q": "How is client confidentiality and privilege handled in AI training?",
+      "a": "Training uses the AI tool the firm already licenses, such as Microsoft 365 Copilot, Google Gemini, or Claude, configured with the firm's own documents. The session covers what the tool retains and how to set it up within the firm's confidentiality policies."
+    },
+    {
+      "q": "Can attorneys and staff be trained together?",
+      "a": "Yes. Team AI training is one day for up to 10 people at $1,000 per person, with a 5-person minimum. Each participant works on real matters and writes up their own process, and a written guide and a 30-day follow-up are included."
+    },
+    {
+      "q": "What does a systems project cost?",
+      "a": "Systems and automation work is quoted at a fixed price from the $3,000 operations review, which lists each recommendation with its own quote. The review fee is credited toward implementation that begins within 90 days."
+    }
+  ]
+}

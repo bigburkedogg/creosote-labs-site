@@ -1,0 +1,35 @@
+{
+  "kind": "service-location",
+  "service": "systems-and-automation",
+  "segment": null,
+  "location": "show-low",
+  "title": "Systems and automation in Show Low, AZ | Creosote Labs",
+  "meta_description": "Systems and automation for Show Low businesses: one system of record, internal tools, automated data entry. Starts with a $3,000 one-day operations review.",
+  "h1": "Systems and automation in Show Low",
+  "intro": [
+    "Many businesses in Show Low serve customers from across the White Mountains, and their records tend to be spread across several tools. Trades and construction companies often track work orders in Jobber or Housecall Pro alongside spreadsheets, clinics frequently keep scheduling and billing in separate systems, and retailers and restaurants often reconcile Square or Toast against QuickBooks by hand. Systems and automation work applies wherever the same information is typed into more than one place, or a report is rebuilt by hand each week.",
+    "Creosote Labs consolidates those spreadsheets and disconnected tools into one system of record for businesses in Show Low and the White Mountains. Work begins with a one-day operations review at $3,000 that documents current processes and quotes each recommendation. From there we build the internal tools a business needs for scheduling, quoting, tracking, and reporting, automate data entry and follow-up between existing software, and hand the finished system to staff with written documentation."
+  ],
+  "projects": [
+    "A single job tracker for a White Mountains HVAC company that replaces three spreadsheets and posts completed jobs to QuickBooks automatically.",
+    "A quoting tool for a landscaping company that produces a priced estimate from a site visit form and emails it to the customer.",
+    "An automated follow-up sequence for a Show Low dental practice that sends appointment reminders and treatment plan reminders from Open Dental data.",
+    "A vendor and inventory tracker for a restaurant that pulls sales from Toast and flags items to reorder.",
+    "A reporting dashboard for a property management company that summarizes rent collection, vacancies, and work orders from AppFolio each week.",
+    "A cabin rental operation's booking calendar, cleaning schedule, and guest messaging consolidated into one system with automated turnover notices."
+  ],
+  "faqs": [
+    {
+      "q": "Do we have to replace the software we already use?",
+      "a": "Usually not. Most projects keep the industry software a business already runs, such as QuickBooks or Jobber, and build the connections and tools around it. The operations review states when a replacement would be the better option."
+    },
+    {
+      "q": "What does a systems project cost?",
+      "a": "Work starts with the $3,000 one-day operations review, and the written assessment it produces carries a fixed-price quote for each recommendation. There is no hourly billing on implementation."
+    },
+    {
+      "q": "Who maintains the system after handover?",
+      "a": "Staff do. Every system is documented and handed over with written instructions, and the handover is part of the quoted implementation. Where the business needs ongoing help, that is scoped separately."
+    }
+  ]
+}

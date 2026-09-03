@@ -1,0 +1,34 @@
+{
+  "kind": "service-location",
+  "service": "ai-consulting",
+  "segment": null,
+  "location": "cottonwood",
+  "title": "AI consulting in Cottonwood, AZ | Creosote Labs",
+  "meta_description": "AI consulting in Cottonwood, AZ. Creosote Labs assesses where AI fits, sets up tools a company already has, and trains staff. One-day review, $3,000.",
+  "h1": "AI consulting in Cottonwood",
+  "intro": [
+    "Cottonwood sits in the Verde Valley, with a mix of tasting rooms, restaurants, retail stores, medical and dental offices, contractors, and property managers serving the town and the surrounding communities. Many of these businesses already pay for software that includes an AI tool, such as Microsoft 365 Copilot or Google Gemini, and most of the daily work is still done by hand: estimates written from scratch, customer emails typed one at a time, and reports assembled at the end of the month.",
+    "Creosote Labs provides AI consulting to businesses in Cottonwood and the rest of the Verde Valley. An engagement begins with a one-day operations review, on site, where we document how the business runs and identify the tasks where an AI tool saves time. We then set up that tool with the company's own documents and templates, automate document preparation, customer communication, and reporting, and train staff on their own work. The team receives a written guide, and every recommendation comes with a fixed quote."
+  ],
+  "projects": [
+    "A Copilot or Gemini setup that drafts patient recall letters and appointment reminders for a medical office from its own templates.",
+    "A review of a tasting room's reservation, email, and inventory routines with a written assessment of where AI tools apply.",
+    "An assistant configured with a contractor's past proposals so that new estimates start from a draft instead of a blank page.",
+    "A monthly reporting process for a property manager that assembles owner statement summaries from AppFolio exports.",
+    "A staff training session on writing customer emails and internal procedures in the tool the business already licenses."
+  ],
+  "faqs": [
+    {
+      "q": "What does the one-day operations review cost, and what do we get?",
+      "a": "The review is $3,000. We spend a day on site, document how the business runs, and deliver a written assessment with prioritized recommendations and a quote for each within the week. The fee is credited toward implementation that begins within 90 days."
+    },
+    {
+      "q": "Do we need to buy new AI software?",
+      "a": "In most cases, no. We work in the tools the company already has access to, such as Microsoft 365 Copilot, Google Gemini, or Claude, and set them up with the company's own documents. If a new tool is needed, we say so in the assessment."
+    },
+    {
+      "q": "Do you come to Cottonwood in person?",
+      "a": "Yes, for the operations review, which is a day on site at the business. Team training can be delivered on site or remote, and implementation work that follows is done on a schedule agreed in the quote."
+    }
+  ]
+}

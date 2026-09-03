@@ -1,0 +1,35 @@
+{
+  "kind": "service-segment",
+  "service": "systems-and-automation",
+  "segment": "retail-stores",
+  "location": null,
+  "title": "Systems and automation for retail stores | Creosote Labs",
+  "meta_description": "Creosote Labs consolidates a retail store's spreadsheets around its point of sale and automates reordering, receiving, and month-end close.",
+  "h1": "Systems and automation for retail stores",
+  "intro": [
+    "Most retail stores keep inventory counts in the point-of-sale system, but the work around it lives elsewhere: purchase orders in Excel, vendor catalogs in email attachments, a Google Sheets reorder list, consignment agreements in a filing cabinet, and staff schedules on paper or a free scheduling app. Reconciling the register to QuickBooks at month end often means exporting from Square, Clover, or Lightspeed and rekeying totals. Systems and automation work covers the gaps between these tools.",
+    "Creosote Labs consolidates those spreadsheets and side files into one system of record connected to the store's point of sale, then builds the internal tools the store needs on top of it: a reorder tracker, a receiving log, a consignment ledger, or a daily close report. Repetitive work such as entering vendor invoices, chasing backorders, and preparing the month-end summary is automated where the data allows. We document the system and hand it to the manager and staff who will run it."
+  ],
+  "projects": [
+    "A reorder tool that reads daily sales from the point of sale and flags items below their reorder point, grouped by vendor.",
+    "A receiving log where staff check a delivery against the purchase order and post discrepancies to the vendor in one step.",
+    "A consignment ledger that tracks each consignor's items, sales, and payouts and produces monthly statements.",
+    "A daily close report that pulls register totals, card settlements, and cash counts into one page for the owner.",
+    "An invoice intake process that reads vendor invoices from email and enters them into QuickBooks for approval.",
+    "A staff schedule tool that publishes shifts, records time-off requests, and exports hours for payroll."
+  ],
+  "faqs": [
+    {
+      "q": "Will this replace our point-of-sale system?",
+      "a": "It will not. Square, Shopify POS, Lightspeed, and Clover stay in place. We build around the point of sale, using its exports or its API, and consolidate the spreadsheets that have grown up beside it."
+    },
+    {
+      "q": "How is the work priced?",
+      "a": "A one-day operations review at $3,000 comes first and produces a written assessment with a quote for each recommendation. Implementation is quoted from that review at a fixed price, with no hourly billing."
+    },
+    {
+      "q": "What do we need to provide?",
+      "a": "The project needs access to the point-of-sale system and QuickBooks, copies of the spreadsheets and forms the store uses now, and time with the people who do the receiving, ordering, and closing each day."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "kind": "service-segment",
+  "service": "systems-and-automation",
+  "segment": "financial-advisors",
+  "location": null,
+  "title": "Automation for financial advisory practices | Creosote Labs",
+  "meta_description": "Creosote Labs replaces the spreadsheets around an advisory practice's CRM with one system for onboarding, review tracking, and fee reconciliation.",
+  "h1": "Systems and automation for financial advisory practices",
+  "intro": [
+    "Many advisory practices keep client data in Redtail or Wealthbox, held-away account details and beneficiaries in Excel, review schedules in Outlook, and fee billing in a spreadsheet reconciled against custodian statements from Schwab or Fidelity. Onboarding a new household often means the same names, dates of birth, and account numbers typed into account opening forms, the CRM, the planning software, and DocuSign envelopes. Systems and automation covers the records that live in more than one place.",
+    "Creosote Labs consolidates those spreadsheets into one system of record connected to the CRM the practice already uses. We build an onboarding tool that collects household information once and fills the account paperwork, CRM record, and welcome packet from it, a review tracker that shows which households are due and what is outstanding, and a billing reconciliation that flags differences between calculated fees and custodian debits. The system is documented and handed to the operations staff who will run it."
+  ],
+  "projects": [
+    "A client onboarding tool that takes one intake form and produces the account opening forms, CRM record, and DocuSign envelope.",
+    "A quarterly fee billing calculation that reads custodian balances and produces the invoice file and a reconciliation report, replacing the billing workbook.",
+    "A review scheduling tracker that lists every household by last review date, next due date, and open action items.",
+    "An RMD and beneficiary tracking list that pulls ages and account types from the CRM and flags upcoming deadlines.",
+    "An automated document request sequence that emails clients for tax returns and statements before a planning meeting and records what has arrived.",
+    "A reporting page that shows households, assets, and revenue by advisor from the custodian data feed."
+  ],
+  "faqs": [
+    {
+      "q": "Do we have to replace our CRM?",
+      "a": "The CRM stays. We build around the CRM the practice already uses and connect to it where its integrations allow. Consolidation targets the spreadsheets and side lists that grew up around it, not the CRM itself."
+    },
+    {
+      "q": "What does the operations review cost and what does it produce?",
+      "a": "The one-day operations review is $3,000. It produces a written assessment of how the practice runs, prioritized recommendations, and a fixed quote for each one, delivered within the week. Implementation is quoted from that review."
+    },
+    {
+      "q": "Who runs the system after the project ends?",
+      "a": "The practice's own staff run it. Every system is documented and handed over to the people who will operate it, and the handover is part of the quoted scope."
+    }
+  ]
+}

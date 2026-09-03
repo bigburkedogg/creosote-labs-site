@@ -1,0 +1,34 @@
+{
+  "kind": "service-location",
+  "service": "ai-training",
+  "segment": null,
+  "location": "show-low",
+  "title": "Team AI training in Show Low, AZ | Creosote Labs",
+  "meta_description": "One-day, hands-on AI training for Show Low teams on their own tools and documents. $1,000 per person, 5-person minimum, travel included.",
+  "h1": "Team AI training in Show Low",
+  "intro": [
+    "Show Low's employers include medical and dental offices, contractors, real estate and property management companies, banks and insurance agencies, retailers, and the hospitality businesses that support tourism in the White Mountains. Teams at these businesses often already have Copilot through Microsoft 365 or Gemini through Google Workspace, and staff use them unevenly or not at all. Team AI training applies where an office wants everyone working the same way, on the documents and messages they produce every day.",
+    "Creosote Labs delivers a one-day, hands-on workshop on site in Show Low or remotely, in the AI tool the company already uses. Participants work on their own computers with their own files, so a dental office practices on treatment plans and recall letters while a contractor's office practices on estimates and change orders. Each participant produces real work during the day and writes down their own process. A written guide and a 30-day follow-up session are included."
+  ],
+  "projects": [
+    "A workshop for a Show Low insurance agency where each agent sets up Copilot to draft policy summaries and renewal emails from the agency's templates.",
+    "A training day for a medical practice front office on using Gemini to draft patient instructions, referral letters, and prior authorization requests.",
+    "A session for a real estate brokerage where agents build listing descriptions, buyer follow-up emails, and market updates in Claude from their own MLS data.",
+    "A remote workshop for a nonprofit's staff on grant narrative drafts, donor thank-you letters, and board report summaries.",
+    "A workshop for a hotel's front desk and sales staff on guest correspondence and group booking proposals."
+  ],
+  "faqs": [
+    {
+      "q": "How much does training cost for a team in Show Low?",
+      "a": "$1,000 per person for up to 10 people, with a 5-person minimum. Larger teams are quoted. Travel to Show Low is included. Teams that want three monthly follow-up sessions after the workshop can choose the training program at $1,400 per person."
+    },
+    {
+      "q": "Which AI tool is the training delivered in?",
+      "a": "The one the company already uses, such as Microsoft 365 Copilot, Google Gemini, or Claude. Participants work on their own computers with their own documents, so the setup they leave with is ready to use the next morning."
+    },
+    {
+      "q": "What should participants bring to the workshop?",
+      "a": "Their own laptop, access to the company's AI tool, and examples of the documents they produce most often, such as estimates, intake forms, letters, or customer emails. The written guide and the 30-day follow-up session are included in the price."
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "ai-training",
+  "segment": "retail-stores",
+  "location": null,
+  "title": "Team AI training for retail stores | Creosote Labs",
+  "meta_description": "A one-day AI workshop for retail store staff, held on the store's own products, newsletters, and tools. $1,000 per person, guide included.",
+  "h1": "Team AI training for retail stores",
+  "intro": [
+    "Retail staff and managers write more than the job description suggests: product descriptions, shelf talkers, Instagram captions, newsletter copy, vendor emails, employee schedules, and answers to the same customer questions each week. Many stores have a Google Workspace or Microsoft 365 account that already includes Gemini or Copilot, and some have a Claude or ChatGPT subscription that has not been set up for the store's work. Team AI training is a one-day workshop that puts those tools to work on the store's own material.",
+    "Creosote Labs delivers the session on site at the store or remotely, in the AI tool the team already uses. Each participant works on their own computer with the store's real product files, past newsletters, and vendor line sheets, and produces finished work during the day, such as a batch of product listings or a month of social posts. Everyone documents their own process, and the team leaves with a written guide and a 30-day follow-up session."
+  ],
+  "projects": [
+    "A buyer writes product listings for a new shipment from the vendor's line sheet, in the store's established voice.",
+    "A manager turns one new-arrivals list into a newsletter, 3 Instagram captions, and an in-store sign in a single sitting.",
+    "A floor associate drafts replies to common customer emails about returns, holds, and special orders from the store's policies.",
+    "An owner summarizes a month of point-of-sale exports into a plain-language report that takes 5 minutes to read.",
+    "The team builds a shared prompt library the whole floor staff can use for signage, captions, and vendor messages."
+  ],
+  "faqs": [
+    {
+      "q": "How much does the workshop cost?",
+      "a": "The workshop is $1,000 per person, up to 10 people, with a 5-person minimum. Larger teams are quoted, and travel is included. A program that adds 3 monthly follow-up sessions is $1,400 per person."
+    },
+    {
+      "q": "Which AI tool do we train on?",
+      "a": "We train on the one the store already has. That is usually Gemini through Google Workspace, Copilot through Microsoft 365, or a Claude or ChatGPT subscription. We do not require a new purchase."
+    },
+    {
+      "q": "What should participants bring?",
+      "a": "Participants should bring a laptop with access to the store's files and the AI tool, plus real material to work on: product photos and line sheets, past newsletters, the return policy, and a recent sales export."
+    }
+  ]
+}

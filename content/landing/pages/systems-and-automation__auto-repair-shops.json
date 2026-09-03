@@ -1,0 +1,35 @@
+{
+  "kind": "service-segment",
+  "service": "systems-and-automation",
+  "segment": "auto-repair-shops",
+  "location": null,
+  "title": "Systems and automation for auto repair shops | Creosote Labs",
+  "meta_description": "Creosote Labs replaces the spreadsheets around an auto repair shop's management system with one system, builds tracking tools, and automates follow-up.",
+  "h1": "Systems and automation for auto repair shops",
+  "intro": [
+    "An auto repair shop typically has a shop management system at the center, such as Tekmetric, Shopmonkey, Shop-Ware, or Mitchell 1, and a ring of spreadsheets around it. Fleet accounts often get tracked in Excel. Declined work may live in a Google Sheet somebody updates on Fridays. Core returns, sublet invoices, and tire inventory each have their own file, and QuickBooks gets reconciled by hand at month end. Systems and automation work applies to that ring, where information is retyped and follow-up depends on memory.",
+    "Creosote Labs begins with a one-day operations review, on site, that documents how work flows from the first phone call to the paid invoice. The written assessment lists each spreadsheet, what it duplicates, and what it would take to fold it into one system of record, with a fixed quote per item. From there we build the tools the shop picks, connect them to the shop management system's exports, and automate the retyping. The shop's staff receive written documentation and a handover session at the end."
+  ],
+  "projects": [
+    "A declined-work tracker that pulls unsold recommendations from the shop management system and schedules a reminder text at 30, 60, and 90 days.",
+    "A fleet account portal where a customer with 20 vehicles can see open repair orders, service history, and invoices in one place.",
+    "A sublet and core-return log that replaces 3 spreadsheets and flags anything unreturned after 14 days.",
+    "A month-end export that posts closed repair orders to QuickBooks without retyping parts, labor, and sales tax.",
+    "A technician efficiency report built from clocked hours and billed hours, sent to the owner every Monday.",
+    "A tire inventory count that reconciles what was sold on repair orders against what is on the rack."
+  ],
+  "faqs": [
+    {
+      "q": "Will this replace Tekmetric, Shop-Ware, or Mitchell 1?",
+      "a": "No, it does not. The shop management system stays, and the work targets the spreadsheets and manual steps around it, connecting to that system through its exports or its API where one is available."
+    },
+    {
+      "q": "How is a systems project priced?",
+      "a": "Every engagement starts with a one-day operations review at $3,000. The review produces a written assessment with a fixed quote for each recommendation, and implementation is quoted from that review. There is no hourly billing."
+    },
+    {
+      "q": "What data does the shop need to hand over?",
+      "a": "The shop hands over the current spreadsheets, an export from the shop management system, and a walk-through with whoever maintains each file. We work from copies during the build and cut over once the shop has checked the results."
+    }
+  ]
+}

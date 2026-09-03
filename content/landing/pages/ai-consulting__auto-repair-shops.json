@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "ai-consulting",
+  "segment": "auto-repair-shops",
+  "location": null,
+  "title": "AI consulting for auto repair shops | Creosote Labs",
+  "meta_description": "Creosote Labs assesses where AI tools fit in an auto repair shop, sets them up on the shop's own repair orders and estimates, and trains the staff.",
+  "h1": "AI consulting for auto repair shops",
+  "intro": [
+    "Many independent auto repair shops run on a shop management system such as Tekmetric, Shop-Ware, Shopmonkey, or Mitchell 1 Manager SE, with QuickBooks for accounting and a parts ordering tool such as PartsTech. In a typical shop, the service advisor writes the estimate, the technician fills out a digital vehicle inspection, and the customer receives a text with photos and a link to approve the work. AI tools apply to the writing that surrounds each repair order: the inspection notes, the customer explanation, and the follow-up.",
+    "Creosote Labs starts with a one-day operations review at the shop. We watch how a vehicle moves from check-in to invoice, read the templates the advisors use, and deliver a written assessment with a quote for each recommendation. Implementation usually means setting up Claude, Microsoft 365 Copilot, or Google Gemini with the shop's own inspection forms, labor guide, and warranty language, then automating the customer-facing writing and the end-of-month reporting. We finish by training the front counter on the shop's own repair orders."
+  ],
+  "projects": [
+    "An assistant that turns a technician's inspection notes into a plain-language explanation the service advisor can text to the customer.",
+    "A setup that drafts the recommended-services paragraph on each estimate from the digital vehicle inspection results.",
+    "A review-reply process that drafts responses to Google and Yelp reviews from the shop's repair order history.",
+    "A weekly report that summarizes car count, average repair order, and declined work from the shop management system export.",
+    "A written guide for service advisors on using Claude or Copilot with the shop's own estimate and warranty templates."
+  ],
+  "faqs": [
+    {
+      "q": "Does this work with the shop management system a shop already has?",
+      "a": "The operations review looks at the system the shop already uses, whether that is Tekmetric, Shop-Ware, Shopmonkey, or Mitchell 1. Recommendations are written around that system's exports and templates rather than replacing it."
+    },
+    {
+      "q": "What does an AI consulting engagement cost for a repair shop?",
+      "a": "The engagement opens with a one-day operations review at $3,000, and the written assessment that follows carries a quote for each recommendation. Implementation is priced from those quotes, and team training is $1,000 per person."
+    },
+    {
+      "q": "What does the shop need to provide before the review?",
+      "a": "The shop provides access for a day, the people who write estimates and close repair orders, and copies of the forms and templates in use. Nothing needs to be prepared in advance."
+    }
+  ]
+}

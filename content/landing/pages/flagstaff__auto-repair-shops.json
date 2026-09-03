@@ -1,0 +1,35 @@
+{
+  "kind": "segment-location",
+  "service": null,
+  "segment": "auto-repair-shops",
+  "location": "flagstaff",
+  "title": "Auto repair shops in Flagstaff | Creosote Labs",
+  "meta_description": "Creosote Labs builds inspection, estimate approval, and booking tools around Tekmetric or Shopmonkey for Flagstaff auto shops, and trains staff on AI.",
+  "h1": "Auto repair shops in Flagstaff: AI, systems, and websites",
+  "intro": [
+    "Auto repair shops in Flagstaff generally write estimates and repair orders in a shop management system such as Tekmetric, Shop-Ware, Shopmonkey, or Mitchell 1, look up labor times and procedures in ALLDATA or Identifix, and send invoices to QuickBooks. Outside those systems, many shops still handle parts ordering by phone, vehicle inspections on a printed form, customer approvals by text from a personal phone, and the appointment book on paper or in a shared calendar. That is where our systems, website, and training services apply.",
+    "Creosote Labs is based in Flagstaff and does the operations review at the shop, one day with the service writer, the technicians, and whoever handles the books. We document how a car moves from drop-off to inspection, estimate, approval, and pickup, note each place information is re-typed, and deliver a written assessment with a quote per item. Implementation might be a digital inspection and approval tool, an online booking page connected to the shop system, or an AI training day using the shop's own repair orders."
+  ],
+  "projects": [
+    "A digital vehicle inspection form that technicians fill out on a tablet and that produces a customer-ready report with photos.",
+    "An estimate approval tool that texts the customer a line-item estimate and records the approval on the repair order.",
+    "An online appointment request page connected to Tekmetric or Shopmonkey that collects vehicle details up front.",
+    "A parts tracker that logs what was ordered, from which supplier, and when it is due to arrive for each open repair order.",
+    "An automated follow-up that reminds customers of declined services and upcoming maintenance intervals.",
+    "A training day where service writers use Copilot or Claude to write repair explanations and customer updates from the shop's own repair orders."
+  ],
+  "faqs": [
+    {
+      "q": "Does this connect to our shop management system?",
+      "a": "In most cases it does. Tekmetric, Shop-Ware, and Shopmonkey expose repair order and customer data through an API or export, and we check what the shop's system makes available during the review before quoting a project."
+    },
+    {
+      "q": "How much does the review disrupt the shop?",
+      "a": "The shop stays open. We spend one working day at the front counter and in the bays, talk with the service writer and technicians between jobs, and send the written assessment within the week."
+    },
+    {
+      "q": "What does training cost for a small shop?",
+      "a": "Training is $1,000 per person for up to 10 people, with a 5-person minimum and travel included. A shop with 6 staff would pay $6,000 for the one-day workshop, the written guide, and the 30-day follow-up session."
+    }
+  ]
+}

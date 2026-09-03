@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "ai-training",
+  "segment": "breweries",
+  "location": null,
+  "title": "Team AI training for breweries and taprooms | Creosote Labs",
+  "meta_description": "A one-day AI workshop for brewery and taproom staff, run on their own tap lists, event contracts, and reports. $1,000 per person, travel included.",
+  "h1": "Team AI training for breweries and taprooms",
+  "intro": [
+    "Running a brewery involves a lot of writing. Brewers keep recipe notes and brew logs, taproom managers answer event inquiries and write beer descriptions for the menu and Untappd, sales staff send account emails and follow up on orders, and the owner or bookkeeper prepares the TTB report and reviews QuickBooks. Many breweries already have Google Workspace or Microsoft 365, which includes an AI tool that often goes unused for this work.",
+    "Creosote Labs runs a one-day workshop at the brewery, on site or remote, in the AI tool the team already uses. Each participant works on their own computer with their own files: a brewer builds a process for turning brew log notes into a release sheet, a taproom manager sets up event inquiry replies from the brewery's price list, and the office drafts distributor updates from the sales report. Everyone leaves with a working setup, a written guide for the team, and a 30-day follow-up session."
+  ],
+  "projects": [
+    "A beer description generator that writes tap list, menu, and Untappd copy from the brewer's recipe and tasting notes in the brewery's house style.",
+    "An event inquiry template that reads an email, checks it against the taproom's packages and pricing, and drafts the reply.",
+    "A weekly account update that summarizes which beers moved at each wholesale account from the sales export.",
+    "A social post and newsletter draft built from the month's release calendar and event schedule.",
+    "A checklist that reviews a draft TTB Brewer's Report of Operations against the production log before it is filed."
+  ],
+  "faqs": [
+    {
+      "q": "Which staff should attend?",
+      "a": "The workshop suits anyone who writes or reports as part of their job: the taproom manager, sales or distribution staff, the brewer, and whoever handles bookkeeping and compliance. The workshop needs at least 5 participants."
+    },
+    {
+      "q": "Does the brewery need an AI subscription before the day?",
+      "a": "Participants need access to the tool the workshop runs in, such as Google Gemini, Microsoft 365 Copilot, or Claude, on their own computers. We confirm the setup in advance so the day is spent on real work."
+    },
+    {
+      "q": "How is training priced?",
+      "a": "The workshop costs $1,000 per person for up to 10 people, with a 5-person minimum, and travel is included. Larger teams are quoted. Breweries that want three monthly follow-up sessions instead of one can book the program at $1,400 per person."
+    }
+  ]
+}

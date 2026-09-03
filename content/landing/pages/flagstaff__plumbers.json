@@ -1,0 +1,35 @@
+{
+  "kind": "segment-location",
+  "service": null,
+  "segment": "plumbers",
+  "location": "flagstaff",
+  "title": "Plumbing companies in Flagstaff: AI, systems, and websites",
+  "meta_description": "Creosote Labs works with Flagstaff plumbing companies on dispatch and quoting systems, automation, websites, and AI training. Based in Flagstaff.",
+  "h1": "Plumbing companies in Flagstaff: AI, systems, and websites",
+  "intro": [
+    "Many plumbing companies run on a field service platform such as ServiceTitan, Housecall Pro, or Jobber for dispatch and invoicing, QuickBooks for the books, and a mix of text messages and paper for everything in between. Estimates, work orders, permit paperwork, and parts lists often live in separate places, and a job that starts as a phone call can pass through 3 or 4 systems before it is invoiced and paid.",
+    "Creosote Labs is based in Flagstaff and works with plumbing companies across Northern Arizona. The work covers all 4 services: an operations review that documents how jobs move from call to payment, systems and automation that connect dispatch, estimating, and accounting, a website with online booking and service pricing, and a one-day AI training session for office staff and technicians using the tools the company already pays for."
+  ],
+  "projects": [
+    "An estimate template that builds a priced quote from a technician's site notes and a parts list.",
+    "An automation that creates a QuickBooks invoice when a job is marked complete in Housecall Pro or Jobber.",
+    "A website with service pages, emergency contact details, and an online booking form that feeds the dispatch calendar.",
+    "A maintenance-agreement tracker that schedules water heater flushes and backflow tests and sends customer reminders.",
+    "A review-request sequence that texts customers after a completed job and routes replies to the office.",
+    "A one-day workshop where dispatchers and technicians set up AI tools for job notes, customer emails, and permit forms."
+  ],
+  "faqs": [
+    {
+      "q": "Do we have to switch off ServiceTitan or Housecall Pro?",
+      "a": "No. Most projects connect the tools a company already uses rather than replacing them. The operations review identifies where a change would help and quotes it separately."
+    },
+    {
+      "q": "What does the operations review cost and what do we get?",
+      "a": "The review is $3,000 for one day on site. It produces a written assessment, prioritized recommendations, and a quote for each item, delivered within the week. The fee is credited toward implementation that begins within 90 days."
+    },
+    {
+      "q": "Can technicians in the field attend AI training?",
+      "a": "Yes. Training is $1,000 per person with a 5-person minimum, and each participant works on their own device with their own job notes and forms. Every participant leaves with a written guide, and the team gets a follow-up session 30 days later."
+    }
+  ]
+}

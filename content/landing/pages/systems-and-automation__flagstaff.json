@@ -1,0 +1,35 @@
+{
+  "kind": "service-location",
+  "service": "systems-and-automation",
+  "segment": null,
+  "location": "flagstaff",
+  "title": "Systems and automation in Flagstaff, AZ | Creosote Labs",
+  "meta_description": "Creosote Labs replaces spreadsheets and disconnected tools with one system for Flagstaff businesses. Custom internal tools, automation, and documentation.",
+  "h1": "Systems and automation in Flagstaff",
+  "intro": [
+    "Small businesses in Flagstaff and the surrounding Northern Arizona towns commonly run on a mix of QuickBooks, Google Sheets or Excel, a shared calendar, and one industry tool: Jobber or Housecall Pro for service companies, AppFolio for property managers, Toast or Square for restaurants, a reservation system for tour operators. Job details, customer records, and schedules often live in more than one of these at once, and someone retypes them to keep everything current. Systems and automation work applies wherever that copying happens.",
+    "Creosote Labs is based in Flagstaff, so the operations review takes place on site at the business. The review is a fixed $3,000 for one day and produces a written assessment with a quote for each recommendation. From there we consolidate the spreadsheets and disconnected tools into one system of record, build internal tools for scheduling, quoting, tracking, and reporting, and automate the data entry and follow-up that staff currently do by hand. Every system is documented and handed over to the people who will run it."
+  ],
+  "projects": [
+    "A trip tracker for a river or hiking outfitter that replaces a shared spreadsheet with one record per trip showing what is due and what is done.",
+    "A quoting tool for an HVAC or plumbing company that produces an estimate from a site visit form and pushes the accepted job into Jobber or QuickBooks.",
+    "A work order system for a property management company that logs tenant requests, assigns vendors, and records the invoice against the unit.",
+    "An automated follow-up sequence for a dental or chiropractic office that sends appointment reminders and recall notices from the practice management system's schedule.",
+    "A weekly reporting dashboard for a restaurant or brewery that pulls sales from Toast or Square and labor from the scheduling tool into one page.",
+    "An inventory and reorder tracker for a retail store that replaces a paper count sheet and emails the purchase order to suppliers."
+  ],
+  "faqs": [
+    {
+      "q": "How do you decide what to build first?",
+      "a": "The operations review delivers prioritized recommendations, and every item comes with its own quote. The business chooses which items to proceed with; nothing is bundled."
+    },
+    {
+      "q": "Do we have to give up the tools we already use?",
+      "a": "Not necessarily. Many projects keep QuickBooks, the industry system, and Google Workspace in place and add a system that connects them. The assessment says which tools stay, which are replaced, and why."
+    },
+    {
+      "q": "Who maintains the system after handover?",
+      "a": "The business does. Every project includes written documentation and a handover session so staff can operate and adjust the system without us. Later changes are quoted as separate fixed-price work."
+    }
+  ]
+}

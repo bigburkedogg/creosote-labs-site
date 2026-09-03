@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "website-development",
+  "segment": "accounting-firms",
+  "location": null,
+  "title": "Website development for accounting firms · Creosote Labs",
+  "meta_description": "Creosote Labs builds websites, client portals, and intake tools for accounting and bookkeeping firms, at a fixed price quoted after a scoping call.",
+  "h1": "Website and web application development for accounting and bookkeeping firms",
+  "intro": [
+    "An accounting firm's website usually does two jobs: it tells prospective clients what the firm does and what it costs, and it gives current clients a way to send documents and book time. Many firms have a marketing site that lists services and staff, a separate document portal from SmartVault, ShareFile, or their tax software, and a Calendly link somewhere between the two. Prospects arrive from a referral or a search for a bookkeeper in their town and need to see services, fees, and how to get started.",
+    "Creosote Labs builds marketing websites for firms with a clear services page, a fee schedule where the firm wants to publish one, and a way to request a consultation. We also build the tools clients use directly: a new-client intake form that collects entity type, prior accountant, and bookkeeping software, a tax organizer clients complete online, and a secure upload page that routes files to the right preparer. Hosting, domain setup, and a written handover are included."
+  ],
+  "projects": [
+    "A marketing site with pages for tax preparation, bookkeeping, and payroll services, each with a request form.",
+    "An online tax organizer that replaces the mailed PDF and delivers responses to the preparer as a single document.",
+    "A new-client intake form that collects entity type, fiscal year, and current software before the first meeting.",
+    "A quote request tool that asks about transaction volume and accounts and returns a monthly bookkeeping fee range.",
+    "A client login page that links to SmartVault or ShareFile and shows each client their upcoming deadlines."
+  ],
+  "faqs": [
+    {
+      "q": "Can the site publish bookkeeping fees or a fee calculator?",
+      "a": "Yes, it can. We build either a page with fixed monthly packages or a quote request tool that asks about transaction volume, number of accounts, and payroll and returns a fee range. Whether to publish pricing is the firm's decision."
+    },
+    {
+      "q": "What does the firm need to send before the build starts?",
+      "a": "The firm sends a list of services, any fee information to be published, staff bios and photos, and access to the current domain registrar. If the firm uses a portal or scheduling tool, we need the links so the site can connect to them."
+    },
+    {
+      "q": "How are website projects priced?",
+      "a": "Website and application projects are quoted after a scoping call. The price is fixed, with no hourly billing, and hosting setup and domain configuration are included."
+    }
+  ]
+}

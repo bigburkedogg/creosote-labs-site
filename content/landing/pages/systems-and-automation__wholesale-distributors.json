@@ -1,0 +1,35 @@
+{
+  "kind": "service-segment",
+  "service": "systems-and-automation",
+  "segment": "wholesale-distributors",
+  "location": null,
+  "title": "Distributor systems and automation | Creosote Labs",
+  "meta_description": "Creosote Labs consolidates a distributor's order, inventory, and pricing spreadsheets into one system and automates order entry, picking, and invoicing.",
+  "h1": "Systems and automation for wholesale distributors",
+  "intro": [
+    "A wholesale distributor typically keeps its system of record in QuickBooks or NetSuite, with inventory tracked in that system, in Fishbowl, or in a warehouse spreadsheet counted by hand. Customer-specific pricing, contract terms, and vendor lead times often live in separate Excel or Google Sheets files that the inside sales team updates independently. Sales orders, pick tickets, packing slips, bills of lading, and invoices are generated in sequence, and a change to one usually has to be retyped into the others.",
+    "Creosote Labs consolidates those files into a single system with the accounting package as the source of truth. We build internal tools for order entry, pricing by customer tier, warehouse picking, and daily reporting, and connect them so an order keyed once flows to the pick ticket, the packing slip, and the invoice without retyping. Repetitive steps such as backorder follow-up and vendor purchase orders are automated. The system is documented and handed over to staff, with the work quoted from the operations review."
+  ],
+  "projects": [
+    "An order-entry tool that applies each customer's pricing tier and credit terms and posts the sales order to QuickBooks.",
+    "A picking application on a warehouse tablet that generates pick tickets and packing slips from open orders.",
+    "A single price list that replaces per-salesperson Excel copies and feeds quotes and orders.",
+    "An automated purchase order draft when on-hand stock falls below a SKU's reorder point.",
+    "A daily report of open orders, backorders, and shipments due, sent to the owner each morning.",
+    "A customer statement and past-due reminder run that pulls from the accounting system on a schedule."
+  ],
+  "faqs": [
+    {
+      "q": "Where does our data go?",
+      "a": "It stays in the accounting or inventory system already in use; the tools we build read from and write to it. Spreadsheets that duplicate that data are retired once the system covers them."
+    },
+    {
+      "q": "How is a systems project priced?",
+      "a": "A systems project is priced from the $3,000 one-day operations review, which produces a written assessment and a fixed quote for each recommendation. There is no hourly billing, and the review fee is credited toward implementation that begins within 90 days."
+    },
+    {
+      "q": "Can the warehouse keep working during the changeover?",
+      "a": "Yes. We build and test alongside the current process, move one step at a time, and document each tool before staff take it over."
+    }
+  ]
+}

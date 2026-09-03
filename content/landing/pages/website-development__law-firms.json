@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "website-development",
+  "segment": "law-firms",
+  "location": null,
+  "title": "Law firm websites and client portals · Creosote Labs",
+  "meta_description": "Creosote Labs builds law firm websites with clear practice areas, consultation booking, and intake forms, at a fixed price quoted after a scoping call.",
+  "h1": "Website and web application development for law firms",
+  "intro": [
+    "Law firms often have a website built years ago by a marketing vendor that lists practice areas and attorney bios but sends every inquiry to a general contact form. Prospective clients then call, wait for a return call, and repeat their situation to a receptionist who types it into Clio Grow or an intake spreadsheet. Website work for a firm covers both the public site and the tools behind it: consultation scheduling, intake questionnaires by practice area, and a place for existing clients to sign and upload documents.",
+    "Creosote Labs scopes the project on a call, then quotes a fixed price. A marketing site states each practice area, the attorneys, fees where the firm publishes them, and a direct way to book a consultation. Behind it we build what the firm's process requires: an intake form that writes to the practice management system, a portal where clients check matter status and upload records, or a fee quote tool for flat-fee work. Hosting, domain setup, and written handover documentation are part of every project."
+  ],
+  "projects": [
+    "A firm website with a page per practice area, attorney profiles, and consultation booking tied to the attorneys' calendars.",
+    "An estate planning questionnaire that collects family, asset, and beneficiary details before the first meeting and stores them on the matter.",
+    "A client portal where clients see upcoming dates, sign fee agreements, and upload documents without emailing attachments.",
+    "A flat-fee quote page for uncontested divorce, LLC formation, or simple wills that produces a written quote and an engagement letter.",
+    "A secure referral form for other attorneys and professionals that routes to the right practice group."
+  ],
+  "faqs": [
+    {
+      "q": "Can the website connect to the firm's practice management system?",
+      "a": "Yes, where the system offers an integration. Clio, MyCase, and PracticePanther all accept intake and contact data from a website, and the scoping call confirms what the firm's system supports."
+    },
+    {
+      "q": "How is a website project priced?",
+      "a": "Website and application projects are quoted after a scoping call at a fixed price. There is no hourly billing, and hosting and domain setup are included."
+    },
+    {
+      "q": "What does the firm need to supply for the website?",
+      "a": "The firm supplies practice area descriptions, attorney bios and photos, any fee information it publishes, and access to the current domain registrar. We write or edit the copy if the firm prefers to review rather than draft."
+    }
+  ]
+}

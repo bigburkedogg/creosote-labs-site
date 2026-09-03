@@ -1,0 +1,35 @@
+{
+  "kind": "service-segment",
+  "service": "systems-and-automation",
+  "segment": "real-estate-brokerages",
+  "location": null,
+  "title": "Brokerage systems and automation | Creosote Labs",
+  "meta_description": "Creosote Labs consolidates brokerage spreadsheets and disconnected tools into one system, builds the office tools it needs, and automates repetitive work.",
+  "h1": "Systems and automation for real estate brokerages",
+  "intro": [
+    "A brokerage office often runs its transaction side in dotloop, SkySlope, or Brokermint and its money side in QuickBooks, with a spreadsheet in between for commission splits, referral fees, and pending closings. Agent rosters, license renewal dates, E&O coverage, and lead assignments tend to live in separate Excel or Google Sheets files kept by the office manager. Each closing can mean re-entering the same figures in 3 or 4 places, and month-end numbers often depend on whichever sheet was updated last.",
+    "Creosote Labs replaces that set of spreadsheets with one system of record for the office. We build the pending and closed transaction log, the commission calculation with each agent's split and cap, and the agent roster with renewal reminders, then connect them to the transaction platform and QuickBooks so figures are entered once. Repetitive work such as commission disbursement authorizations, closing day reminders, and month-end production reports is generated automatically. The system is documented and handed over to the office manager."
+  ],
+  "projects": [
+    "A commission tracker that calculates each agent's split, cap progress, and referral fees from the closing statement and produces the disbursement authorization.",
+    "A pending transactions board showing every file's contingency dates, earnest money status, and closing date in one view.",
+    "An agent roster with automatic reminders for license renewals, association dues, and E&O policy dates.",
+    "An automation that posts closed transactions to QuickBooks so bookkeeping does not require re-keying figures.",
+    "A monthly production report for the broker, compiled from the transaction log without a manual spreadsheet.",
+    "A lead assignment log that records which agent received each inquiry and whether it was followed up."
+  ],
+  "faqs": [
+    {
+      "q": "Does the office have to leave dotloop or SkySlope?",
+      "a": "No. The transaction platform stays where it is. The system we build sits alongside it and handles what the platform does not, such as commission math, rosters, and reporting."
+    },
+    {
+      "q": "What does the office need to provide before the review?",
+      "a": "Access to the current spreadsheets, a sample closed file, and time with the office manager and broker during the one-day site visit. The assessment is written from what we observe that day."
+    },
+    {
+      "q": "How much does it cost?",
+      "a": "Engagements begin with a one-day operations review at $3,000, credited toward implementation that begins within 90 days. Each recommendation in the assessment comes with its own fixed quote, with no hourly billing."
+    }
+  ]
+}

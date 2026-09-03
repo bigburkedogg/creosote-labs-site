@@ -1,0 +1,34 @@
+{
+  "kind": "service-location",
+  "service": "ai-training",
+  "segment": null,
+  "location": "page",
+  "title": "Team AI training in Page, Arizona | Creosote Labs",
+  "meta_description": "A one-day, hands-on AI workshop for teams in Page, Arizona, delivered on the company's own tools and documents. $1,000 per person, travel included.",
+  "h1": "Team AI training in Page",
+  "intro": [
+    "Teams in Page tend to be small and seasonal: a front desk, a reservations office, a few guides or drivers, a kitchen, and an owner who handles the books in QuickBooks. Many already have Microsoft 365 or Google Workspace, which means Copilot or Gemini may be available without a new subscription, and some have tried ChatGPT or Claude on their own. Team AI training applies to any group that writes guest emails, confirmations, schedules, and reports as part of the job.",
+    "Creosote Labs delivers a one-day, hands-on workshop in Page, on site or remote, in the AI tool the company already uses. Participants work on their own computers with their own documents, so a reservations agent leaves with a working setup for guest replies and a guide leaves with one for trip briefings. Each person documents their own process during the session. The team receives a written guide, and a 30-day follow-up session is included."
+  ],
+  "projects": [
+    "A reservations team that builds a set of reusable prompts for confirmations, cancellations, and weather-related changes.",
+    "A hotel front desk that sets up Copilot to answer guest questions from the property's own policies and local directions.",
+    "A restaurant manager who drafts weekly schedules, shift notes, and supplier emails from existing templates.",
+    "An office team at a marina or outfitter that turns a season's incident reports into a summary for the owner.",
+    "A contractor's office staff who produce estimates and follow-up emails from a job site checklist."
+  ],
+  "faqs": [
+    {
+      "q": "How much does training cost for a team in Page?",
+      "a": "$1,000 per person for up to 10 people, with a 5-person minimum. Travel to Page is included. A program with three monthly follow-up sessions is $1,400 per person, and larger teams are quoted."
+    },
+    {
+      "q": "What does each participant need to bring?",
+      "a": "A laptop with access to the AI tool the company uses, and a few real documents they work with regularly, such as email templates, a schedule, or a checklist. No prior experience with AI tools is required."
+    },
+    {
+      "q": "Can we hold the workshop during the off-season?",
+      "a": "Yes. The workshop is one day, on site or remote, and we schedule it around the business's calendar. Seasonal businesses often choose the winter months."
+    }
+  ]
+}

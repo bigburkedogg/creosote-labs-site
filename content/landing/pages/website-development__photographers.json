@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "website-development",
+  "segment": "photographers",
+  "location": null,
+  "title": "Websites for photographers | Creosote Labs",
+  "meta_description": "Creosote Labs builds photography websites with portfolios, pricing, and booking, plus inquiry forms and proofing tools. Fixed price after a scoping call.",
+  "h1": "Website and web application development for photographers",
+  "intro": [
+    "Many photography websites are built on Squarespace, Showit, Wix, or WordPress, with a portfolio, an about page, and a contact form. Client galleries usually live on a separate service such as Pixieset, ShootProof, or SmugMug, and booking happens over email or through a HoneyBook or Dubsado form placed on the site. Wedding, portrait, and commercial photographers tend to need different things from a site: a wedding studio needs a clear inquiry path, while a headshot business needs online scheduling and payment.",
+    "Creosote Labs builds marketing websites for photographers with the portfolio, services, pricing, and a direct way to book or inquire. Where a studio needs more, we build the customer-facing tools around it: a booking page for mini sessions with payment, an inquiry form that captures date, venue, and package, a client portal for questionnaires and timelines, or a proofing tool. Hosting, domain configuration, and a documented handover are included. Projects are quoted after a scoping call, at a fixed price."
+  ],
+  "projects": [
+    "A portfolio website with services, package pricing, and an inquiry form that asks for date, venue, and guest count.",
+    "A mini-session booking page with time slots, deposit payment, and automatic confirmation emails.",
+    "A client portal where couples fill out the wedding questionnaire, timeline, and family photo list before the shoot.",
+    "A headshot scheduling tool for corporate clients that books multiple employees on one day and invoices the company.",
+    "A proofing page where clients mark favorites and order prints from a delivered gallery."
+  ],
+  "faqs": [
+    {
+      "q": "Can the site connect to the gallery and booking tools we already use?",
+      "a": "Yes. Galleries on Pixieset, ShootProof, or SmugMug and forms from HoneyBook or Dubsado can be linked or placed on the site, so those services do not have to be replaced."
+    },
+    {
+      "q": "What do we need to provide for a website project?",
+      "a": "The studio provides a selection of portfolio images, current pricing and package descriptions, and any existing text about the studio. Hosting and domain setup are handled by Creosote Labs."
+    },
+    {
+      "q": "How is a photography website priced?",
+      "a": "Website and application projects are quoted after a scoping call, at a fixed price. There is no hourly billing."
+    }
+  ]
+}

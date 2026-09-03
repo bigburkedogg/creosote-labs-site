@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "ai-consulting",
+  "segment": "mortgage-brokers",
+  "location": null,
+  "title": "AI consulting for mortgage brokers | Creosote Labs",
+  "meta_description": "Creosote Labs assesses where AI tools fit in a mortgage brokerage, sets them up with the firm's own documents, and trains loan officers and processors.",
+  "h1": "AI consulting for mortgage brokers",
+  "intro": [
+    "Many mortgage brokerages run on a loan origination system such as Encompass, Calyx Point, Arive, or LendingPad, alongside a CRM like Jungo or Total Expert, a pricing engine such as Optimal Blue or Polly, and a document portal like Floify. Around those systems sit the pre-approval letters, needs lists, status updates, and rate-shopping emails that loan officers and processors write by hand each day. That day-to-day writing and document preparation is where AI tools apply most directly.",
+    "Creosote Labs begins with a one-day operations review of the brokerage, following a file from application to closing and noting each place a person retypes, summarizes, or explains something a tool could draft. We then set up the AI tool the office already has, such as Microsoft 365 Copilot, Google Gemini, or Claude, with the brokerage's own letter templates, condition lists, and compliance language, and train loan officers and processors on their own active files. The team receives a written guide for the setups we build."
+  ],
+  "projects": [
+    "A pre-approval letter drafted from the borrower's application data and the loan officer's notes, ready for review before it goes out.",
+    "A needs-list generator that reads a 1003 application and produces the borrower's document checklist in the brokerage's format.",
+    "A condition-explanation assistant that turns underwriter conditions into plain-language emails to borrowers and their agents.",
+    "A weekly pipeline summary written from the LOS status export for the broker-owner.",
+    "A rate-scenario comparison that turns pricing engine output into a side-by-side sheet a borrower can read."
+  ],
+  "faqs": [
+    {
+      "q": "What do we need to have in place before an AI consulting engagement?",
+      "a": "The brokerage needs an existing subscription to an AI tool such as Microsoft 365 Copilot, Google Gemini, or Claude, and access to the templates and documents the team uses. We set the tool up with those materials."
+    },
+    {
+      "q": "How does pricing work?",
+      "a": "Engagements begin with a one-day operations review at $3,000, which produces a written assessment and a quote for each recommendation. Implementation is quoted from the review, and team training is $1,000 per person."
+    },
+    {
+      "q": "How is borrower information handled when AI tools are involved?",
+      "a": "We set the tools up inside the brokerage's own accounts and document which data each workflow touches, so the broker-owner decides what borrower information is used."
+    }
+  ]
+}

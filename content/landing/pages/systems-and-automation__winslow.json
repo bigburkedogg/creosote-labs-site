@@ -1,0 +1,35 @@
+{
+  "kind": "service-location",
+  "service": "systems-and-automation",
+  "segment": null,
+  "location": "winslow",
+  "title": "Systems and automation in Winslow, AZ | Creosote Labs",
+  "meta_description": "Creosote Labs consolidates spreadsheets and disconnected tools for Winslow businesses into one system, builds internal tools, and automates busywork.",
+  "h1": "Systems and automation in Winslow",
+  "intro": [
+    "Businesses in Winslow, from Route 66 motels and restaurants to trade contractors, auto shops, and medical offices, often keep their records in several places at once. A booking calendar in one program, invoices in QuickBooks, job notes in text messages, and a master list in Excel or Google Sheets is a common arrangement. Systems and automation work applies when those pieces stop matching and staff spend time reconciling them by hand.",
+    "Creosote Labs consolidates those records into one system of record and builds the internal tools around it: scheduling, quoting, job tracking, and reporting. Repetitive work such as data entry, customer follow-up, and document generation is automated so that staff enter information once. Every project begins with a one-day operations review at $3,000, which produces a written assessment and a fixed quote for each recommendation. We serve Winslow and Northern Arizona, and every system is documented and handed over to the staff who run it."
+  ],
+  "projects": [
+    "A work order system for a plumbing or HVAC company that replaces a whiteboard and a stack of paper tickets with one schedule and job list.",
+    "A room and group booking tracker for a motel that connects reservations, housekeeping assignments, and invoicing.",
+    "An automated invoice and payment reminder sequence for a contractor, generated from QuickBooks data.",
+    "A parts and repair tracking tool for an auto shop that records vehicle history, estimates, and approvals in one place.",
+    "A single customer list for a retail shop built from Square sales, email signups, and a spreadsheet.",
+    "A monthly reporting dashboard for an owner who currently assembles numbers from three programs by hand."
+  ],
+  "faqs": [
+    {
+      "q": "Do we lose the spreadsheets we use now?",
+      "a": "The data is migrated into the new system and the spreadsheets are retired or kept as read-only archives. Nothing is discarded until the new system has been checked against the old records."
+    },
+    {
+      "q": "What does a systems project cost?",
+      "a": "Implementation is quoted from the $3,000 operations review, which lists each recommendation with its own fixed price. There is no hourly billing, and the review fee is credited toward work that begins within 90 days."
+    },
+    {
+      "q": "Who runs the system once it is handed over?",
+      "a": "The business's own staff run it. Every system is documented for the people who will use it, and the handover includes walking them through it. Later changes are scoped and quoted as separate work."
+    }
+  ]
+}

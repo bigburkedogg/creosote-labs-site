@@ -1,0 +1,35 @@
+{
+  "kind": "service-location",
+  "service": "systems-and-automation",
+  "segment": null,
+  "location": "prescott",
+  "title": "Systems and automation in Prescott, AZ | Creosote Labs",
+  "meta_description": "Systems and automation for Prescott businesses. We consolidate spreadsheets into one system, build internal tools, and automate data entry and follow-up.",
+  "h1": "Systems and automation in Prescott",
+  "intro": [
+    "Businesses in Prescott include hospitals and medical practices, hotels and restaurants serving visitors, contractors, property managers, and downtown shops. Many of them track work in a mix of Excel or Google Sheets, QuickBooks, and a field or booking tool such as ServiceTitan, AppFolio, or Square, with the gaps between those systems filled by re-typing. Scheduling, quoting, job tracking, and month-end reporting are the areas where that re-typing accumulates.",
+    "Creosote Labs consolidates those spreadsheets and disconnected tools into a single system of record for businesses in Prescott and the surrounding area. Engagements begin with a one-day operations review at $3,000, which produces a written assessment and a fixed quote for each recommendation. From there we build the internal tools the business needs, automate the repetitive steps, document the result, and hand it over to staff."
+  ],
+  "projects": [
+    "A single job board that replaces a roofing company's 3 scheduling spreadsheets and pushes completed jobs into QuickBooks.",
+    "A work-order tracker for a property management company that logs tenant requests, assigns vendors, and records the invoice against the unit.",
+    "An automated follow-up sequence that emails a quote, reminds the customer after 3 days, and flags the office when a quote goes unanswered.",
+    "A monthly reporting tool that pulls sales from Square and labor from the scheduling system into one owner's report.",
+    "An intake form for a physical therapy clinic that creates the patient record and the first appointment in one step.",
+    "A parts and inventory sheet for an auto repair shop that reorders automatically when stock drops below a set level."
+  ],
+  "faqs": [
+    {
+      "q": "Does a Prescott business have to replace QuickBooks or its booking software?",
+      "a": "Usually not. Projects typically keep the accounting and booking tools already in use and connect them, replacing only the spreadsheets and manual steps in between."
+    },
+    {
+      "q": "What happens to the existing spreadsheet data?",
+      "a": "We import it into the new system during implementation and check it against the originals before staff switch over. Nothing is discarded until the business confirms the new records are correct."
+    },
+    {
+      "q": "How is a systems project priced?",
+      "a": "The operations review is $3,000 and includes a fixed quote for each recommended system. Implementation is priced from that quote, with no hourly billing, and the review fee is credited toward implementation that begins within 90 days."
+    }
+  ]
+}

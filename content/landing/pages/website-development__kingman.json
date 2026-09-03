@@ -1,0 +1,35 @@
+{
+  "kind": "service-location",
+  "service": "website-development",
+  "segment": null,
+  "location": "kingman",
+  "title": "Website development in Kingman, AZ | Creosote Labs",
+  "meta_description": "Creosote Labs builds websites, booking and quote tools, and web applications for Kingman, Arizona businesses. Fixed price, hosting and domain included.",
+  "h1": "Website and web application development in Kingman",
+  "intro": [
+    "Kingman businesses serve local customers in Mohave County as well as travelers passing through on I-40 and Route 66. Motels, restaurants, tour companies, auto repair shops, and contractors often rely on a Google Business Profile, a Facebook page, and a website that was last updated years ago, with bookings and quote requests handled by phone. Website and web application work applies wherever a customer needs to find the business, understand what it offers, and take the next step online.",
+    "Creosote Labs builds marketing websites with clear services, pricing, and a way to book or contact the business, and customer-facing tools such as quote request forms, online bookings, intake forms, and portals. For businesses with a manual process behind the counter, we build web applications that staff and customers use directly. Hosting setup, domain configuration, and handover documentation are included. Projects are quoted after a scoping call at a fixed price, with no hourly billing, and can be delivered remotely or with visits to Kingman."
+  ],
+  "projects": [
+    "A booking page for a Kingman motel that shows live availability and takes reservations without a third-party commission.",
+    "A quote request form for a roofing company that collects the address, roof type, and photos and creates a lead in the office system.",
+    "A menu and online ordering site for a Route 66 restaurant, with the menu managed from a single file the owner edits.",
+    "A tenant portal for a property management company where residents submit maintenance requests and view their ledger.",
+    "An intake form for a chiropractic office that collects history and insurance details before the first visit.",
+    "A service scheduling tool for an auto repair shop that replaces phone tag with a confirmed appointment."
+  ],
+  "faqs": [
+    {
+      "q": "How is a website project priced?",
+      "a": "After a 20-minute scoping call, we send a fixed quote for the full project. There is no hourly billing, and hosting setup and domain configuration are part of the price."
+    },
+    {
+      "q": "What does the business need to provide?",
+      "a": "The business provides its logo, current photos, a list of services with prices where they exist, and access to the domain registrar. Where copy or photos are missing, that is noted in the scope."
+    },
+    {
+      "q": "Who owns and updates the site afterward?",
+      "a": "The business does. The site is delivered with documentation and a handover session, and the hosting and domain configuration are handed over with it."
+    }
+  ]
+}

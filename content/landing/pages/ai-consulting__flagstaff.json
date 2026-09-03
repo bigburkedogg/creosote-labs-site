@@ -1,0 +1,34 @@
+{
+  "kind": "service-location",
+  "service": "ai-consulting",
+  "segment": null,
+  "location": "flagstaff",
+  "title": "AI consulting in Flagstaff, AZ | Creosote Labs",
+  "meta_description": "Creosote Labs is based in Flagstaff and helps small businesses set up AI tools on their own documents and templates. One-day operations review, $3,000.",
+  "h1": "AI consulting in Flagstaff",
+  "intro": [
+    "Creosote Labs is based in Flagstaff and works with owner-operated businesses across Northern Arizona. Hotels, outfitters, medical and dental offices, contractors, and professional practices in the area tend to run on the same kinds of tools: QuickBooks for the books, Google Workspace or Microsoft 365 for email and documents, and an industry system such as ServiceTitan, Dentrix, or a booking platform underneath. AI consulting applies where staff spend hours each week on documents, customer email, and reports that follow a pattern.",
+    "We start with a one-day operations review at $3,000. We spend the day on site, document how the business currently runs, and deliver a written assessment with a quote for each recommendation within the week. Implementation typically means setting up the AI tool the business already pays for, such as Microsoft 365 Copilot, Google Gemini, or Claude, with the company's own templates, then automating document preparation, customer communication, and reporting. Team training is $1,000 per person."
+  ],
+  "projects": [
+    "A guest inquiry assistant for a hotel that drafts replies to email and booking-platform messages from the property's own policies and rates.",
+    "A trip confirmation workflow for an outfitter that produces the packet, waiver reminders, and menu email from one booking record.",
+    "A proposal drafting setup for a general contractor that turns site visit notes into a formatted estimate in the company's template.",
+    "A monthly reporting routine for a property manager that summarizes AppFolio or Buildium exports into an owner statement narrative.",
+    "A documentation review for a medical or dental office that identifies which intake letters and referral letters an AI tool can draft without touching the patient records system."
+  ],
+  "faqs": [
+    {
+      "q": "What happens on the operations review day?",
+      "a": "We spend one day on site with the team, document how the business currently runs, and deliver a written assessment within the week with prioritized recommendations and a quote for each item. The $3,000 fee is credited toward implementation that begins within 90 days."
+    },
+    {
+      "q": "Do we need to buy new software?",
+      "a": "Usually not. We set up the AI tool the business already has access to, such as Microsoft 365 Copilot, Google Gemini, or Claude, with the company's own documents and templates. If a recommendation requires a new tool, it is listed in the assessment with its cost."
+    },
+    {
+      "q": "What do we need to have ready?",
+      "a": "Access to the systems the business runs on, examples of the documents staff produce most often, and an hour or two of time from the people who do that work. Nothing needs to be cleaned up beforehand."
+    }
+  ]
+}

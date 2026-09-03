@@ -1,0 +1,34 @@
+{
+  "kind": "service-location",
+  "service": "ai-consulting",
+  "segment": null,
+  "location": "kingman",
+  "title": "AI consulting in Kingman, AZ | Creosote Labs",
+  "meta_description": "Creosote Labs provides AI consulting for businesses in Kingman, Arizona: a one-day operations review, tool setup, automation, and staff training.",
+  "h1": "AI consulting in Kingman",
+  "intro": [
+    "Kingman sits at the junction of I-40 and US 93 in Mohave County, and businesses there include health care providers, retail stores, trucking and distribution companies, small manufacturers, and the motels, restaurants, and shops that serve Route 66 travelers. Many of these businesses run on Microsoft 365 or Google Workspace, QuickBooks for accounting, and an industry system such as a dispatch program, practice management software, or a point of sale. AI consulting applies wherever staff spend time writing, summarizing, or re-entering information those systems already hold.",
+    "Creosote Labs starts with a one-day operations review at the business, on site in Kingman. We document how work moves through the office, identify the tasks where an AI tool saves time, and deliver a written assessment with a quote for each recommendation. Implementation means setting up Microsoft 365 Copilot, Google Gemini, or Claude with the company's own documents and templates, automating document preparation and customer communication, and training staff at $1,000 per person with a written guide."
+  ],
+  "projects": [
+    "A setup that drafts patient recall and appointment reminder messages for a medical office from its own templates.",
+    "A Copilot configuration that summarizes driver logs and delivery exceptions into a daily report for a trucking dispatcher.",
+    "An assistant that answers guest questions about rates, pet policy, and check-in times for a Route 66 motel from its own policy documents.",
+    "A process for a retail store that turns supplier price lists into updated product descriptions and shelf tags.",
+    "A written assessment for a small manufacturer that identifies which quoting, purchasing, and reporting tasks an AI tool can take over."
+  ],
+  "faqs": [
+    {
+      "q": "Does the operations review happen in Kingman or remotely?",
+      "a": "The review happens on site. We spend the day at the business in Kingman, and the written assessment and quotes follow within the week. The $3,000 fee is credited toward implementation that begins within 90 days."
+    },
+    {
+      "q": "Which AI tools does Creosote Labs set up?",
+      "a": "We set up the ones the business already pays for, usually Microsoft 365 Copilot, Google Gemini, or Claude. We configure them with the company's own documents and templates rather than introducing a new platform."
+    },
+    {
+      "q": "What does a business need to have ready before the review?",
+      "a": "We need access to the systems staff use every day and examples of the documents they produce, such as invoices, work orders, or customer emails. Nothing needs to be cleaned up in advance; documenting how things actually run is the point of the day."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "kind": "segment-location",
+  "service": null,
+  "segment": "insurance-agencies",
+  "location": "flagstaff",
+  "title": "AI and systems for insurance agencies in Flagstaff",
+  "meta_description": "Systems, automation, websites, and AI training for independent insurance agencies in Flagstaff, Arizona, from Creosote Labs, a Flagstaff consultancy.",
+  "h1": "Insurance agencies in Flagstaff: AI, systems, and websites",
+  "intro": [
+    "Independent insurance agencies in Flagstaff commonly manage policies in an agency management system such as Applied Epic, HawkSoft, AMS360, or EZLynx, quote personal lines through a comparative rater, and handle certificates of insurance, renewal notices, and claims paperwork by email. Prospect follow-up and renewal outreach often live in a spreadsheet or the producer's inbox, and ACORD applications are frequently retyped from information the client already gave once by phone.",
+    "Creosote Labs, based in Flagstaff, starts with a one-day operations review of the agency's quoting, renewal, and service workflows and delivers a written assessment with a quote for each recommendation. From there we build the pieces the agency chooses: a renewal pipeline that pulls from the management system, automated certificate requests, a quote request form on the website, and an AI setup that drafts coverage summaries and client emails from the agency's templates."
+  ],
+  "projects": [
+    "A renewal tracker that lists every policy coming due in the next 90 days, with outreach status and remarketing notes for each account.",
+    "An online certificate of insurance request form that captures the holder's details and routes them to the service team.",
+    "An intake form that collects the information for a commercial application once and fills the ACORD fields from it.",
+    "A prospect follow-up automation that sends quote reminders and logs replies to the agency management system.",
+    "An agency website that lists lines of coverage, carriers represented, and a quote request form for each line.",
+    "Team AI training in which producers and CSRs use Copilot or Claude to compare policy language and draft coverage explanations."
+  ],
+  "faqs": [
+    {
+      "q": "Does the work connect to our agency management system?",
+      "a": "It depends on the system. Applied Epic, HawkSoft, and EZLynx each offer integration options, and the operations review confirms what is available on the agency's plan before we quote anything that depends on it."
+    },
+    {
+      "q": "What does the agency need to provide for the operations review?",
+      "a": "A day with the owner and service staff, access to the systems in use, and examples of the documents the agency produces, such as proposals, certificates, and renewal letters. We handle the documentation."
+    },
+    {
+      "q": "How is pricing structured?",
+      "a": "The operations review is $3,000 and includes a quote for each recommendation. Implementation and websites are fixed price from the quote. Team AI training is $1,000 per person for up to 10 people, with a 5-person minimum."
+    }
+  ]
+}

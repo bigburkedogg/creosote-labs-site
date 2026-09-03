@@ -1,0 +1,35 @@
+{
+  "kind": "service-segment",
+  "service": "systems-and-automation",
+  "segment": "accounting-firms",
+  "location": null,
+  "title": "Systems and automation for accounting firms · Creosote Labs",
+  "meta_description": "Creosote Labs consolidates the spreadsheets an accounting firm keeps outside its practice software, builds internal tools, and automates recurring work.",
+  "h1": "Systems and automation for accounting and bookkeeping firms",
+  "intro": [
+    "Accounting and bookkeeping firms often keep the real workflow in places their software does not reach. Deadlines live in Karbon, Canopy, or Jetpack Workflow, but the billing rate sheet is an Excel file, the client contact list is a Google Sheet, and the status of every 1099 batch is a tab someone updates by hand. Time entry, Bill.com approvals, and payroll runs in Gusto or ADP each sit behind a separate login. Systems and automation work addresses those gaps.",
+    "Creosote Labs consolidates the trackers a firm maintains outside its practice management tool into one system of record and connects that system to the software already in use. We build internal tools for client onboarding, document requests, work-in-progress tracking, and partner reporting, and we automate the steps staff repeat every month, such as pulling QuickBooks reports, sending reminder emails, and generating invoices. Everything is documented and handed over to the staff who will run it."
+  ],
+  "projects": [
+    "A client onboarding tool that collects entity details, prior-year returns, and bank access in one form and creates the client in the practice management system.",
+    "A recurring document request that emails each bookkeeping client a list of missing items on the same day every month and logs what comes back.",
+    "A work-in-progress dashboard that replaces the partner's weekly status spreadsheet with a live view of every return and its preparer.",
+    "A billing automation that produces invoices from the engagement letter fee schedule and posts them to QuickBooks Online.",
+    "A 1099 season tracker that lists every client, every vendor needing a form, and the W-9 status of each.",
+    "A consolidated client list that replaces the separate contact sheets held by the tax and bookkeeping teams."
+  ],
+  "faqs": [
+    {
+      "q": "Can the new system connect to the tax and bookkeeping software already in use?",
+      "a": "In most cases the software stays. We build around QuickBooks Online, Xero, and the practice management tool the firm already uses, and connect to them where their integrations allow. Where a connection is not available, the assessment says so and describes the workaround."
+    },
+    {
+      "q": "When during the year should this work happen?",
+      "a": "The one-day review can be scheduled at any time. Implementation is usually planned for the months between filing seasons so that staff are available to test and adopt the system before the next deadline cycle."
+    },
+    {
+      "q": "How is systems and automation work priced?",
+      "a": "It begins with a one-day operations review at $3,000. The review produces a written assessment with a fixed quote for each recommendation, and the firm chooses which items to implement. There is no hourly billing."
+    }
+  ]
+}

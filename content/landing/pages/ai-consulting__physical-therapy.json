@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "ai-consulting",
+  "segment": "physical-therapy",
+  "location": null,
+  "title": "AI consulting for physical therapy clinics | Creosote Labs",
+  "meta_description": "We assess where AI tools fit in a physical therapy clinic, set them up on the clinic's own documents, and train staff. Operations review $3,000.",
+  "h1": "AI consulting for physical therapy clinics",
+  "intro": [
+    "Physical therapy clinics typically run on an EMR such as WebPT, Prompt, or Jane for scheduling, documentation, and billing, with a home exercise program tool like MedBridge alongside it. Around those systems sits a good deal of writing: plans of care, progress notes for referring physicians, insurance authorization requests, and replies to patient questions. Many clinics also keep referral tracking and outcome reporting in Google Sheets or Excel. AI consulting applies to that surrounding work, where staff draft, summarize, and re-enter the same information several times a week.",
+    "Creosote Labs starts with a one-day operations review at the clinic. We document how patients move from referral to discharge, note where front desk and clinical staff spend time on repeated writing, and deliver a written assessment with a quote for each recommendation. Implementation typically means setting up a tool the clinic already has access to, such as Microsoft 365 Copilot, Google Gemini, or Claude, with the clinic's own templates, then training staff on that setup with a written guide. Patient information stays in the systems the clinic already uses."
+  ],
+  "projects": [
+    "A drafting setup that turns a therapist's evaluation notes into a progress note for the referring physician in the clinic's standard format.",
+    "An assistant that prepares insurance authorization request letters from the plan of care and the payer's requirements.",
+    "A patient communication template set for appointment reminders, no-show follow-up, and answers to common questions about copays and referrals.",
+    "A monthly report that summarizes new referrals by source, visits per case, and cancellation rates from an EMR export.",
+    "A discharge summary draft produced from the visit history and outcome measures already recorded in the EMR."
+  ],
+  "faqs": [
+    {
+      "q": "Does patient information get sent to an AI tool?",
+      "a": "We set up whichever tool the clinic already has access to, such as Microsoft 365 Copilot or Google Gemini, under the clinic's existing accounts. The assessment covers where protected health information can and cannot go, and nothing is set up outside the clinic's own accounts."
+    },
+    {
+      "q": "What does the operations review cost and what does it include?",
+      "a": "The operations review costs $3,000 and takes one day on site. The clinic receives a written assessment, prioritized recommendations, and a quote for each item within the week. The fee is credited toward implementation that begins within 90 days."
+    },
+    {
+      "q": "What does the clinic need to provide for the review?",
+      "a": "The clinic provides time with the owner, the front desk, and at least one treating therapist during the review day, plus access to the templates and reports the clinic uses. No system changes are made during the review."
+    }
+  ]
+}

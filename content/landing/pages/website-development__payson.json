@@ -1,0 +1,34 @@
+{
+  "kind": "service-location",
+  "service": "website-development",
+  "segment": null,
+  "location": "payson",
+  "title": "Website development in Payson, AZ | Creosote Labs",
+  "meta_description": "Creosote Labs builds marketing websites, booking and quote tools, and web applications for businesses in Payson, AZ. Fixed price, no hourly billing.",
+  "h1": "Website and web application development in Payson",
+  "intro": [
+    "Visitors to Rim Country look up cabins, restaurants, guides, and shops before they arrive, and residents look up contractors, clinics, and stores the same way. Many Payson businesses have a website that was built once on Wix, Squarespace, or WordPress and has had little attention since, with services and hours that are out of date and no way to book or request a quote. Website and web application work applies whenever the site needs to take bookings, quote requests, or orders rather than serve as a listing.",
+    "Creosote Labs builds marketing websites for Payson businesses with clear services, pricing, and a way to book or contact the business, along with customer-facing tools such as quote requests, online bookings, intake forms, and portals. For businesses that need more, we build web applications that replace manual processes for staff and customers. Hosting setup, domain configuration, and handover with documentation are part of every project. Projects are quoted after a scoping call at a fixed price, with no hourly billing."
+  ],
+  "projects": [
+    "A marketing site for a Payson contractor with a service list, service area, photos of completed work, and a quote request form that lands in the owner's inbox.",
+    "An online booking page for a cabin rental or guide service that shows availability and collects a deposit.",
+    "A patient intake form for a clinic that replaces the clipboard and sends completed forms to the front desk.",
+    "A menu and ordering page for a restaurant that the owner can update without calling a developer.",
+    "A customer portal for a property management company where owners can view statements and tenants can submit maintenance requests."
+  ],
+  "faqs": [
+    {
+      "q": "What does a business need to provide to start a website project?",
+      "a": "The business provides a list of services, current pricing if it is published, photos, and access to the existing domain. We handle hosting setup and domain configuration and document everything at handover."
+    },
+    {
+      "q": "How is a website project priced?",
+      "a": "Projects are quoted after a scoping call at a fixed price. There is no hourly billing, and hosting and domain setup are included in the quote."
+    },
+    {
+      "q": "Can staff update the site after it launches?",
+      "a": "Yes, content that changes regularly, such as hours, menus, pricing, and photos, is built so staff can edit it, and the handover documentation covers how."
+    }
+  ]
+}

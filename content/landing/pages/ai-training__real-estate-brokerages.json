@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "ai-training",
+  "segment": "real-estate-brokerages",
+  "location": null,
+  "title": "AI training for real estate brokerages | Creosote Labs",
+  "meta_description": "A one-day, hands-on AI workshop for brokerage agents and staff, run on the office's own contracts, listings, and templates. $1,000 per person.",
+  "h1": "Team AI training for real estate brokerages",
+  "intro": [
+    "Agents and office staff at a brokerage often spend much of the day writing: listing remarks, buyer and seller update emails, offer summaries for clients, social posts for new listings, and notes into the CRM after each call. Many offices already have Microsoft 365 or Google Workspace accounts, and some have turned on Copilot or Gemini without anyone showing the team how to apply those tools to a listing agreement or an inspection report. A workshop closes that gap on the office's own files.",
+    "Creosote Labs runs a one-day workshop at the brokerage, on site or remote, in the AI tool the office already uses. Each agent works on their own computer with their own active files, drafting listing remarks from an MLS input sheet, summarizing a 40-page inspection report for a buyer, and turning a call into CRM notes. Every participant leaves with a working setup and documents their own process. A written guide for the office and a 30-day follow-up session are included."
+  ],
+  "projects": [
+    "A listing remarks template that each agent builds from the office's style rules and a past listing they wrote.",
+    "A buyer-facing inspection report summary produced from a real report during the session.",
+    "A prompt set for the office manager that drafts agent onboarding checklists and broker file review notes.",
+    "A CRM note routine where an agent records a call and turns the transcript into follow-up tasks in Follow Up Boss.",
+    "A weekly seller update email that pulls showing feedback into a consistent format."
+  ],
+  "faqs": [
+    {
+      "q": "Do all agents need to be on the same AI tool?",
+      "a": "The workshop runs in one tool, the one the brokerage already licenses, such as Microsoft 365 Copilot, Google Gemini, or Claude. Independent contractor agents on personal accounts can be set up on the same tool ahead of the day."
+    },
+    {
+      "q": "What does the office need to prepare?",
+      "a": "A roster of 5 to 10 participants, working logins for each, and a handful of real documents to work from, such as a recent listing agreement, an inspection report, and a few past client emails."
+    },
+    {
+      "q": "What does it cost and how many people can attend?",
+      "a": "The workshop is priced at $1,000 per person, with a 5-person minimum and a maximum of 10 in a session. Larger groups are quoted, travel is included, and a program with three monthly follow-up sessions is $1,400 per person."
+    }
+  ]
+}

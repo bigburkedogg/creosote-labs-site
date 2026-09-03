@@ -1,0 +1,34 @@
+{
+  "kind": "segment-location",
+  "service": null,
+  "segment": "medical-practices",
+  "location": "flagstaff",
+  "title": "Medical practices in Flagstaff: AI, systems, and websites",
+  "meta_description": "Creosote Labs works with independent medical practices in Flagstaff on intake, scheduling, and referral workflows, websites, and team AI training.",
+  "h1": "Medical practices in Flagstaff: AI, systems, and websites",
+  "intro": [
+    "Independent medical practices usually run on an electronic health record and billing platform such as athenahealth, eClinicalWorks, or Tebra, alongside a phone system, a fax line, and a clearinghouse for claims. Referrals, prior authorizations, intake paperwork, and lab follow-up frequently happen outside the EHR, tracked in Excel, sticky notes, or a shared inbox. Office managers often spend hours each week reconciling schedules, checking eligibility, and chasing documents from other providers.",
+    "Creosote Labs is a Flagstaff-based consultancy that works with medical practices on operations rather than clinical care. The operations review documents the administrative workflow from scheduling through claim submission. Systems and automation projects consolidate the tracking that happens outside the EHR into one place. Website work adds appointment requests, patient forms, and clear information on services and accepted insurance. Team AI training helps administrative staff draft correspondence, summarize documents, and prepare referral packets."
+  ],
+  "projects": [
+    "A referral tracker that logs each outgoing referral and flags the ones with no response after a set number of days.",
+    "A prior authorization log that records submission dates, payer responses, and next steps in one shared view.",
+    "A patient-facing website with providers, services, accepted insurance plans, and online appointment requests.",
+    "An automation that turns completed online intake forms into a summary for the front desk before the visit.",
+    "A training day for office staff on using AI tools to draft patient letters, appeal denials, and summarize faxed records."
+  ],
+  "faqs": [
+    {
+      "q": "Do you work inside our EHR?",
+      "a": "Projects are built around the EHR the practice already uses. Most work connects to it or runs alongside it for the tracking that currently happens in spreadsheets and inboxes. The operations review identifies what is possible with the specific system."
+    },
+    {
+      "q": "How long does the operations review take and what happens after?",
+      "a": "The review takes one day on site. Within the week the practice receives a written assessment, prioritized recommendations, and a fixed quote for each item. The $3,000 fee is credited toward implementation that begins within 90 days."
+    },
+    {
+      "q": "Is there hourly billing on implementation?",
+      "a": "There is not. Systems, automation, and website projects are quoted at a fixed price from the operations review or a scoping call. Team AI training is $1,000 per person."
+    }
+  ]
+}

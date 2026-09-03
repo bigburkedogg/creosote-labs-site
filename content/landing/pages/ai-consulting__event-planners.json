@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "ai-consulting",
+  "segment": "event-planners",
+  "location": null,
+  "title": "AI consulting for event and wedding planners",
+  "meta_description": "Creosote Labs assesses where AI tools fit in an event planning business, sets them up with the company's templates, and trains staff. Reviews from $3,000.",
+  "h1": "AI consulting for event and wedding planners",
+  "intro": [
+    "Event and wedding planners often run a business on a client management tool such as HoneyBook, Aisle Planner, or Dubsado, a QuickBooks file for invoicing, and a set of Google Sheets for budgets, guest counts, and vendor lists. Inquiries arrive through The Knot, WeddingWire, and the planner's own contact form. Most of the work that fills the week is written: proposals, vendor emails, timelines, and day-of schedules that are rebuilt from the last event's version.",
+    "Creosote Labs starts with a one-day operations review of how the business takes an inquiry through to the final invoice. We then set up the AI tool the business already has access to, such as Google Gemini or Claude, with its own proposal templates, vendor contracts, and past timelines, so that drafting a proposal or a run-of-show starts from the company's own material. Staff are trained on that setup, and the team receives a written guide."
+  ],
+  "projects": [
+    "A proposal draft produced from an inquiry form and the planner's own pricing sheet, ready for review before it is sent.",
+    "A day-of timeline generated from a vendor list and ceremony time, formatted in the company's standard template.",
+    "Vendor confirmation emails drafted from the event record, with each vendor's arrival time and load-in details filled in.",
+    "A post-event summary that pulls the final budget, vendor payments, and client notes into one document for the file.",
+    "A written assessment of where AI tools fit in inquiry response, planning, and invoicing, with a quote for each item."
+  ],
+  "faqs": [
+    {
+      "q": "What does the operations review cost, and what do we get from it?",
+      "a": "The review is $3,000 for one day on site. It produces a written assessment with prioritized recommendations and a quote for each one, delivered within the week. The fee is credited toward implementation that begins within 90 days."
+    },
+    {
+      "q": "Do we need to buy new software?",
+      "a": "New software is usually not needed. We set up the AI tool the business already has access to, such as Microsoft 365 Copilot, Google Gemini, or Claude, with the company's own documents and templates. Any additional tool would be named and quoted in the assessment."
+    },
+    {
+      "q": "What should we have ready for the review?",
+      "a": "Access to the systems the business runs on, a few recent examples of proposals, contracts, and timelines, and time with the people who handle inquiries, planning, and billing are what the review needs."
+    }
+  ]
+}

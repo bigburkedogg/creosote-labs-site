@@ -1,0 +1,35 @@
+{
+  "kind": "segment-location",
+  "service": null,
+  "segment": "hotels-and-inns",
+  "location": "flagstaff",
+  "title": "AI and systems for hotels and inns in Flagstaff",
+  "meta_description": "Reservation, housekeeping, and guest messaging systems, hotel websites, and AI training for Flagstaff hotels and inns, from Flagstaff-based Creosote Labs.",
+  "h1": "Hotels and inns in Flagstaff: AI, systems, and websites",
+  "intro": [
+    "Hotels and inns in Flagstaff typically manage rooms in a property management system such as Cloudbeds, Little Hotelier, WebRezPro, or Opera, take bookings through Booking.com and Expedia alongside their own website, and coordinate housekeeping, maintenance requests, and guest messages through a mix of printed room lists, text messages, and email. Rate changes, group blocks, and package pricing often require updating several channels by hand, and guest questions before arrival tend to repeat the same information about parking, check-in, and directions.",
+    "Creosote Labs is based in Flagstaff and visits properties here in person for the review and the handover. A one-day operations review covers reservations, housekeeping, guest communication, and the website, and produces a written assessment with a quote for each recommendation. Implementation can build a housekeeping board that reads from the property management system, automate pre-arrival and post-stay messages, and set up direct booking on the property's own website. Training helps front desk and management staff use AI for guest correspondence and reviews."
+  ],
+  "projects": [
+    "A housekeeping and maintenance board that shows room status for the day and lets staff mark rooms clean or flag repairs from a phone.",
+    "An automated pre-arrival message sequence that sends check-in instructions, parking details, and local recommendations before each stay.",
+    "A group and event inquiry form that collects dates, room counts, and requirements and produces a proposal for the sales contact.",
+    "A hotel website with room types, photos, current rates, and a direct booking engine connected to the property management system.",
+    "A review response setup in Copilot or Claude that drafts replies to Google, TripAdvisor, and Booking.com reviews in the property's voice.",
+    "A rate and availability sheet that consolidates the calendar across channels so managers can see occupancy for the coming weeks in one view."
+  ],
+  "faqs": [
+    {
+      "q": "Does the work integrate with our property management system?",
+      "a": "Cloudbeds, WebRezPro, and Opera each offer integration options, and smaller systems usually provide exports. The operations review confirms what the property's plan supports before we quote any piece that depends on it."
+    },
+    {
+      "q": "Can the operations review happen during a busy season?",
+      "a": "It can. The review is one day on site and is scheduled around check-in and checkout. Time with the front desk during a shift is useful, and the sit-down with the owner or general manager is arranged for a quieter part of the day."
+    },
+    {
+      "q": "What does it cost?",
+      "a": "The operations review is $3,000 for one day on site and includes a quote for each recommendation. Systems and websites are quoted fixed price after that. Team AI training is $1,000 per person, with a 5-person minimum and travel included."
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "ai-training",
+  "segment": "mortgage-brokers",
+  "location": null,
+  "title": "Team AI training for mortgage brokers | Creosote Labs",
+  "meta_description": "A one-day, hands-on AI workshop for loan officers and processors, run on the brokerage's own files and templates. $1,000 per person, travel included.",
+  "h1": "Team AI training for mortgage brokers",
+  "intro": [
+    "Loan officers and processors at a mortgage brokerage typically spend much of the day writing: borrower updates, agent status emails, explanations of loan estimates, responses to underwriter conditions, and notes into the LOS or CRM. Many offices already have Microsoft 365 Copilot or Google Gemini through their email subscription, and a few staff use ChatGPT or Claude on their own, without a shared way of working or any agreement on what borrower information should be pasted into a tool.",
+    "Creosote Labs runs the workshop in one day, on site or remote, in the AI tool the brokerage already uses. Each participant works on their own computer with their own files: a loan officer drafts the week's borrower updates, a processor turns a conditions list into a borrower email, the broker-owner builds a reusable prompt for the monthly pipeline report. Everyone documents their own process as they go. The team leaves with a working setup, a written guide, and a 30-day follow-up session."
+  ],
+  "projects": [
+    "A loan officer's set of saved prompts for borrower check-ins at application, appraisal, underwriting, and clear to close.",
+    "A processor's routine for turning an underwriter's conditions list into a plain-language request to the borrower.",
+    "A first-draft explainer of a loan estimate that a loan officer reviews and sends to a first-time buyer.",
+    "A written office policy, produced during the session, on which borrower details may and may not go into an AI tool.",
+    "A broker-owner's monthly pipeline and lender-mix summary written from an LOS export."
+  ],
+  "faqs": [
+    {
+      "q": "How much does the training cost and what is the minimum group size?",
+      "a": "The workshop is $1,000 per person, with a 5-person minimum and a cap of 10 people per session. Groups larger than 10 are quoted separately, and travel costs are included. Adding three monthly follow-up sessions brings the price to $1,400 per person."
+    },
+    {
+      "q": "Do we need to buy an AI tool before the workshop?",
+      "a": "The workshop runs in the tool the brokerage already uses, such as Microsoft 365 Copilot, Google Gemini, or Claude. If the office has none, we discuss the options on the scheduling call so accounts are ready before the day."
+    },
+    {
+      "q": "Can loan officers use live borrower files during the session?",
+      "a": "Participants work with their own documents, and part of the day is spent agreeing on what borrower information is appropriate to use in the tool. Teams that prefer not to use live data can work from closed or redacted files for the exercises."
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "website-development",
+  "segment": "fitness-studios",
+  "location": null,
+  "title": "Websites for gyms and fitness studios | Creosote Labs",
+  "meta_description": "Creosote Labs builds marketing sites, waiver and intake forms, training booking, and member portals for gyms and studios. Fixed-price, quoted after a call.",
+  "h1": "Website and web application development for gyms and fitness studios",
+  "intro": [
+    "Gym and studio websites often consist of a template site with a class schedule pulled in from Mindbody or Glofox, a pricing page maintained by hand, and a contact form that delivers to a shared inbox. Membership sign-up and trial booking happen on the platform's hosted pages, which look different from the rest of the site. Waivers are often signed on a tablet at the front desk, and personal training is frequently booked by text message.",
+    "Creosote Labs builds marketing sites and customer-facing tools for fitness businesses. A marketing site lists classes, memberships, and pricing plainly, with trial booking and contact on every page. Customer tools include online waiver and intake forms, personal-training booking, and a member portal for package balances and schedule changes. Where the studio wants to replace a platform feature, we build a web application for it. Hosting, domain setup, and handover documentation are included."
+  ],
+  "projects": [
+    "A marketing site with class descriptions, membership tiers, and a trial-class booking form that posts to the membership platform.",
+    "An online waiver and health-intake form that new members complete before their first visit.",
+    "A personal-training booking page that shows each trainer's availability and takes a deposit through Square or Stripe.",
+    "A member portal for viewing package balances, freezing a membership, and updating payment details.",
+    "A schedule page that reads directly from Mindbody or Mariana Tek so it does not go out of date."
+  ],
+  "faqs": [
+    {
+      "q": "How is a website project priced?",
+      "a": "Projects are quoted after a scoping call. The quote is a fixed price for the agreed scope, with no hourly billing. Hosting and domain configuration are part of the project."
+    },
+    {
+      "q": "Can the site connect to our membership software?",
+      "a": "Yes, where the platform offers an integration or an export. Mindbody, Glofox, WellnessLiving, and similar platforms provide schedule widgets or APIs that a site can read from, so bookings and schedules stay in one place."
+    },
+    {
+      "q": "What do we need to provide?",
+      "a": "The project needs current class and membership information, pricing, photos, a logo, and access to the domain registrar and membership platform. Copy is written from that material during the project."
+    }
+  ]
+}

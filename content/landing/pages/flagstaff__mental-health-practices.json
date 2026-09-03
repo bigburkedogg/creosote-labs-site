@@ -1,0 +1,35 @@
+{
+  "kind": "segment-location",
+  "service": null,
+  "segment": "mental-health-practices",
+  "location": "flagstaff",
+  "title": "Mental health practices in Flagstaff: AI and systems",
+  "meta_description": "Creosote Labs helps Flagstaff therapy and counseling practices with intake, scheduling, and billing workflows, websites, and AI training for staff.",
+  "h1": "Mental health practices in Flagstaff: AI, systems, and websites",
+  "intro": [
+    "Therapy and counseling practices commonly run on SimplePractice or TherapyNotes for scheduling, notes, and billing, with a website that lists clinicians and specialties. Group practices often add Google Sheets for clinician caseloads and credentialing, a shared inbox for new client inquiries, and a manual process for matching each inquiry to an available clinician. Consent forms, superbills, and insurance paperwork are handled partly in the platform and partly by hand.",
+    "Creosote Labs works from Flagstaff with mental health practices on the administrative work around client care. The operations review covers how an inquiry becomes a scheduled client and how sessions become payments. Systems and automation work builds a single view of inquiries, waitlists, and clinician availability. Website projects present clinicians, fees, and a clear path to request an appointment. Team AI training helps administrative staff and clinicians with correspondence, documentation templates, and policy drafts."
+  ],
+  "projects": [
+    "An inquiry and waitlist tracker that records each new client request and matches it to clinician availability and specialty.",
+    "A website with clinician profiles, session fees, insurance details, and a confidential appointment request form.",
+    "An automation that sends intake paperwork and consent forms once a first appointment is booked.",
+    "A credentialing and license renewal tracker for group practices with multiple clinicians.",
+    "A superbill and statement process that produces client documents from session records without retyping.",
+    "A training day where staff set up AI tools for drafting client emails, treatment summaries, and practice policies."
+  ],
+  "faqs": [
+    {
+      "q": "How is client confidentiality handled?",
+      "a": "The scope of any project is written out in the operations review, and work touching client records is designed around the practice's existing platform and its privacy obligations. Nothing is built that moves records outside the practice's control."
+    },
+    {
+      "q": "We are a small practice. Is there a minimum size?",
+      "a": "The operations review and website projects work for practices of any size. Team AI training has a 5-person minimum at $1,000 per person, so a solo or 2-person practice is better served by the review and implementation."
+    },
+    {
+      "q": "What is the first step?",
+      "a": "A 20-minute call about the practice and what needs fixing. From there, the operations review is one day on site at $3,000 and produces a written assessment with a quote for each recommendation."
+    }
+  ]
+}

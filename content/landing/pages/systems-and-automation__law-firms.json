@@ -1,0 +1,35 @@
+{
+  "kind": "service-segment",
+  "service": "systems-and-automation",
+  "segment": "law-firms",
+  "location": null,
+  "title": "Systems and automation for law firms · Creosote Labs",
+  "meta_description": "Creosote Labs consolidates a law firm's matter tracking, intake, and billing into one system and automates document generation and follow-up.",
+  "h1": "Systems and automation for law firms",
+  "intro": [
+    "A law firm's records are often split across several places. Matters and time entries live in Clio or Smokeball, conflict checks in a spreadsheet, intake notes in email, trust accounting in QuickBooks, and deadlines in an Outlook calendar that one person maintains. Each new matter means re-entering the same client details in each of them. Systems and automation work addresses those handoffs, so a matter is entered once and the documents, deadlines, and invoices follow from it.",
+    "Creosote Labs maps the firm's current tools during a one-day operations review, then quotes each recommendation separately. Typical work includes connecting the intake form to the practice management system, generating engagement letters and standard pleadings from matter data, calculating court deadlines from a filing date, and producing monthly billing reports without manual export. We document every system we build and hand it over to the office manager or paralegal who will run it."
+  ],
+  "projects": [
+    "An intake pipeline that creates the matter, runs the conflict check, and drafts the engagement letter from a single web form.",
+    "A deadline calculator that takes a service or filing date and posts the resulting response dates to the firm's shared calendar.",
+    "A document generator that fills pleadings, subpoenas, and settlement statements from fields already stored in the practice management system.",
+    "A trust accounting reconciliation that compares Clio ledgers against the bank export and flags mismatches for the bookkeeper.",
+    "A reminder sequence that follows up on unsigned fee agreements and unpaid invoices on a schedule the firm sets.",
+    "A consolidated matter tracker that replaces a case list spreadsheet, a deadline spreadsheet, and a whiteboard with one view."
+  ],
+  "faqs": [
+    {
+      "q": "Does the firm have to switch practice management software?",
+      "a": "Usually it does not. Most work connects to the system the firm already uses, such as Clio, MyCase, or Smokeball, and builds around it. If a switch would help, the review says so and quotes it as a separate item."
+    },
+    {
+      "q": "How is implementation priced?",
+      "a": "The one-day operations review is $3,000 and produces a written assessment with a quote for each recommendation. Implementation is quoted from that review at a fixed price, with no hourly billing."
+    },
+    {
+      "q": "Who maintains the system after handover?",
+      "a": "The firm does. Every system comes with written documentation, and we hand it over to the staff member who will run it day to day."
+    }
+  ]
+}

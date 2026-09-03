@@ -1,0 +1,35 @@
+{
+  "kind": "segment-location",
+  "service": null,
+  "segment": "nonprofits",
+  "location": "flagstaff",
+  "title": "Nonprofits in Flagstaff | Creosote Labs",
+  "meta_description": "Creosote Labs, based in Flagstaff, builds grant reporting, donor letter, and board packet tools for nonprofits and trains staff on AI tools.",
+  "h1": "Nonprofits in Flagstaff: AI, systems, and websites",
+  "intro": [
+    "Nonprofits in Flagstaff commonly track donors in Bloomerang, Little Green Light, Neon CRM, or DonorPerfect, keep the books in QuickBooks, send newsletters through Mailchimp or Constant Contact, and run the office on Google Workspace. Around those tools sit the documents a small nonprofit produces every month: grant applications and reports, donor acknowledgment letters, board packets, volunteer schedules, and program attendance logs, many of them assembled by hand from several sources. Our services apply to that reporting and administrative work.",
+    "Creosote Labs works from Flagstaff with organizations that have a small staff and a large reporting load. The operations review is one day with the executive director and program staff, documenting how gifts are recorded, how grant reports are assembled, and where the same data is entered twice, followed by a written assessment and a quote for each recommendation. We then build the tools, connect the donor database to the rest of the office, and train staff to use AI on their own grant narratives and donor letters."
+  ],
+  "projects": [
+    "A grant reporting tool that pulls program numbers and expenses into the format each funder requires.",
+    "Automated donor acknowledgment letters generated from Bloomerang or Little Green Light within a day of each gift.",
+    "A board packet assembler that compiles financials from QuickBooks, program updates, and minutes into one document before each meeting.",
+    "A volunteer scheduling and hours tracker that replaces a shared spreadsheet and produces totals for grant reports.",
+    "A website with program information, an event calendar, and a donation form connected to the donor database.",
+    "A training day where staff draft grant narratives, appeal letters, and newsletters in Google Gemini using the organization's own past applications."
+  ],
+  "faqs": [
+    {
+      "q": "Is there nonprofit pricing?",
+      "a": "Pricing is the same for every client: $3,000 for the operations review, fixed quotes for implementation and websites, and $1,000 per person for training. The review is credited toward implementation that begins within 90 days."
+    },
+    {
+      "q": "What happens to donor data in an AI tool?",
+      "a": "We set up the AI tools the organization already licenses, such as Google Gemini or Microsoft 365 Copilot, under its own account, and the training covers what should and should not be pasted into them. Donor records stay in the donor database."
+    },
+    {
+      "q": "Can board members or volunteers attend the training?",
+      "a": "Yes, they can. Training is $1,000 per person for up to 10 people with a 5-person minimum, and participants can be staff, board members, or regular volunteers. Each person works on their own computer with their own documents."
+    }
+  ]
+}

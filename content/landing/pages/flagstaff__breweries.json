@@ -1,0 +1,35 @@
+{
+  "kind": "segment-location",
+  "service": null,
+  "segment": "breweries",
+  "location": "flagstaff",
+  "title": "AI and systems for breweries and taprooms in Flagstaff",
+  "meta_description": "Creosote Labs, a Flagstaff consultancy, builds production tracking, taproom, and distribution systems, brewery websites, and AI training for breweries.",
+  "h1": "Breweries and taprooms in Flagstaff: AI, systems, and websites",
+  "intro": [
+    "Breweries and taprooms in Flagstaff usually run the taproom on Arryved, Toast, or Square, track batches and inventory in Ekos, Ollie, or a set of spreadsheets, and manage wholesale accounts, keg deposits, and tap handle placements by phone and email. Brew logs, TTB Brewer's Report of Operations filings, Arizona excise reports, and distributor invoices are often assembled from several sources each month, and event bookings and merchandise sales sit in their own systems.",
+    "Creosote Labs is based in Flagstaff and starts each engagement with a one-day operations review of production, taproom, and wholesale operations, delivered as a written assessment with a quote for each recommendation. Implementation typically brings batch records, keg tracking, and wholesale orders into one system, automates the monthly reporting numbers, and builds a website with a current tap list and event calendar. Team AI training covers label copy, beer descriptions, and account correspondence."
+  ],
+  "projects": [
+    "A keg tracker that records which kegs are at which account, when they went out, and which deposits are outstanding.",
+    "A production log that captures each batch from brew day through packaging and totals the barrels for the TTB report.",
+    "A wholesale order form for accounts that feeds directly into the delivery schedule and invoicing.",
+    "A tap list that staff update once and that appears on the website, the taproom screen, and Untappd.",
+    "A brewery website with the tap list, taproom hours, event bookings, and merchandise ordering.",
+    "A training day in which the team uses AI to draft beer descriptions, event announcements, and distributor emails from the brewery's own notes."
+  ],
+  "faqs": [
+    {
+      "q": "Can the reporting numbers be pulled from Ekos or Ollie?",
+      "a": "Both systems provide exports, and Ekos offers an API on some plans. The operations review confirms what the brewery's subscription includes before we quote any automation that depends on it."
+    },
+    {
+      "q": "How much of the owner's time does a project take?",
+      "a": "The operations review takes one day with the owner and head brewer. Implementation then requires periodic check-ins to review what is built, and the handover includes documentation so staff can run the system without us."
+    },
+    {
+      "q": "How is this priced?",
+      "a": "The operations review is $3,000 and produces a quote for each item. Systems and websites are fixed price from that quote. Team AI training is $1,000 per person for up to 10 people, with a 5-person minimum and travel included."
+    }
+  ]
+}

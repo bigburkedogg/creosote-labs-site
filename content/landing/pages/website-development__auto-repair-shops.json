@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "website-development",
+  "segment": "auto-repair-shops",
+  "location": null,
+  "title": "Website development for auto repair shops | Creosote Labs",
+  "meta_description": "Creosote Labs builds websites, appointment requests, and customer approval tools for auto repair shops, at a fixed price quoted after a scoping call.",
+  "h1": "Websites and web applications for auto repair shops",
+  "intro": [
+    "Many auto repair shops have a website built by a directory service or a template provider that lists the services and ends in a phone number. Appointment requests often land in an email inbox. The shop's own customer communication happens through the texting and inspection features of Tekmetric, Shopmonkey, or Shop-Ware. Website and web application work applies to the gap between the two: a site that states services and prices, takes an appointment request with the vehicle's year, make, and model, and passes it to the shop's system.",
+    "Creosote Labs builds the site and the customer-facing tools behind it. A typical project includes a marketing site with a page per service, published prices for common jobs such as oil changes, brake service, and diagnostics, and an appointment request form that captures the vehicle and the concern. We also build tools customers use directly: a vehicle status page, or a fleet portal for commercial accounts. Hosting, domain setup, and written handover are included, and projects are quoted at a fixed price after a scoping call."
+  ],
+  "projects": [
+    "A marketing site with a page for each service, hours, a map, and an appointment request form that asks for year, make, model, and mileage.",
+    "An online quote request for common jobs that returns a price range from the shop's own labor guide and parts markup.",
+    "A vehicle status page a customer can open from a text message to see where their car is in the process.",
+    "A fleet portal where a commercial account manager can request service, approve estimates, and download invoices.",
+    "A rebuild of an existing template site onto fast hosting with the shop's Google Business Profile, reviews, and service pages in order."
+  ],
+  "faqs": [
+    {
+      "q": "Can the site send appointment requests into the shop management system?",
+      "a": "Where the system offers an integration or an API, such as Tekmetric or Shopmonkey, the request can be created there directly. Otherwise it arrives by email and text with every field the advisor needs to enter it."
+    },
+    {
+      "q": "How is a website priced?",
+      "a": "Website and application projects are quoted at a fixed price after a scoping call. There is no hourly billing, and hosting and domain setup are included in the quote."
+    },
+    {
+      "q": "What does the shop need to provide?",
+      "a": "The shop provides a list of services with prices for the common jobs, its logo and photos, access to the current domain registrar, and a person who can answer questions during the build. We handle hosting, domain configuration, and documentation."
+    }
+  ]
+}

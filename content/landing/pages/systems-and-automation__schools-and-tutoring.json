@@ -1,0 +1,35 @@
+{
+  "kind": "service-segment",
+  "service": "systems-and-automation",
+  "segment": "schools-and-tutoring",
+  "location": null,
+  "title": "Systems and automation for schools and tutoring",
+  "meta_description": "Creosote Labs consolidates the spreadsheets, scheduling, billing, and enrollment tools a school or tutoring business runs on into one system. From $3,000.",
+  "h1": "Systems and automation for schools and tutoring businesses",
+  "intro": [
+    "A tutoring center or small private school often keeps its student roster in a spreadsheet, its schedule in Google Calendar or a booking tool, its invoices in QuickBooks, and its attendance and progress records in Google Sheets or Excel. Enrollment forms arrive by email or through a Google Form, and someone re-enters each family's details into the other tools by hand. Each system holds part of the picture, and reconciling them at month end is a recurring task.",
+    "Creosote Labs builds a single system of record for students, families, schedules, and billing, then automates the work that currently moves between tools. A typical project connects enrollment to scheduling and invoicing so a new student is entered once, generates tuition invoices and reminders on schedule, and produces attendance and progress reports without a spreadsheet export. We document the system and hand it over to the office staff who will run it."
+  ],
+  "projects": [
+    "A student and family database that replaces the roster spreadsheet and feeds scheduling, billing, and reporting from one record.",
+    "An enrollment workflow that takes a completed online form and creates the student record, schedule slot, and first invoice automatically.",
+    "A tutor scheduling tool that matches availability to student requests and sends confirmations and reminders to families.",
+    "Automated tuition invoicing and payment reminders that post to QuickBooks and flag past-due accounts for the office.",
+    "An attendance and progress tracker tutors update after each session, with a report families receive at the end of each term.",
+    "A make-up session and cancellation log that applies the center's policy and adjusts billing without manual review."
+  ],
+  "faqs": [
+    {
+      "q": "What does the operations review cost and what does it include?",
+      "a": "The one-day operations review is $3,000. It produces a written assessment of how the school or center currently runs and a quote for each recommendation, and implementation is quoted from that review."
+    },
+    {
+      "q": "Can the school keep QuickBooks and its current scheduling tool?",
+      "a": "In most cases, yes. The new system connects to the tools that already work and replaces the spreadsheets and manual re-entry between them, rather than replacing every tool at once."
+    },
+    {
+      "q": "What does the school need to provide before the review?",
+      "a": "Access to the tools and spreadsheets in use, samples of the forms and reports the office produces, and time with the staff who handle enrollment, scheduling, and billing during the day on site."
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "ai-consulting",
+  "segment": "wholesale-distributors",
+  "location": null,
+  "title": "AI consulting for wholesale distributors | Creosote Labs",
+  "meta_description": "Creosote Labs assesses where AI tools fit in a wholesale distribution business, sets them up on the company's own orders and price lists, and trains staff.",
+  "h1": "AI consulting for wholesale distributors",
+  "intro": [
+    "Many wholesale distributors run on an accounting system such as QuickBooks or NetSuite, an inventory package such as Fishbowl, and a set of Excel workbooks that hold price lists, customer terms, and reorder points. Orders arrive by email, phone, and fax, and someone keys them into the system. Purchase orders, packing slips, invoices, and customer statements are produced from the same data, often with manual steps between each one. AI tools apply most directly to that order-entry and document work.",
+    "Creosote Labs starts with a one-day operations review of how orders, purchasing, and invoicing actually move through the business. The written assessment identifies where tools such as Microsoft 365 Copilot, Google Gemini, or Claude can read an emailed purchase order and draft the sales order, answer stock and pricing questions from the current price list, or summarize a customer's order history before a sales call. We set up those tools on the distributor's own documents, automate the steps that justify it, and train staff with a written guide."
+  ],
+  "projects": [
+    "An AI assistant that reads emailed purchase orders and drafts sales orders for staff review before entry.",
+    "A pricing lookup that answers customer quantity and price-break questions from the current price list.",
+    "A weekly report that summarizes backorders, late vendor shipments, and slow-moving SKUs for the owner.",
+    "An automated draft of vendor reorder emails built from reorder points and open purchase orders.",
+    "A written guide and training for inside sales staff on using Copilot or Gemini with the company's catalog and terms."
+  ],
+  "faqs": [
+    {
+      "q": "What does the operations review cover for a distributor?",
+      "a": "The review is one day on site with the people who take orders, purchase, and invoice, documenting how each step runs today. The written assessment and a quote for each recommendation are delivered within the week. The review is $3,000, credited toward implementation that begins within 90 days."
+    },
+    {
+      "q": "Do we need to change our accounting or inventory system?",
+      "a": "No. We set up the AI tools the business already has access to alongside QuickBooks, NetSuite, Fishbowl, or whichever system is in place. Replacing a system is a separate decision and would be scoped from the review."
+    },
+    {
+      "q": "What does it cost to train the team?",
+      "a": "Team training is $1,000 per person, delivered on the company's own documents and templates, with a written guide for the team."
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "kind": "service-location",
+  "service": "website-development",
+  "segment": null,
+  "location": "williams",
+  "title": "Website development in Williams, Arizona | Creosote Labs",
+  "meta_description": "Creosote Labs builds websites, booking tools, and web applications for businesses in Williams, Arizona. Fixed-price projects quoted after a scoping call.",
+  "h1": "Website and web application development in Williams",
+  "intro": [
+    "Many Williams businesses serve travelers who find a hotel, restaurant, tour, or shop online before they arrive. Many businesses in town rely on a site built years ago on Wix, Squarespace, or WordPress, with bookings routed through a third-party engine and questions arriving by phone. Website and web application work applies to the marketing site itself and to the tools behind it: booking forms, quote requests, waivers, and portals that customers use directly.",
+    "Creosote Labs builds marketing websites, customer-facing tools, and web applications for businesses in Williams and Northern Arizona. A marketing site states services and pricing plainly and gives visitors a way to book or contact the business. Customer-facing tools include quote requests, bookings, intake forms, and portals. Web applications replace manual processes for staff and customers. Projects are quoted after a scoping call at a fixed price, and hosting setup, domain configuration, and handover with documentation are part of every project."
+  ],
+  "projects": [
+    "A hotel or inn website with rooms, rates, and a direct booking form that feeds the reservation system.",
+    "A tour operator site with trip pages, availability, online waivers, and deposit collection.",
+    "A restaurant site with a current menu, hours, and reservation or catering request form.",
+    "A quote-request tool for a Williams contractor that collects photos and job details and produces a written estimate.",
+    "A guest portal where a lodge shares check-in details, directions, and local information before arrival."
+  ],
+  "faqs": [
+    {
+      "q": "What does a website project cost?",
+      "a": "Every website and application project is quoted after a scoping call, as a fixed price with no hourly billing. The quote covers design, build, hosting setup, domain configuration, and handover."
+    },
+    {
+      "q": "What does the business need to provide?",
+      "a": "The business provides current copy, photos, pricing, and access to the existing domain and any booking or payment accounts. We identify anything else during the scoping call."
+    },
+    {
+      "q": "Who maintains the site after launch?",
+      "a": "We hand the site over with documentation so staff can update menus, rates, and pages themselves. Hosting and domain setup are configured and documented as part of the project."
+    }
+  ]
+}

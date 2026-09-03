@@ -1,0 +1,35 @@
+{
+  "kind": "service-segment",
+  "service": "systems-and-automation",
+  "segment": "title-companies",
+  "location": null,
+  "title": "Systems and automation for title companies | Creosote Labs",
+  "meta_description": "Creosote Labs consolidates the spreadsheets a title and escrow company keeps alongside its production platform and automates repetitive file work.",
+  "h1": "Systems and automation for title and escrow companies",
+  "intro": [
+    "A title company's production platform, whether SoftPro, RamQuest, ResWare, or Qualia, handles the file itself, but a good deal of the surrounding work tends to live elsewhere. Order intake often arrives by email or a web form and is typed in by hand. Earnest money logs, wire verification records, recording trackers, and commission reports commonly sit in Excel or Google Sheets. Marketing to agents and lenders may run through a separate CRM, and accounting through QuickBooks, none of it connected to the platform.",
+    "Creosote Labs builds the pieces around the production platform so the file is entered once and the trackers update themselves. A typical project replaces the intake spreadsheet with a form that opens the order and notifies the assigned officer, moves the wire verification log into a system with a record of who confirmed what and when, and generates the recording and post-closing checklists from the file data. We document the system and hand it to the office staff who will run it."
+  ],
+  "projects": [
+    "An order intake form for agents and lenders that creates the file, assigns the escrow officer, and sends an opening confirmation.",
+    "A wire verification log that records the callback, the verifier, and the time, and shows which files are still missing a verified callback.",
+    "A closing calendar that pulls signing, funding, and recording dates from the production platform into one view for the whole office.",
+    "Automatic status emails at each milestone from opening to recording, sent from the file data without retyping.",
+    "A commission and revenue report by escrow officer and referral source that replaces a monthly spreadsheet.",
+    "A post-closing tracker that lists recorded documents, final policies issued, and files ready to close out."
+  ],
+  "faqs": [
+    {
+      "q": "Do we have to replace SoftPro or Qualia?",
+      "a": "No. We build around the production platform the company already uses, working from its exports or its integration options where they exist. The goal is to remove the spreadsheets and rekeying that surround it, not the platform itself."
+    },
+    {
+      "q": "How is a systems project priced?",
+      "a": "Engagements begin with a one-day operations review at $3,000, which produces a written assessment and a quote for each recommendation. Implementation is fixed price from that quote, with no hourly billing."
+    },
+    {
+      "q": "What happens when an escrow officer or processor leaves?",
+      "a": "Every system we build is documented and handed over to staff before we finish, so a new hire can follow the written guide. The documentation covers how to open, work, and close a file in the system, not just the technical setup."
+    }
+  ]
+}

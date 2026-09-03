@@ -1,0 +1,35 @@
+{
+  "kind": "service-segment",
+  "service": "systems-and-automation",
+  "segment": "breweries",
+  "location": null,
+  "title": "Systems and automation for breweries | Creosote Labs",
+  "meta_description": "We consolidate a brewery's spreadsheets and disconnected tools into one system, build keg, inventory, and event tracking, and automate repetitive work.",
+  "h1": "Systems and automation for breweries and taprooms",
+  "intro": [
+    "Breweries often accumulate tools one at a time. Production lives in Ekos or a set of brew sheets in Google Sheets, taproom sales in Arryved or Toast, self-distribution orders in email and Excel, keg deposits in a notebook, and the books in QuickBooks. Many breweries also keep separate spreadsheets for tap rotation, private events, and merchandise counts. Records that do not connect get entered more than once, and the counts drift apart between the cellar, the bar, and the bookkeeper.",
+    "Creosote Labs builds the single system of record a brewery needs and connects it to the tools that stay. A typical project replaces the keg spreadsheet with a tracking tool that knows where every keg is and which account owes a deposit, feeds daily Arryved or Toast sales into QuickBooks without rekeying, and generates distributor invoices from a picked order. We document everything and hand the system to the taproom manager and brewer."
+  ],
+  "projects": [
+    "A keg tracking tool that records every fill, delivery, return, and deposit by account, replacing the spreadsheet and the whiteboard.",
+    "A self-distribution order form for accounts that produces a pick list, an invoice, and a QuickBooks entry in one step.",
+    "A nightly export that posts taproom sales from Arryved or Toast to QuickBooks by category.",
+    "A private event booking tracker that holds the date, headcount, bar package, deposit status, and contract in one record.",
+    "A production log that rolls brew sheet data into the monthly figures needed for TTB and state excise reports.",
+    "Automated low-stock alerts for grain, hops, cans, and CO2 based on the inventory count."
+  ],
+  "faqs": [
+    {
+      "q": "Does the brewery have to replace Ekos, Arryved, or QuickBooks?",
+      "a": "No, those tools stay. We consolidate the spreadsheets and manual steps around those tools and connect them where possible. A tool that works stays in place."
+    },
+    {
+      "q": "What happens to the existing spreadsheets and their history?",
+      "a": "The data in them is imported into the new system during implementation, so keg history, account lists, and past events carry over. The spreadsheets are retired once staff have confirmed the new records match."
+    },
+    {
+      "q": "What does a brewery systems project cost?",
+      "a": "Every project starts with a one-day operations review at $3,000, which produces a written assessment and a quote for each recommendation. The implementation quote that follows is a fixed price, with no hourly billing."
+    }
+  ]
+}

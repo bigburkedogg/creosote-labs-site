@@ -1,0 +1,35 @@
+{
+  "kind": "service-segment",
+  "service": "systems-and-automation",
+  "segment": "physical-therapy",
+  "location": null,
+  "title": "Systems and automation for PT clinics | Creosote Labs",
+  "meta_description": "Creosote Labs consolidates the spreadsheets and side tools a physical therapy clinic runs on, builds internal tracking tools, and automates data entry.",
+  "h1": "Systems and automation for physical therapy clinics",
+  "intro": [
+    "A physical therapy clinic's EMR handles the visit itself, but much of the clinic's administration lives elsewhere. Referral logs, authorization tracking with visit counts and expiration dates, waitlists, equipment inventories, and marketing follow-up to referring physicians often sit in Google Sheets or Excel, while accounting runs in QuickBooks and billing in a clearinghouse such as Waystar. Front desk staff commonly re-key the same patient details across these places. Systems and automation work addresses the gap between the EMR and everything around it.",
+    "Creosote Labs consolidates those spreadsheets into one system of record that the front desk and therapists share, builds the internal tools the clinic needs for tracking authorizations, referrals, and waitlists, and automates the data entry between them. Each project is scoped and quoted from a one-day operations review, so the clinic knows the fixed price before any work begins. When the build is finished, we document the system, train the staff who will run it, and hand it over."
+  ],
+  "projects": [
+    "An authorization tracker that records approved visits per patient, counts each completed visit against the total, and flags cases approaching their limit or expiration date.",
+    "A referral log that captures each incoming referral, its source, and its scheduling status, replacing a shared spreadsheet.",
+    "A waitlist tool that matches cancellations to patients waiting for a particular therapist or time slot.",
+    "An automated end-of-day export from the EMR into QuickBooks so deposits and charges reconcile without manual entry.",
+    "A referring physician dashboard showing referrals, active cases, and discharges by practice for the clinic's outreach visits.",
+    "A plan-of-care expiration report that lists patients due for recertification in the next 2 weeks."
+  ],
+  "faqs": [
+    {
+      "q": "Does this replace the clinic's EMR?",
+      "a": "No, the EMR stays as the clinical record. We build around it, consolidating the spreadsheets and side tools that grew up next to it and moving data between them where the EMR allows an export or integration."
+    },
+    {
+      "q": "How is a systems project priced?",
+      "a": "It begins with a one-day operations review at $3,000, which produces a written assessment and a quote for each recommendation. Implementation is a fixed price from that quote, with no hourly billing."
+    },
+    {
+      "q": "Who maintains the system after handover?",
+      "a": "The clinic's own staff maintain it. Every build is documented, and we train the people who will use it as part of the handover."
+    }
+  ]
+}

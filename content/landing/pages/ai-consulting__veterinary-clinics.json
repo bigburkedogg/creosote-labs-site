@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "ai-consulting",
+  "segment": "veterinary-clinics",
+  "location": null,
+  "title": "AI consulting for veterinary clinics | Creosote Labs",
+  "meta_description": "Creosote Labs assesses where AI tools fit in a veterinary clinic, sets them up with the clinic's own templates, and trains staff. Operations review $3,000.",
+  "h1": "AI consulting for veterinary clinics",
+  "intro": [
+    "Many veterinary clinics run on a practice management system such as ezyVet, AVImark, or IDEXX Cornerstone, with client reminders handled by a tool like PetDesk or Weave and bookkeeping in QuickBooks. The paperwork that surrounds a visit sits outside those systems: discharge instructions written by hand, treatment estimates rebuilt for each case, referral letters, and lab summaries explained over the phone. AI consulting applies to that surrounding work, where the same document gets produced from scratch many times a week.",
+    "Creosote Labs starts with a one-day operations review of the clinic: we sit with the front desk, technicians, and veterinarians, document how a visit moves from check-in to invoice, and deliver a written assessment with a quote for each recommendation. Implementation typically means setting up the AI tool the clinic already has access to, such as Microsoft 365 Copilot, Google Gemini, or Claude, with the clinic's own discharge templates and client letters, then training staff on that setup."
+  ],
+  "projects": [
+    "A discharge-instruction drafter that turns the veterinarian's visit notes into a plain-language handout for the pet owner, reviewed by staff before it is printed.",
+    "A referral letter template that assembles the patient history and diagnostics into a document ready to send to the specialist.",
+    "A client email assistant that answers common questions about post-surgery care and medication timing from the clinic's own written protocols.",
+    "A lab result summary that explains bloodwork findings in language the front desk can read to a client over the phone.",
+    "A written assessment of where AI tools fit across intake, records, and client communication, with a quote for each item."
+  ],
+  "faqs": [
+    {
+      "q": "What does the operations review cost and what does the clinic receive?",
+      "a": "The review is $3,000 for one day on site. It produces a written assessment with prioritized recommendations and a quote for each, and the fee is credited toward implementation that begins within 90 days."
+    },
+    {
+      "q": "Does the clinic need to buy new software?",
+      "a": "Usually not, because we set up the AI tool the clinic already has access to, such as Microsoft 365 Copilot, Google Gemini, or Claude, and connect it to the clinic's own templates and documents."
+    },
+    {
+      "q": "Does patient data go into an AI tool?",
+      "a": "Only the information the clinic decides to share goes in, and data handling is covered in the written assessment. Most drafting work, such as discharge instructions and client letters, can be produced from templates and visit notes without exporting the full medical record."
+    }
+  ]
+}

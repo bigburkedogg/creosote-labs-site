@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "ai-consulting",
+  "segment": "chiropractors",
+  "location": null,
+  "title": "AI consulting for chiropractic offices | Creosote Labs",
+  "meta_description": "Creosote Labs assesses where AI tools fit in a chiropractic office, sets them up with the practice's own templates, and trains staff to use them.",
+  "h1": "AI consulting for chiropractic offices",
+  "intro": [
+    "Many chiropractic offices run patient records and scheduling in ChiroTouch, Jane App, or ChiroFusion, keep the books in QuickBooks, and handle everything else in email and Google Sheets. New-patient intake, SOAP notes, care plan letters, insurance claims, and appointment reminders each take staff time that does not depend on the software. AI consulting looks at where tools like Microsoft 365 Copilot, Google Gemini, or Claude can take on parts of that work without changing the practice management system the office already uses.",
+    "We start with a 1-day operations review on site, documenting how the front desk, the treating doctors, and billing currently work. The written assessment identifies the tasks where an AI tool saves real time, such as drafting narrative reports for personal injury cases, summarizing exam findings into patient-friendly care plans, or answering common scheduling emails, with a quote for each. We then set up the chosen tool with the office's own templates and train staff to use it."
+  ],
+  "projects": [
+    "A Claude or Copilot setup that drafts personal injury narrative reports from the doctor's exam notes and the office's report template.",
+    "An assistant that turns a completed re-exam into a plain-language progress summary for the patient.",
+    "Drafted replies to common front-desk emails, such as insurance coverage questions and reschedule requests, for staff to review and send.",
+    "A monthly reporting routine that summarizes visit counts, no-shows, and collections from ChiroTouch exports into a short owner's report.",
+    "A written guide for staff covering which tasks go to the AI tool and which stay in the practice management system."
+  ],
+  "faqs": [
+    {
+      "q": "Does this replace ChiroTouch or Jane App?",
+      "a": "No. The operations review works with the practice management system the office already has. AI tools are set up alongside it for drafting, summarizing, and communication tasks, and patient records stay where they are."
+    },
+    {
+      "q": "What does the office need to provide for the review?",
+      "a": "One day of access to the office and the staff who run intake, treatment, and billing, plus copies of the templates the practice uses, such as care plan letters and narrative report formats."
+    },
+    {
+      "q": "How is AI consulting priced?",
+      "a": "The operations review is $3,000 and produces a written assessment with a quote for each recommendation. Implementation is quoted from the review. Team training is $1,000 per person."
+    }
+  ]
+}

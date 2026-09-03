@@ -1,0 +1,35 @@
+{
+  "kind": "service-location",
+  "service": "website-development",
+  "segment": null,
+  "location": "camp-verde",
+  "title": "Website development in Camp Verde, AZ | Creosote Labs",
+  "meta_description": "Creosote Labs builds websites, booking and quote tools, and web applications for Camp Verde businesses. Fixed price, quoted after a scoping call.",
+  "h1": "Website and web application development in Camp Verde",
+  "intro": [
+    "Camp Verde draws visitors to Montezuma Castle, Fort Verde, and the Verde River, and many of the town's restaurants, lodging, outfitters, and shops depend on being found online. Many small-business websites here were built on Wix, Squarespace, or WordPress and list hours and a phone number but offer no way to book, request a quote, or fill out a form. Contractors, farms, and service businesses in the area often have the same gap between the website and the work.",
+    "Creosote Labs builds websites and web applications for Camp Verde businesses, from a marketing site with clear services, pricing, and a way to contact the business, to customer-facing tools such as quote requests, online bookings, intake forms, and portals. We also build web applications that replace manual processes for staff. Projects are quoted after a scoping call at a fixed price with no hourly billing, and every project includes hosting setup, domain configuration, and handover with documentation."
+  ],
+  "projects": [
+    "A marketing site for a Verde River outfitter with trip descriptions, pricing, and an online booking form that feeds the reservation calendar.",
+    "A quote request form for a roofing or HVAC contractor that collects the address, photos, and job details and creates the lead in the company's job system.",
+    "An online ordering page for a pecan farm or vineyard with wholesale and retail pricing and a pickup or shipping option.",
+    "A menu and reservation site for a restaurant that the owner can update without a developer.",
+    "A customer portal for a property manager where tenants submit maintenance requests and view their lease documents.",
+    "A staff-facing web application that replaces a paper intake form at a clinic or service counter."
+  ],
+  "faqs": [
+    {
+      "q": "How is a website project priced?",
+      "a": "After a 20-minute scoping call, we quote a fixed price for the project. There is no hourly billing, and hosting setup and domain configuration are included."
+    },
+    {
+      "q": "What do we need to provide?",
+      "a": "We need the services and prices the site should list, any photos or logo files, and access to the current domain registrar. If a booking or quote tool is part of the project, we also need the details of how those requests are handled today."
+    },
+    {
+      "q": "Can we update the site ourselves after handover?",
+      "a": "Yes. Every project ends with a handover and written documentation so staff can update content, pricing, and hours without a developer."
+    }
+  ]
+}

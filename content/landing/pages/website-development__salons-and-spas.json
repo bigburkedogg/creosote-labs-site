@@ -1,0 +1,35 @@
+{
+  "kind": "service-segment",
+  "service": "website-development",
+  "segment": "salons-and-spas",
+  "location": null,
+  "title": "Website development for salons and spas | Creosote Labs",
+  "meta_description": "Websites and online booking for salons and spas. Service menus, pricing, stylist pages, booking, and gift cards. Fixed price after a scoping call.",
+  "h1": "Website and web application development for salons and spas",
+  "intro": [
+    "Salons and spas often rely on a booking platform's built-in page, a social media profile, or a site built years ago that no longer matches the current service menu. Clients look for services, prices, stylist bios, hours, and a way to book before they call. Website work for this kind of business covers the marketing site, the booking and gift card flow, and the forms a spa collects before a first appointment, such as consultation and consent forms.",
+    "Creosote Labs builds marketing sites with a complete service menu, clear pricing, stylist and technician pages, and booking that connects to the platform the business already uses, whether that is Vagaro, Booksy, Square Appointments, GlossGenius, or Mindbody. We also build online intake and consent forms, gift card and membership pages, and staff-facing tools when a business needs them. Hosting setup, domain configuration, and handover with documentation are included in every project."
+  ],
+  "projects": [
+    "A marketing site with the full service menu, prices, and a booking button that opens the salon's existing scheduler.",
+    "Stylist and esthetician pages with specialties, portfolio photos, and a direct booking link for each person.",
+    "An online consultation form for color, lash, or skincare services that reaches the technician before the appointment.",
+    "A digital consent and intake form for spa treatments that stores signed copies with the client record.",
+    "A gift card and membership page where clients purchase and check balances online.",
+    "A careers page with an application form for stylists and booth renters."
+  ],
+  "faqs": [
+    {
+      "q": "How is a salon website priced?",
+      "a": "Website and application projects are quoted after a scoping call. The price is fixed, with no hourly billing, and hosting and domain setup are included."
+    },
+    {
+      "q": "Can the site connect to the booking software already in use?",
+      "a": "Yes. Most booking platforms used by salons provide a booking widget or link, and the site is built around it so appointments continue to land in the same calendar."
+    },
+    {
+      "q": "What does the business need to provide?",
+      "a": "The business provides the current service menu with prices, staff names and photos, hours and location, and access to the booking platform and domain registrar. We collect anything else during the scoping call."
+    }
+  ]
+}

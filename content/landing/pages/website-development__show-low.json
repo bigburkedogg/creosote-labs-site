@@ -1,0 +1,34 @@
+{
+  "kind": "service-location",
+  "service": "website-development",
+  "segment": null,
+  "location": "show-low",
+  "title": "Website development in Show Low, AZ | Creosote Labs",
+  "meta_description": "Websites, booking tools, and web applications for Show Low businesses. Marketing sites, portals, and intake forms, fixed price after a scoping call.",
+  "h1": "Website and web application development in Show Low",
+  "intro": [
+    "Many businesses in Show Low serve both year-round residents of the White Mountains and visitors who come for the forests, lakes, and cooler summer weather. Lodging, outfitters, restaurants, and contractors in the area often rely on a website built years ago, a Facebook page, or a listing on a third-party platform, with quote requests and bookings handled by phone. A website or web application applies wherever customers need to find services, see pricing, and book or request a quote directly.",
+    "Creosote Labs builds marketing websites, customer portals, and web applications for businesses in Show Low and the surrounding region. A marketing site states what the business does, what it costs, and how to book or make contact. Customer-facing tools such as quote request forms, online bookings, intake forms, and portals replace phone tag and paper. Hosting, domain configuration, and a written handover are included, and every project is quoted at a fixed price after a scoping call."
+  ],
+  "projects": [
+    "A marketing website for a Show Low roofing company with services, service area, photos of completed work, and a quote request form that lands in the owner's inbox.",
+    "An online booking page for a White Mountains cabin rental that shows availability, collects a deposit, and sends confirmation emails.",
+    "A patient intake form for a chiropractic office that patients complete on their phones before a first visit.",
+    "A trip reservation tool for a fishing guide service that manages dates, group sizes, and waivers.",
+    "A customer portal for a propane or firewood delivery business where customers place orders and view past invoices."
+  ],
+  "faqs": [
+    {
+      "q": "How are website projects priced?",
+      "a": "Every website and application project is quoted after a scoping call, at a fixed price for the agreed scope and without hourly billing. Hosting setup and domain configuration are part of the project."
+    },
+    {
+      "q": "What do we need to provide before work starts?",
+      "a": "A list of services and prices, photos, any logo or brand materials, and access to the current domain registrar if one exists. Where those are missing, the scoping call covers what to gather."
+    },
+    {
+      "q": "Can a Show Low business update the site itself after launch?",
+      "a": "Yes. Sites are handed over with documentation, and where the business wants to edit pages and prices on its own, that is included in the project scope during the scoping call."
+    }
+  ]
+}

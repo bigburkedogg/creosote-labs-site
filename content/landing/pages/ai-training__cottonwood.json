@@ -1,0 +1,34 @@
+{
+  "kind": "service-location",
+  "service": "ai-training",
+  "segment": null,
+  "location": "cottonwood",
+  "title": "Team AI training in Cottonwood, AZ | Creosote Labs",
+  "meta_description": "A one-day, hands-on AI workshop for Cottonwood, AZ teams, delivered on the company's own tools and documents. $1,000 per person, travel included.",
+  "h1": "Team AI training in Cottonwood",
+  "intro": [
+    "Teams in Cottonwood, whether at a medical office, a winery, a contractor, a nonprofit, or a retail store, often already have an AI tool in the software they pay for. Microsoft 365 and Google Workspace each offer an assistant, Copilot and Gemini, and Claude and ChatGPT are available on their own. Adoption often stops at 1 or 2 people who tried it once, because nobody showed the team how to use it on the estimates, letters, schedules, and reports the business actually produces.",
+    "Creosote Labs delivers team AI training in Cottonwood as a one-day workshop, on site or remote, in the tool the company already uses. Participants work on their own computers with their own documents, and each person produces real work during the session and documents their own process. The team leaves with a written guide and a 30-day follow-up session. The price is $1,000 per person for up to 10 people, with a 5-person minimum, and travel is included. A program with 3 monthly follow-up sessions is $1,400 per person."
+  ],
+  "projects": [
+    "A front-desk team at a dental office drafting recall and insurance follow-up letters from its own templates in Copilot.",
+    "Office staff at a general contractor turning site notes into written estimates and change orders in the tool they already license.",
+    "A tasting room's staff writing wine club emails, event descriptions, and vendor requests in Gemini from the winery's past copy.",
+    "A property management team building a procedure guide for move-in inspections and lease renewals during the session.",
+    "A nonprofit's staff producing a grant report draft and a donor letter from their own program data."
+  ],
+  "faqs": [
+    {
+      "q": "Which AI tool is the training in?",
+      "a": "The training is in whichever tool the company already uses, such as Microsoft 365 Copilot, Google Gemini, Claude, or ChatGPT. Each participant works on their own computer with their own documents, so the setup they leave with is one they can open the next morning."
+    },
+    {
+      "q": "How many people can attend?",
+      "a": "Groups of 5 to 10 people attend at $1,000 per person. Larger teams are quoted separately."
+    },
+    {
+      "q": "Is on-site training in Cottonwood extra?",
+      "a": "No. Travel is included in the per-person price, and the workshop can also be delivered remotely. A 30-day follow-up session is included either way."
+    }
+  ]
+}

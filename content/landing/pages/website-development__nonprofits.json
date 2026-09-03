@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "website-development",
+  "segment": "nonprofits",
+  "location": null,
+  "title": "Website development for nonprofits | Creosote Labs",
+  "meta_description": "Creosote Labs builds nonprofit websites with donation pages, volunteer sign-up, and event registration. Fixed-price projects quoted after a scoping call.",
+  "h1": "Website and web application development for nonprofits",
+  "intro": [
+    "A nonprofit website typically has to do several jobs at once: explain the mission and programs, take donations, register people for events, recruit volunteers, and post the annual report and Form 990 for anyone checking. Many organizations run a WordPress or Squarespace site with a donation form from Givebutter, Donorbox, or PayPal bolted on, an Eventbrite link for events, and a Google Form for volunteer interest, each holding its own copy of the contact list.",
+    "Creosote Labs builds websites and web applications for nonprofits that bring those pieces together. We build marketing sites with clear program pages and a direct way to give, and customer-facing tools such as donation flows, volunteer applications, event registration, and client intake forms that write to the organization's database instead of a separate inbox. Hosting setup, domain configuration, and handover with documentation are included."
+  ],
+  "projects": [
+    "A program and mission website with a donation page that records each gift in the donor database.",
+    "A volunteer portal where applicants submit an application, pick shifts, and log hours.",
+    "An event registration tool that handles tickets, sponsorship tiers, and attendee lists for an annual gala.",
+    "A client intake form for a service program that replaces paper forms and feeds a case tracking system.",
+    "A public transparency page that hosts the annual report, audited financials, and Form 990 in one place."
+  ],
+  "faqs": [
+    {
+      "q": "How are nonprofit website projects priced?",
+      "a": "Website and application projects are quoted after a scoping call at a fixed price, with no hourly billing. Hosting setup and domain configuration are part of the project."
+    },
+    {
+      "q": "Can the site connect to the donor database we already use?",
+      "a": "Often, yes. Donation and sign-up forms can write to systems such as Bloomerang, Neon CRM, or Salesforce Nonprofit Cloud, depending on what the platform supports. We confirm the specifics during scoping."
+    },
+    {
+      "q": "Who updates the site after launch?",
+      "a": "Staff do. The site is built so that program pages, events, and news can be edited without a developer, and the handover includes written documentation for whoever maintains it."
+    }
+  ]
+}

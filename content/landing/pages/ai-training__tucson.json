@@ -1,0 +1,34 @@
+{
+  "kind": "service-location",
+  "service": "ai-training",
+  "segment": null,
+  "location": "tucson",
+  "title": "Team AI training in Tucson, Arizona | Creosote Labs",
+  "meta_description": "One-day, hands-on AI training for Tucson teams in Copilot, Gemini, or Claude, on their own documents. $1,000 per person, 5-person minimum, travel included.",
+  "h1": "Team AI training in Tucson",
+  "intro": [
+    "Many teams in Tucson already have an AI tool available through a subscription the company pays for: Copilot inside Microsoft 365, Gemini inside Google Workspace, or ChatGPT or Claude accounts staff signed up for on their own. Offices at medical and dental practices, law and accounting firms, contractors, and nonprofits often have a few people who use these tools regularly and many who have not tried them on real work. Team AI training applies when a business wants the whole team working the same way, on its own documents.",
+    "Creosote Labs delivers a one-day, hands-on workshop for a Tucson team, on site or remote, in the AI tool the company already uses. Participants work on their own computers with their own documents, produce real work during the session, and document their own process. The team receives a written guide and a 30-day follow-up session. Training is $1,000 per person for up to 10 people, with a 5-person minimum, and travel to Tucson is included."
+  ],
+  "projects": [
+    "A workshop for a Tucson dental practice front office on drafting insurance appeals and patient letters from the practice's templates.",
+    "A session for a general contractor's estimators on turning site notes and photos into scope descriptions for proposals.",
+    "A workshop for a nonprofit's staff on drafting grant narratives and donor updates from prior applications and program reports.",
+    "A session for an accounting firm on summarizing client documents and drafting engagement letters in Microsoft 365 Copilot.",
+    "A workshop for a property management office on drafting lease notices and owner communications in Google Gemini."
+  ],
+  "faqs": [
+    {
+      "q": "What does the training cost for a Tucson team?",
+      "a": "The rate is $1,000 per person, with a 5-person minimum and a 10-person cap before a larger team is quoted separately. Travel to Tucson is included in that rate. Adding 3 monthly follow-up sessions brings the program to $1,400 per person."
+    },
+    {
+      "q": "Which AI tool is the workshop taught in?",
+      "a": "The workshop is taught in the tool the company already uses, such as Microsoft 365 Copilot, Google Gemini, or Claude. Participants need working accounts before the session."
+    },
+    {
+      "q": "What do participants need to bring?",
+      "a": "Participants bring their own computer, a login to the company's AI tool, and 2 or 3 real documents or tasks from their own work. By the end of the day each person has a working setup and a written guide to keep."
+    }
+  ]
+}

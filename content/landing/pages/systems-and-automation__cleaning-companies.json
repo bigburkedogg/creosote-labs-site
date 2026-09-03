@@ -1,0 +1,35 @@
+{
+  "kind": "service-segment",
+  "service": "systems-and-automation",
+  "segment": "cleaning-companies",
+  "location": null,
+  "title": "Cleaning company systems and automation | Creosote Labs",
+  "meta_description": "Creosote Labs connects scheduling, crew check-ins, and QuickBooks invoicing into one system for cleaning companies. Fixed price, with no hourly billing.",
+  "h1": "Systems and automation for cleaning companies",
+  "intro": [
+    "A cleaning company with a few crews often runs on a scheduling app such as ZenMaid or Jobber, a QuickBooks file for invoicing, a spreadsheet of client addresses and gate codes, and a group text for the crews. Recurring schedules change when clients skip a week, crews call out, or a commercial account adds a floor. Keeping the calendar, the payroll hours, and the invoices in agreement takes manual work at the end of every day and every pay period.",
+    "Creosote Labs consolidates those pieces into one system of record for clients, jobs, crews, and billing. We connect the scheduling tool to QuickBooks so completed jobs become invoices without re-entry, build a crew check-in that records arrival, departure, and checklist completion from a phone, and automate reminders, rescheduling confirmations, and past-due follow-up. Everything is documented and handed over to the office staff who will run it."
+  ],
+  "projects": [
+    "A client database that replaces the address-and-gate-code spreadsheet and feeds the daily route sheet.",
+    "An integration that turns completed jobs in Jobber or Housecall Pro into QuickBooks invoices the same day.",
+    "A mobile checklist for crews that records photos and completion times per room.",
+    "Automated appointment reminders and skip-or-reschedule confirmations sent by text.",
+    "A payroll hours report built from crew check-ins instead of paper timesheets.",
+    "A dashboard showing recurring revenue, cancellations, and crew utilization by week."
+  ],
+  "faqs": [
+    {
+      "q": "Do we have to leave ZenMaid or Jobber?",
+      "a": "Not necessarily. Where the existing scheduling tool works well, we build around it and connect it to the rest of the business; where it is the source of the re-entry, the operations review will say so and quote a replacement."
+    },
+    {
+      "q": "What happens to the data in our spreadsheets?",
+      "a": "We import it into the new system, clean up duplicates and outdated client records along the way, and verify it with the office staff before anything goes live."
+    },
+    {
+      "q": "How much does it cost?",
+      "a": "Engagements begin with a one-day operations review at $3,000, which produces a written assessment and a fixed quote for each recommendation. Implementation is quoted from the review with no hourly billing."
+    }
+  ]
+}

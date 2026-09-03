@@ -1,0 +1,34 @@
+{
+  "kind": "segment-location",
+  "service": null,
+  "segment": "real-estate-agents",
+  "location": "flagstaff",
+  "title": "AI and systems for real estate agents in Flagstaff",
+  "meta_description": "Creosote Labs, based in Flagstaff, helps real estate agents automate listing prep, follow-up, and transaction paperwork, and builds agent websites.",
+  "h1": "Real estate agents in Flagstaff: AI, systems, and websites",
+  "intro": [
+    "Real estate agents in Flagstaff typically run their business across the MLS, a CRM such as Follow Up Boss or kvCORE, a transaction platform such as SkySlope or Dotloop, and a set of spreadsheets for leads, showings, and closings. Listing descriptions, buyer and seller packets, comparative market analyses, and client updates are usually written by hand, one at a time. Much of an agent's week often goes to this kind of preparation and follow-up rather than to showings and negotiation.",
+    "Creosote Labs is based in Flagstaff and works with agents here and across Northern Arizona. We start with a one-day operations review of how an agent handles leads, listings, and transactions, then quote each recommendation. Typical work includes setting up Gemini, Copilot, or Claude with the agent's own templates, automating listing and follow-up documents, connecting the CRM to the transaction platform, and building a website with a working lead form. We also train agents and their assistants on their own files."
+  ],
+  "projects": [
+    "A listing prep tool that drafts the MLS description, a social post, and a seller update from a property intake form.",
+    "A CRM setup that logs new leads from the website, Zillow, and open house sign-in sheets and schedules the first follow-up.",
+    "A buyer packet generator that assembles the agency disclosure, buyer advisory, and a neighborhood summary for a given property.",
+    "A closing checklist that tracks contract dates, inspection deadlines, and required documents for each transaction in one place.",
+    "An agent website with current listings, a home valuation request form, and a booking link for consultations."
+  ],
+  "faqs": [
+    {
+      "q": "How is pricing structured for an individual agent?",
+      "a": "Every engagement starts with a one-day operations review at $3,000, which produces a written assessment and a quote for each recommendation. Implementation is quoted from the review. Websites are quoted after a scoping call at a fixed price."
+    },
+    {
+      "q": "Does this work with the CRM and transaction software already in use?",
+      "a": "Yes. We set up the tools an agent already has access to, such as Follow Up Boss, kvCORE, SkySlope, or Dotloop, rather than replacing them. Automation connects what is already there."
+    },
+    {
+      "q": "What does an agent need to have ready before the review?",
+      "a": "We ask for access to the CRM, transaction platform, and any spreadsheets in use, plus examples of listing packets, buyer packets, and client emails. We spend the day documenting how the business currently runs."
+    }
+  ]
+}

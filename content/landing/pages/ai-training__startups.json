@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "ai-training",
+  "segment": "startups",
+  "location": null,
+  "title": "Team AI training for startups | Creosote Labs",
+  "meta_description": "A one-day, hands-on AI workshop for startup teams, run on their own tools and documents. $1,000 per person, 5-person minimum, written guide included.",
+  "h1": "Team AI training for startups and founders",
+  "intro": [
+    "Startup teams tend to adopt AI tools one person at a time. One engineer uses Claude for code review, a founder drafts investor emails in a different tool, and the rest of the team has a subscription with no shared setup. The work those tools could handle, such as product specs, customer emails, meeting summaries, and hiring materials, gets done differently by every person. Team AI training applies where a company wants one shared, documented way of working across those tasks.",
+    "Creosote Labs delivers a one-day, hands-on workshop, on site or remote, in the AI tool the company already uses. Participants work on their own computers with their own documents: the current product spec, the live support queue, the next board deck. Each person produces real work during the session and documents their own process, and the team leaves with a working setup and a written guide. A 30-day follow-up session is included."
+  ],
+  "projects": [
+    "A workshop where the sales team builds a proposal drafting setup from the company's past proposals and pricing.",
+    "A session in which the support team sets up reply drafting from the product documentation and writes the guide for new hires.",
+    "A founders' session on producing investor updates, board decks, and hiring materials from a single set of company facts.",
+    "A product team session on turning customer interviews and support tickets into specs and release notes.",
+    "A three-month program with monthly follow-up sessions as the team grows and new hires join."
+  ],
+  "faqs": [
+    {
+      "q": "What does the training cost?",
+      "a": "The workshop is $1,000 per person for up to 10 people, with a 5-person minimum. Larger teams are quoted, and travel is included. A program with three monthly follow-up sessions is $1,400 per person."
+    },
+    {
+      "q": "Which AI tool is the workshop run on?",
+      "a": "The workshop runs in the tool the company already uses, such as Claude, Google Gemini, or Microsoft 365 Copilot. Participants need access to it on their own computers before the session."
+    },
+    {
+      "q": "What should participants bring?",
+      "a": "Participants bring their own laptop and the documents they work on most, such as specs, customer emails, or reports. The day is spent producing real work with those materials, not on slides."
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "website-development",
+  "segment": "physical-therapy",
+  "location": null,
+  "title": "Physical therapy clinic websites | Creosote Labs",
+  "meta_description": "Creosote Labs builds websites, intake forms, and patient-facing tools for physical therapy clinics. Fixed-price projects quoted after a scoping call.",
+  "h1": "Website and web application development for physical therapy clinics",
+  "intro": [
+    "Many physical therapy clinics have a website that lists locations, conditions treated, and accepted insurance, with a phone number to call for an appointment. Intake paperwork usually happens on a clipboard at the first visit or through the patient portal built into an EMR such as WebPT or Prompt, which not every clinic turns on. Direct-access patients, who arrive without a physician referral, often decide from the website alone whether to make contact. Website and web application development covers the site itself and the tools attached to it.",
+    "Creosote Labs builds marketing sites for clinics with clear pages for services, therapists, insurance, and a request-an-appointment form that reaches the front desk. Beyond the site, we build the patient-facing pieces a clinic chooses to add: online intake that collects history and consent forms before the first visit, a referral form for physician offices, and a page where patients can view their home exercise program. Projects are quoted at a fixed price after a scoping call, and we handle hosting, the domain, and handover documentation."
+  ],
+  "projects": [
+    "A clinic website with pages for each condition treated, therapist bios, accepted insurance plans, and an appointment request form.",
+    "An online intake form that collects medical history, injury details, and signed consent before the first visit and delivers a PDF to the front desk.",
+    "A physician referral page where a doctor's office can submit a referral and upload the prescription instead of faxing it.",
+    "A patient page that displays the home exercise program assigned at each visit, with the therapist's notes for each exercise.",
+    "A new-patient page explaining direct access, what to bring, and what to expect at an evaluation, with a way to book."
+  ],
+  "faqs": [
+    {
+      "q": "Can the appointment request form connect to the clinic's EMR schedule?",
+      "a": "It depends on the EMR. Some expose online scheduling or an integration we can connect to; others do not. We confirm what is possible on the scoping call and build the form to notify the front desk when a direct link is not available."
+    },
+    {
+      "q": "What does a website project cost?",
+      "a": "Website and application projects are quoted after a scoping call. The price is fixed for the agreed scope, with no hourly billing."
+    },
+    {
+      "q": "What does the clinic need to provide?",
+      "a": "The clinic provides the list of services and conditions treated, therapist bios and photos, accepted insurance plans, and access to the current domain registrar. We write or edit the copy from that material and handle the hosting setup."
+    }
+  ]
+}

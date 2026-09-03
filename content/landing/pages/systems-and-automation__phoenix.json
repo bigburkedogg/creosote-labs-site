@@ -1,0 +1,35 @@
+{
+  "kind": "service-location",
+  "service": "systems-and-automation",
+  "segment": null,
+  "location": "phoenix",
+  "title": "Systems and automation in Phoenix, AZ | Creosote Labs",
+  "meta_description": "Creosote Labs consolidates spreadsheets and disconnected tools into one system for Phoenix businesses, builds internal tools, and automates manual work.",
+  "h1": "Systems and automation in Phoenix",
+  "intro": [
+    "Small businesses in the Phoenix metro run on a familiar mix of tools. Contractors and service companies often track jobs in ServiceTitan, Jobber, or Housecall Pro and invoice from QuickBooks. Property managers work in AppFolio or Buildium. Medical and dental offices schedule in their practice management software. Around those core systems, a lot of the daily work still happens in Excel and Google Sheets: crew schedules, quote worksheets, commission tracking, and reports that someone rebuilds by hand every month.",
+    "Creosote Labs consolidates those spreadsheets and disconnected tools into one system of record for businesses in Phoenix. We build the internal tools a company needs for scheduling, quoting, tracking, and reporting, and we automate the repetitive steps in between, such as data entry, customer follow-up, and document generation. Every project begins with a one-day operations review at $3,000 that produces a written assessment and a quote for each recommendation. When the work is finished, we document the system and hand it over to staff."
+  ],
+  "projects": [
+    "A job tracker that replaces a roofing company's shared spreadsheet and pushes completed jobs to QuickBooks for invoicing.",
+    "A quoting tool that produces a formatted estimate from a technician's site visit form.",
+    "A commission and pipeline tracker for a real estate brokerage that replaces three separate spreadsheets.",
+    "A work order system for a landscaping company that schedules crews and sends customers a confirmation text automatically.",
+    "A monthly owner report for a property management company generated from AppFolio exports without manual assembly.",
+    "An automated follow-up sequence for open estimates so the office no longer works from a printed call list."
+  ],
+  "faqs": [
+    {
+      "q": "Do we have to replace ServiceTitan, QuickBooks, or the software we already use?",
+      "a": "Usually not. Most projects keep the core software in place and replace the spreadsheets and manual steps around it. The operations review identifies which tools stay and what gets consolidated."
+    },
+    {
+      "q": "What does a Phoenix business need to provide before the review?",
+      "a": "Access to the owner and the staff who do the daily work, along with the spreadsheets, forms, and reports the business currently uses. We document the rest on site."
+    },
+    {
+      "q": "How is systems and automation work priced?",
+      "a": "The one-day operations review is $3,000 and includes a written assessment with a quote for each recommendation. Implementation is quoted from that review at a fixed price, with no hourly billing."
+    }
+  ]
+}

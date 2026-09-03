@@ -1,0 +1,34 @@
+{
+  "kind": "service-location",
+  "service": "ai-consulting",
+  "segment": null,
+  "location": "sedona",
+  "title": "AI consulting in Sedona, Arizona | Creosote Labs",
+  "meta_description": "Creosote Labs assesses where AI tools fit in a Sedona business, sets them up, and trains staff to use them. One-day operations review at $3,000.",
+  "h1": "AI consulting in Sedona",
+  "intro": [
+    "Many Sedona businesses serve visitors: resorts and inns, tour operators, restaurants, galleries and shops, spas, and the real estate offices that work with people who decide to stay. These businesses commonly run on a booking or reservation system, a point-of-sale system such as Square or Toast, QuickBooks for accounting, and a steady volume of email, guest messages, and online reviews. AI consulting applies wherever staff spend time writing, summarizing, or moving information between those tools.",
+    "Creosote Labs serves businesses in Sedona and the rest of Northern Arizona. An engagement starts with a one-day operations review at $3,000. We spend the day with the owner and staff, document how work actually gets done, and deliver a written assessment with a quote for each recommendation. Implementation typically means setting up the AI tool the business already pays for, such as Microsoft 365 Copilot, Google Gemini, or Claude, with its own documents and templates, then training staff on it at $1,000 per person."
+  ],
+  "projects": [
+    "A review-response process for a resort or inn that drafts replies to guest reviews in the property's own voice for a manager to approve.",
+    "A guest-inquiry assistant for a tour operator that answers common questions about trip length, what to bring, and cancellation terms from the company's own policies.",
+    "A weekly reporting setup for a restaurant that summarizes Toast sales and labor data into a short report for the owner.",
+    "A listing-description workflow for a real estate office that produces draft copy from the agent's notes and photos.",
+    "A written guide and staff training covering the prompts and templates each department uses."
+  ],
+  "faqs": [
+    {
+      "q": "What do we need to have ready before the operations review?",
+      "a": "Access to the tools the business uses day to day and time with the people who use them. The review is spent on site documenting how work currently gets done, so no preparation beyond that is needed."
+    },
+    {
+      "q": "Do we need to buy new AI software?",
+      "a": "In most cases, no. The work is done in whichever AI tool the business already pays for, whether that is Microsoft 365 Copilot, Google Gemini, or Claude, configured with the company's own templates and documents."
+    },
+    {
+      "q": "How is pricing structured?",
+      "a": "The operations review is $3,000 and produces a written assessment with a quote for each recommendation. Implementation is quoted from the review, and team training is $1,000 per person. There is no hourly billing."
+    }
+  ]
+}

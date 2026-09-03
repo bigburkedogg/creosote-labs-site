@@ -1,0 +1,35 @@
+{
+  "kind": "segment-location",
+  "service": null,
+  "segment": "restaurants",
+  "location": "flagstaff",
+  "title": "AI and systems for restaurants in Flagstaff",
+  "meta_description": "Creosote Labs in Flagstaff builds scheduling, inventory, and ordering systems, restaurant websites, and staff AI training for Flagstaff restaurants.",
+  "h1": "Restaurants in Flagstaff: AI, systems, and websites",
+  "intro": [
+    "Restaurants in Flagstaff generally run the front of house on a point-of-sale system such as Toast or Square, take reservations through OpenTable, Resy, or the phone, and schedule staff in 7shifts or a shared spreadsheet. Invoices from food and beverage vendors, weekly inventory counts, catering orders, and private event contracts are often handled on paper or in a manager's email, and menu changes have to be updated in the POS, on the website, and on third-party delivery platforms separately.",
+    "Creosote Labs is a Flagstaff company and works with restaurants here on site. A one-day operations review covers ordering, inventory, scheduling, catering, and the website, and produces a written assessment with a quote for each recommendation. Typical implementation connects vendor invoices to a single cost tracker, builds a catering and event request form, and keeps the menu in one place that updates the website and online ordering. Staff training covers using AI for menus, descriptions, and guest correspondence."
+  ],
+  "projects": [
+    "A menu management tool that holds every item and price once and publishes changes to the website and online ordering.",
+    "A vendor invoice pipeline that reads Sysco, US Foods, and local supplier invoices into a weekly food cost report.",
+    "A catering and private event request form that collects headcount, date, and menu selections and produces a quote and contract.",
+    "A restaurant website with hours, the current menu, reservations, and online ordering links in one place.",
+    "An inventory count sheet that staff fill in on a phone and that flags items below par for the next order.",
+    "A one-day training in which managers use AI to write menu descriptions, respond to reviews, and draft staff communications."
+  ],
+  "faqs": [
+    {
+      "q": "Can this work with the POS system already in use?",
+      "a": "Toast and Square both provide reporting exports and integration options, and the operations review establishes what the restaurant's plan supports. We build around the existing POS rather than replacing it."
+    },
+    {
+      "q": "When does the on-site work happen?",
+      "a": "The operations review is a single day, and we schedule it around service. Observation of a lunch or dinner shift is useful, and the desk work with the owner or general manager can happen during off hours."
+    },
+    {
+      "q": "What does a project cost?",
+      "a": "The operations review is $3,000 and delivers a quote for each recommendation. Systems and websites are quoted fixed price with no hourly billing. Team AI training is priced at $1,000 per participant, with a minimum of 5 participants."
+    }
+  ]
+}

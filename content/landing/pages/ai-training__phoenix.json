@@ -1,0 +1,34 @@
+{
+  "kind": "service-location",
+  "service": "ai-training",
+  "segment": null,
+  "location": "phoenix",
+  "title": "Team AI training in Phoenix, Arizona | Creosote Labs",
+  "meta_description": "A one-day, hands-on AI workshop for Phoenix teams, delivered on the tools and documents they already use. $1,000 per person, written guide included.",
+  "h1": "Team AI training in Phoenix",
+  "intro": [
+    "Many Phoenix businesses have already turned on AI features in the software they pay for. Microsoft 365 Copilot, Google Gemini, and Claude are available to office staff at insurance agencies, law firms, medical practices, and construction companies across the metro. What is often missing is a working method: which tool to open for a renewal letter, how to give it the firm's template, and how to check the result before it goes to a client. Without that, usage often stays with a few people experimenting on their own.",
+    "Creosote Labs delivers a one-day, hands-on workshop for teams in Phoenix, on site or remote, in the AI tool the company already uses. Participants work on their own computers with their own documents, so a paralegal drafts a real engagement letter during the session. Each person documents their own process and leaves with a working setup. A written guide for the team and a 30-day follow-up session are included. Pricing is $1,000 per person for up to 10 people, with a 5-person minimum, and travel is included."
+  ],
+  "projects": [
+    "A Copilot workshop for an insurance agency's service team, producing renewal letters and coverage summaries from the agency's own templates.",
+    "A Gemini session for a property management company's leasing staff, drafting tenant notices and owner updates in Google Workspace.",
+    "A Claude workshop for a general contractor's estimators, writing proposals and change orders from past bids.",
+    "A session for a law firm's paralegals and admin staff on drafting correspondence and summarizing documents with review checkpoints.",
+    "A three-session program for a medical billing office, with monthly follow-ups as staff add new document types."
+  ],
+  "faqs": [
+    {
+      "q": "Does the team need to buy new software before the workshop?",
+      "a": "No. The workshop runs in the AI tool the company already has, such as Microsoft 365 Copilot, Google Gemini, or Claude. If the business has no tool yet, we discuss options on the scheduling call."
+    },
+    {
+      "q": "What should participants bring?",
+      "a": "Their own computer, logins, and the documents they actually produce: the letters, proposals, reports, or forms they want to work faster on. The session uses that material, not sample exercises."
+    },
+    {
+      "q": "How much does training cost for a Phoenix team?",
+      "a": "$1,000 per person for up to 10 people, with a 5-person minimum, and travel is included. Larger teams are quoted. The training program, which adds three monthly follow-up sessions, is $1,400 per person."
+    }
+  ]
+}

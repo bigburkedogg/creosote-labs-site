@@ -1,0 +1,35 @@
+{
+  "kind": "service-segment",
+  "service": "systems-and-automation",
+  "segment": "hotels-and-inns",
+  "location": null,
+  "title": "Systems and automation for hotels and inns | Creosote Labs",
+  "meta_description": "Systems and automation for hotels and inns: housekeeping boards, maintenance logs, group block tracking, and invoicing connected to reservations.",
+  "h1": "Systems and automation for hotels and inns",
+  "intro": [
+    "A small hotel or inn often keeps its records in several places at once: reservations in the property management system, housekeeping assignments on a printed sheet, maintenance requests in text messages, group bookings in Excel, and accounting in QuickBooks. In many properties, rates are updated by hand in the channel manager, and the same guest details are retyped into confirmations, registration cards, and invoices. Systems and automation work applies wherever information is copied between those places or tracked outside the main system.",
+    "Creosote Labs consolidates those spreadsheets and side lists into one system of record connected to the property management system, then builds the internal tools the property needs, such as a housekeeping board, a maintenance ticket log, or a group booking tracker. We automate the repetitive steps: pushing nightly arrivals to housekeeping, generating invoices for direct bookings, and sending post-stay follow-up. Every engagement ends with written documentation and a handover to the staff who will run it."
+  ],
+  "projects": [
+    "A housekeeping board that builds each morning's room list from the property management system's departures and arrivals and records when each room is clean and inspected.",
+    "A maintenance ticket log where staff report a broken fixture from a phone and the owner sees open items, assigned vendors, and cost by room.",
+    "A group and wedding block tracker that replaces an Excel workbook, holding room lists, deposits, cutoff dates, and the final rooming list in one place.",
+    "An invoice generator that produces a folio and invoice for direct and corporate bookings from reservation data and posts it to QuickBooks.",
+    "A nightly report that emails occupancy, revenue, and tomorrow's arrivals to the owner without anyone exporting a spreadsheet.",
+    "A post-stay sequence that sends a thank-you note and review request after checkout and flags responses that need a reply."
+  ],
+  "faqs": [
+    {
+      "q": "Can the new system connect to our property management system?",
+      "a": "It depends on the system. Cloudbeds and several others have APIs, while some smaller systems only offer exports. The operations review establishes what the property's system can share, and the quote reflects it."
+    },
+    {
+      "q": "How do we know the cost before committing?",
+      "a": "Engagements begin with a one-day operations review at $3,000, which produces a written assessment with a fixed quote for each recommendation. There is no hourly billing, and the review fee is credited toward implementation that begins within 90 days."
+    },
+    {
+      "q": "Who runs the system after the project ends?",
+      "a": "The property's own staff run it. Each build includes written documentation and a handover session, and the system is set up in accounts the property owns."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "kind": "service-segment",
+  "service": "systems-and-automation",
+  "segment": "general-contractors",
+  "location": null,
+  "title": "General contractor systems and automation | Creosote Labs",
+  "meta_description": "Creosote Labs consolidates a general contractor's spreadsheets and disconnected tools into one system and automates estimating, tracking, and reporting.",
+  "h1": "Systems and automation for general contractors",
+  "intro": [
+    "A general contracting office often runs a job across several places at once: an estimate in Excel, a schedule in Buildertrend or a spreadsheet, invoices and job costing in QuickBooks, and subcontractor bids, lien waivers, and pay applications in email and shared folders. The same job name, budget line, and contact often get typed into each of them. When the systems do not connect, the office spends time reconciling them, and the owner may have no single place to see where every job stands.",
+    "Creosote Labs consolidates those spreadsheets and disconnected tools into one system of record for the company's jobs, then builds the internal tools the office needs on top of it: a quoting tool, a change order tracker, a subcontractor and pay application log, a job cost report. We automate the repetitive steps, such as re-entering data, chasing lien waivers, and generating closeout documents, then document the system and hand it over to the staff who will run it."
+  ],
+  "projects": [
+    "A job tracker that shows every active project, its budget, committed costs, and open change orders in one place.",
+    "A quoting tool that produces a formatted estimate and proposal from a takeoff spreadsheet.",
+    "A change order workflow that logs each change, sends it to the owner for approval, and updates the contract value.",
+    "A subcontractor pay application process that collects lien waivers and certificates of insurance before a check goes out.",
+    "An automated weekly job cost report built from QuickBooks data instead of a hand-assembled spreadsheet.",
+    "A closeout package generator that assembles warranties, as-builts, and final lien waivers by project."
+  ],
+  "faqs": [
+    {
+      "q": "Does the company have to replace QuickBooks or Buildertrend?",
+      "a": "Usually not. We work with the software the company already runs and build around it. The operations review identifies which tools stay, which get connected, and which spreadsheets get replaced."
+    },
+    {
+      "q": "How is systems and automation work priced?",
+      "a": "It is quoted from the operations review. Engagements begin with a one-day review at $3,000, which produces a written assessment and a quote for each recommendation. Implementation is fixed scope, with no hourly billing."
+    },
+    {
+      "q": "What happens when the build is finished?",
+      "a": "We document the system and hand it over to staff. Written documentation and a handover session are part of every implementation, so the office can run it without us."
+    }
+  ]
+}

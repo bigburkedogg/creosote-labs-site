@@ -1,0 +1,35 @@
+{
+  "kind": "service-segment",
+  "service": "systems-and-automation",
+  "segment": "churches",
+  "location": null,
+  "title": "Systems and automation for churches | Creosote Labs",
+  "meta_description": "Creosote Labs consolidates a church's spreadsheets and disconnected tools into one system and automates volunteer scheduling, giving, and follow-up.",
+  "h1": "Systems and automation for churches",
+  "intro": [
+    "A church office often runs on a mix of tools that do not talk to each other: a membership database, a separate online giving platform such as Tithe.ly or Pushpay, QuickBooks for the books, a shared spreadsheet for volunteer rotations, and a Mailchimp list for the weekly email. Visitor cards, event sign-ups, facility requests, and benevolence applications frequently arrive on paper or in a form tool and get retyped into two or three places by staff or volunteers.",
+    "Creosote Labs maps where each record lives, chooses one system of record for members, giving, and events, and connects or replaces the tools around it. We build the internal tools a church needs, such as a volunteer scheduler with automatic reminders or a facility request tracker, and automate the transfers that staff currently do by hand, including posting gifts to the accounting file and sending new-visitor follow-up. The finished system is documented in writing and handed over to the office team."
+  ],
+  "projects": [
+    "A single member directory that replaces a membership database, a mailing spreadsheet, and a printed phone list.",
+    "A volunteer scheduling tool for greeters, nursery, and worship teams that sends reminders and handles swap requests.",
+    "An automation that records each online gift in QuickBooks and updates the donor's giving history without manual entry.",
+    "A visitor follow-up sequence triggered when a connection card is submitted at a service.",
+    "A facility request form with a calendar, an approval step, and a confirmation email for classrooms and the fellowship hall.",
+    "A weekly attendance and giving report emailed to the pastor and board every Monday."
+  ],
+  "faqs": [
+    {
+      "q": "Can the church keep Planning Center or Breeze as its main system?",
+      "a": "Often, yes. The operations review recommends whether to keep an existing tool as the system of record and connect the others around it, or to replace it."
+    },
+    {
+      "q": "How is a systems project priced?",
+      "a": "It begins with a one-day operations review at $3,000. The review produces a written assessment and a quote for each recommended item, and implementation is quoted from there rather than billed hourly."
+    },
+    {
+      "q": "Who maintains the system after handover?",
+      "a": "The church staff do. Every project ends with written documentation and a handover, so the office team can run the system and add volunteers without calling us."
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "website-development",
+  "segment": "cleaning-companies",
+  "location": null,
+  "title": "Websites for cleaning companies | Creosote Labs",
+  "meta_description": "Marketing sites, instant quote forms, and customer portals for cleaning companies, connected to the scheduling tool the office already uses, at a fixed.",
+  "h1": "Websites and booking tools for cleaning companies",
+  "intro": [
+    "Many cleaning companies find new residential clients through search and referrals, and the first thing a prospective client wants is a price. A typical company website offers a phone number and a contact form, so quoting happens over the phone or after a walkthrough. Commercial prospects want a proposal, references, and proof of insurance. Booking pages bundled with Housecall Pro or Launch27 cover part of this, but the marketing site, the quote form, and the customer account often live in three different places.",
+    "Creosote Labs builds the marketing site and the tools behind it as one project. That means service pages with clear pricing by home size or square footage, an instant quote form that calculates a price and books a first clean, a customer portal for viewing upcoming visits, updating entry instructions, and paying invoices, and a commercial page with a proposal request. We set up hosting and the domain, connect the site to the scheduling tool, and hand over documentation."
+  ],
+  "projects": [
+    "A marketing site with pages for recurring, deep, and move-out cleaning, each with published starting prices.",
+    "An instant quote form that prices a home by bedrooms, bathrooms, and frequency and books the first visit.",
+    "A customer portal where clients see their next scheduled clean, update entry notes, and pay online.",
+    "A commercial proposal request form that collects square footage, floor types, and frequency and produces a draft proposal for review.",
+    "A crew application page that feeds a hiring tracker instead of an email inbox."
+  ],
+  "faqs": [
+    {
+      "q": "Can the site take bookings directly?",
+      "a": "Yes. A quote form can calculate a price from what a client enters and place the job on the schedule in Jobber, Housecall Pro, or ZenMaid, or hold it for the office to confirm."
+    },
+    {
+      "q": "What does the company need to supply for the build?",
+      "a": "The service list and pricing, photos, proof of insurance and any licensing to display, and access to the domain registrar and the scheduling tool."
+    },
+    {
+      "q": "What does a cleaning company website cost?",
+      "a": "Website and application projects are quoted after a scoping call. The price is fixed for the agreed scope, and there is no hourly billing."
+    }
+  ]
+}

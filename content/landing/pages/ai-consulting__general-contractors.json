@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "ai-consulting",
+  "segment": "general-contractors",
+  "location": null,
+  "title": "AI consulting for general contractors | Creosote Labs",
+  "meta_description": "Creosote Labs assesses where AI tools fit in a general contracting business, sets them up with the company's own documents, and trains staff.",
+  "h1": "AI consulting for general contractors",
+  "intro": [
+    "Many general contractors run on a mix of estimating and project management software, accounting software, and email. Buildertrend or Procore holds the schedule and daily logs, QuickBooks holds the books, and bids, change orders, submittals, and RFIs move back and forth as PDFs and email threads. Much of the office work is preparing and re-keying those documents. AI tools apply well to that work when they are set up with the company's own templates and past projects.",
+    "Creosote Labs starts with a one-day operations review of how the office and the field crews currently work, then delivers a written assessment of where AI tools save time, with a quote for each recommendation. We set up the tool the company already has access to, such as Microsoft 365 Copilot, Google Gemini, or Claude, with its own bid templates, subcontractor agreements, and project files, and we train the office staff and project managers on their own work. Each recommendation is quoted separately, so the business chooses what to implement."
+  ],
+  "projects": [
+    "A drafting assistant that produces a first-pass change order from a superintendent's notes and photos, in the company's own format.",
+    "A bid review setup that reads subcontractor quotes against the scope of work and lists missing items and exclusions.",
+    "A daily log summary that turns field entries from Buildertrend into a weekly owner update ready to send.",
+    "An RFI and submittal assistant that drafts responses from the project's plans and specifications.",
+    "A written guide for office staff on using Copilot or Claude with the company's estimating and closeout templates."
+  ],
+  "faqs": [
+    {
+      "q": "Which AI tool will the business use?",
+      "a": "The one the company already has access to. Many contractors are on Microsoft 365 or Google Workspace, so we set up Copilot or Gemini; Claude is another option. The review identifies which fits the existing software."
+    },
+    {
+      "q": "What does the operations review cost and what does it include?",
+      "a": "$3,000 for one day on site. It produces a written assessment, prioritized recommendations, and a quote for each, delivered within the week. The fee is credited toward implementation that begins within 90 days."
+    },
+    {
+      "q": "What does the company need to provide before the review?",
+      "a": "Access to the people who run the office and the field, and the documents they actually use: bid templates, change order forms, daily logs, and the project management and accounting software. We document how the work happens now before recommending anything."
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "ai-consulting",
+  "segment": "solopreneurs",
+  "location": null,
+  "title": "AI consulting for solopreneurs | Creosote Labs",
+  "meta_description": "Creosote Labs assesses where AI tools fit in a one-person business, sets them up on the owner's own documents, and writes a guide. Review $3,000.",
+  "h1": "AI consulting for solopreneurs and independent professionals",
+  "intro": [
+    "A one-person business usually runs on a handful of general-purpose tools rather than an industry system. Many solopreneurs keep clients and invoices in QuickBooks, FreshBooks, or Wave, book appointments through Calendly or Acuity, write proposals in Google Docs or Word, and track everything else in Gmail and Google Sheets. The owner handles sales, delivery, and administration alone, so any task that repeats every week, such as drafting proposals, answering the same inquiry, or writing up notes after a call, is a candidate for an AI tool.",
+    "Creosote Labs begins with a one-day operations review at $3,000. We walk through how the business takes on a client, delivers the work, and gets paid, then provide a written assessment with a quote for each recommendation. Implementation typically means setting up Claude, Google Gemini, or Microsoft 365 Copilot with the owner's own proposal templates, service descriptions, and past correspondence, so the tool produces drafts in the owner's voice. We finish with a written guide covering each setup, so the process holds up without us."
+  ],
+  "projects": [
+    "A proposal drafting setup that produces a first draft from a discovery call transcript and the owner's past proposals.",
+    "An inquiry response workflow that drafts replies to new leads from a set of approved answers about services and pricing.",
+    "A call-notes process that turns a recording or rough notes into a client summary and a list of next steps.",
+    "A monthly reporting routine that pulls invoice data from QuickBooks or FreshBooks into a short written summary for the owner.",
+    "A written guide documenting each AI setup so the owner can repeat it and update it as the business changes."
+  ],
+  "faqs": [
+    {
+      "q": "Does the operations review make sense for a business with no employees?",
+      "a": "Yes. The review documents how the owner takes on work, delivers it, and gets paid, and identifies which recurring tasks an AI tool can take over. The written assessment includes a quote for each recommendation, and the $3,000 fee is credited toward implementation that begins within 90 days."
+    },
+    {
+      "q": "What does the owner need to have ready for the review?",
+      "a": "The owner provides access to the tools already in use, such as the accounting software, calendar, and email, plus a few examples of proposals, contracts, or client correspondence. No preparation beyond that is required."
+    },
+    {
+      "q": "Which AI tools does Creosote Labs set up?",
+      "a": "We work with the tools the business already has access to, such as Claude, Google Gemini, or Microsoft 365 Copilot. The recommendation depends on where the owner's documents and email already live."
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "website-development",
+  "segment": "hotels-and-inns",
+  "location": null,
+  "title": "Website development for hotels and inns | Creosote Labs",
+  "meta_description": "Websites and booking tools for hotels and inns: marketing sites, inquiry forms, pre-arrival check-in, and guest portals. Fixed price, hosting included.",
+  "h1": "Websites and web applications for hotels and inns",
+  "intro": [
+    "Most hotels and inns already have a website, often built on a template from the property management system vendor or on WordPress or Squarespace, with a booking engine from Cloudbeds, Little Hotelier, or a similar provider attached. Room descriptions, photos, rates, packages, policies, and directions live on the site, and a share of bookings arrives through it rather than through Booking.com or Expedia, where commissions apply. Website and web application development covers the site itself and the tools guests use on it.",
+    "Creosote Labs builds marketing websites for properties with room types, rates, packages, and a direct path to the booking engine, and customer-facing tools beyond the booking engine's reach: group and event inquiry forms, pre-arrival check-in, a guest portal for directions and house information, and a page for gift certificates. Projects are quoted after a scoping call at a fixed price, include hosting and domain setup, and end with documentation so staff can update rooms, photos, and seasonal rates themselves."
+  ],
+  "projects": [
+    "A marketing site for an inn with room pages, seasonal rates, packages, and a booking button that opens the property's existing booking engine.",
+    "A group and wedding inquiry form that collects dates, guest count, and room block needs and creates a record for the sales contact instead of an email.",
+    "A pre-arrival check-in page that gathers arrival time, vehicle, and signed registration details before the guest reaches the front desk.",
+    "A guest portal with directions, Wi-Fi details, breakfast hours, and local recommendations, reached from a link in the confirmation email.",
+    "A gift certificate purchase page that issues a code, records the sale, and notifies the front desk."
+  ],
+  "faqs": [
+    {
+      "q": "Will the new site work with our booking engine?",
+      "a": "Yes, the site links to or embeds the booking engine the property already uses, whether it comes from Cloudbeds, Little Hotelier, or another provider. Replacing the booking engine is a separate decision and is discussed on the scoping call."
+    },
+    {
+      "q": "How are website projects priced?",
+      "a": "Website and application projects are quoted after a scoping call, at a fixed price with no hourly billing. Hosting and domain setup are included in the quote."
+    },
+    {
+      "q": "What do we need to provide?",
+      "a": "The property provides room photos, current rates and policies, and access to the domain registrar and booking engine account. If photos or copy are out of date, we note it on the scoping call and plan for it in the quote."
+    }
+  ]
+}

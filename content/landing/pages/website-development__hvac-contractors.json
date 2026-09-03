@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "website-development",
+  "segment": "hvac-contractors",
+  "location": null,
+  "title": "HVAC contractor website development | Creosote Labs",
+  "meta_description": "Creosote Labs builds websites and online booking, quote request, and customer portal tools for HVAC contractors. Fixed price, quoted after a scoping call.",
+  "h1": "Website and web application development for HVAC contractors",
+  "intro": [
+    "HVAC contractors typically get work from 3 sources: repeat customers, referrals, and people searching online during the first heat wave or cold snap. The website is where the second and third groups land. Many HVAC sites are a template from a marketing vendor with a phone number and a contact form, and the online booking and financing pages live on separate vendor domains. Field platforms such as ServiceTitan and Housecall Pro offer booking widgets, but they are only useful when the site around them is clear.",
+    "Creosote Labs builds the marketing site and the tools behind it as one project. The site lists services, service area, pricing where the company publishes it, and a direct way to book or request a quote. Behind the site we build what the company needs: a quote request form that captures system type, square footage, and photos; online scheduling that writes to the field service platform; or a customer portal showing agreement status and service history. Hosting, domain setup, and written documentation are included."
+  ],
+  "projects": [
+    "A service website with pages for repair, replacement, maintenance plans, and indoor air quality, each with a booking button that connects to the scheduling platform.",
+    "A replacement quote request form that collects home size, current equipment, photos of the unit and nameplate, and preferred contact time.",
+    "A customer portal where homeowners can view their maintenance agreement, past invoices, and upcoming tune-up dates.",
+    "A financing page that explains the plans the company offers and links to the lender's application.",
+    "An emergency service request page that routes after-hours form submissions to the on-call technician."
+  ],
+  "faqs": [
+    {
+      "q": "Can the site connect to our scheduling software?",
+      "a": "Yes, where the platform supports it. ServiceTitan, Housecall Pro, and Jobber all provide online booking that can be placed on the site, and a custom form can be built to send requests into the platform."
+    },
+    {
+      "q": "How is a website project priced?",
+      "a": "Website and web application projects are quoted after a scoping call. The price is fixed for the agreed scope, with no hourly billing."
+    },
+    {
+      "q": "Who owns the site and the domain when the project is done?",
+      "a": "The company owns all of it. The domain, hosting account, and code are set up in the company's name, and handover includes written documentation for updating pages and forms."
+    }
+  ]
+}

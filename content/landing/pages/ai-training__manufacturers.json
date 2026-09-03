@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "ai-training",
+  "segment": "manufacturers",
+  "location": null,
+  "title": "Team AI training for manufacturers | Creosote Labs",
+  "meta_description": "A one-day AI workshop for a manufacturer's office staff, run on their own quotes, purchase orders, and reports. $1,000 per person, travel included.",
+  "h1": "Team AI training for manufacturers",
+  "intro": [
+    "The office staff at a small manufacturer typically write a great deal: quotes and RFQ responses, purchase orders, supplier follow-ups, work instructions, quality documentation, and answers to customer questions about lead times and revisions. Most of that work happens in Outlook, Word, and Excel, alongside QuickBooks and a shop management system. Team AI training applies to the people doing that writing, whether they are estimators, purchasing, quality, customer service, or the owner, and to the documents they already produce every week.",
+    "Creosote Labs delivers a one-day, hands-on workshop, on site or remote, in the AI tool the company already uses, such as Microsoft 365 Copilot, Google Gemini, or Claude. Each participant works on their own computer with their own documents: an estimator drafts a quote from a real RFQ, purchasing writes a supplier expedite from an open PO, quality turns inspection notes into a report. Everyone documents their own process, and the team receives a written guide and a 30-day follow-up session. Training is $1,000 per person."
+  ],
+  "projects": [
+    "A workshop where estimators build a reusable prompt that drafts an RFQ response from the drawing notes and the company's standard terms.",
+    "A session for purchasing staff on writing supplier expedites and quote comparisons from open purchase order data.",
+    "Quality staff converting inspection notes and nonconformance records into finished reports in the company's own format.",
+    "Customer service drafting lead time and revision replies from the order record instead of from scratch.",
+    "An owner's session on summarizing weekly production and cash reports pulled from QuickBooks and the shop system."
+  ],
+  "faqs": [
+    {
+      "q": "Which AI tool is the training delivered in?",
+      "a": "The training is delivered in the tool the company already uses, such as Microsoft 365 Copilot, Google Gemini, or Claude. Participants leave with a working setup in that tool rather than a demonstration of something they do not have."
+    },
+    {
+      "q": "Do shop floor staff need to attend?",
+      "a": "The workshop is built for the people who write, quote, purchase, and report, so it is usually office staff and supervisors. Participants bring their own computers and current documents."
+    },
+    {
+      "q": "What does team AI training cost for a manufacturer?",
+      "a": "Training costs $1,000 per person for up to 10 people, with a 5-person minimum, and travel is included. Larger teams are quoted, and a program with three monthly follow-up sessions is $1,400 per person."
+    }
+  ]
+}

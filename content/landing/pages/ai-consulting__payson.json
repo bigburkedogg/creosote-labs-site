@@ -1,0 +1,34 @@
+{
+  "kind": "service-location",
+  "service": "ai-consulting",
+  "segment": null,
+  "location": "payson",
+  "title": "AI consulting in Payson, AZ | Creosote Labs",
+  "meta_description": "Creosote Labs provides AI consulting for businesses in Payson and Rim Country: a one-day operations review, tool setup, and staff training.",
+  "h1": "AI consulting in Payson",
+  "intro": [
+    "Businesses in Payson include medical practices, contractors, retail stores, and the cabins, restaurants, and guide services that serve visitors to Rim Country. Many of them operate on a familiar set of tools: Microsoft 365 or Google Workspace for email and documents, QuickBooks for the books, and a trade or practice management system for the day's work. AI consulting applies wherever staff spend time writing, summarizing, or re-entering information that already exists somewhere else in the business.",
+    "Creosote Labs serves businesses in Payson and the surrounding Rim Country communities. An engagement starts with a one-day operations review at $3,000, which produces a written assessment and a quote for each recommendation. From there we set up the AI tools a business already has access to, such as Microsoft 365 Copilot, Google Gemini, or Claude, with its own documents and templates, automate document preparation and customer communication, and train staff on their actual work. Team training is $1,000 per person."
+  ],
+  "projects": [
+    "A review of a medical practice's front-desk workflow that identifies where drafting referral letters and patient correspondence can be automated within Microsoft 365 Copilot.",
+    "A setup that drafts estimates and follow-up emails for a contractor from job notes, using the company's own templates.",
+    "An assistant for a retail store that writes product descriptions and answers common customer emails in the store's voice.",
+    "A reporting routine for a hotel or cabin rental that summarizes weekly guest reviews and booking notes for the owner.",
+    "A written guide for office staff covering the prompts and templates they use, so new hires can follow the same process."
+  ],
+  "faqs": [
+    {
+      "q": "Does the operations review take place in Payson?",
+      "a": "Yes, the operations review is one day on site with the team. We travel to Payson for it, and the written assessment and quotes are delivered within the week."
+    },
+    {
+      "q": "What does AI consulting cost?",
+      "a": "The operations review is $3,000, credited toward implementation that begins within 90 days. Implementation is quoted from the review, and team training is $1,000 per person."
+    },
+    {
+      "q": "Which AI tool will the business use?",
+      "a": "We use the one the business already has access to, such as Microsoft 365 Copilot, Google Gemini, or Claude, and load it with the company's own documents and templates. No new platform is introduced."
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "ai-training",
+  "segment": "salons-and-spas",
+  "location": null,
+  "title": "AI training for salon and spa teams | Creosote Labs",
+  "meta_description": "One-day AI training for salon and spa staff, on the team's own booking platform, service menu, and client messages. $1,000 per person, 5-person minimum.",
+  "h1": "Team AI training for salons and spas",
+  "intro": [
+    "Front desk staff, salon managers, and owners spend part of every day writing: confirmation and rebooking texts, replies to reviews, social media captions, promotion emails, product descriptions, and answers to the same pricing and policy questions. Many salons and spas already have access to an AI tool through Google Workspace, Microsoft 365, or a standalone account and use it occasionally. Team AI training applies to the writing, sorting, and summarizing work that surrounds the booking platform rather than to the appointments themselves.",
+    "Creosote Labs delivers a one-day, hands-on workshop, on site or remote, in the AI tool the salon already uses. Each participant works on their own computer with the salon's actual service menu, policies, review history, and message templates, produces real work during the session, and documents their own process. The team leaves with a working setup and a written guide, and a 30-day follow-up session is included."
+  ],
+  "projects": [
+    "A set of reply templates for common Google and Yelp reviews, written from the salon's own tone and policies during the session.",
+    "A rebooking and lapsed-client message process the front desk can run from a client list export each week.",
+    "A monthly promotion calendar with drafted emails and captions built from the service menu and seasonal specials.",
+    "A policy answer sheet for cancellations, deposits, and late arrivals that staff use to respond consistently.",
+    "Product and retail descriptions written from the distributor's catalog for the salon's shelf and online store."
+  ],
+  "faqs": [
+    {
+      "q": "How much does training cost for a salon team?",
+      "a": "Training costs $1,000 per person for up to 10 people, with a 5-person minimum. Larger teams are quoted, and travel is included. A program with 3 monthly follow-up sessions is $1,400 per person."
+    },
+    {
+      "q": "Does the training cover the booking platform?",
+      "a": "The workshop runs in the AI tool the salon already uses, such as Google Gemini, Microsoft 365 Copilot, or Claude. Participants use exports and documents from their booking platform as working material, but the day is not a booking software class."
+    },
+    {
+      "q": "What should participants bring?",
+      "a": "Participants bring their own computer, login access to the AI tool the business uses, and real material to work with, such as the service menu, recent reviews, and current message templates. The written guide is produced from what they build that day."
+    }
+  ]
+}

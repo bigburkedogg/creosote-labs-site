@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "ai-consulting",
+  "segment": "hotels-and-inns",
+  "location": null,
+  "title": "AI consulting for hotels and inns | Creosote Labs",
+  "meta_description": "AI consulting for hotels and inns: guest message drafting, group proposals, review summaries, and reports, starting with a $3,000 operations review.",
+  "h1": "AI consulting for hotels and inns",
+  "intro": [
+    "Many hotels and inns run on a property management system such as Cloudbeds, Little Hotelier, or innRoad, with a channel manager pushing rates and availability to Booking.com, Expedia, and Airbnb. Around that core sit guest emails, group and event inquiries, housekeeping checklists, maintenance logs, and QuickBooks for the books. AI consulting applies to the writing and reading work that surrounds those systems: answering guest questions, preparing confirmations and group proposals, summarizing reviews, and pulling occupancy and revenue figures into a report the owner can read.",
+    "Creosote Labs begins with a one-day operations review at the property. We document how reservations, guest communication, housekeeping, and reporting currently work, then deliver a written assessment with a quote for each recommendation. Implementation typically means setting up the AI tool the property already has access to, such as Google Gemini, Microsoft 365 Copilot, or Claude, with its own confirmation templates, policies, and rate sheets, and training front desk and management staff to use it on their own work."
+  ],
+  "projects": [
+    "A guest inquiry assistant that drafts replies to email and booking-platform messages from the property's own policies, room descriptions, and rate sheet.",
+    "A group and event proposal generator that produces a room block quote and a proposal letter from a short inquiry form.",
+    "A review summary that reads new Google, TripAdvisor, and Booking.com reviews each week and reports recurring complaints and compliments by department.",
+    "A monthly owner report that pulls occupancy, average daily rate, and revenue from the property management system export and writes the narrative.",
+    "A written guide for front desk staff covering which guest messages the AI tool may draft and which require a manager."
+  ],
+  "faqs": [
+    {
+      "q": "What does the operations review cover at a hotel?",
+      "a": "The review is one day at the property. We document how reservations, guest messages, housekeeping, and owner reporting currently run, and deliver a written assessment with a quote for each recommendation within the week. The $3,000 fee is credited toward implementation that begins within 90 days."
+    },
+    {
+      "q": "Do guest records leave our property management system?",
+      "a": "The AI tools are set up alongside the property management system rather than replacing it. Exports and templates are used for reporting and drafting, and the written guide records what guest information staff may and may not put into the tool."
+    },
+    {
+      "q": "How is training priced for our staff?",
+      "a": "Team training is $1,000 per person, delivered on the property's own tools and documents. Each participant leaves with a working setup and a written guide."
+    }
+  ]
+}

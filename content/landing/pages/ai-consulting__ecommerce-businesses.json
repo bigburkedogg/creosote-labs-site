@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "ai-consulting",
+  "segment": "ecommerce-businesses",
+  "location": null,
+  "title": "AI consulting for e-commerce businesses | Creosote Labs",
+  "meta_description": "Creosote Labs assesses where AI tools fit in an e-commerce business, sets them up with the product catalog and brand voice, and trains staff to use them.",
+  "h1": "AI consulting for e-commerce businesses",
+  "intro": [
+    "Many e-commerce businesses run on Shopify, WooCommerce, or BigCommerce for the storefront, Amazon Seller Central for marketplace sales, ShipStation for fulfillment, Klaviyo for email, and QuickBooks for the books. The daily work between those tools is mostly writing and reading: product descriptions, customer service replies, supplier emails, return decisions, and weekly sales summaries. AI consulting applies to that writing and reading work, and to the reporting that pulls numbers from several tools into one view for the owner.",
+    "Creosote Labs starts with a one-day operations review of how orders, support, and product content move through the business. The written assessment names the tasks where an AI tool saves time and quotes each recommendation. We then set up the tool the business already pays for, such as Claude, Google Gemini, or Microsoft 365 Copilot, with its product catalog, brand voice notes, and return policy, and train staff to use it on their own work."
+  ],
+  "projects": [
+    "A product description workflow that drafts Shopify and Amazon listings from a supplier spec sheet and the brand's style guide.",
+    "A customer service assistant that drafts replies to order status, return, and exchange tickets using the store's actual policies.",
+    "A weekly sales and ad-spend summary assembled from Shopify, Amazon Seller Central, and Meta Ads exports into a short written report.",
+    "A review response process that reads new product reviews and drafts replies for a staff member to approve.",
+    "A supplier correspondence setup that turns purchase order changes and shipping delays into consistent, ready-to-send emails."
+  ],
+  "faqs": [
+    {
+      "q": "Do we have to give Creosote Labs access to our Shopify store and customer data?",
+      "a": "The operations review only requires the assessment day and access to the documents and processes the team already uses. Implementation needs access to the specific tools involved in each recommendation, which is agreed in the quote."
+    },
+    {
+      "q": "Which AI tool will we end up using?",
+      "a": "We set up the tool the business already has access to, such as Claude, Google Gemini, or Microsoft 365 Copilot, rather than adding a new subscription."
+    },
+    {
+      "q": "How is AI consulting priced?",
+      "a": "Engagements begin with a one-day operations review at $3,000, which produces a written assessment and a quote for each recommendation. Implementation is quoted from the review, and team training is $1,000 per person."
+    }
+  ]
+}

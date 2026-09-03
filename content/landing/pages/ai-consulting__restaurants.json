@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "ai-consulting",
+  "segment": "restaurants",
+  "location": null,
+  "title": "AI consulting for restaurants | Creosote Labs",
+  "meta_description": "AI consulting for restaurants: a one-day operations review, AI tools set up on the restaurant's own menus and templates, and staff training. Review $3,000.",
+  "h1": "AI consulting for restaurants",
+  "intro": [
+    "Many restaurants run on a point-of-sale system such as Toast, Square for Restaurants, or Clover, with scheduling in 7shifts or HotSchedules, reservations in OpenTable or Resy, and bookkeeping in QuickBooks. Around those tools sits a good deal of writing and paperwork: menu descriptions, daily specials, catering quotes, vendor emails, job postings, review responses, and staff memos. That writing is where AI tools such as Claude, Google Gemini, or Microsoft 365 Copilot apply first, because it is repetitive and follows patterns the restaurant already has.",
+    "Creosote Labs starts with a one-day operations review at the restaurant. We document how orders, scheduling, purchasing, and communication currently work, then deliver a written assessment with a quote for each recommendation. Implementation typically means setting up the AI tool the restaurant already has access to with its own menus, recipes, and templates, automating tasks such as review responses and catering follow-up, and training managers on that setup with a written guide."
+  ],
+  "projects": [
+    "A review-response assistant that drafts replies to Google and Yelp reviews in the restaurant's voice for a manager to approve.",
+    "A catering quote template that turns an inquiry email into a priced proposal using the restaurant's own catering menu.",
+    "A menu-writing setup that produces item descriptions, allergen notes, and specials board copy from the recipe list.",
+    "A weekly manager report drawn from Toast sales exports, summarizing covers, labor, and top-selling items.",
+    "A hiring workflow that drafts job postings, screens applications against the role, and schedules interviews."
+  ],
+  "faqs": [
+    {
+      "q": "What does the operations review cost and what does it include?",
+      "a": "The operations review is $3,000 for one day on site. The restaurant receives a written assessment, prioritized recommendations, and a quote for each recommendation within the week. The fee is credited toward implementation that begins within 90 days."
+    },
+    {
+      "q": "Does the restaurant need to buy new software?",
+      "a": "In most cases it does not. We set up the AI tool the business already has access to, such as Google Gemini, Microsoft 365 Copilot, or Claude, using the restaurant's own menus and templates."
+    },
+    {
+      "q": "Can managers be trained on the setup once it is built?",
+      "a": "Yes, managers can be trained once the setup is in place. Team training is $1,000 per person and includes a written guide for the team."
+    }
+  ]
+}

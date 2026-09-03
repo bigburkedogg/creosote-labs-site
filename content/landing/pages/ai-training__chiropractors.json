@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "ai-training",
+  "segment": "chiropractors",
+  "location": null,
+  "title": "AI training for chiropractic office staff | Creosote Labs",
+  "meta_description": "A one-day, hands-on AI workshop for chiropractic office staff, run on the practice's own documents and tools. $1,000 per person, 5-person minimum.",
+  "h1": "Team AI training for chiropractic offices",
+  "intro": [
+    "Staff at a chiropractic office often spend much of the day producing written material: new-patient welcome emails, care plan explanations, insurance appeal letters, personal injury narratives, records request responses, and social posts for the practice. Most of that work is done in Word, Google Docs, Gmail, or Outlook alongside ChiroTouch or Jane App. Team AI training teaches the front desk, billing staff, and doctors to do that writing faster with the AI tool the office already has.",
+    "The workshop is 1 day, on site or remote, in Microsoft 365 Copilot, Google Gemini, or Claude. Each participant works on their own computer with the practice's actual templates: the billing coordinator drafts an appeal from a real denial, the front desk writes reminder and reactivation messages, and the doctor turns exam notes into a patient-friendly report. Everyone documents their own process, the team receives a written guide, and a 30-day follow-up session is included."
+  ],
+  "projects": [
+    "An insurance appeal letter template the billing coordinator can regenerate from any denial code and the patient's visit history.",
+    "A set of reusable prompts that produce welcome, reminder, and missed-appointment messages in the office's tone.",
+    "A process for converting the doctor's exam and re-exam notes into a plain-language care plan summary for the patient.",
+    "A records request workflow that drafts the cover letter and itemizes the documents being sent.",
+    "A monthly newsletter and social post routine built from the practice's own content calendar."
+  ],
+  "faqs": [
+    {
+      "q": "Which AI tool is the training delivered in?",
+      "a": "Whichever one the office already uses or has access to, such as Microsoft 365 Copilot, Google Gemini, or Claude. A new subscription is not required."
+    },
+    {
+      "q": "Is patient information used during the session?",
+      "a": "Participants work with the office's own templates and documents. Which records are appropriate for the tool is decided with the office before the session, and the written guide records that policy for staff."
+    },
+    {
+      "q": "What does training cost and how many people can attend?",
+      "a": "$1,000 per person for up to 10 people, with a 5-person minimum. Larger teams are quoted and travel is included. A program with 3 monthly follow-up sessions costs $1,400 per person."
+    }
+  ]
+}

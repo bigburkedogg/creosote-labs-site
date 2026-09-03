@@ -1,0 +1,35 @@
+{
+  "kind": "service-segment",
+  "service": "website-development",
+  "segment": "retail-stores",
+  "location": null,
+  "title": "Retail store websites and web apps | Creosote Labs",
+  "meta_description": "Creosote Labs builds websites, special order forms, class bookings, and in-store pickup tools for retail stores. Fixed price, quoted after a scoping call.",
+  "h1": "Websites and web applications for retail stores",
+  "intro": [
+    "A retail store's website is often a Shopify, Squarespace, or Wix storefront set up during a busy season and updated rarely since, with hours, an events page, and a product catalog that drifts out of sync with what is on the shelves. Some stores also take special orders, gift registries, layaway, repairs, or class signups over the phone and track them in a notebook or a shared inbox. Website and web application development covers both the public site and those customer-facing processes.",
+    "We build marketing sites that state what the store sells, where it is, when it is open, and how to reach it, with an inventory feed from the point of sale where one is available. For stores that need more, we build the tools customers use directly: a special order request form, a class or event booking page, a repair drop-off intake, or a local delivery scheduler. Hosting setup, domain configuration, and handover with documentation are part of every project."
+  ],
+  "projects": [
+    "A store website with hours, location, brands carried, and a contact form, connected to the store's Google Business Profile.",
+    "A special order request page that captures the item, quantity, and deposit and creates a ticket staff can update as the order ships.",
+    "A class and workshop booking page with capacity limits, prepayment through Square or Stripe, and automatic reminder emails.",
+    "A repair and alterations intake form that prints a claim ticket and texts the customer when the item is ready.",
+    "A buy-online, pick-up-in-store flow that draws live stock levels from the point of sale so customers see what is on hand.",
+    "A gift registry customers can share, with items marked purchased as they sell at the register."
+  ],
+  "faqs": [
+    {
+      "q": "How are website projects priced?",
+      "a": "Website and application projects are quoted after a scoping call at a fixed price, with no hourly billing. Hosting setup and domain configuration are included."
+    },
+    {
+      "q": "Can the site show what we have in stock?",
+      "a": "It can when the point-of-sale system offers an export or API. Square, Shopify, and Lightspeed all do, and the site can read stock levels from them so customers see current availability."
+    },
+    {
+      "q": "What do we need to provide before work starts?",
+      "a": "Before work starts we need access to the current domain and any existing site, photos and product information, the store's logo and colors, and a decision on which processes, such as special orders or class bookings, the site should handle."
+    }
+  ]
+}

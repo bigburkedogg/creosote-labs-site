@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "ai-consulting",
+  "segment": "breweries",
+  "location": null,
+  "title": "AI consulting for breweries and taprooms | Creosote Labs",
+  "meta_description": "AI consulting for breweries and taprooms. We assess where AI tools fit, set them up on the brewery's own documents, and train staff. Reviews are $3,000.",
+  "h1": "AI consulting for breweries and taprooms",
+  "intro": [
+    "Many breweries run production in a brewery management platform such as Ekos or Ollie, sell across the bar through a taproom point of sale such as Arryved, Toast, or Square, and keep the books in QuickBooks. Around those systems sit the documents the business writes by hand: brew sheets, keg and inventory counts, distributor order forms, the monthly TTB Brewer's Report of Operations, state excise filings, tap lists, and event contracts. AI consulting applies to that written and repeated work.",
+    "Creosote Labs starts with a one-day operations review at the brewery. We document how beer moves from the brewhouse to the tap list, the distributor, and the books, then deliver a written assessment with a quote for each recommendation. Implementation usually means setting up the AI tool the brewery already has access to, such as Google Gemini, Microsoft 365 Copilot, or Claude, with its own recipes, price sheets, and templates, and training staff on that setup."
+  ],
+  "projects": [
+    "An assistant that drafts beer descriptions for the tap list, menu, and Untappd from the brewer's recipe notes.",
+    "A setup that reads distributor sales reports and produces a monthly summary by account and SKU.",
+    "A prompt library for taproom managers that turns an event inquiry into a quote and a private event contract.",
+    "A document assistant that pulls monthly production, removals, and inventory figures into a draft TTB Brewer's Report of Operations for review before filing.",
+    "A written guide for bar staff on answering common customer emails about tours, growler fills, and merchandise."
+  ],
+  "faqs": [
+    {
+      "q": "What does a brewery need to have ready for the operations review?",
+      "a": "The brewery should arrange access to the systems in use, such as the point of sale, brewery management software, and QuickBooks, plus examples of the documents the team produces each week. The review is one day on site, and the written assessment follows within the week."
+    },
+    {
+      "q": "Does the brewery need to buy new AI software?",
+      "a": "Usually not, since we set up the tool the business already has access to, such as Google Gemini, Microsoft 365 Copilot, or Claude, with the brewery's own documents and templates."
+    },
+    {
+      "q": "How is AI consulting priced?",
+      "a": "The operations review is $3,000 and produces a written assessment with a quote for each recommendation. Implementation is quoted from the review, and team training is $1,000 per person."
+    }
+  ]
+}

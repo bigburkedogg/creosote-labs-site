@@ -1,0 +1,34 @@
+{
+  "kind": "service-location",
+  "service": "ai-training",
+  "segment": null,
+  "location": "scottsdale",
+  "title": "Team AI training in Scottsdale, AZ | Creosote Labs",
+  "meta_description": "Creosote Labs runs a one-day, hands-on AI workshop for Scottsdale teams on the company's own tools and documents. $1,000 per person, 5-person minimum.",
+  "h1": "Team AI training in Scottsdale",
+  "intro": [
+    "Teams at Scottsdale financial firms, insurance agencies, medical and dental practices, real estate offices, and hospitality companies often already have an AI tool available through Microsoft 365 Copilot, Google Gemini, or a ChatGPT or Claude subscription. Usage often stops at occasional email drafting when staff have not been shown how to apply the tool to the specific documents they produce every week: client reviews, policy summaries, treatment plans, listing descriptions, group proposals, and internal reports.",
+    "Creosote Labs delivers team AI training in Scottsdale as a single day, on site or remote, in the tool the company already uses. Participants work on their own computers with their own files, so a claims processor practices on real claims and an office manager practices on the actual patient recall letters. Each person produces finished work during the session and writes down their own process. The day includes a written guide for the team and a 30-day follow-up session."
+  ],
+  "projects": [
+    "A Copilot session for a wealth management team that produces client review summaries and meeting prep notes from the firm's own account data and templates.",
+    "A workshop for an insurance agency's service staff on drafting policy comparison summaries and renewal letters from carrier documents.",
+    "A session for a medical practice's front office on writing recall letters, prior authorization requests, and patient instructions in the practice's voice.",
+    "A training day for a resort sales team on turning event inquiries into group proposals and banquet event orders.",
+    "A session for a real estate brokerage's agents on listing descriptions, buyer follow-up, and transaction summaries from MLS data."
+  ],
+  "faqs": [
+    {
+      "q": "How much does team AI training cost?",
+      "a": "Training is $1,000 per person for up to 10 people, with a 5-person minimum. Larger teams are quoted, and travel is included. A program with 3 monthly follow-up sessions is $1,400 per person."
+    },
+    {
+      "q": "What does each participant need to bring?",
+      "a": "Each participant brings a computer with access to the AI tool the company already uses and a handful of real documents from their own work, such as a proposal, a client letter, or a weekly report. The session is built on those files."
+    },
+    {
+      "q": "What happens after the training day?",
+      "a": "Every participant leaves with a working setup and a written guide for the team. A 30-day follow-up session is included, and the 3-month program adds monthly sessions."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "kind": "service-segment",
+  "service": "systems-and-automation",
+  "segment": "electricians",
+  "location": null,
+  "title": "Systems and automation for electricians | Creosote Labs",
+  "meta_description": "Creosote Labs consolidates an electrical contractor's spreadsheets and disconnected tools into one system and automates quoting, tracking, and billing.",
+  "h1": "Systems and automation for electrical contractors",
+  "intro": [
+    "An electrical contracting company typically keeps its work in several places at once: a dispatch board in Housecall Pro or Jobber, a job costing spreadsheet in Excel, a truck inventory list in Google Sheets, and invoices in QuickBooks. Material orders, subcontractor hours, and inspection dates get retyped between them. Systems and automation applies wherever the same job, customer, or panel gets entered more than once, and wherever a report takes an afternoon to assemble from those separate files.",
+    "Creosote Labs consolidates those files into a single system of record for jobs, materials, and billing, then builds the internal tools the office needs on top of it: a quoting screen, a job status board, a materials log tied to each work order. Repetitive steps such as sending the invoice when a job closes or reminding the customer about an inspection window are automated. We document the system, train the staff who will run it, and hand it over."
+  ],
+  "projects": [
+    "A quoting tool that builds a fixed-price estimate from a panel upgrade or service call checklist, using the company's own labor rates and material costs.",
+    "A job board that shows every open work order by stage, from estimate approved through rough-in, inspection, and final invoice.",
+    "A materials log that records what each truck used on a job and posts the cost to that job in QuickBooks.",
+    "An automated follow-up that sends the invoice and a payment link the day a job is marked complete.",
+    "A job costing report that replaces the Excel workbook, comparing quoted hours and materials to actuals on every job.",
+    "A staff manual for the new system, written for the dispatcher and office manager who will run it day to day."
+  ],
+  "faqs": [
+    {
+      "q": "Do we have to leave Housecall Pro or ServiceTitan?",
+      "a": "That is not required. The operations review documents what each tool currently does, and a recommendation can keep the field software in place while replacing the spreadsheets around it."
+    },
+    {
+      "q": "What happens to the data in our existing spreadsheets?",
+      "a": "It is migrated into the new system as part of implementation. Job history, customer records, and price lists carry over so the office is not starting from an empty screen."
+    },
+    {
+      "q": "How is this priced?",
+      "a": "The first step is a one-day operations review at $3,000. It produces a written assessment with a quote for each recommendation, and implementation is then quoted from the review at a fixed price with no hourly billing."
+    }
+  ]
+}

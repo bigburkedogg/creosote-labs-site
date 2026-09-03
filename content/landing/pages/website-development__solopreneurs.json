@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "website-development",
+  "segment": "solopreneurs",
+  "location": null,
+  "title": "Website development for solopreneurs | Creosote Labs",
+  "meta_description": "Creosote Labs builds marketing sites, booking pages, and client portals for independent professionals. Fixed price, quoted after a scoping call.",
+  "h1": "Website and web application development for independent professionals",
+  "intro": [
+    "Most one-person businesses start with a site built on Squarespace, Wix, or WordPress, often by the owner over a weekend. It lists services and a contact form, and the actual work of booking, collecting intake information, and sending files still happens over email. Independent professionals such as consultants, coaches, designers, therapists in private practice, and freelance writers often need the site to do more: show pricing plainly, let a prospect book directly, and collect the information needed before a first session.",
+    "Creosote Labs builds the marketing site and the tools behind it as one project. The site states what the business offers, what it costs, and how to book, and the booking or quote request feeds directly into the owner's calendar and client records. Where a business needs more, such as a client portal for sharing documents or a questionnaire that produces a proposal, we build it as a web application. Projects are quoted after a scoping call at a fixed price, with hosting, domain setup, and documentation included."
+  ],
+  "projects": [
+    "A services site with published pricing and a booking page connected to the owner's Google Calendar.",
+    "A client intake form that collects the details needed before a first session and files them with the client record.",
+    "A client portal where each client can see their schedule, download deliverables, and pay invoices.",
+    "A quote request page that asks a short set of questions and returns a fixed-price estimate by email.",
+    "A migration from an existing Squarespace or Wix site to a faster site the owner can update without a developer."
+  ],
+  "faqs": [
+    {
+      "q": "How is a website project priced?",
+      "a": "Every website and application project is quoted after a scoping call, at a fixed price. There is no hourly billing, and hosting setup and domain configuration are part of the quote."
+    },
+    {
+      "q": "Can the owner update the site without calling a developer?",
+      "a": "Yes. Text, pricing, and service listings are set up so the owner can edit them directly, and the handover includes written documentation for doing so."
+    },
+    {
+      "q": "What does the owner need to provide to get started?",
+      "a": "The owner provides a list of services with prices, any existing logo or photography, and access to the current domain registrar. Copy can be drafted from the scoping call if the business does not have it written."
+    }
+  ]
+}

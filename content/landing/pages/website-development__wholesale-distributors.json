@@ -1,0 +1,35 @@
+{
+  "kind": "service-segment",
+  "service": "website-development",
+  "segment": "wholesale-distributors",
+  "location": null,
+  "title": "Distributor websites and B2B portals | Creosote Labs",
+  "meta_description": "Creosote Labs builds distributor websites, B2B ordering portals, and online dealer applications with current pricing and stock, quoted at a fixed price.",
+  "h1": "Websites and B2B portals for wholesale distributors",
+  "intro": [
+    "Many wholesale distributors have a marketing site that lists product lines and a phone number, while customers still order by email or through a sales rep. Catalogs are published as PDF price sheets, dealer applications and credit forms are printed and faxed back, and stock availability is confirmed by phone. Some distributors run a B2B storefront on Shopify or a wholesale ordering add-on, though it is often not connected to the pricing and inventory held in QuickBooks or NetSuite.",
+    "Creosote Labs builds the public site and the customer-facing tools behind it. That can be a marketing site with product lines, territories served, and a way to request an account, or a B2B ordering portal where approved customers see their own pricing, check stock, reorder from past orders, and download invoices. Dealer applications and credit forms become online intake that lands in the right inbox. Hosting, domain setup, and documentation are included, and every project is quoted at a fixed price after a scoping call."
+  ],
+  "projects": [
+    "A B2B ordering portal where account customers log in, see their contract pricing, and place orders that post to the accounting system.",
+    "A searchable online catalog that replaces the PDF price sheet and shows current stock by SKU.",
+    "An online dealer application and credit form that replaces the faxed packet.",
+    "A reorder page built from each customer's order history.",
+    "A marketing site with product lines, territories served, and a request-an-account form.",
+    "An invoice and statement download area for customers' accounts payable staff."
+  ],
+  "faqs": [
+    {
+      "q": "Can the portal show customer-specific pricing?",
+      "a": "Yes. Pricing tiers and contract prices are read from the accounting or inventory system, so each logged-in customer sees the prices they are set up for."
+    },
+    {
+      "q": "What do we need to provide?",
+      "a": "The business provides product data, current pricing, logo and brand materials, access to the domain registrar, and a person who can answer questions about how orders are approved. We handle hosting and domain configuration."
+    },
+    {
+      "q": "How is a website or portal priced?",
+      "a": "A website or portal is quoted at a fixed price after a scoping call. There is no hourly billing, and hosting and domain setup are part of the quote."
+    }
+  ]
+}

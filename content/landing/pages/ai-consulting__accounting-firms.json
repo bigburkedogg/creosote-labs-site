@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "ai-consulting",
+  "segment": "accounting-firms",
+  "location": null,
+  "title": "AI consulting for accounting firms · Creosote Labs",
+  "meta_description": "Creosote Labs assesses where AI tools fit in an accounting firm, sets them up on the firm's own documents, and trains staff. The review is $3,000.",
+  "h1": "AI consulting for accounting and bookkeeping firms",
+  "intro": [
+    "Many accounting and bookkeeping firms run on QuickBooks Online or Xero for client books, a tax package such as Drake, Lacerte, or UltraTax, and a practice management tool like Karbon, Canopy, or TaxDome to track deadlines and client requests. Around those sit Outlook, Excel, and a portal such as SmartVault or ShareFile. AI consulting applies to the work that happens between these systems: drafting client emails, summarizing documents, writing engagement letters, and preparing recurring reports.",
+    "Creosote Labs starts with a one-day operations review of the firm: how work comes in, how it moves through the practice management system, and where staff retype or rewrite the same material. The written assessment names the specific tasks where an AI tool the firm already licenses, such as Microsoft 365 Copilot or Claude, can produce the first draft. We then set the tool up with the firm's own templates, engagement letters, and client correspondence, and train staff to use it."
+  ],
+  "projects": [
+    "A Copilot setup that drafts client status emails from the open items list in Karbon or TaxDome.",
+    "A document summary workflow that reads uploaded bank statements and notices and produces a first pass of notes for the preparer.",
+    "Engagement letter and proposal drafting from the firm's standard templates, with the fee schedule carried over from the prior year.",
+    "A monthly close narrative generated from QuickBooks Online reports for the bookkeeping team to review before sending.",
+    "IRS and state notice responses drafted from the notice text and the client file, for a CPA to edit and sign."
+  ],
+  "faqs": [
+    {
+      "q": "Does the firm need to buy new AI software?",
+      "a": "Not in most cases. We set up the tools the firm already has access to, such as Microsoft 365 Copilot, Google Gemini, or Claude, with the firm's own documents and templates. If a purchase is needed, it appears as a line item in the written assessment."
+    },
+    {
+      "q": "How is client data handled during the review?",
+      "a": "The review documents processes, not client files. Where a recommendation involves client records, the assessment states which tool would hold the data and under which account, so the firm can check it against its confidentiality obligations before anything is implemented."
+    },
+    {
+      "q": "What does AI consulting cost?",
+      "a": "The one-day operations review is $3,000. It produces a written assessment with a quote for each recommendation, implementation is quoted from those recommendations, and team training is $1,000 per person."
+    }
+  ]
+}

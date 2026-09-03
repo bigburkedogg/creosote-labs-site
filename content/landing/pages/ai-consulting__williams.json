@@ -1,0 +1,34 @@
+{
+  "kind": "service-location",
+  "service": "ai-consulting",
+  "segment": null,
+  "location": "williams",
+  "title": "AI consulting in Williams, Arizona | Creosote Labs",
+  "meta_description": "AI consulting for businesses in Williams, Arizona. A one-day operations review at $3,000, implementation quoted from the review, and staff training.",
+  "h1": "AI consulting in Williams",
+  "intro": [
+    "Williams sits on Route 66 about an hour south of the Grand Canyon, and much of its business is built around visitors: hotels and motels, restaurants, tour operators, and shops along the historic downtown. Many of these businesses run on a booking engine or property management system, a point-of-sale system such as Toast or Square, QuickBooks for the books, and a shared inbox for guest questions. AI consulting applies wherever staff spend time writing, summarizing, or re-entering the same information by hand.",
+    "Creosote Labs serves businesses in Williams and across Northern Arizona. The first step is a one-day operations review, priced at $3,000. We document how the business currently runs, identify where an AI tool saves time, and deliver a written assessment with a quote for each recommendation. Implementation is quoted from that review. Typical work includes setting up Microsoft 365 Copilot, Google Gemini, or Claude with the company's own documents and templates, automating guest correspondence and reporting, and training staff on their own work with a written guide."
+  ],
+  "projects": [
+    "A guest-inquiry assistant that drafts replies to booking and availability emails from a hotel's own rate sheet and policies.",
+    "A daily sales summary for a restaurant, generated from Toast or Square exports and sent to the owner each morning.",
+    "A tour operator's confirmation and waiver packet, produced from a booking record instead of assembled by hand.",
+    "A set of Copilot or Gemini templates for a retail shop's vendor emails, product descriptions, and seasonal announcements.",
+    "A monthly reporting routine that pulls QuickBooks figures into a short written summary for a seasonal business owner."
+  ],
+  "faqs": [
+    {
+      "q": "What does the operations review cost and what does it produce?",
+      "a": "The review is $3,000 for one day on site. It produces a written assessment, prioritized recommendations, and a quote for each item, delivered within the week. The fee is credited toward implementation that begins within 90 days."
+    },
+    {
+      "q": "Does a Williams business need to buy new software first?",
+      "a": "No. We work in the tools the business already has access to, such as Microsoft 365 Copilot, Google Gemini, or Claude, and set them up with the company's own documents and templates."
+    },
+    {
+      "q": "How is the work priced after the review?",
+      "a": "Implementation is quoted from the review as a fixed price, with no hourly billing. Team training is $1,000 per person."
+    }
+  ]
+}

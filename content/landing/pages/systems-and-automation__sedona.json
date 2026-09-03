@@ -1,0 +1,35 @@
+{
+  "kind": "service-location",
+  "service": "systems-and-automation",
+  "segment": null,
+  "location": "sedona",
+  "title": "Systems and automation in Sedona, AZ | Creosote Labs",
+  "meta_description": "Creosote Labs consolidates spreadsheets and disconnected tools for Sedona businesses into one system and automates repetitive work. Review at $3,000.",
+  "h1": "Systems and automation in Sedona",
+  "intro": [
+    "Tour operators, lodging properties, restaurants, galleries, and property managers are common in Sedona, and many of them keep records in several places at once. A typical setup is a reservation platform, QuickBooks, a shared inbox, and a set of Excel or Google Sheets files for schedules, inventory, vendor lists, and commissions. Systems and automation work applies when the same information is typed into more than one of those places by hand.",
+    "Creosote Labs works with businesses in Sedona and across Northern Arizona. The first step is a one-day operations review at $3,000, which produces a written assessment and a quoted recommendation for each item. From there we consolidate the spreadsheets and disconnected tools into one system of record, build the internal tools the business needs for scheduling, quoting, tracking, and reporting, automate the repetitive entry and follow-up, and document everything before handing it to staff."
+  ],
+  "projects": [
+    "A trip-scheduling board for a jeep or hiking tour company that assigns guides and vehicles and replaces a shared spreadsheet.",
+    "A gallery inventory system that tracks consignment pieces, artist commissions, and sales in one place instead of a binder and a spreadsheet.",
+    "A vendor and maintenance work order tracker for an inn that logs requests, assigns them, and records completion.",
+    "An automated owner statement for a vacation rental manager built from booking and expense data.",
+    "A wedding and event booking pipeline that moves inquiries from the website into a tracker with automatic follow-up.",
+    "A guide payroll and tip reconciliation tool for a tour operator that reads the trip schedule and produces the figures the bookkeeper enters into QuickBooks."
+  ],
+  "faqs": [
+    {
+      "q": "Do we have to replace QuickBooks or our reservation software?",
+      "a": "No. Consolidation usually means connecting the tools that work and replacing the spreadsheets and manual steps between them. The review identifies which is which."
+    },
+    {
+      "q": "How long does the review take and what do we get?",
+      "a": "The operations review is one day on site. Within the week the business receives a written assessment, prioritized recommendations, and a quote for each one."
+    },
+    {
+      "q": "What does implementation cost?",
+      "a": "Implementation is quoted from the review, as a fixed price for each recommendation. There is no hourly billing, and the $3,000 review fee is credited toward implementation that begins within 90 days."
+    }
+  ]
+}

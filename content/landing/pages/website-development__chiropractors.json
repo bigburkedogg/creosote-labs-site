@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "website-development",
+  "segment": "chiropractors",
+  "location": null,
+  "title": "Websites for chiropractic offices | Creosote Labs",
+  "meta_description": "Creosote Labs builds websites, online intake, and booking tools for chiropractic offices. Fixed price, quoted after a scoping call.",
+  "h1": "Website and web application development for chiropractic offices",
+  "intro": [
+    "Chiropractic office websites usually need to do 3 things: explain the conditions the doctor treats, make it easy to book a first appointment, and get new-patient paperwork completed before the visit. Many offices have a site built years ago on WordPress or Wix, with online scheduling through a widget from Jane App or ChiroTouch and intake forms that are still printed PDFs. Website and web application development covers the site itself and the tools patients use through it.",
+    "We build a marketing site with service pages, insurance and pricing information, and a booking path that connects to the scheduling system the office already runs. Beyond the site, we build the patient-facing tools that replace paper: an online intake form that writes to the patient record, a records request form for attorneys and other providers, and a portal where patients can see their care plan and remaining visits. Hosting, domain setup, and documentation are part of every project."
+  ],
+  "projects": [
+    "A marketing site with pages for each condition and technique, accepted insurance plans, and new-patient pricing, with a book-now button on every page.",
+    "An online new-patient intake form covering history, consent, and insurance card upload, delivered to the front desk before the first visit.",
+    "A booking page that shows the doctor's real availability and confirms the appointment by text.",
+    "A patient portal that displays the current care plan, visits completed, and prepaid visits remaining.",
+    "A records request form for attorneys and referring physicians that logs each request and its due date."
+  ],
+  "faqs": [
+    {
+      "q": "Can the site connect to the scheduler the office already uses?",
+      "a": "Most chiropractic scheduling systems offer an embeddable booking widget or an API. We use what the office's system provides and confirm the integration during the scoping call."
+    },
+    {
+      "q": "What does the office need to provide for a website project?",
+      "a": "Service descriptions, photos of the office and staff, the accepted insurance list, and the current intake paperwork. We handle the writing, structure, hosting, and domain setup."
+    },
+    {
+      "q": "How is a chiropractic website project priced?",
+      "a": "Website and application projects are quoted as a fixed price after a scoping call. There is no hourly billing, and hosting and domain configuration are included in the handover."
+    }
+  ]
+}

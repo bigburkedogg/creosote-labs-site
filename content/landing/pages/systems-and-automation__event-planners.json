@@ -1,0 +1,35 @@
+{
+  "kind": "service-segment",
+  "service": "systems-and-automation",
+  "segment": "event-planners",
+  "location": null,
+  "title": "Systems and automation for event planners",
+  "meta_description": "Creosote Labs consolidates event records, budgets, and vendor payments into one system for planning businesses and automates reminders and documents.",
+  "h1": "Systems and automation for event and wedding planners",
+  "intro": [
+    "Many event planning businesses track each event in several places at once: a booking in Planning Pod or HoneyBook, a budget spreadsheet in Excel, a guest list from the client, a vendor payment schedule in QuickBooks, and a shared calendar for site visits and tastings. When a date or head count changes, each of those records is updated by hand, and the versions drift. Systems and automation applies wherever the same event detail is entered more than once.",
+    "Creosote Labs consolidates those records into one system of record for the business, with each event, its vendors, its payments, and its deadlines in one place. We build the internal tools the team needs, such as a vendor payment tracker or a run-of-show builder, and automate the repetitive steps around them: deposit reminders, contract follow-up, and document generation. The system is documented and handed over to staff at the end of the project."
+  ],
+  "projects": [
+    "One event record that holds the client, venue, vendor list, budget, and payment schedule, replacing a set of spreadsheets.",
+    "A vendor payment tracker that lists every deposit and balance due across upcoming events, with reminders sent before each due date.",
+    "A run-of-show builder that produces the day-of timeline, vendor call sheet, and client copy from a single set of times.",
+    "Automated follow-up on unsigned contracts and unpaid retainers, sent from the business's own email address.",
+    "A monthly report of booked events, revenue by month, and open balances, generated without manual data entry.",
+    "Guest count and floor plan changes recorded once and reflected in the catering order, rental order, and timeline."
+  ],
+  "faqs": [
+    {
+      "q": "Can we keep the tools we already use?",
+      "a": "Where a tool such as HoneyBook or QuickBooks is working, we connect to it rather than replace it. The operations review identifies which records to consolidate and which tools stay in place."
+    },
+    {
+      "q": "How is a systems project priced?",
+      "a": "Engagements begin with a one-day operations review at $3,000, which produces a written assessment and a quote for each recommendation. Implementation is fixed price from that quote, with no hourly billing."
+    },
+    {
+      "q": "What happens to our existing spreadsheets and event history?",
+      "a": "Past events are imported into the new system so the history is available in one place. The spreadsheets remain as an archive, and the team is trained and given documentation on the replacement."
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "ai-consulting",
+  "segment": "real-estate-brokerages",
+  "location": null,
+  "title": "AI consulting for real estate brokerages | Creosote Labs",
+  "meta_description": "Creosote Labs assesses where AI tools fit in a real estate brokerage, sets them up on the office's own forms and files, and trains agents and staff.",
+  "h1": "AI consulting for real estate brokerages",
+  "intro": [
+    "Many real estate brokerages run on a transaction management platform such as SkySlope or dotloop, an MLS feed, a CRM such as Follow Up Boss or kvCORE, and a shared drive of listing agreements, disclosures, and closing packets. Brokers typically review files, staff chase missing signatures, and agents write listing descriptions and client updates by hand. AI tools apply to the writing, summarizing, and checking work that sits between those systems.",
+    "Creosote Labs starts with a one-day operations review at the brokerage office. We document how a file moves from listing agreement to commission disbursement, identify the steps where an AI tool saves time, and deliver a written assessment with a quote for each recommendation. Implementation typically means setting up Microsoft 365 Copilot, Google Gemini, or Claude with the office's own contract templates and checklists, then training agents and staff on that setup with a written guide."
+  ],
+  "projects": [
+    "A file review assistant that reads a transaction folder and lists the missing disclosures and unsigned pages against the brokerage checklist.",
+    "A listing description drafter that works from the MLS input sheet and the office style guide.",
+    "A setup that summarizes inspection reports into a plain-language list of items for the agent to discuss with the client.",
+    "An assessment of which office tasks, from agent onboarding to earnest money tracking, are worth automating and which should stay manual.",
+    "A weekly pipeline summary generated from the CRM for the broker's Monday meeting."
+  ],
+  "faqs": [
+    {
+      "q": "Which AI tool does the office need?",
+      "a": "We set up whichever tool the office already has access to, such as Microsoft 365 Copilot, Google Gemini, or Claude. The choice is made during the operations review based on the accounts and licenses the brokerage already pays for."
+    },
+    {
+      "q": "Where do client files go?",
+      "a": "Client documents stay in the brokerage's own accounts. The tools we set up run under the office's existing subscriptions, and the written assessment records which files are used and where they are stored."
+    },
+    {
+      "q": "How is pricing structured?",
+      "a": "The one-day operations review is $3,000 and results in a written assessment with a fixed quote for every recommendation. Implementation work is priced from that assessment, and training for agents and staff is $1,000 per person."
+    }
+  ]
+}

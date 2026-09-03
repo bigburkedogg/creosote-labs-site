@@ -1,0 +1,35 @@
+{
+  "kind": "service-location",
+  "service": "website-development",
+  "segment": null,
+  "location": "winslow",
+  "title": "Website development in Winslow, AZ | Creosote Labs",
+  "meta_description": "Creosote Labs builds marketing websites, booking and quote tools, and web applications for Winslow businesses at a fixed price quoted after a scoping call.",
+  "h1": "Website and web application development in Winslow",
+  "intro": [
+    "Winslow's motels, restaurants, shops, and tour businesses often depend on being found online by travelers passing through on Interstate 40 or visiting Route 66. Local contractors, medical offices, and service businesses rely on a site mainly to confirm hours, services, and a way to get in touch. Many of these sites were built years ago on Wix, Squarespace, or WordPress and may no longer reflect current hours, prices, or the services the business actually offers.",
+    "Creosote Labs builds marketing websites with clear services, pricing, and a way to book or contact the business, along with customer-facing tools such as quote requests, online bookings, intake forms, and portals. For businesses that run a manual process, we build the web application that replaces it, for staff and customers alike. Hosting setup, domain configuration, and a documented handover are part of every project. Website and application work for Winslow businesses is quoted after a scoping call, at a fixed price with no hourly billing."
+  ],
+  "projects": [
+    "A motel website with current rates, photos of each room type, and a direct booking form that does not depend on a third-party listing.",
+    "A restaurant site with a menu maintained by staff, current hours, and a link for takeout orders through Toast or Square.",
+    "A quote request form for a roofing or HVAC company that collects the address, photos, and job details before the first call.",
+    "A new patient intake form for a medical or dental office that feeds the practice's records instead of a printed clipboard.",
+    "A tour operator's booking page with availability, group size limits, and deposit collection.",
+    "A customer portal for a property manager where tenants submit maintenance requests and view their lease."
+  ],
+  "faqs": [
+    {
+      "q": "What does a website cost?",
+      "a": "Each project is quoted after a scoping call, as a fixed price. There is no hourly billing, and hosting and domain setup are included in the quote."
+    },
+    {
+      "q": "What does the business need to supply?",
+      "a": "A list of services and prices, current photos, the logo if there is one, and access to the existing domain registrar. Text can be drafted from a conversation with the owner if none exists."
+    },
+    {
+      "q": "Can staff update the site themselves after launch?",
+      "a": "Yes. Pages that change often, such as menus, rates, and hours, are built so staff can edit them without a developer, and the handover documentation covers how."
+    }
+  ]
+}

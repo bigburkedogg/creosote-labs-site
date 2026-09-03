@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "ai-consulting",
+  "segment": "churches",
+  "location": null,
+  "title": "AI consulting for churches | Creosote Labs",
+  "meta_description": "Creosote Labs assesses where AI tools fit in a church office, sets them up with the church's own documents, and trains staff. One-day review, $3,000.",
+  "h1": "AI consulting for churches and religious organizations",
+  "intro": [
+    "Many churches run their office on a church management system such as Planning Center, Breeze, or ChurchTrac for members and giving, QuickBooks or Aplos for accounting, and Google Workspace or Microsoft 365 for email and documents. The week's work includes bulletins, sermon notes, newsletters, giving statements, volunteer schedules, and meeting minutes. Much of that is repetitive writing and reformatting that AI tools such as Gemini, Copilot, or Claude can handle once they are set up with the church's own templates.",
+    "Creosote Labs starts with a one-day operations review of the church office. We document how announcements, giving records, and pastoral follow-up currently move between staff and volunteers, then identify where an AI tool saves time. From there we set up the tool the church already has access to with its own bulletin format, letter templates, and policies, automate the recurring documents, and train staff on their own work. The review produces a written assessment and a quote for each recommendation."
+  ],
+  "projects": [
+    "A bulletin and announcement draft produced each week from the calendar in Planning Center and the church's standard layout.",
+    "Year-end giving statements generated from the giving system and merged into the church's letter template.",
+    "A first draft of the monthly newsletter assembled from notes submitted by ministry leaders.",
+    "Meeting minutes for elder or council meetings drafted from a recording and filed in the church's Google Drive.",
+    "Standard replies for facility rental, baptism, and wedding inquiries drafted from the church's written policies."
+  ],
+  "faqs": [
+    {
+      "q": "Does member and giving data have to be entered into an AI tool?",
+      "a": "No. The review recommends which documents and data an AI tool should work with, and giving and member records stay in the system that already holds them, such as Planning Center or Breeze."
+    },
+    {
+      "q": "What does an AI consulting engagement cost?",
+      "a": "Engagements begin with a one-day operations review at $3,000, which produces a written assessment and a quote for each recommendation. Implementation is quoted from the review, and staff training is $1,000 per person."
+    },
+    {
+      "q": "What does the church need to provide for the operations review?",
+      "a": "A day with the office staff and the volunteers who handle bulletins, giving, and communications, plus access to the templates and documents the office produces. We do the rest on site."
+    }
+  ]
+}

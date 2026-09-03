@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "ai-consulting",
+  "segment": "manufacturers",
+  "location": null,
+  "title": "AI consulting for manufacturers | Creosote Labs",
+  "meta_description": "AI consulting for small manufacturers. Creosote Labs sets up AI tools for quoting, supplier email, and reporting, starting with a $3,000 review.",
+  "h1": "AI consulting for manufacturers",
+  "intro": [
+    "Small manufacturers often run on QuickBooks for accounting, Excel for bills of materials and job costing, and a shop management system such as JobBOSS, Fishbowl, or Katana for work orders and inventory. Around those systems sits a large amount of written work: RFQ responses, purchase orders to suppliers, certificates of conformance, inspection reports, and email that goes back and forth with customers about lead times and change requests. AI consulting applies to that written work and to the reporting that pulls numbers from several systems at once.",
+    "Creosote Labs spends a day in the shop and the front office documenting how quotes, orders, and shipments move through the business, then delivers a written assessment of where an AI tool the company already has, such as Microsoft 365 Copilot or Claude, saves time. We set the tool up with the company's own quote templates, part drawings, and supplier records, automate the drafting of RFQ responses and customer updates, and train staff on real jobs. The review is $3,000, and each recommendation comes with its own quote."
+  ],
+  "projects": [
+    "An assistant set up in Microsoft 365 Copilot that drafts RFQ responses from the company's quote history and standard terms.",
+    "A workflow that turns a customer's emailed drawing and quantity into a structured quote request for the estimator to price.",
+    "Automated drafting of certificates of conformance and inspection summaries from the data already recorded on the traveler.",
+    "A weekly production report that pulls open orders, late jobs, and material shortages from JobBOSS and QuickBooks into one summary.",
+    "Staff training on using Claude with the company's own work instructions and supplier correspondence."
+  ],
+  "faqs": [
+    {
+      "q": "What do we need to have ready for the operations review?",
+      "a": "The review needs access to the people who quote, schedule, purchase, and ship, plus samples of the documents the business produces: quotes, travelers, purchase orders, and packing slips. We document how work moves through the shop during the day on site."
+    },
+    {
+      "q": "Do we have to buy new AI software?",
+      "a": "Usually not. We work in the tool the company already has access to, such as Microsoft 365 Copilot, Google Gemini, or Claude, and set it up with the company's own documents and templates."
+    },
+    {
+      "q": "How is AI consulting priced?",
+      "a": "Engagements begin with a one-day operations review at $3,000, which produces a written assessment and a quote for each recommendation. Implementation is quoted from the review, and team training is $1,000 per person."
+    }
+  ]
+}

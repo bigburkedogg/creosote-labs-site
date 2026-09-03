@@ -1,0 +1,35 @@
+{
+  "kind": "service-segment",
+  "service": "systems-and-automation",
+  "segment": "insurance-agencies",
+  "location": null,
+  "title": "Insurance agency systems and automation | Creosote Labs",
+  "meta_description": "Creosote Labs consolidates the spreadsheets and trackers around an agency management system and automates renewals, certificates, and reconciliation.",
+  "h1": "Systems and automation for insurance agencies",
+  "intro": [
+    "Most independent agencies keep client and policy records in a management system, but the work around it often lives elsewhere. Certificate requests arrive by email, renewal follow-up is tracked in a spreadsheet, commission statements are reconciled in Excel, and cross-sell lists sit in a separate CRM or in Google Sheets. Systems and automation work applies to those gaps: the lists, trackers, and hand-offs between HawkSoft or Applied Epic, carrier portals, QuickBooks, and the inbox.",
+    "Creosote Labs consolidates those side systems into one place and automates the repetitive steps. A typical engagement begins with a one-day operations review at $3,000, which maps how a policy moves from quote to bind to renewal and where information is entered twice. From that, we quote each recommendation separately: a renewal pipeline that pulls expirations from the management system, a commission reconciliation that matches carrier statements to policies, or a certificate workflow that logs every request. Each build is documented and handed over to the agency's staff."
+  ],
+  "projects": [
+    "A renewal tracker that lists every policy expiring in the next 90 days with its carrier, annual cost, and last contact date.",
+    "A commission reconciliation tool that matches monthly carrier statements against bound policies and flags missing payments.",
+    "A certificate of insurance request log that records who asked, what was issued, and when, replacing a shared email folder.",
+    "An automated follow-up sequence for quoted-but-unbound prospects, sent from the agency's own email account.",
+    "A single dashboard for the owner showing new business, retention, and open service requests by account manager.",
+    "Migration of a cross-sell spreadsheet into the management system's existing fields so the list stays current on its own."
+  ],
+  "faqs": [
+    {
+      "q": "Will this replace our agency management system?",
+      "a": "It will not. The work is built around the management system the agency already uses and consolidates the spreadsheets and trackers that grew up beside it. Replacing the management system itself is a separate decision, and the review will say so if it seems warranted."
+    },
+    {
+      "q": "How is the work priced?",
+      "a": "The operations review is $3,000 and produces a quote for each recommendation, so the agency chooses which items to build. Implementation is fixed price with no hourly billing, and the review fee is credited toward work that begins within 90 days."
+    },
+    {
+      "q": "Who maintains the tools after they are built?",
+      "a": "Every tool is documented and handed over to the agency's staff at the end of the project. The agency owns what is built and can run it without Creosote Labs on retainer."
+    }
+  ]
+}

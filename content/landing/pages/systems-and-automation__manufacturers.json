@@ -1,0 +1,35 @@
+{
+  "kind": "service-segment",
+  "service": "systems-and-automation",
+  "segment": "manufacturers",
+  "location": null,
+  "title": "Systems and automation for manufacturers | Creosote Labs",
+  "meta_description": "Creosote Labs consolidates a manufacturer's spreadsheets and shop tools into one system for orders, inventory, and jobs, and automates repetitive work.",
+  "h1": "Systems and automation for manufacturers",
+  "intro": [
+    "A small manufacturer's records are frequently split across several places: a production schedule in Excel, inventory counts in a Google Sheet or a standalone system such as Fishbowl, customer orders in QuickBooks, and drawings in a shared folder organized by part number. Travelers are printed, marked up on the floor, and re-entered at the end of the shift. Systems and automation work applies wherever the same order, part, or quantity is typed into more than one place, and wherever a report takes someone an afternoon to assemble.",
+    "Creosote Labs consolidates those spreadsheets and disconnected tools into one system of record for orders, jobs, inventory, and shipments, and builds the internal tools the shop needs around it: a scheduling board, a quoting tool that prices from the bill of materials, and a shipping log that generates the packing slip. Repetitive steps such as re-keying orders into QuickBooks, chasing suppliers for delivery dates, and generating certificates are automated. We document the system and hand it to staff. Work is quoted from a $3,000 operations review."
+  ],
+  "projects": [
+    "A job tracking system that replaces the printed traveler with a status board updated from a tablet at each workstation.",
+    "A quoting tool that prices a part from its bill of materials, current material costs, and standard machine rates.",
+    "An inventory system that decrements raw stock when a work order is released and flags reorder points to purchasing.",
+    "An automation that creates the QuickBooks invoice and packing slip when a job is marked shipped.",
+    "A purchase order tracker that logs supplier confirmations and promised dates so late material shows up before it stops a job.",
+    "A morning report to the owner listing jobs due this week, jobs behind schedule, and machine load."
+  ],
+  "faqs": [
+    {
+      "q": "Can the new system connect to QuickBooks and the software we already run?",
+      "a": "Usually, yes. QuickBooks and the common shop management systems have integrations or export paths we can build against, and the review identifies which records need to move where before anything is built."
+    },
+    {
+      "q": "What happens to the data in our spreadsheets?",
+      "a": "Existing spreadsheets are the starting point. We map their columns to the new system, import the history that matters, and keep the originals as a reference until staff are working fully in the new tool."
+    },
+    {
+      "q": "How is systems and automation work priced?",
+      "a": "The $3,000 one-day operations review comes first and produces a written assessment with a quote for each recommendation. Implementation is quoted from the review at a fixed price, with no hourly billing, and the review fee is credited toward implementation that begins within 90 days."
+    }
+  ]
+}

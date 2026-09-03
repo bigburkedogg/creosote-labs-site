@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "ai-consulting",
+  "segment": "plumbers",
+  "location": null,
+  "title": "AI consulting for plumbing companies | Creosote Labs",
+  "meta_description": "Creosote Labs assesses where AI tools fit in a plumbing company, sets them up on its own estimates and work orders, and trains staff to use them.",
+  "h1": "AI consulting for plumbing companies",
+  "intro": [
+    "Plumbing companies typically run on a field service platform such as ServiceTitan, Housecall Pro, or Jobber for dispatch, estimates, and invoicing, with QuickBooks for the books. Around those tools sits a good deal of writing: estimate descriptions, job notes turned into invoices, permit paperwork, follow-up emails, and review responses. That work often falls to an office manager or the owner. AI consulting applies to that layer of work, where a tool like Microsoft 365 Copilot, Google Gemini, or Claude can draft from the company's own templates.",
+    "Creosote Labs starts with a one-day operations review at $3,000. We spend the day in the office and on a truck if possible, document how calls move from the phone to dispatch to invoice, and deliver a written assessment with a quote for each recommendation. Implementation means setting up the AI tool the company already pays for with its own price book, estimate templates, and service descriptions, then training the office staff on that setup. The review fee is credited toward implementation that begins within 90 days."
+  ],
+  "projects": [
+    "A Copilot or Claude setup that drafts a written estimate from a technician's job notes using the company's price book and standard service descriptions.",
+    "An assistant that turns completed work orders into plain-language invoice line items customers can read.",
+    "A review-response process where the office drafts replies to Google reviews from a short set of approved templates.",
+    "A weekly summary of open estimates, unpaid invoices, and callback jobs pulled from the field service platform into a short report for the owner.",
+    "A half-day session with the dispatcher and office manager on using the AI tool for customer emails, warranty letters, and permit cover sheets."
+  ],
+  "faqs": [
+    {
+      "q": "Which AI tool would we use?",
+      "a": "We use the one the company already has access to. Many plumbing offices are on Microsoft 365 or Google Workspace, which include Copilot or Gemini, and Claude works alongside either. We set up whichever fits the existing subscriptions rather than adding another one."
+    },
+    {
+      "q": "What happens during the operations review?",
+      "a": "The review is one day on site. We document how a job moves from the first call to the final invoice, then deliver a written assessment with prioritized recommendations and a quote for each within the week. The $3,000 fee is credited toward implementation that begins within 90 days."
+    },
+    {
+      "q": "Does the office need to change field service software?",
+      "a": "No, because the AI tools work with the documents and exports a company already produces from ServiceTitan, Housecall Pro, or Jobber. Switching platforms is not part of a typical AI consulting engagement."
+    }
+  ]
+}

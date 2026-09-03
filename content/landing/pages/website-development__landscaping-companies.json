@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "website-development",
+  "segment": "landscaping-companies",
+  "location": null,
+  "title": "Landscaping company websites | Creosote Labs",
+  "meta_description": "Creosote Labs builds websites, quote request forms, and customer portals for landscaping companies. Projects are fixed price, quoted after a scoping call.",
+  "h1": "Website and web application development for landscaping companies",
+  "intro": [
+    "A landscaping company's website usually has one job: turn a homeowner or property manager who is searching for lawn care, hardscape, or irrigation work into a request for an estimate. Many companies run on a template site that lists services in general terms, has no pricing, and sends contact form messages to an inbox that the crew lead checks between jobs. The scheduling platform, whether Jobber, Service Autopilot, or LMN, often has a booking form of its own that is not connected to the site.",
+    "Creosote Labs builds marketing sites for landscaping companies with a clear service list, service area, starting prices where the company wants to publish them, and a quote request form that collects the property address, the service wanted, and photos. We connect that form to the scheduling platform so the request lands as a lead rather than an email. For companies with recurring maintenance clients, we also build customer portals for viewing visit history, approving add-on work, and paying invoices. Hosting, domain setup, and documentation are part of every project."
+  ],
+  "projects": [
+    "A marketing site with separate pages for maintenance, installation, irrigation, and snow removal, each with its own quote request form.",
+    "A quote request form that asks for the property address and photos and creates a lead in Jobber automatically.",
+    "A customer portal where maintenance clients see their next scheduled visit, past service notes, and open invoices.",
+    "An online estimate tool for standard services such as mowing or aeration that gives a price range from lot size.",
+    "A photo gallery organized by project type that the office can update from a phone after a job is finished."
+  ],
+  "faqs": [
+    {
+      "q": "How is a website project priced?",
+      "a": "Website and application projects are quoted after a scoping call, at a fixed price with no hourly billing. The quote covers design, build, hosting setup, domain configuration, and handover documentation."
+    },
+    {
+      "q": "Can the site connect to the software we already use?",
+      "a": "Yes. Quote request forms and booking tools can send leads directly into Jobber, Service Autopilot, LMN, or similar platforms, and portals can read from them. We confirm which connections are available for the company's specific setup during scoping."
+    },
+    {
+      "q": "Who updates the site after it launches?",
+      "a": "The company does. Every project is handed over with written documentation covering how to change services, prices, photos, and service area. We remain available for larger changes, quoted separately."
+    }
+  ]
+}

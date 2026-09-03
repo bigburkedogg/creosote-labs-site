@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "ai-consulting",
+  "segment": "electricians",
+  "location": null,
+  "title": "AI consulting for electrical contractors | Creosote Labs",
+  "meta_description": "Creosote Labs assesses where AI tools fit in an electrical contracting business, sets them up on the company's own documents, and trains the staff.",
+  "h1": "AI consulting for electrical contractors",
+  "intro": [
+    "Electrical contractors often run field work through ServiceTitan, Housecall Pro, or FieldEdge, with QuickBooks for accounting and a shared drive of estimates, change orders, permit applications, and inspection paperwork. Much of the office work sits between those tools: writing up a scope from an electrician's notes, answering the same customer emails, and pulling monthly numbers together by hand. AI consulting looks at that middle layer and identifies where a tool such as Microsoft 365 Copilot, Google Gemini, or Claude can take on the routine parts.",
+    "Creosote Labs starts with a one-day operations review, on site, documenting how estimates, dispatch, permits, and billing currently move through the company. The written assessment that follows lists where an AI tool fits, what it would need access to, and a quote for each recommendation. Implementation means setting up the tool the company already has access to with its own price book, proposal templates, and service call notes, then training the office staff and lead electricians to use it on their own jobs."
+  ],
+  "projects": [
+    "A proposal assistant that turns a lead electrician's site visit notes and photos into a written scope of work in the company's template.",
+    "A customer email setup that drafts replies to scheduling, pricing, and permit status questions from the job record in ServiceTitan.",
+    "A monthly reporting process that pulls completed jobs and invoices from QuickBooks into a plain-language summary for the owner.",
+    "A permit application helper that fills the jurisdiction's forms from the job address, panel size, and scope already entered for the estimate.",
+    "A written guide for office staff covering which tasks go to the AI tool and how to check its output before it reaches a customer."
+  ],
+  "faqs": [
+    {
+      "q": "Which AI tool would we use?",
+      "a": "We use the one the company already has access to, whether that is Microsoft 365 Copilot, Google Gemini, or Claude. We set it up with the company's own documents and templates rather than introducing a new subscription."
+    },
+    {
+      "q": "What does the company need to provide?",
+      "a": "We need access to the current estimate and proposal templates, examples of recent jobs, and a day with the office staff and at least one lead electrician for the operations review."
+    },
+    {
+      "q": "How is AI consulting priced?",
+      "a": "Engagements begin with a one-day operations review at $3,000, which produces a written assessment and a quote for each recommendation. Implementation is quoted from the review, and team training is $1,000 per person."
+    }
+  ]
+}

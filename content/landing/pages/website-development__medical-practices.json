@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "website-development",
+  "segment": "medical-practices",
+  "location": null,
+  "title": "Medical practice websites and web apps | Creosote Labs",
+  "meta_description": "Creosote Labs builds websites, online intake forms, and patient-facing tools for medical practices. Fixed price, quoted after a scoping call.",
+  "h1": "Website and web application development for medical practices",
+  "intro": [
+    "A medical practice's website usually needs to do a few things: list providers and services, show accepted insurance, give hours and directions, and let a new patient request an appointment or download intake forms. Many practices also run a patient portal through the EHR vendor, such as athenahealth or NextGen, and an intake product like Phreesia, and the website has to link to each. Sites built several years ago often list providers who have left and route appointment requests to an inbox no one monitors.",
+    "Creosote Labs builds the marketing site and the patient-facing tools around it. That includes provider and service pages the office can edit, an insurance list that stays current, and an appointment request form that lands where the front desk works. For practices that want more, we build online intake, a new-patient registration flow, or a self-pay pricing page, and connect them to the existing portal rather than duplicating it. Hosting, domain configuration, and written handover are part of every project, and pricing is fixed after a scoping call."
+  ],
+  "projects": [
+    "A practice website with provider bios, service descriptions, accepted insurance, and hours, with pages the office manager can update without a developer.",
+    "An online new-patient intake form that collects demographics, insurance, and history and delivers a completed PDF to the front desk.",
+    "An appointment request tool that shows available visit types and routes each request to the scheduler with the patient's preferred times.",
+    "A self-pay price list that publishes the practice's standard charges for common visits and procedures, kept in one editable table.",
+    "A secure document upload page where patients submit insurance cards and referral paperwork before their first visit."
+  ],
+  "faqs": [
+    {
+      "q": "Can the site connect to the practice's existing patient portal?",
+      "a": "Yes. The site links to the portal the EHR vendor provides, and any forms we build feed the practice's existing workflow rather than creating a second place for patients to log in."
+    },
+    {
+      "q": "How are website projects priced?",
+      "a": "Each project is quoted after a scoping call. The price is fixed for the agreed scope, with no hourly billing."
+    },
+    {
+      "q": "What does the practice need to provide?",
+      "a": "The practice provides current provider names and credentials, the services and insurance plans to list, any existing logo and photos, and access to the current domain registrar. We handle hosting setup and configuration."
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "website-development",
+  "segment": "general-contractors",
+  "location": null,
+  "title": "Websites for general contractors | Creosote Labs",
+  "meta_description": "Creosote Labs builds websites, quote request forms, and client portals for general contractors. Fixed price, quoted after a scoping call.",
+  "h1": "Website and web application development for general contractors",
+  "intro": [
+    "A general contractor's website usually does 2 jobs: it shows past projects and services to homeowners and commercial clients checking references, and it takes in new leads. Many contractors have a site built years ago on WordPress, Wix, or Squarespace, with a contact form that sends an email and a project gallery that has not been updated. Behind the site, bid requests, selections, and progress updates are often handled by phone, text, and email.",
+    "Creosote Labs builds marketing sites that state the services offered, the project types, the service area, and how to request a bid, and builds the customer-facing tools behind them: a quote request form that collects the details an estimator needs, a client portal where owners approve selections and change orders, and a photo-based progress page per project. We set up hosting and the domain, connect the site to the company's existing CRM or email, and hand it over with documentation."
+  ],
+  "projects": [
+    "A marketing site with project galleries by type, a service area map, and a bid request form.",
+    "A quote request form that asks for project type, square footage, timeline, and photos, and routes the request to the right estimator.",
+    "A client portal where homeowners review selections, approve change orders, and see the schedule.",
+    "A subcontractor prequalification form that collects license, insurance, and trade information.",
+    "A progress page for each project where the client sees the latest photos and notes from the field."
+  ],
+  "faqs": [
+    {
+      "q": "What does a general contractor website cost?",
+      "a": "We quote a website or portal project after a scoping call, and the price is fixed for that scope with no hourly billing."
+    },
+    {
+      "q": "What does the company need to provide?",
+      "a": "Project photos, a list of services and project types, license and insurance details to display, and access to the current domain registrar and any existing site. We write the copy from a conversation with the owner."
+    },
+    {
+      "q": "Can the website connect to the software the office already uses?",
+      "a": "Yes in most cases. Forms can send leads into a CRM, an email inbox, or a spreadsheet, and a portal can read schedule and change order data from the project system. The scoping call determines what connects to what."
+    }
+  ]
+}

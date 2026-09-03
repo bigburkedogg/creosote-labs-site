@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "ai-training",
+  "segment": "real-estate-agents",
+  "location": null,
+  "title": "AI training for real estate teams | Creosote Labs",
+  "meta_description": "A one-day, hands-on AI workshop for real estate teams, delivered on their own listings, templates, and emails. $1,000 per person, 5-person minimum.",
+  "h1": "Team AI training for real estate agents",
+  "intro": [
+    "A real estate agent's week involves a great deal of writing: listing descriptions, buyer and seller emails, offer summaries, market updates, social media posts, and newsletters, along with reading contracts, inspection reports, and HOA documents. Many agents already have access to an AI tool through Google Workspace, Microsoft 365, or a brokerage subscription and use it occasionally. Team AI training is for agents and their teams who want to use it on their actual work every day.",
+    "Creosote Labs delivers a one-day, hands-on workshop on site or remote, in the AI tool the team already uses. Each participant works on their own computer with their own listings, templates, and client correspondence, produces real work during the session, and documents their own process. The team leaves with a written guide covering the prompts and workflows built that day, and a 30-day follow-up session is included."
+  ],
+  "projects": [
+    "A listing description workflow that takes the agent's notes and photos and produces MLS-ready copy in the agent's voice.",
+    "An inspection report summary that lists the findings a buyer should discuss and drafts the repair request.",
+    "A market update template that turns monthly MLS statistics into a newsletter for the agent's sphere.",
+    "A set of saved prompts for buyer consultations, showing feedback, and offer cover letters.",
+    "A process for reviewing HOA documents and CC&Rs and producing a plain summary for the client."
+  ],
+  "faqs": [
+    {
+      "q": "How many people are needed and what does it cost?",
+      "a": "$1,000 per person for up to 10 people, with a 5-person minimum. Larger teams are quoted, and travel is included. A program with three monthly follow-up sessions is $1,400 per person."
+    },
+    {
+      "q": "Which AI tool is used in the workshop?",
+      "a": "The one the team already has, such as Google Gemini, Microsoft 365 Copilot, or Claude. Participants leave with a working setup in that tool rather than a new subscription."
+    },
+    {
+      "q": "Can a solo agent with an assistant attend?",
+      "a": "The workshop has a 5-person minimum. Solo agents and small teams can meet it by joining with other agents in the same office, since the session is delivered on each participant's own work."
+    }
+  ]
+}

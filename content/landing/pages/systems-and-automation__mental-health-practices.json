@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "systems-and-automation",
+  "segment": "mental-health-practices",
+  "location": null,
+  "title": "Systems and automation for mental health practices",
+  "meta_description": "Creosote Labs consolidates the spreadsheets and disconnected tools a mental health practice runs on, builds internal tools, and automates repetitive work.",
+  "h1": "Systems and automation for mental health practices",
+  "intro": [
+    "A group therapy practice often keeps its clinical work in one system and its business in several others. Sessions and notes live in TherapyNotes or SimplePractice, but the waitlist sits in a Google Sheet, clinician caseloads and supervision hours are tracked in Excel, credentialing deadlines are in a shared calendar, and payroll splits for contractors are worked out by hand each month. Systems and automation work covers those pieces around the clinical record, where practices tend to accumulate spreadsheets.",
+    "Creosote Labs replaces those spreadsheets with a single system of record for the business side of the practice and connects it to the data the practice management system can export. We build the internal tools the owner and office manager need, such as a waitlist that matches referrals to clinician availability and specialty, a caseload and revenue view by clinician, and a credentialing tracker that flags renewals early. Each tool is documented and handed over to staff, and every project is scoped and quoted from the operations review."
+  ],
+  "projects": [
+    "A waitlist tool that records each inquiry's presenting concern, insurance, and preferred times and matches it to clinicians with openings.",
+    "A monthly contractor payout calculation built from the practice management system's session export instead of a hand-worked spreadsheet.",
+    "A credentialing and license tracker that lists every clinician's insurance panels, CEU requirements, and renewal dates and sends reminders ahead of each deadline.",
+    "An automated follow-up sequence for clients who have not scheduled after intake or whose last session was more than 30 days ago.",
+    "A reporting view showing sessions, no-shows, and collections by clinician and payer, refreshed from exports without manual copying."
+  ],
+  "faqs": [
+    {
+      "q": "Does this replace our practice management system?",
+      "a": "No. TherapyNotes, SimplePractice, and similar systems stay where they are for scheduling, notes, and billing. We build around them for the business tracking those systems do not cover and use their exports where data needs to flow."
+    },
+    {
+      "q": "How is a systems project priced?",
+      "a": "Every project is scoped and quoted from the one-day operations review, which is $3,000 and credited toward implementation that begins within 90 days. Quotes are fixed price with no hourly billing."
+    },
+    {
+      "q": "Who maintains the system after handover?",
+      "a": "The practice's own staff. Each tool comes with written documentation and a handover session, and it is built so the office manager can add clinicians, change rates, and adjust reminders without a developer."
+    }
+  ]
+}

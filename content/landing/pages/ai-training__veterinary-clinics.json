@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "ai-training",
+  "segment": "veterinary-clinics",
+  "location": null,
+  "title": "Team AI training for veterinary clinics | Creosote Labs",
+  "meta_description": "A one-day AI workshop for veterinary clinic staff on the clinic's own tools and documents. $1,000 per person, written guide and follow-up included.",
+  "h1": "Team AI training for veterinary clinics",
+  "intro": [
+    "The people in a veterinary clinic who write the most are often not the veterinarians. Technicians write discharge summaries and callback notes, the front desk answers email about appointment prep and billing, and the practice manager writes the job postings, the client-facing policies, and the monthly staff update. Most of that writing happens in Outlook, Gmail, or Google Docs alongside the practice management system, which is where an AI tool such as Copilot, Gemini, or Claude can be put to work.",
+    "Team AI training from Creosote Labs is a one-day workshop held at the clinic or remotely, in the AI tool the clinic already uses. Each participant works on their own computer with their own documents: a technician drafts tomorrow's discharge instructions, the front desk builds reply templates for the questions that come in every day, and the practice manager writes the next protocol update. Everyone leaves with a working setup, a written guide for the team, and a 30-day follow-up session."
+  ],
+  "projects": [
+    "A front-desk reply library for the most common client emails, from pre-surgery fasting instructions to payment questions, each checked against clinic policy.",
+    "A discharge summary workflow where the technician pastes the doctor's notes and receives a draft the owner can follow at home.",
+    "A protocol document rewritten from years of accumulated memos into a single current version the whole staff can search.",
+    "A job posting and interview question set for a technician opening, built from the clinic's own description of the role.",
+    "A client education handout set for dental cleanings, weight management, and senior pet care, written in the clinic's voice."
+  ],
+  "faqs": [
+    {
+      "q": "How much does the training cost?",
+      "a": "The workshop is $1,000 per person for up to 10 people; the minimum is 5 people, and travel is included. Larger teams are quoted. A program with three monthly follow-up sessions is $1,400 per person."
+    },
+    {
+      "q": "Which AI tool is the training held in?",
+      "a": "The training is held in whichever tool the clinic already has, such as Microsoft 365 Copilot, Google Gemini, or Claude. If the clinic has not chosen one, we discuss the options on the scheduling call."
+    },
+    {
+      "q": "Can the clinic stay open during the workshop?",
+      "a": "The workshop takes a full day, and participants need to be at their own computers for it. Many clinics hold it on a day the practice is closed or has a lighter schedule."
+    }
+  ]
+}

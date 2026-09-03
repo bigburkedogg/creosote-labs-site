@@ -1,0 +1,35 @@
+{
+  "kind": "service-location",
+  "service": "systems-and-automation",
+  "segment": null,
+  "location": "williams",
+  "title": "Systems and automation in Williams, AZ | Creosote Labs",
+  "meta_description": "Creosote Labs consolidates spreadsheets and disconnected tools for businesses in Williams, Arizona. Internal tools and automation, quoted from a review.",
+  "h1": "Systems and automation in Williams",
+  "intro": [
+    "Williams businesses often serve a seasonal flow of Grand Canyon visitors, and the tools tend to accumulate one at a time: a reservation system for rooms, a separate booking page for tours, Google Sheets for staff schedules and group bookings, QuickBooks or Excel for invoicing, and a text thread for the housekeeping list. The same guest, group, or work order gets entered in several places. Systems and automation work covers the point where those separate tools stop matching each other.",
+    "Creosote Labs consolidates those spreadsheets and disconnected tools into one system of record for businesses in Williams and the surrounding area. We build internal tools for scheduling, quoting, tracking, and reporting, and we automate repetitive work such as data entry, follow-up, and document generation. Every project begins with a one-day operations review at $3,000, which produces a written assessment and a quote for each recommendation. When the build is done, we document the system and hand it over to staff."
+  ],
+  "projects": [
+    "A single group-booking tracker that replaces the separate spreadsheets a lodge keeps for rooms, meals, and deposits.",
+    "A tour scheduling tool that assigns guides and vehicles and prints the day's manifest.",
+    "An automated invoice and deposit reminder sequence for an event or wedding venue, driven from the booking record.",
+    "A housekeeping and maintenance work-order board that replaces text messages and a whiteboard.",
+    "A weekly occupancy and revenue report assembled automatically from the reservation system and QuickBooks.",
+    "An inventory reorder list for a Route 66 retail shop, generated from Square sales data."
+  ],
+  "faqs": [
+    {
+      "q": "What data does Creosote Labs need to consolidate our tools?",
+      "a": "We need exports from the current systems, the spreadsheets in use, and access to the accounts the business already pays for. We identify exactly what is needed during the operations review."
+    },
+    {
+      "q": "What happens to the spreadsheets we use now?",
+      "a": "They become the starting data for the new system. Once the system is live and staff are trained, the spreadsheets are retired rather than maintained in parallel."
+    },
+    {
+      "q": "How is a systems project priced?",
+      "a": "The operations review is $3,000 and produces a fixed quote for each recommendation. Implementation is scoped from that review, with no hourly billing, and the review fee is credited toward work that begins within 90 days."
+    }
+  ]
+}

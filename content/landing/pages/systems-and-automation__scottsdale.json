@@ -1,0 +1,34 @@
+{
+  "kind": "service-location",
+  "service": "systems-and-automation",
+  "segment": null,
+  "location": "scottsdale",
+  "title": "Systems and automation in Scottsdale, AZ | Creosote Labs",
+  "meta_description": "Creosote Labs consolidates spreadsheets and disconnected tools into one system for Scottsdale businesses and automates repetitive work. Review is $3,000.",
+  "h1": "Systems and automation in Scottsdale",
+  "intro": [
+    "Many Scottsdale businesses in hospitality, healthcare, real estate, and financial services run on a mix of a core platform and a set of spreadsheets that grew up around it. A property management company might keep leases in AppFolio and vendor work orders in Excel; a medical practice might schedule in its EHR and track referrals in Google Sheets; a tour operator might take bookings online and manage guides and vehicles on a whiteboard. The gaps between those tools are where data gets re-entered and follow-up gets missed.",
+    "Creosote Labs works with Scottsdale businesses to replace that mix with one system of record. We spend a day on site documenting the current process, then deliver a written assessment with a quote for each recommendation. From there we consolidate the spreadsheets, build the internal tools the business needs for scheduling, quoting, tracking, and reporting, and automate data entry, follow-up, and document generation. Every system is documented and handed over to staff so it can be run without us."
+  ],
+  "projects": [
+    "A vendor work order tracker for a property management company that replaces an Excel log and syncs unit and owner data from AppFolio.",
+    "A trip roster and guide scheduling tool for a tour operator that pulls confirmed bookings into one calendar and generates the day's manifest.",
+    "A referral tracking system for a specialty medical practice that logs incoming referrals, assigns follow-up, and reports turnaround time.",
+    "An automated proposal generator for a landscaping company that builds an estimate and contract from a site visit form and pushes the job to QuickBooks.",
+    "A client onboarding workflow for a financial advisory practice that collects documents, populates the CRM, and produces the account opening packet."
+  ],
+  "faqs": [
+    {
+      "q": "Do we have to replace the software we already use?",
+      "a": "Not usually, since most projects keep the core platform, such as AppFolio, QuickBooks, or a practice management system, and replace the spreadsheets and manual steps around it. The operations review identifies which pieces are worth keeping."
+    },
+    {
+      "q": "How is implementation priced?",
+      "a": "Implementation is quoted from the one-day operations review, which is $3,000 and credited toward work that begins within 90 days. Pricing is fixed scope, with no hourly billing."
+    },
+    {
+      "q": "Who maintains the system after it is built?",
+      "a": "Staff do. Every system is delivered with written documentation and handed over to the people who will run it, and it runs on tools the business controls."
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "kind": "service-location",
+  "service": "ai-consulting",
+  "segment": null,
+  "location": "prescott",
+  "title": "AI consulting in Prescott, AZ | Creosote Labs",
+  "meta_description": "AI consulting for Prescott businesses. A one-day operations review at $3,000, implementation quoted from the review, and training on the company's tools.",
+  "h1": "AI consulting in Prescott",
+  "intro": [
+    "Prescott's businesses include medical and dental practices, hotels and restaurants, retail stores, contractors, and professional firms. Many of these businesses already pay for Microsoft 365 or Google Workspace, keep customer records in a CRM such as HubSpot or an industry system such as Dentrix, Jobber, or Toast, and produce the same documents every week: estimates, intake forms, confirmation emails, monthly reports. AI tools apply best to that repeatable document and communication work.",
+    "Creosote Labs serves businesses in Prescott and across Northern Arizona. An engagement starts with a one-day operations review at $3,000. We document how the business currently runs, identify where Copilot, Gemini, or Claude can save staff time, and deliver a written assessment with a quote for each recommendation. Implementation sets those tools up with the company's own templates and documents, and training is $1,000 per person."
+  ],
+  "projects": [
+    "A setup in Microsoft 365 Copilot that drafts patient recall letters and referral summaries from a clinic's own templates.",
+    "A Gemini workflow that turns a hotel's daily front-desk notes into a manager's summary and a maintenance list.",
+    "A Claude project loaded with a contractor's price book so office staff can draft estimates from a site visit form.",
+    "An assistant that answers common guest questions for a tour operator by drawing on its own trip descriptions and policies.",
+    "A written guide and one-day training session so a retail team can use the company's AI tool for product descriptions and vendor emails."
+  ],
+  "faqs": [
+    {
+      "q": "Does Creosote Labs travel to Prescott for the operations review?",
+      "a": "Yes. The operations review is one day on site with the team at the business's own location, and the written assessment follows within the week."
+    },
+    {
+      "q": "What does a Prescott business need to have in place before an AI consulting engagement?",
+      "a": "Access to at least one of Microsoft 365, Google Workspace, or Claude, plus the documents and templates the team uses, is enough to start. The review identifies everything else."
+    },
+    {
+      "q": "How is AI consulting priced?",
+      "a": "The operations review is $3,000 and produces a written assessment with a quote for each recommendation. Implementation is quoted from that review at a fixed price, and team training is $1,000 per person."
+    }
+  ]
+}

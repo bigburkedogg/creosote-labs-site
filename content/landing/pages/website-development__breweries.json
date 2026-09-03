@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "website-development",
+  "segment": "breweries",
+  "location": null,
+  "title": "Brewery website and web app development | Creosote Labs",
+  "meta_description": "Creosote Labs builds brewery websites with live tap lists, event calendars, private event requests, and online ordering. Fixed price, quoted after a call.",
+  "h1": "Website and web application development for breweries and taprooms",
+  "intro": [
+    "A brewery's website usually has to do several jobs at once: show what is on tap today, list hours and the food truck schedule, take private event inquiries, sell merchandise and gift cards, and point wholesale accounts to an order form. Many breweries publish the tap list through Untappd for Business, sell merchandise on Shopify or Square, and manage events in a Google Calendar, with the website itself updated less often than any of them.",
+    "Creosote Labs builds brewery sites that pull from those sources instead of duplicating them, so the tap list, hours, and event calendar on the site match what is posted at the bar. Beyond the marketing site, we build the customer-facing tools a taproom needs: a private event request form that collects date, headcount, and bar package, a wholesale ordering page for accounts, and a tour or tasting booking tool. Hosting, domain setup, and documentation are part of every project."
+  ],
+  "projects": [
+    "A marketing site with a tap list that updates from Untappd for Business, current hours, and a food truck calendar.",
+    "A private event request form that returns a quote for the room and bar package and routes the inquiry to the taproom manager.",
+    "A wholesale ordering portal where bars and restaurants place keg and case orders and see their delivery day.",
+    "A brewery tour and tasting booking page with ticket limits by time slot and payment through Square or Stripe.",
+    "A mug club or membership sign-up page with renewals and member pricing recorded for the point of sale."
+  ],
+  "faqs": [
+    {
+      "q": "Can the tap list on the site update automatically?",
+      "a": "Yes, it can. If the brewery already posts its tap list in Untappd for Business or its point of sale, the site can read from that source so the list is changed once and shown everywhere."
+    },
+    {
+      "q": "What does the brewery need to provide to start?",
+      "a": "The brewery provides the current site if there is one, logo and label artwork, photography, the tap list source, and a list of the pages and forms the site needs. We cover hosting setup and domain configuration."
+    },
+    {
+      "q": "How are website projects priced?",
+      "a": "Website and application projects are quoted after a scoping call. The price is fixed, with no hourly billing."
+    }
+  ]
+}

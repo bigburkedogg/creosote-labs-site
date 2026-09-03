@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "ai-consulting",
+  "segment": "hvac-contractors",
+  "location": null,
+  "title": "AI consulting for HVAC contractors | Creosote Labs",
+  "meta_description": "Creosote Labs assesses where AI tools fit in HVAC companies, sets them up on the company's own documents, and trains the staff. Operations review $3,000.",
+  "h1": "AI consulting for HVAC contractors",
+  "intro": [
+    "Many HVAC contractors run on a field service platform such as ServiceTitan, Housecall Pro, Jobber, or FieldEdge, with QuickBooks for accounting and a shared inbox for everything else. The paperwork is steady: estimates for replacements and repairs, work orders, maintenance agreements, equipment records, permit applications, and manufacturer warranty claims. AI tools apply where staff draft, summarize, or re-key that material by hand, which in an HVAC office is often the dispatcher, the office manager, and the estimator.",
+    "Creosote Labs starts with a one-day operations review on site. We document how calls move from the phone to the schedule to the invoice, identify the steps where an AI tool saves time, and deliver a written assessment with a quote for each recommendation. Implementation means setting up the tool the company already has, such as Microsoft 365 Copilot, Google Gemini, or Claude, with the company's own estimate templates and service agreements, then training staff on that setup."
+  ],
+  "projects": [
+    "An assistant that drafts a replacement proposal from a technician's site notes and the load calculation, using the company's own proposal template.",
+    "A setup that summarizes each day's dispatch notes and call recordings into a short report for the owner.",
+    "A drafting tool for customer emails about maintenance agreement renewals and seasonal tune-up reminders.",
+    "A process for turning equipment model and serial numbers from job photos into records in the field service platform.",
+    "A review of the office's daily paperwork that identifies which tasks an AI tool can handle and which should stay manual."
+  ],
+  "faqs": [
+    {
+      "q": "Do we need to change our field service software?",
+      "a": "No, the review looks at the tools already in place, such as ServiceTitan or Housecall Pro, and recommends where an AI tool fits alongside them. Replacing software is only recommended when it is the cheaper path."
+    },
+    {
+      "q": "What does the operations review cost, and what do we get?",
+      "a": "The one-day on-site review is $3,000 and produces a written assessment with prioritized recommendations and a quote for each. It is credited toward implementation that begins within 90 days."
+    },
+    {
+      "q": "What do we need to provide before the review?",
+      "a": "We need access to the software the office uses and samples of the documents it produces, such as recent estimates, work orders, and maintenance agreements. Someone from dispatch and someone from the office should be available on the day."
+    }
+  ]
+}

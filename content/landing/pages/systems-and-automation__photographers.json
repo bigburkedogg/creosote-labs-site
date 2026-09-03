@@ -1,0 +1,35 @@
+{
+  "kind": "service-segment",
+  "service": "systems-and-automation",
+  "segment": "photographers",
+  "location": null,
+  "title": "Systems and automation for photographers | Creosote Labs",
+  "meta_description": "Creosote Labs consolidates a photography studio's booking, gallery, and invoicing tools into one system and automates follow-up. Review $3,000.",
+  "h1": "Systems and automation for photography businesses",
+  "intro": [
+    "A photography business often tracks its work across several places at once: a booking calendar in Google Calendar, contracts and invoices in Dubsado or HoneyBook, galleries in Pixieset or ShootProof, print orders in a lab portal, and a spreadsheet in Google Sheets or Excel for session status and payments. Client details are retyped from one to the next, and the status of a given wedding or portrait session lives in whichever tool was updated last.",
+    "Creosote Labs consolidates those records into one system of record built around the studio's actual workflow, from inquiry to final delivery. We build the internal tools a studio needs, such as a session tracker, a quoting form, or a print-order log, and automate the repetitive steps between them: contract reminders, retainer follow-up, gallery-ready notices, and expiration warnings. The system is documented and handed over to staff. Work is scoped from a one-day operations review at $3,000."
+  ],
+  "projects": [
+    "A session tracker that shows every booked shoot with its contract, retainer, shoot date, editing status, and delivery date in one view.",
+    "An automated follow-up sequence that sends retainer reminders and unsigned-contract nudges from booking data.",
+    "A quoting tool that produces a package quote and contract from an inquiry form.",
+    "A gallery-delivery automation that notifies clients when a Pixieset gallery is published and again before it expires.",
+    "A print-order log that reconciles lab orders against client payments in QuickBooks.",
+    "A year-end report of sessions, revenue by package, and outstanding balances built from the tracker."
+  ],
+  "faqs": [
+    {
+      "q": "Do we have to give up HoneyBook or Pixieset?",
+      "a": "Not necessarily. The review looks at what the studio already uses and recommends consolidating only where it saves time. Existing tools are often kept and connected rather than replaced."
+    },
+    {
+      "q": "What do we need to provide to get started?",
+      "a": "The studio provides access to the current tools and spreadsheets, an example of a recent booking from inquiry through delivery, and a few hours from whoever handles the studio's admin during the review day."
+    },
+    {
+      "q": "How is implementation priced?",
+      "a": "Implementation is quoted from the operations review, item by item, at a fixed price. There is no hourly billing, and the $3,000 review fee is credited toward implementation that begins within 90 days."
+    }
+  ]
+}

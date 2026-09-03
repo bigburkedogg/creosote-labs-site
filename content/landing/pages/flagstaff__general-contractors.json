@@ -1,0 +1,35 @@
+{
+  "kind": "segment-location",
+  "service": null,
+  "segment": "general-contractors",
+  "location": "flagstaff",
+  "title": "AI and systems for general contractors in Flagstaff",
+  "meta_description": "Creosote Labs helps Flagstaff general contractors automate estimates, change orders, and job costing, and builds websites with quote request forms.",
+  "h1": "General contractors in Flagstaff: AI, systems, and websites",
+  "intro": [
+    "General contractors in Flagstaff commonly estimate in Excel, track jobs in Buildertrend or CoConstruct, keep the books in QuickBooks, and handle subcontractor scheduling and client questions by phone and text. Estimates, proposals, change orders, draw requests, lien waivers, and daily logs are produced for every project, and the numbers in them often live in 3 or 4 places that do not agree by the end of the job. Permit documents and inspection schedules are usually tracked in a separate folder or calendar.",
+    "Creosote Labs is based in Flagstaff and works with contractors here and across Northern Arizona. A one-day operations review covers how the company estimates, schedules, bills, and closes out jobs. Typical implementation includes an estimating tool that produces the proposal from a takeoff, change orders that update the contract total and the QuickBooks invoice, job cost reports that run without manual entry, and a website with a project gallery and a quote request form. Office and field staff are trained on the company's own estimates and job files."
+  ],
+  "projects": [
+    "An estimating tool that builds the client proposal and contract from a takeoff spreadsheet and the company's unit prices.",
+    "A change order form that generates the signed document, updates the contract total, and adjusts the schedule of values.",
+    "A draw request package that assembles the invoice, lien waivers, and progress photos for the lender or owner.",
+    "A job cost report that compares committed subcontractor and material costs to the estimate for each active project.",
+    "A daily log entered from a phone in the field that produces the weekly client update automatically.",
+    "A company website with completed project photos, service areas, and a form that captures project details before the first call."
+  ],
+  "faqs": [
+    {
+      "q": "What does an engagement cost?",
+      "a": "The operations review is $3,000 for one day on site, and that fee is credited toward implementation that begins within 90 days. Each system or automation is quoted from the review. Website projects are quoted after a scoping call at a fixed price."
+    },
+    {
+      "q": "Does the crew in the field need to change how they work?",
+      "a": "Field tools are built to be filled out on a phone in a few minutes, such as a daily log or a change order request. Office staff receive documentation and hands-on training on the company's own jobs."
+    },
+    {
+      "q": "What do we need to provide for the review?",
+      "a": "We ask for recent estimates, proposals, change orders, and draw requests, access to the job management and accounting software, and a walk-through of how a job moves from bid to final payment."
+    }
+  ]
+}

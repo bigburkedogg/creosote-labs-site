@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "systems-and-automation",
+  "segment": "medical-practices",
+  "location": null,
+  "title": "Systems and automation for medical practices | Creosote Labs",
+  "meta_description": "Creosote Labs replaces the spreadsheets and manual steps around a medical practice's EHR with one system, then automates repetitive work and documents it.",
+  "h1": "Systems and automation for medical practices",
+  "intro": [
+    "The EHR holds the chart and the schedule, but a medical practice often tracks a good deal of work outside it. Referral status, prior authorizations, recall lists, credentialing dates, and supply orders tend to live in Excel or Google Sheets, on paper logs at the front desk, or in a shared inbox. Billing may run through the practice management system, an outside billing company, and QuickBooks, with reconciliation done by hand at month end. Those gaps between systems are where staff time goes.",
+    "Creosote Labs consolidates that tracking into one system of record that sits alongside the EHR rather than replacing it. We build the internal tools the practice needs, such as a referral tracker, an authorization queue, or a recall dashboard, and automate the steps between them: pulling exports from athenahealth or eClinicalWorks, posting payments to QuickBooks, and sending reminders when a task is overdue. Each project is scoped and quoted from the operations review, then documented and handed to staff."
+  ],
+  "projects": [
+    "A referral tracker that records each outgoing referral, flags those without a scheduled appointment after a set number of days, and logs the follow-up call.",
+    "An authorization queue that lists every pending prior authorization by payer, due date, and owner, replacing a shared spreadsheet.",
+    "A recall system that pulls overdue preventive visits from the practice management export each week and produces the outreach list.",
+    "A credentialing calendar that tracks license, DEA, and payer enrollment expiration dates for every provider and sends reminders 90 days out.",
+    "A month-end reconciliation that matches deposits, ERA payment files, and QuickBooks entries and lists the exceptions for the office manager."
+  ],
+  "faqs": [
+    {
+      "q": "Will this replace the practice's EHR?",
+      "a": "No, it does not. The EHR remains the clinical and scheduling record. What we build handles the tracking and reporting that currently happens outside it, and connects to the EHR through exports or its API where one is available."
+    },
+    {
+      "q": "How is a systems project priced?",
+      "a": "It begins with a one-day operations review at $3,000, which produces a written assessment and a fixed quote for each recommendation. Implementation is quoted from the review, with no hourly billing. The review fee is credited toward implementation that begins within 90 days."
+    },
+    {
+      "q": "What happens to the practice's existing spreadsheets?",
+      "a": "We import the data the practice still needs and retire the rest. Staff receive documentation for the new system, and the handover includes a working session for the people who will use it every day."
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "ai-consulting",
+  "segment": "mental-health-practices",
+  "location": null,
+  "title": "AI consulting for mental health practices | Creosote Labs",
+  "meta_description": "Creosote Labs assesses where AI tools fit in a mental health practice, sets them up on practice templates, and trains staff. Operations review, $3,000.",
+  "h1": "AI consulting for mental health practices",
+  "intro": [
+    "Many mental health practices run on a practice management system such as SimplePractice, TherapyNotes, or TheraNest for scheduling, progress notes, and billing, alongside Google Workspace or Microsoft 365 for email and documents, and QuickBooks for the books. Intake paperwork, treatment plans, superbills, and referral letters are often written from templates and adjusted by hand. AI consulting applies to the parts of that work that happen outside the clinical record: drafting, summarizing, and answering the same questions repeatedly.",
+    "Creosote Labs starts with a one-day operations review of the practice, documents how intake, scheduling, documentation, and billing currently run, and delivers a written assessment with a quote for each recommendation. Implementation typically means setting up the AI tool the practice already has access to, such as Microsoft 365 Copilot, Google Gemini, or Claude, with the practice's own consent forms, letter templates, and policies, and training clinicians and front-desk staff on that setup. Client records stay in the practice management system throughout."
+  ],
+  "projects": [
+    "An assessment of which administrative tasks in a group practice, from intake follow-up to insurance correspondence, are candidates for AI tools and which should stay manual.",
+    "A Gemini or Copilot setup loaded with the practice's letter templates so staff can draft referral letters, treatment summaries, and school or employer letters from a short prompt.",
+    "A drafting workflow for responding to new-client inquiries with the practice's fee schedule, insurance policy, and current availability.",
+    "A review of AI-assisted note-taking tools against the practice's consent process and its business associate agreement requirements.",
+    "A written guide for clinicians covering what may and may not be entered into an AI tool under the practice's privacy policy."
+  ],
+  "faqs": [
+    {
+      "q": "Does client information go into the AI tool?",
+      "a": "Not unless the practice decides it should and the tool is covered by a business associate agreement. Most of the work we set up uses templates, policies, and non-identifying text, and clinical records stay in the practice management system."
+    },
+    {
+      "q": "What does the operations review cost and what do we get?",
+      "a": "$3,000 for one day on site. The practice receives a written assessment, prioritized recommendations, and a quote for each within the week, and the fee is credited toward implementation that begins within 90 days."
+    },
+    {
+      "q": "What do we need to have ready?",
+      "a": "Access to the practice's current tools and templates, and time with the owner, front desk, and a clinician or two during the review day. No preparation beyond that is required."
+    }
+  ]
+}

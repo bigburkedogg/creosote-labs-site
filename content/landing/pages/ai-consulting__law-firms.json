@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "ai-consulting",
+  "segment": "law-firms",
+  "location": null,
+  "title": "AI consulting for law firms · Creosote Labs",
+  "meta_description": "Creosote Labs assesses where AI tools fit in a law firm, sets them up on the firm's own templates, and trains staff. The operations review is $3,000.",
+  "h1": "AI consulting for law firms",
+  "intro": [
+    "Many small law firms run on a practice management system such as Clio, MyCase, or PracticePanther for matters, time entries, and billing, with Microsoft Word and Outlook for drafting and correspondence. Engagement letters, demand letters, discovery responses, and client intake forms tend to start from templates and get finished by hand. AI tools apply best to that drafting and review work, and to the routine communication that surrounds every matter.",
+    "Creosote Labs begins with a one-day operations review of the firm. We document how matters move from intake to closing, identify where an AI tool the firm already licenses, such as Microsoft 365 Copilot or Claude, can take on first drafts and summaries, and deliver a written assessment with a quote for each recommendation. Implementation covers setting up the tool with the firm's own templates and precedent documents, and training attorneys and staff on their own files."
+  ],
+  "projects": [
+    "A Copilot or Claude setup loaded with the firm's engagement letter, fee agreement, and demand letter templates so a first draft comes from the firm's own language.",
+    "A review of a personal injury practice's intake-to-demand workflow with a written list of the steps an AI tool can draft and the steps that stay with the attorney.",
+    "A summarization routine for deposition transcripts and medical records that produces a timeline and a page-cited summary for attorney review.",
+    "A client communication assistant that drafts status updates from matter notes in Clio for a paralegal to check and send.",
+    "A written assessment of where confidentiality rules limit which documents may be sent to a hosted AI tool, with the firm's policy documented for staff."
+  ],
+  "faqs": [
+    {
+      "q": "Does client information get sent to an outside AI service?",
+      "a": "That depends on which tool the firm uses and how it is configured. During the review we document which tools the firm already licenses, what their data terms are, and which categories of documents the firm decides may be used with them. The written assessment records those decisions."
+    },
+    {
+      "q": "How does pricing work?",
+      "a": "Engagements begin with a one-day operations review at $3,000, which produces a written assessment and a quote for each recommendation. Implementation is quoted from the review, and training is $1,000 per person."
+    },
+    {
+      "q": "What does the firm need to provide for the review?",
+      "a": "The firm provides access to the practice management system and document templates, and time with the attorneys and staff who work the matters during the review day. A sample of representative matters helps."
+    }
+  ]
+}

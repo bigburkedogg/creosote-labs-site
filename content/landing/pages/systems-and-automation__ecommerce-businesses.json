@@ -1,0 +1,35 @@
+{
+  "kind": "service-segment",
+  "service": "systems-and-automation",
+  "segment": "ecommerce-businesses",
+  "location": null,
+  "title": "Systems and automation for e-commerce | Creosote Labs",
+  "meta_description": "Creosote Labs consolidates inventory spreadsheets, store data, and accounting into one system for e-commerce businesses, then automates the repeat work.",
+  "h1": "Systems and automation for e-commerce businesses",
+  "intro": [
+    "An e-commerce business often sells through more than one channel, with a Shopify or WooCommerce store, an Amazon or Etsy listing, and sometimes a wholesale line handled by email. Inventory counts, purchase orders, landed costs, and supplier lead times tend to live in Google Sheets or Excel, separate from the store, while ShipStation handles labels and QuickBooks records the money. Systems and automation work applies where those records disagree and where staff retype the same order, SKU, or cost in several places.",
+    "Creosote Labs consolidates those spreadsheets into one system of record for products, stock, and suppliers, connected to the store and the accounting file. We build the internal tools the business needs, such as a reorder dashboard or a returns log, and automate the repetitive steps around them: purchase order drafts, low-stock alerts, and end-of-day reconciliation. Each project is scoped and quoted from a one-day operations review, and the finished system is documented and handed over to staff."
+  ],
+  "projects": [
+    "A single inventory record that replaces per-channel spreadsheets and syncs stock levels to Shopify and Amazon.",
+    "A reorder tool that flags SKUs below their reorder point and drafts a purchase order for the supplier.",
+    "A landed cost calculator that combines supplier invoices, freight, and duties into a per-unit cost feeding QuickBooks.",
+    "A returns log that records each RMA, its reason, and its disposition, with a monthly summary by product.",
+    "An order reconciliation routine that matches Shopify payouts and Amazon settlements to bank deposits.",
+    "A wholesale order tracker that moves retail-account orders from email into the same system as online orders."
+  ],
+  "faqs": [
+    {
+      "q": "Will the new system replace Shopify or our shipping software?",
+      "a": "No. The store and ShipStation stay in place. The work consolidates the spreadsheets and manual steps that sit around them and connects those tools to one record."
+    },
+    {
+      "q": "What does the business need to provide before the operations review?",
+      "a": "The review needs access to the current spreadsheets, a walkthrough of how an order moves from placement to shipment and bookkeeping, and time with the staff who handle those steps on the review day."
+    },
+    {
+      "q": "How is systems and automation work priced?",
+      "a": "Every systems project starts with the one-day operations review, priced at $3,000. The written assessment that comes out of it quotes each recommended build as fixed-scope work, with no hourly billing."
+    }
+  ]
+}

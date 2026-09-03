@@ -1,0 +1,34 @@
+{
+  "kind": "service-location",
+  "service": "systems-and-automation",
+  "segment": null,
+  "location": "kingman",
+  "title": "Systems and automation in Kingman, AZ | Creosote Labs",
+  "meta_description": "Creosote Labs consolidates spreadsheets and disconnected tools for Kingman, Arizona businesses, builds internal tools, and automates repetitive work.",
+  "h1": "Systems and automation in Kingman",
+  "intro": [
+    "Businesses in Kingman and the rest of Mohave County tend to accumulate tools one at a time: QuickBooks for invoicing, a shared Google Sheet or Excel workbook for scheduling, a paper or PDF work order, and a text thread for field updates. Trucking and distribution companies, HVAC and plumbing contractors, medical offices, and small manufacturers often keep the same customer, job, or order information in 3 or 4 places. Systems and automation work covers the gap between those tools.",
+    "Creosote Labs consolidates those spreadsheets and disconnected tools into one system of record, then builds the internal tools around it: a scheduling board, a quoting form, a job tracker, or a reporting page that pulls from live data. Repetitive steps such as re-keying invoices into QuickBooks, sending follow-up emails, and generating work orders are automated. Every project begins with a $3,000 operations review, and each recommendation in the written assessment carries its own fixed quote. We document the finished system and hand it to staff."
+  ],
+  "projects": [
+    "A dispatch board for a Kingman trucking company that replaces a whiteboard and a shared spreadsheet with one schedule drivers can see on their phones.",
+    "A work order system for an HVAC contractor that creates the invoice in QuickBooks when a technician marks the job complete.",
+    "An inventory tracker for a small manufacturer that ties purchase orders, stock counts, and customer orders together in one place.",
+    "An automated reminder sequence for a medical office that sends appointment confirmations and follows up on unpaid balances.",
+    "A reporting page for a retail store owner showing daily sales from Square alongside labor hours and inventory on hand."
+  ],
+  "faqs": [
+    {
+      "q": "What happens to the existing spreadsheets?",
+      "a": "Their data is imported into the new system, and the spreadsheets are retired once staff have confirmed nothing is missing. Where a spreadsheet is still the right tool, it stays and gets connected instead of replaced."
+    },
+    {
+      "q": "How is a systems project priced?",
+      "a": "The operations review is $3,000 and produces a written assessment with a fixed quote for each recommendation. Implementation is priced from that review, with no hourly billing."
+    },
+    {
+      "q": "Who maintains the system after handover?",
+      "a": "The business's own staff do. Every project includes written documentation and a handover session, and the finished system belongs to the business."
+    }
+  ]
+}

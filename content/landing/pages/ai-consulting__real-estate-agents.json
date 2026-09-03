@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "ai-consulting",
+  "segment": "real-estate-agents",
+  "location": null,
+  "title": "AI consulting for real estate agents | Creosote Labs",
+  "meta_description": "Creosote Labs sets up AI tools on a real estate agent's own templates and automates listing copy, client emails, and reporting. Operations review $3,000.",
+  "h1": "AI consulting for real estate agents",
+  "intro": [
+    "Real estate agents typically work out of the MLS, a transaction platform such as dotloop, SkySlope, or Lone Wolf Transactions, an e-signature service like DocuSign, and a CRM such as Follow Up Boss or kvCORE. Around those sit the documents that fill an agent's week: comparative market analyses, listing presentations, property descriptions, disclosures, and closing packets. Much of that writing and data entry is repetitive, which is where AI consulting applies.",
+    "Creosote Labs assesses how an agent's business currently runs and identifies where AI tools save time. We set up the tools the agent already has access to, such as Google Gemini, Microsoft 365 Copilot, or Claude, with the agent's own templates, past listings, and standard disclosures. We then automate document preparation, client communication, and reporting, and train the agent and any staff on their own work, with a written guide to keep."
+  ],
+  "projects": [
+    "A listing description generator that drafts copy from the MLS input sheet and the agent's past listings.",
+    "A CMA summary that turns comparable sales data into a client-ready explanation of the recommended price.",
+    "A follow-up drafting setup inside the agent's CRM that writes check-in messages to past clients and open leads.",
+    "A transaction email assistant that drafts status updates to buyers, sellers, lenders, and escrow at each milestone.",
+    "A weekly pipeline report assembled from the CRM and the transaction platform."
+  ],
+  "faqs": [
+    {
+      "q": "Does client data leave the MLS or CRM?",
+      "a": "The tools are set up in the accounts the agent already uses, such as Google Workspace or Microsoft 365, and we document what data each automation reads and where it goes. Nothing is moved to a system the agent has not approved."
+    },
+    {
+      "q": "How does an engagement start and what does it cost?",
+      "a": "Engagements begin with a one-day operations review at $3,000, which produces a written assessment and a quote for each recommendation. Implementation is quoted from the review, and team training is $1,000 per person."
+    },
+    {
+      "q": "What does the agent need to provide?",
+      "a": "Access to the tools in use, sample documents such as listing presentations and disclosures, and time on the review day to walk through how transactions currently run from listing to closing."
+    }
+  ]
+}

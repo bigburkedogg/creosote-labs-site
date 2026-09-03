@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "ai-training",
+  "segment": "general-contractors",
+  "location": null,
+  "title": "AI training for general contractors | Creosote Labs",
+  "meta_description": "A one-day AI workshop for general contractor office and field staff, delivered on the company's own documents. $1,000 per person, travel included.",
+  "h1": "Team AI training for general contractors",
+  "intro": [
+    "General contracting teams write a lot: bid letters, scope narratives, change order justifications, owner updates, meeting minutes, and responses to RFIs. Office managers, estimators, and project managers produce those documents in Word, Outlook, and Buildertrend, working from the last version of a similar document. Many of these teams have access to Microsoft 365 Copilot or Google Gemini through their existing subscription but have not set it up for construction work.",
+    "Creosote Labs delivers a one-day, hands-on workshop, on site or remote, in the AI tool the company already uses. Estimators, project managers, and office staff work on their own computers with their own bid templates, specifications, and project correspondence, and each participant produces real work during the day and documents the process. The team receives a written guide, and a 30-day follow-up session is included."
+  ],
+  "projects": [
+    "An estimator drafts a scope of work letter from a set of plans and the company's standard exclusions.",
+    "A project manager turns a week of daily logs into an owner progress report in the company's format.",
+    "An office manager sets up a template for responding to bid invitations with the company's qualifications and license information.",
+    "A superintendent dictates field notes and produces a formatted change order request.",
+    "The team writes a shared guide covering which documents the tool may draft and who reviews them."
+  ],
+  "faqs": [
+    {
+      "q": "How much does the training cost?",
+      "a": "The workshop is $1,000 per person, up to 10 people, with a minimum of 5. We quote larger teams separately, and travel is included. Adding three monthly follow-up sessions makes it a program at $1,400 per person."
+    },
+    {
+      "q": "Which staff should attend?",
+      "a": "The people who produce documents: estimators, project managers, office managers, and the owner. Field superintendents who write daily logs and change order requests also benefit. Each participant needs a computer and access to the company's AI tool."
+    },
+    {
+      "q": "What does the team need before the day?",
+      "a": "An account in the AI tool the company uses, such as Microsoft 365 Copilot, Google Gemini, or Claude, and a folder of the company's real templates: bid letters, change order forms, daily logs, and owner updates. We work from those documents during the session."
+    }
+  ]
+}

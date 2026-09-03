@@ -1,0 +1,34 @@
+{
+  "kind": "service-location",
+  "service": "ai-training",
+  "segment": null,
+  "location": "winslow",
+  "title": "Team AI training in Winslow, AZ | Creosote Labs",
+  "meta_description": "A one-day, hands-on AI workshop for Winslow teams, delivered on their own tools and documents. $1,000 per person, 5-person minimum, travel included.",
+  "h1": "Team AI training in Winslow",
+  "intro": [
+    "Many businesses in Winslow already pay for Microsoft 365 or Google Workspace, and the AI tools in those subscriptions, Copilot and Gemini, often go unused. Front desk staff at hotels and clinics, office managers at contractors, and administrators at schools and public agencies each produce the same documents every week: confirmation emails, work orders, reports, and meeting notes. Team AI training applies wherever a group of people write, summarize, or organize information as part of their job.",
+    "Creosote Labs delivers a one-day, hands-on workshop in Winslow, on site or remote, using the AI tool the company already has. Participants work on their own computers with their own documents and templates, produce real work during the session, and write down their own process. Each team receives a written guide and a 30-day follow-up session. The workshop is $1,000 per person for up to 10 people with a 5-person minimum, travel included; a program with three monthly follow-up sessions is $1,400 per person."
+  ],
+  "projects": [
+    "A hotel front desk team setting up Copilot to draft guest responses, group confirmations, and incident reports from the property's templates.",
+    "A contractor's office staff building prompts that turn field notes into estimates, change orders, and customer updates.",
+    "A clinic's administrative team using Gemini to draft referral letters, prior authorization requests, and patient reminders.",
+    "A school or nonprofit office producing grant reports, newsletters, and board minutes from existing documents.",
+    "A retail store's staff writing product descriptions, social posts, and supplier emails with a shared set of saved prompts."
+  ],
+  "faqs": [
+    {
+      "q": "Which AI tool is the training done in?",
+      "a": "The one the company already uses, such as Microsoft 365 Copilot, Google Gemini, or Claude. Participants leave with a working setup in that tool rather than a demo of something new."
+    },
+    {
+      "q": "What should participants bring?",
+      "a": "Their own laptop and a few real documents they produce regularly, such as a recent email, report, or form. The session is built around that material."
+    },
+    {
+      "q": "Does the price cover travel to Winslow?",
+      "a": "Yes. $1,000 per person, up to 10 people with a 5-person minimum, and travel is included. Teams larger than 10 are quoted."
+    }
+  ]
+}

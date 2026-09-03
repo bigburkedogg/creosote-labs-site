@@ -1,0 +1,34 @@
+{
+  "kind": "service-location",
+  "service": "ai-consulting",
+  "segment": null,
+  "location": "phoenix",
+  "title": "AI consulting in Phoenix, Arizona | Creosote Labs",
+  "meta_description": "Creosote Labs provides AI consulting for small businesses in Phoenix: a one-day operations review, tool setup, automation, and staff training.",
+  "h1": "AI consulting in Phoenix",
+  "intro": [
+    "Phoenix is home to a large number of small businesses in healthcare, construction and the trades, financial services, real estate, and hospitality. Many of them already pay for software that includes AI features: Microsoft 365 with Copilot, Google Workspace with Gemini, or a standalone Claude or ChatGPT subscription. The documents those businesses produce every week, such as estimates, patient letters, client proposals, and monthly reports, are where AI tools save the most time, and the setup needed to get that result is often still undone.",
+    "Creosote Labs serves businesses across the Phoenix metro. An engagement starts with a one-day operations review at $3,000. We spend the day with the owner and staff, document how work moves through the business, and deliver a written assessment with a quote for each recommendation. From there we configure the AI tools the company already has with its own templates and documents, automate document preparation, customer communication, and reporting, and train staff on their real work with a written guide for the team."
+  ],
+  "projects": [
+    "A Copilot setup in Microsoft 365 that drafts insurance renewal letters from an agency's own policy templates.",
+    "A Claude project loaded with a general contractor's past bids so estimators can draft new proposals in the company's format.",
+    "An automated summary of daily ServiceTitan job notes emailed to an HVAC company's office manager each evening.",
+    "A Gemini workflow in Google Workspace that turns a medical practice's call notes into patient follow-up messages for staff review.",
+    "A monthly reporting process that pulls figures from QuickBooks Online and drafts the owner's summary for a Phoenix property management company."
+  ],
+  "faqs": [
+    {
+      "q": "Does the operations review require travel to Phoenix?",
+      "a": "Yes. The review is one day on site with the owner and staff, and we deliver the written assessment and quotes within the week. Follow-on implementation and training can be done on site or remotely."
+    },
+    {
+      "q": "Which AI tools does Creosote Labs work with?",
+      "a": "We set up the tools a business already has access to, such as Microsoft 365 Copilot, Google Gemini, or Claude, using the company's own documents and templates. We do not require a business to switch platforms."
+    },
+    {
+      "q": "How is AI consulting priced?",
+      "a": "The one-day operations review is $3,000 and produces a written assessment with a quote for each recommendation. Implementation is quoted from that assessment, and team training is priced at $1,000 per person."
+    }
+  ]
+}

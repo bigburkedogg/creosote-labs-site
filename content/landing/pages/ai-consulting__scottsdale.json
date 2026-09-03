@@ -1,0 +1,34 @@
+{
+  "kind": "service-location",
+  "service": "ai-consulting",
+  "segment": null,
+  "location": "scottsdale",
+  "title": "AI consulting in Scottsdale, AZ | Creosote Labs",
+  "meta_description": "Creosote Labs assesses where AI tools fit in a Scottsdale business, sets them up on the company's own documents, and trains staff. The review is $3,000.",
+  "h1": "AI consulting in Scottsdale",
+  "intro": [
+    "Many Scottsdale businesses are in tourism, healthcare, financial and insurance services, real estate, and professional services. Businesses in those industries typically work in Microsoft 365 or Google Workspace, with a line-of-business system underneath such as HubSpot or Salesforce for sales, QuickBooks for accounting, or a practice management or property management platform. AI tools such as Microsoft 365 Copilot, Google Gemini, and Claude fit best where staff spend hours each week writing, summarizing, and preparing documents from those systems.",
+    "Creosote Labs serves businesses in Scottsdale and the Phoenix metro. An engagement starts with a one-day operations review, on site, that documents how the business currently runs and identifies where AI tools save time. The written assessment includes a quote for each recommendation. Implementation means setting up the AI tool the company already has access to with its own templates, proposals, and correspondence, automating document preparation and reporting, and training staff on their own work with a written guide."
+  ],
+  "projects": [
+    "A Copilot setup for a wealth management firm that drafts client meeting summaries and follow-up letters from the advisor's notes and the firm's own templates.",
+    "An intake assistant for a medical practice that turns referral faxes and new-patient forms into a structured chart note for staff review.",
+    "A proposal drafting workflow for an insurance agency that produces a coverage summary and quote comparison letter from carrier quotes.",
+    "A guest correspondence setup for a resort spa that answers common booking and policy questions in the property's own voice, with staff approval before sending.",
+    "A reporting automation for a real estate brokerage that compiles weekly listing and transaction activity from the MLS export and the CRM into one summary."
+  ],
+  "faqs": [
+    {
+      "q": "What does the operations review cost, and what does it include?",
+      "a": "The review is $3,000 for one day on site. It produces a written assessment, prioritized recommendations, and a quote for each item, delivered within the week. The fee is credited toward implementation that begins within 90 days."
+    },
+    {
+      "q": "Do we need to buy new AI software?",
+      "a": "Usually not, because we set up the tools the business already has access to, such as Microsoft 365 Copilot, Google Gemini, or Claude, and connect them to the company's own documents and templates."
+    },
+    {
+      "q": "How is staff training priced?",
+      "a": "Team training is $1,000 per person. It is a one-day workshop on the team's own work, and each participant leaves with a working setup and a written guide."
+    }
+  ]
+}

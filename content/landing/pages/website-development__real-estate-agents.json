@@ -1,0 +1,35 @@
+{
+  "kind": "service-segment",
+  "service": "website-development",
+  "segment": "real-estate-agents",
+  "location": null,
+  "title": "Websites for real estate agents | Creosote Labs",
+  "meta_description": "Creosote Labs builds websites, IDX listing pages, intake forms, and client portals for real estate agents. Fixed price, quoted after a scoping call.",
+  "h1": "Websites and client tools for real estate agents",
+  "intro": [
+    "Real estate agents often have a website provided by their brokerage or a template site from a vendor tied to their CRM, with an IDX feed for listings, a contact form, and a page of past sales. Agents also collect information through buyer intake forms, seller questionnaires, open house sign-in sheets, and showing request forms, most of which are handled by paper, email, or generic form builders. Website and web application development covers both the public site and those tools.",
+    "Creosote Labs builds marketing websites for agents with clear services, current listings, past sales, and a way to book a consultation directly. We also build customer-facing tools such as a home valuation request, a buyer intake form that feeds the CRM, a client portal that shows where a transaction stands, and an open house sign-in that records visitors. We handle hosting setup and domain configuration and hand over the site with documentation."
+  ],
+  "projects": [
+    "A personal agent website with listings, sold properties, service areas, and a consultation booking page.",
+    "A seller inquiry form that collects property details and photos and returns a request for a market analysis.",
+    "A client portal where buyers and sellers see upcoming deadlines and the documents still required for their transaction.",
+    "An open house sign-in page that captures visitor contact details and adds them to the CRM.",
+    "A single-property landing page template for featured listings with photos, a floor plan, and a showing request.",
+    "A relocation guide site for agents who serve buyers moving from out of the area."
+  ],
+  "faqs": [
+    {
+      "q": "Can the site show MLS listings?",
+      "a": "Yes, where the agent's MLS offers an IDX feed and the brokerage permits it. We configure the feed and confirm the display rules the MLS requires."
+    },
+    {
+      "q": "How is a website project priced?",
+      "a": "Website and application projects are quoted after a scoping call. Pricing is fixed for the agreed scope, with no hourly billing."
+    },
+    {
+      "q": "What does the agent need to supply?",
+      "a": "A logo and brand colors if they exist, headshots and property photos, a list of services and areas served, and the brokerage details required on real estate marketing. We draft the remaining copy with the agent."
+    }
+  ]
+}

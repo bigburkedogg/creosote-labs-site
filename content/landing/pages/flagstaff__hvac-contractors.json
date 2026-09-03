@@ -1,0 +1,35 @@
+{
+  "kind": "segment-location",
+  "service": null,
+  "segment": "hvac-contractors",
+  "location": "flagstaff",
+  "title": "AI and systems for HVAC contractors in Flagstaff",
+  "meta_description": "Creosote Labs helps Flagstaff HVAC contractors automate dispatch, quotes, maintenance agreements, and invoicing, and builds websites with online booking.",
+  "h1": "HVAC contractors in Flagstaff: AI, systems, and websites",
+  "intro": [
+    "HVAC contractors in Flagstaff usually dispatch and invoice through ServiceTitan, Housecall Pro, FieldEdge, or Jobber, with QuickBooks for accounting and a spreadsheet or whiteboard for equipment installs and maintenance agreement renewals. Service calls, replacement quotes with good-better-best options, maintenance agreements, permit applications, and equipment warranty registrations are produced daily. Seasonal demand for heating and cooling work means the office handles many calls, quotes, and follow-ups in short windows, and much of it is retyped between systems.",
+    "Creosote Labs is based in Flagstaff and serves HVAC contractors in Flagstaff and Northern Arizona. We begin with a one-day operations review of how calls are booked, quoted, dispatched, and invoiced, and quote each recommendation from that assessment. Implementation often includes replacement quotes generated from a technician's site survey, maintenance agreement renewals sent automatically, install and warranty tracking in one system, and a website with online booking that creates the job in the dispatch software. Technicians and office staff are trained on the company's own pricebook and forms."
+  ],
+  "projects": [
+    "A replacement quote tool that produces the good-better-best proposal from a technician's site survey and the company pricebook.",
+    "A maintenance agreement tracker that schedules spring and fall visits and sends renewal notices before expiration.",
+    "An install checklist that records equipment model and serial numbers, files the warranty registration, and logs the permit.",
+    "A booking form on the website that creates the job in ServiceTitan or Housecall Pro with the customer's equipment details.",
+    "A follow-up sequence that sends the quote, reminds the customer, and notifies the office when it is opened.",
+    "An end-of-day report that summarizes completed calls, unsent invoices, and open quotes for the owner."
+  ],
+  "faqs": [
+    {
+      "q": "How is pricing set for an HVAC company?",
+      "a": "The first step is a $3,000 operations review, one day on site, and the resulting assessment carries a separate quote for every system or automation we recommend. Training runs $1,000 per person for up to 10 people, 5-person minimum, travel included."
+    },
+    {
+      "q": "Do technicians need to attend the training?",
+      "a": "Training is a hands-on one-day workshop delivered on the company's own tools and documents, on site or remote. Whether technicians, office staff, or both attend depends on where the review finds the most time to save."
+    },
+    {
+      "q": "Can this connect to the dispatch software already in place?",
+      "a": "We work with the dispatch and invoicing software the company already uses and connect quoting, booking, and reporting to it rather than replacing it."
+    }
+  ]
+}

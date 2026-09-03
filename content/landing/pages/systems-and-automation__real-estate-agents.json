@@ -1,0 +1,35 @@
+{
+  "kind": "service-segment",
+  "service": "systems-and-automation",
+  "segment": "real-estate-agents",
+  "location": null,
+  "title": "Real estate agent systems and automation | Creosote Labs",
+  "meta_description": "Creosote Labs consolidates a real estate agent's deal spreadsheets, CRM, and transaction platform into one system and automates data entry and deadlines.",
+  "h1": "Systems and automation for real estate agents",
+  "intro": [
+    "Many real estate agents run their business across a transaction platform such as dotloop or SkySlope, a CRM like Follow Up Boss, the MLS, DocuSign, and a set of spreadsheets in Excel or Google Sheets that track active deals, deadlines, commissions, and marketing spend. The same client name, address, and contract date often get typed into each of them separately. Systems and automation work addresses that duplication.",
+    "Creosote Labs consolidates those spreadsheets and disconnected tools into one system of record for the agent's business. We build internal tools for tracking contract deadlines, commissions, and showing schedules, automate repetitive work such as entering a new transaction into every platform, and generate documents from the data already on file. The system is documented and handed over so the agent and any assistant can run it without us."
+  ],
+  "projects": [
+    "A transaction tracker that records contract dates once and calculates inspection, appraisal, and closing deadlines.",
+    "An automation that creates the CRM contact, the transaction file, and the calendar events when a contract is signed.",
+    "A commission ledger that logs each closing and the brokerage split and produces a year-end summary for the agent's accountant.",
+    "A showing schedule tool that collects requests from a form and assembles the day's route.",
+    "A post-closing sequence that sends the closing packet, a review request, and home anniversary reminders on schedule.",
+    "A marketing spend tracker that ties portal, signage, and photography costs to each listing."
+  ],
+  "faqs": [
+    {
+      "q": "Will this replace the transaction platform the brokerage requires?",
+      "a": "No. Brokerage-required platforms such as dotloop or SkySlope stay in place. The system sits alongside them and reduces how many times the same information has to be entered."
+    },
+    {
+      "q": "How is the work priced?",
+      "a": "A one-day operations review at $3,000 produces a written assessment and a quote for each recommendation. Implementation is fixed scope with no hourly billing and is quoted from that review."
+    },
+    {
+      "q": "What happens to the existing spreadsheets?",
+      "a": "Historical data is imported into the new system where it is useful, and the spreadsheets are retired once the agent has confirmed the system covers everything they did."
+    }
+  ]
+}

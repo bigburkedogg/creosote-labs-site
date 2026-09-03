@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "ai-training",
+  "segment": "ecommerce-businesses",
+  "location": null,
+  "title": "Team AI training for e-commerce businesses | Creosote Labs",
+  "meta_description": "A one-day AI workshop for e-commerce teams, delivered on their own product data and tools. $1,000 per person, written guide and 30-day follow-up included.",
+  "h1": "Team AI training for e-commerce businesses",
+  "intro": [
+    "The staff of an e-commerce business spend much of the day producing text: product listings for Shopify and Amazon, Klaviyo email campaigns, replies to customer tickets in Gorgias or Zendesk, supplier correspondence, and ad copy. Many of these teams have tried ChatGPT or Claude on their own, with results that vary by person. Team AI training is a one-day workshop that puts everyone on the same tool, with the same catalog data and brand guidelines, working on their actual tasks.",
+    "Creosote Labs delivers the workshop on site or remote, in the AI tool the company already uses. Each participant works on their own computer with their own product data, writes real listings or ticket replies during the session, and documents the process they settled on. The team leaves with a written guide and a 30-day follow-up session. Pricing is $1,000 per person for up to 10 people, with a 5-person minimum, and travel is included."
+  ],
+  "projects": [
+    "A listing workshop where the merchandising team writes new product pages from supplier spec sheets in the brand's voice.",
+    "A customer service session where support staff build reply templates for the 10 most common ticket types and test them on live tickets.",
+    "An email marketing session where the team drafts a Klaviyo campaign series from a product launch brief.",
+    "A buying and planning session where staff summarize supplier price lists and lead-time emails into a comparison table.",
+    "A marketplace session where the Amazon team rewrites bullet points and backend keywords for existing ASINs."
+  ],
+  "faqs": [
+    {
+      "q": "Does the workshop need our product data in advance?",
+      "a": "Participants bring their own catalog exports, brand guidelines, and recent tickets or campaigns on the day. Nothing needs to be prepared beyond gathering the files the team already works from."
+    },
+    {
+      "q": "Which tool is the training delivered in?",
+      "a": "The workshop runs in the AI tool the company already uses, such as ChatGPT, Claude, Google Gemini, or Microsoft 365 Copilot, so participants leave with a setup they can keep using."
+    },
+    {
+      "q": "How is team AI training priced?",
+      "a": "The workshop costs $1,000 per person for up to 10 people, with a minimum of 5 people. Larger teams are quoted and travel is included. A program with three monthly follow-up sessions is $1,400 per person."
+    }
+  ]
+}

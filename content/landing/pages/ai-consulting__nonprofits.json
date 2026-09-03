@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "ai-consulting",
+  "segment": "nonprofits",
+  "location": null,
+  "title": "AI consulting for nonprofits | Creosote Labs",
+  "meta_description": "Creosote Labs helps nonprofits put AI tools to work on grant writing, donor letters, and board reporting. One-day operations review at $3,000.",
+  "h1": "AI consulting for nonprofits",
+  "intro": [
+    "Many nonprofits run on a donor database such as Bloomerang, Little Green Light, DonorPerfect, or Salesforce Nonprofit Cloud, with QuickBooks for the books, Mailchimp or Constant Contact for newsletters, and Google Workspace or Microsoft 365 for everything else. The writing load is often heavy: grant applications, grant reports, donor acknowledgment letters, board packets, and the annual report all get produced by a small staff, often from the same underlying program data retyped each time.",
+    "Creosote Labs assesses where AI tools fit in that work and sets them up on the organization's own material. We configure Google Gemini, Microsoft 365 Copilot, or Claude with past grant narratives, program descriptions, and letter templates so a first draft starts from the organization's own language. We automate acknowledgment letters and recurring board reports, then train staff on their real tasks and leave a written guide."
+  ],
+  "projects": [
+    "A grant-drafting setup that produces a first-pass narrative from the organization's past applications and the funder's prompts.",
+    "An acknowledgment letter workflow that drafts a personalized thank-you from each gift record in the donor database.",
+    "A board packet assistant that turns the month's QuickBooks reports and program numbers into a draft executive summary.",
+    "A grant report template that pulls outcome data from a program tracking sheet into the funder's required format.",
+    "A written guide for staff covering which AI tool to use for which document and how to review the output before it goes out."
+  ],
+  "faqs": [
+    {
+      "q": "How does the engagement start and what does it cost?",
+      "a": "It begins with a one-day operations review at $3,000. We spend the day with staff, document how the organization currently runs, and deliver a written assessment with a quote for each recommendation. Implementation is quoted from the review, and team training is $1,000 per person."
+    },
+    {
+      "q": "How is donor data handled when AI tools are involved?",
+      "a": "We work inside the tools the organization already licenses, such as Google Workspace or Microsoft 365, and review each tool's data handling terms with the organization before any donor or client information is involved. Sensitive records can be kept out of the setup entirely."
+    },
+    {
+      "q": "What does the organization need to provide?",
+      "a": "The organization provides access to the current tools, a set of representative documents such as past grant applications, letters, and board reports, and time with the people who produce them. The review day covers the rest."
+    }
+  ]
+}

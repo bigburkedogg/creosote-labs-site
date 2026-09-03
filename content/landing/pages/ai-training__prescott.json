@@ -1,0 +1,34 @@
+{
+  "kind": "service-location",
+  "service": "ai-training",
+  "segment": null,
+  "location": "prescott",
+  "title": "Team AI training in Prescott, AZ | Creosote Labs",
+  "meta_description": "One-day, hands-on AI training for Prescott teams, delivered on their own tools and documents. $1,000 per person, 5-person minimum, travel included.",
+  "h1": "Team AI training in Prescott",
+  "intro": [
+    "Teams in Prescott's medical offices, hotels, contractor shops, law firms, and nonprofits often have Copilot, Gemini, or Claude available through an existing subscription without a shared way of using it. Staff who write patient letters, guest correspondence, proposals, grant reports, or vendor emails each work it out alone, and the results vary from one desk to the next. Training on general examples rarely carries over to the documents a particular office produces.",
+    "Creosote Labs delivers a one-day workshop for teams in Prescott, on site or remote, in the AI tool the company already uses. Participants work on their own computers with their own documents and templates, produce real work during the session, and write down their own process. Each team leaves with a written guide and a 30-day follow-up session. Pricing is $1,000 per person, with a 5-person minimum and travel included."
+  ],
+  "projects": [
+    "A workshop for a medical practice's front office on drafting patient communications and referral letters in Copilot from the practice's templates.",
+    "A session for a hotel's front desk and sales staff on guest correspondence and group proposals in Gemini.",
+    "Training for a general contractor's office team on turning site notes into estimates and change orders in Claude.",
+    "A workshop for a nonprofit's staff on grant reports and donor letters using the organization's own past submissions.",
+    "A remote session for a law firm's paralegals on summarizing documents and drafting client updates within the firm's confidentiality rules."
+  ],
+  "faqs": [
+    {
+      "q": "Is the training held in Prescott or remotely?",
+      "a": "Either works. The workshop is one day on site in Prescott or delivered remotely, and travel is included in the per-person price."
+    },
+    {
+      "q": "What does each participant need to bring?",
+      "a": "Each participant brings their own computer, a login to the AI tool the company already uses, and 2 or 3 documents or templates they produce regularly. The session is built around that material."
+    },
+    {
+      "q": "How is team training priced?",
+      "a": "$1,000 per person for up to 10 people, with a 5-person minimum, and larger teams are quoted. A program with 3 monthly follow-up sessions is $1,400 per person."
+    }
+  ]
+}

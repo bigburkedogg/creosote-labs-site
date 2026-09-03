@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "ai-training",
+  "segment": "title-companies",
+  "location": null,
+  "title": "AI training for title and escrow companies | Creosote Labs",
+  "meta_description": "A one-day hands-on AI workshop for title and escrow staff, run on the company's own files and templates. $1,000 per person, 5-person minimum.",
+  "h1": "Team AI training for title and escrow companies",
+  "intro": [
+    "Escrow officers, assistants, and processors spend their day in the production platform and in email, moving between title commitments, closing instructions, purchase contracts, and the parties waiting on each of them. Many offices already have Microsoft 365 or Google Workspace, with Copilot or Gemini included in or available for the subscription, and some staff have tried it on their own. Use across the office tends to be uneven, with no shared way of working and no written guidance on what the tool should and should not touch.",
+    "The workshop is one day, on site or remote, in the AI tool the company already uses. Each participant works at their own computer on their own files: summarizing a lengthy commitment with its exceptions, pulling the conditions out of a lender's closing instructions, drafting a plain-language explanation of a settlement statement for a first-time buyer, or writing the status email for a file that is waiting on a payoff. Everyone leaves with a working setup, a written guide for the office, and a 30-day follow-up session."
+  ],
+  "projects": [
+    "Each escrow officer builds a prompt that summarizes a title commitment and lists the Schedule B exceptions that need curative work.",
+    "Processors set up a reusable template that drafts the opening letter to buyer and seller from the purchase contract.",
+    "The front desk practices answering common buyer questions about earnest money and closing costs against an approved plain-language reference.",
+    "The office writes a shared policy on what may be entered into the AI tool and what stays inside the production platform.",
+    "A follow-up session 30 days later reviews what each person kept using and where the guide needs updating."
+  ],
+  "faqs": [
+    {
+      "q": "What does the training cost?",
+      "a": "$1,000 per person for up to 10 people, with a 5-person minimum. Larger teams are quoted and travel is included. A program with three monthly follow-up sessions is $1,400 per person."
+    },
+    {
+      "q": "Which AI tool is the workshop taught in?",
+      "a": "Whichever tool the company already uses, such as Microsoft 365 Copilot, Google Gemini, or Claude, under the company's own accounts. We do not require a new subscription for the session."
+    },
+    {
+      "q": "Does our staff need to prepare anything?",
+      "a": "Each participant brings their own computer, a login to the AI tool, and a few current files and templates to work from. We confirm the list with the office before the day."
+    }
+  ]
+}

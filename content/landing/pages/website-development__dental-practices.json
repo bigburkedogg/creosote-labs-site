@@ -1,0 +1,35 @@
+{
+  "kind": "service-segment",
+  "service": "website-development",
+  "segment": "dental-practices",
+  "location": null,
+  "title": "Websites and web apps for dental practices | Creosote Labs",
+  "meta_description": "Creosote Labs builds dental practice websites, online new-patient forms, and appointment request tools, quoted at a fixed price after a scoping call.",
+  "h1": "Website and web application development for dental practices",
+  "intro": [
+    "Many dental practices have a website built by a dental marketing vendor on a monthly plan, with a contact form, a services list, and a link to a third-party appointment request page. New-patient paperwork is often still a PDF that patients print and fill out, or a fillable form that someone retypes into Dentrix or Eaglesoft. Website and web application development covers the public site and the patient-facing tools around it: intake forms, appointment requests, and the pages that explain what the practice offers and what it costs.",
+    "We build the site the practice owns outright, with hosting and the domain set up in the practice's name and documentation for whoever updates it next. Beyond the marketing site, we build the tools patients use directly: a new-patient intake form that produces a completed packet for the front desk, an appointment request form that lands in the right inbox, and a membership plan page for patients without insurance. Projects are scoped on a call and quoted at a fixed price."
+  ],
+  "projects": [
+    "A practice website with pages for each service, dentist bios, insurance accepted, office hours, and a clear way to request an appointment.",
+    "An online new-patient intake form covering medical history, insurance details, and consent signatures that delivers a completed packet to the front desk.",
+    "An appointment request form that asks for the reason for the visit and preferred times and routes the request to the scheduling coordinator.",
+    "An in-house membership plan page that explains annual pricing for uninsured patients and collects sign-ups.",
+    "A fees and financing page that lists the practice's payment options and links to the financing application it already uses.",
+    "Hosting, domain, and email configuration in the practice's name, with a written guide for updating the site."
+  ],
+  "faqs": [
+    {
+      "q": "Is an online intake form appropriate for patient health information?",
+      "a": "It can be, with the right setup. We discuss where submissions are stored, who can access them, and whether a business associate agreement is needed before we build, and we design the form so completed packets go to the practice rather than sitting on a third-party server."
+    },
+    {
+      "q": "What does a dental practice website cost?",
+      "a": "Website and application projects are quoted after a scoping call. The price is fixed for the agreed scope with no hourly billing, and the practice owns the site, hosting, and domain after handover."
+    },
+    {
+      "q": "What does the practice need to provide?",
+      "a": "We need a list of services, the dentists' bios and photos, the insurance plans the office accepts, office hours, and the current intake paperwork. If the practice already has a domain, we also need access to the registrar so it can be pointed at the new site."
+    }
+  ]
+}

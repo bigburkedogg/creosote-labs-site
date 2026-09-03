@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "website-development",
+  "segment": "schools-and-tutoring",
+  "location": null,
+  "title": "Websites for schools and tutoring businesses",
+  "meta_description": "Creosote Labs builds websites, enrollment forms, and parent portals for schools and tutoring businesses, quoted at a fixed price after a scoping call.",
+  "h1": "Website and web application development for schools and tutoring businesses",
+  "intro": [
+    "The website for a school or tutoring business is where families compare programs, check tuition and hours, and decide whether to reach out. Many are built on Wix, Squarespace, or WordPress, with a Google Form or a link to Calendly for inquiries and a PDF for the enrollment packet. Tutoring centers often want families to book an assessment or a trial session directly, and schools often need an application process that does not depend on paper forms and email attachments.",
+    "Creosote Labs builds marketing sites with clear program descriptions, tuition, and a way to book or apply, along with the customer-facing tools behind them. That can be an online enrollment application, a trial session booking form that lands on the tutor's calendar, or a parent portal where families see schedules, invoices, and progress reports. Projects include hosting and domain setup, and we hand over the site with documentation so staff can update it."
+  ],
+  "projects": [
+    "A marketing site for a tutoring center with program pages, pricing, tutor profiles, and a trial session booking form.",
+    "An online enrollment application for a private school that collects family details, documents, and a deposit in one flow.",
+    "A parent portal where families view upcoming sessions, download invoices, and read term progress reports.",
+    "A summer program registration page with session capacity limits, waitlists, and automatic confirmation emails.",
+    "A tutor-facing web application for logging sessions and notes from a phone between appointments."
+  ],
+  "faqs": [
+    {
+      "q": "How is a school website priced?",
+      "a": "Website and application projects are quoted after a scoping call. Pricing is fixed for the agreed scope, with no hourly billing."
+    },
+    {
+      "q": "Can families pay tuition or deposits through the site?",
+      "a": "Yes. Enrollment and booking tools can collect payments through a processor such as Stripe or Square, and the scoping call covers which payments belong on the site and which stay in the billing system."
+    },
+    {
+      "q": "Who updates the site after it launches?",
+      "a": "The school's own staff. Every project ends with a handover and written documentation covering how to edit pages, programs, tuition, and forms, and hosting and domain configuration are set up as part of the project."
+    }
+  ]
+}

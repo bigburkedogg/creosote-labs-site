@@ -1,0 +1,35 @@
+{
+  "kind": "service-segment",
+  "service": "systems-and-automation",
+  "segment": "roofing-companies",
+  "location": null,
+  "title": "Systems and automation for roofing companies | Creosote Labs",
+  "meta_description": "We consolidate a roofing company's leads, estimates, schedules, and invoicing into one system, build the tools it needs, and automate repeated work.",
+  "h1": "Systems and automation for roofing companies",
+  "intro": [
+    "A roofing company's information often lives in several places at once: leads in a spreadsheet or a CRM, estimates in AccuLynx or JobNimbus, measurements in EagleView reports, photos in CompanyCam, crew schedules on a whiteboard or in Google Sheets, and invoices in QuickBooks. Each handoff between those places is a manual step. Job details are retyped from the estimate into the material order, from the material order into the schedule, and from the completed job into the invoice, and the same homeowner is often contacted from more than one system.",
+    "Creosote Labs consolidates those pieces into one system of record and builds the internal tools around it: a job board that shows every roof from lead to final payment, a quoting tool that produces an estimate from a measurement report, and a production calendar tied to material deliveries. Where a step is repeated on every job, we automate it, so an accepted estimate creates the material order and the QuickBooks invoice without retyping. The system is documented and handed over to the office staff who will run it."
+  ],
+  "projects": [
+    "A job tracking board that carries each roof from inspection through insurance approval, build day, and final payment in one screen.",
+    "An estimating tool that takes squares, pitch, and material selections and produces a priced proposal in the company's format.",
+    "A material order generated automatically from an accepted estimate and sent to the supplier.",
+    "A production calendar that schedules crews against material delivery dates and weather holds.",
+    "Automatic sync of completed jobs into QuickBooks so invoices and deposits are recorded once.",
+    "A warranty register that records installed roofs and sends the registration paperwork to the manufacturer."
+  ],
+  "faqs": [
+    {
+      "q": "Do we have to leave AccuLynx or JobNimbus to do this?",
+      "a": "Not necessarily. The operations review looks at what the company already uses and recommends either building around it or replacing it, and software that is working stays."
+    },
+    {
+      "q": "What happens to our existing spreadsheets and job records?",
+      "a": "They are migrated into the new system as part of implementation, and the office keeps working during the changeover. Nothing is switched off until the replacement is tested with real jobs."
+    },
+    {
+      "q": "How is systems and automation work priced?",
+      "a": "It begins with a one-day operations review at $3,000, which produces a written assessment and a quote for each recommendation. Implementation is fixed price, quoted from the review, with no hourly billing."
+    }
+  ]
+}

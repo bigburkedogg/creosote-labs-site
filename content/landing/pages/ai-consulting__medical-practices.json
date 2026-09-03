@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "ai-consulting",
+  "segment": "medical-practices",
+  "location": null,
+  "title": "AI consulting for medical practices | Creosote Labs",
+  "meta_description": "Creosote Labs assesses where AI tools fit in a medical practice, sets them up on its own documents, and trains staff. Operations review is $3,000.",
+  "h1": "AI consulting for medical practices",
+  "intro": [
+    "Many independent medical practices run on an electronic health record and practice management system such as athenahealth, eClinicalWorks, NextGen, Tebra, or AdvancedMD, with billing handled inside that system or by an outside biller. Around it sits a second layer of work: referral letters, prior authorization requests, patient instructions, recall lists, and the front-desk inbox, much of it handled in Microsoft 365 or Google Workspace. AI tools apply to that second layer, where staff spend time drafting, summarizing, and re-keying information the practice already has.",
+    "Creosote Labs starts with a one-day operations review. We document how the practice handles scheduling, intake, documentation, billing follow-up, and patient communication, then deliver a written assessment with prioritized recommendations and a quote for each. Where an AI tool fits, we set it up in the platform the practice licenses, such as Microsoft 365 Copilot, Google Gemini, or Claude, using the practice's own templates, and train staff on their own work with a written guide. Protected health information stays inside the tools the practice has agreements with."
+  ],
+  "projects": [
+    "A referral letter draft produced from the visit note and the receiving specialist's requirements, ready for physician review.",
+    "A prior authorization request assembled from the chart, the payer's form, and the practice's standard justification language.",
+    "Patient after-visit instructions written at a plain reading level from the clinician's note and the practice's approved templates.",
+    "A front-desk inbox assistant that sorts incoming faxes and portal messages by type and drafts routine replies for staff approval.",
+    "A monthly report that summarizes no-show rates, open claims, and recall backlog from exports out of the practice management system."
+  ],
+  "faqs": [
+    {
+      "q": "Does the practice need a business associate agreement with the AI vendor?",
+      "a": "If the tool will handle protected health information, yes. During the review we confirm which tools the practice already has agreements for, such as through its Microsoft 365 or Google Workspace contract, and keep any work involving patient data inside those tools."
+    },
+    {
+      "q": "What does the operations review cost and what does it produce?",
+      "a": "The operations review is $3,000 for one day on site. Within the week the practice receives a written assessment, prioritized recommendations, and a quote for each recommendation. The fee is credited toward implementation that begins within 90 days."
+    },
+    {
+      "q": "What does the practice need to provide for the review?",
+      "a": "We need time with the people who run the front desk, billing, and clinical documentation during the day, plus examples of the documents the practice produces, such as referral letters, intake packets, and patient statements. No system access is required for the review itself."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "kind": "service-segment",
+  "service": "ai-consulting",
+  "segment": "consultants-and-coaches",
+  "location": null,
+  "title": "AI consulting for consultants and coaches | Creosote Labs",
+  "meta_description": "Creosote Labs assesses where AI tools fit in a consulting or coaching practice, sets them up with the practice's own templates, and trains the team.",
+  "h1": "AI consulting for consultants and coaches",
+  "intro": [
+    "Many consulting and coaching practices run on a scheduling tool such as Calendly or Acuity, Zoom for sessions, Google Workspace or Microsoft 365 for documents, and QuickBooks or FreshBooks for invoicing. Client records often sit in HubSpot, Dubsado, HoneyBook, or a spreadsheet. Much of the work outside sessions is writing: proposals, statements of work, session notes, progress summaries, and follow-up emails, most of which start from a previous version.",
+    "Creosote Labs reviews how a practice currently produces that writing and identifies where an AI tool the practice already has access to, such as Microsoft 365 Copilot, Google Gemini, or Claude, can do the first draft. We set the tool up with the practice's own proposal templates, intake questionnaires, frameworks, and past deliverables, so the output matches how the practice already writes. Then we train the team on their own work and leave a written guide."
+  ],
+  "projects": [
+    "A proposal drafting setup that produces a first draft from discovery call notes and the practice's own proposal template.",
+    "A session summary process that turns a Zoom transcript into client-ready notes and a list of agreed next steps.",
+    "An intake review step that reads a new client's questionnaire and prepares a briefing before the first session.",
+    "A quarterly progress report that assembles session notes and milestones into the practice's standard report format.",
+    "A follow-up email process that drafts check-ins between sessions in the practitioner's own tone.",
+    "A written assessment of which parts of the practice's non-session work are worth automating and which are not."
+  ],
+  "faqs": [
+    {
+      "q": "What does an engagement start with?",
+      "a": "Every engagement begins with a one-day operations review at $3,000. It produces a written assessment of how the practice currently runs and a quote for each recommendation. Implementation is quoted from that review."
+    },
+    {
+      "q": "Do client notes and session transcripts get uploaded somewhere outside the practice?",
+      "a": "We set up the AI tool the practice already has access to, such as Microsoft 365 Copilot, Google Gemini, or Claude, inside the practice's own account. Which tool is used, and what is shared with it, is decided with the owner during the review."
+    },
+    {
+      "q": "How much time does the practice need to set aside?",
+      "a": "The review takes one day with the owner and anyone else involved in client work. Team training is $1,000 per person and takes one day, during which each participant works on their own documents."
+    }
+  ]
+}

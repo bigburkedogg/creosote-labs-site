@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "ai-training",
+  "segment": "insurance-agencies",
+  "location": null,
+  "title": "AI training for insurance agency teams | Creosote Labs",
+  "meta_description": "A one-day, hands-on AI workshop for insurance agency staff, run on the agency's own tools and documents. $1,000 per person, written guide included.",
+  "h1": "Team AI training for insurance agencies",
+  "intro": [
+    "Producers, account managers, and CSRs at an insurance agency spend much of the day writing: quote proposals, coverage explanations, renewal letters, declination responses, and replies to certificate and billing questions. Many agencies already have an AI tool available through Microsoft 365 Copilot, Google Workspace, or a ChatGPT or Claude subscription, but it is often used for occasional questions rather than for the agency's own declarations pages, ACORD applications, and proposals. Team AI training applies the tool to that work.",
+    "Creosote Labs delivers a one-day workshop in the tool the agency already uses. Each participant works on their own computer with their own files: summarizing a commercial policy, drafting a renewal proposal from carrier quotes, or writing a coverage comparison between two carriers. By the end of the day every person has a working setup and has documented their own process. The agency receives a written guide and a 30-day follow-up session. Training is $1,000 per person for up to 10 people, with a 5-person minimum."
+  ],
+  "projects": [
+    "A session for account managers on summarizing a commercial package policy into a one-page client summary.",
+    "A producer exercise drafting a renewal proposal from 3 carrier quotes using the agency's proposal template.",
+    "A CSR exercise writing replies to common certificate, billing, and ID card requests from the agency's saved responses.",
+    "A prompt set for explaining coverage differences, such as replacement cost versus actual cash value, in plain language for clients.",
+    "A written guide that records which client information may be entered into the tool under the agency's own policy."
+  ],
+  "faqs": [
+    {
+      "q": "Which AI tool is the workshop taught in?",
+      "a": "The workshop runs in whichever tool the agency already uses, whether Microsoft 365 Copilot, Google Gemini, Claude, or ChatGPT. The session runs in the same accounts the team will use afterward, so nothing has to be relearned."
+    },
+    {
+      "q": "Is it safe to use real client files during the session?",
+      "a": "The workshop runs inside the agency's own licensed accounts, and before the day we agree with the owner on which documents are appropriate to use. Those rules are written into the guide the team keeps."
+    },
+    {
+      "q": "What is included in the price?",
+      "a": "$1,000 per person covers the full day, up to 10 people with a 5-person minimum, travel, the written guide, and a 30-day follow-up session. Larger teams are quoted, and a program with three monthly follow-up sessions is $1,400 per person."
+    }
+  ]
+}

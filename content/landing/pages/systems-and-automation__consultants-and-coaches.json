@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "systems-and-automation",
+  "segment": "consultants-and-coaches",
+  "location": null,
+  "title": "Systems and automation for consultants and coaches",
+  "meta_description": "Creosote Labs consolidates the booking, CRM, invoicing, and spreadsheet tools of a consulting or coaching practice into one system and automates the rest.",
+  "h1": "Systems and automation for consultants and coaches",
+  "intro": [
+    "A consulting or coaching practice often accumulates one tool per task: a booking link, a CRM such as HubSpot or Dubsado, a course platform such as Kajabi or Thinkific, QuickBooks for invoices, and a Google Sheet that tracks which clients are active, what package they bought, and how many sessions remain. Those tools rarely share data, so the owner often re-enters the same client information several times and reconciles the sheet by hand.",
+    "Creosote Labs builds a single system of record for the practice, with clients, engagements, sessions, and payments in one place. We connect the booking tool, invoicing, and email to it so a completed session updates the client's remaining balance and a finished package triggers the renewal conversation. Repetitive steps such as sending pre-session forms and generating engagement letters are automated. The system is documented and handed over to the practice."
+  ],
+  "projects": [
+    "A client tracker that replaces the spreadsheet, showing each engagement's package, sessions used, and next scheduled date.",
+    "An onboarding automation that sends the engagement letter, intake questionnaire, and payment link when a client signs.",
+    "A session-count system that deducts from a package when a Calendly or Acuity booking is marked complete and flags packages near their end.",
+    "A monthly invoicing process that creates QuickBooks invoices for retainer clients without manual entry.",
+    "A group program roster that tracks cohort members, attendance, and homework submissions in one view."
+  ],
+  "faqs": [
+    {
+      "q": "Which existing tools stay and which get replaced?",
+      "a": "That is decided in the operations review, which costs $3,000 and takes one day. Tools that work well, such as a booking link or QuickBooks, usually stay and get connected; the spreadsheets that track clients, packages, and sessions are what get consolidated."
+    },
+    {
+      "q": "What happens to the client history in the current spreadsheet?",
+      "a": "Existing client, package, and session records are migrated into the new system as part of implementation. The practice supplies the current spreadsheets and exports from any tool being replaced."
+    },
+    {
+      "q": "How is implementation priced?",
+      "a": "Each recommendation in the written assessment comes with its own fixed quote. There is no hourly billing, and the review fee is credited toward implementation that begins within 90 days."
+    }
+  ]
+}

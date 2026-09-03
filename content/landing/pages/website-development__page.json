@@ -1,0 +1,34 @@
+{
+  "kind": "service-location",
+  "service": "website-development",
+  "segment": null,
+  "location": "page",
+  "title": "Website development in Page, Arizona | Creosote Labs",
+  "meta_description": "Creosote Labs builds websites, booking and quote tools, and web applications for businesses in Page, Arizona, at a fixed price with hosting included.",
+  "h1": "Website and web application development in Page",
+  "intro": [
+    "For a business in Page, the website is often the first contact with a visitor who is planning a trip from another state or another country. Tour companies, boat rentals, lodging, and restaurants commonly run a site on Wix or Squarespace with a booking widget from FareHarbor or a reservation link, while local contractors and service businesses may have no site at all. Website and web application development covers both the marketing site and the tools customers use on it.",
+    "Creosote Labs builds marketing websites with clear services, pricing, and a way to book or contact the business, and customer-facing tools such as quote requests, intake forms, and portals. A project is scoped on a call, quoted at a fixed price, and delivered with hosting, domain configuration, and written documentation. We also build web applications that replace a manual process, such as a private tour request that produces a quote instead of a string of emails."
+  ],
+  "projects": [
+    "A marketing site for a tour company with trip pages, pricing, seasonal availability, and a booking button on every page.",
+    "A group and charter request form that collects dates, party size, and needs, and returns a quote by email.",
+    "A lodging site with room pages, rates, and a direct reservation link that does not depend on a third-party listing.",
+    "A customer portal where guests sign waivers and view their itinerary before arrival.",
+    "A simple site for a local contractor with services, service area, photos of completed work, and a request-a-quote form."
+  ],
+  "faqs": [
+    {
+      "q": "How is a website project priced?",
+      "a": "Projects are quoted after a scoping call, at a fixed price. There is no hourly billing, and hosting setup and domain configuration are included."
+    },
+    {
+      "q": "What do we need to provide?",
+      "a": "Current services and prices, photos, any existing logo or brand materials, and access to the current domain registrar. We write or edit the copy with the business from there."
+    },
+    {
+      "q": "Can the site work with our existing booking system?",
+      "a": "Yes. We build around booking platforms such as FareHarbor or Peek rather than replacing them, unless the business wants a custom booking tool."
+    }
+  ]
+}

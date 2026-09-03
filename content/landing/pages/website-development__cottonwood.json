@@ -1,0 +1,34 @@
+{
+  "kind": "service-location",
+  "service": "website-development",
+  "segment": null,
+  "location": "cottonwood",
+  "title": "Website development in Cottonwood, AZ | Creosote Labs",
+  "meta_description": "Creosote Labs builds websites, booking and quote tools, and web applications for Cottonwood, AZ businesses. Fixed price, quoted after a scoping call.",
+  "h1": "Website and web application development in Cottonwood",
+  "intro": [
+    "Many businesses in Cottonwood depend on visitors finding them. Tasting rooms, restaurants, hotels, tour operators, and retail stores serve travelers passing through the Verde Valley, and many of them still take reservations by phone and list hours and prices on a site that has not been updated in years. Service businesses such as contractors, dental offices, and cleaning companies often have a different version of the same problem: a site with no clear services, no pricing, and no way to request a quote.",
+    "Creosote Labs designs and builds websites and web applications for businesses in Cottonwood and the Verde Valley. A marketing site lists the services, the pricing, and a way to book or contact the business. Customer-facing tools handle quote requests, bookings, intake forms, and customer portals. For businesses with a manual process that a form and a database could replace, we build a web application for staff and customers. Every project includes hosting setup, domain configuration, and handover with documentation, at a fixed price quoted after a scoping call."
+  ],
+  "projects": [
+    "A marketing site for a Verde Valley winery with tasting hours, a wine list, and a reservation form connected to the tasting room's calendar.",
+    "A quote request form for a landscaping company that collects the property address, photos, and the work wanted before the first phone call.",
+    "A new-patient intake form for a chiropractic office that fills the patient record before the visit instead of on a clipboard in the lobby.",
+    "A booking page for a tour operator that shows available dates, takes a deposit through Square or Stripe, and sends a confirmation.",
+    "An owner portal for a property management company where owners view statements and maintenance history without calling the office."
+  ],
+  "faqs": [
+    {
+      "q": "How much does a website cost?",
+      "a": "Website and application projects are quoted after a scoping call, at a fixed price with no hourly billing. The quote depends on the number of pages, the tools involved, and whether the site connects to a booking or payment system."
+    },
+    {
+      "q": "What do we need to provide?",
+      "a": "The business provides the list of services and prices, photos, hours, and the domain login if it already has one. We write or edit the copy with the business and set up hosting and the domain as part of the project."
+    },
+    {
+      "q": "Can the site connect to the software we already use?",
+      "a": "In most cases, yes. Booking, reservation, and payment systems such as Square, Toast, and Stripe have connections we can build against, and we confirm what is possible during the scoping call."
+    }
+  ]
+}

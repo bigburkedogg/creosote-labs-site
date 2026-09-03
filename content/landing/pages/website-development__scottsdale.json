@@ -1,0 +1,35 @@
+{
+  "kind": "service-location",
+  "service": "website-development",
+  "segment": null,
+  "location": "scottsdale",
+  "title": "Website development in Scottsdale, AZ | Creosote Labs",
+  "meta_description": "Creosote Labs builds websites, booking and quote tools, and web applications for Scottsdale businesses at a fixed price quoted after a scoping call.",
+  "h1": "Website and web application development in Scottsdale",
+  "intro": [
+    "Many Scottsdale businesses are resorts, spas, golf and tour businesses, medical and dental practices, real estate offices, and financial and professional firms, and they often compete for customers who find them online first. Websites for these businesses often sit on WordPress, Squarespace, or Wix, with bookings handled through a separate tool such as Mindbody, FareHarbor, or a practice scheduling system. Customers expect to see services, pricing, and a way to book or request a quote without calling.",
+    "Creosote Labs builds websites and web applications for Scottsdale businesses. A project can be a marketing site with clear services, pricing, and a contact or booking path, a customer-facing tool such as a quote request form, intake form, or client portal, or a web application that replaces a manual process for staff and customers. Projects are quoted after a scoping call at a fixed price, and each one includes hosting setup, domain configuration, and handover with documentation."
+  ],
+  "projects": [
+    "A marketing site for a golf instruction business with lesson packages, pricing, and online booking connected to the instructor's calendar.",
+    "A new-patient intake form for a dental practice that collects history and insurance details before the first visit and delivers them to the front desk.",
+    "A quote request tool for a pool service company that captures pool size, equipment, and photos and returns a written estimate.",
+    "A client portal for an accounting firm where clients upload documents, sign engagement letters, and see the status of their return.",
+    "A trip booking page for a desert tour operator with availability, group size, and waiver collection built in.",
+    "A property listings site for a boutique real estate brokerage that pulls active listings and agent profiles from one source."
+  ],
+  "faqs": [
+    {
+      "q": "How is a website project priced?",
+      "a": "Website and application projects are quoted after a scoping call. The price is fixed for the agreed scope, with no hourly billing."
+    },
+    {
+      "q": "What do we need to provide before work starts?",
+      "a": "The business provides the services and pricing to publish, any existing branding and photos, and access to the current domain and booking or scheduling tools. Anything missing is identified on the scoping call."
+    },
+    {
+      "q": "Who hosts the site once it is finished?",
+      "a": "Hosting setup and domain configuration are included in the project. The site is handed over with documentation, and the business owns the domain and the accounts."
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "ai-training",
+  "segment": "mental-health-practices",
+  "location": null,
+  "title": "Team AI training for mental health practices",
+  "meta_description": "A one-day, hands-on AI workshop for mental health practice staff, run on the practice's own templates and tools. $1,000 per person, 5-person minimum.",
+  "h1": "Team AI training for mental health practices",
+  "intro": [
+    "In a mental health practice, the people who would use an AI tool day to day are the intake coordinator, the billing person, the office manager, and the clinicians themselves, and each does different work. Front-desk staff answer inquiry emails and explain insurance benefits; billing staff write appeal letters and chase denials; clinicians write treatment plans, discharge summaries, and letters for schools, courts, and employers. Most of that writing is done in Word or Google Docs alongside the practice management system, which is where training applies.",
+    "The workshop is one day, on site or remote, in the AI tool the practice already uses, such as Copilot, Gemini, or Claude. Each participant brings their own computer and their own documents and produces real work during the session: a rewritten inquiry response, a denial appeal from an actual explanation of benefits with identifiers removed, a treatment plan section from the practice's template. Rules for what may be entered are covered first. Everyone leaves with a working setup, a written guide, and a 30-day follow-up session."
+  ],
+  "projects": [
+    "A morning session for front-desk staff on drafting replies to new-client inquiries that cover fees, insurance, and availability from the practice's policy document.",
+    "An exercise for billing staff on writing insurance appeal letters from a denial reason and the payer's medical necessity criteria.",
+    "A clinician session on turning session shorthand into a structured progress note or treatment plan update in the practice's own format, using de-identified examples.",
+    "A session for the practice owner on summarizing clinician productivity exports and drafting policy updates for the staff handbook.",
+    "A written team guide listing what may and may not be entered into the tool under the practice's HIPAA policy, with the prompts each role built during the day."
+  ],
+  "faqs": [
+    {
+      "q": "How is client confidentiality handled during the workshop?",
+      "a": "Participants work with de-identified or sample documents unless the practice's AI tool is covered by a business associate agreement. The written guide records the practice's rules on what may be entered so staff have them after the session."
+    },
+    {
+      "q": "How many people do we need and what does it cost?",
+      "a": "$1,000 per person, with a 5-person minimum and up to 10 people in a day. Larger teams are quoted, and travel is included. A program with 3 monthly follow-up sessions is $1,400 per person."
+    },
+    {
+      "q": "Do clinicians and administrative staff attend the same session?",
+      "a": "Yes. The day is built around each participant's own work, so a clinician drafting a discharge summary and a biller writing an appeal sit in the same room and work on different tasks in the same tool."
+    }
+  ]
+}

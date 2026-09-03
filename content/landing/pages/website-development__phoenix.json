@@ -1,0 +1,34 @@
+{
+  "kind": "service-location",
+  "service": "website-development",
+  "segment": null,
+  "location": "phoenix",
+  "title": "Website development in Phoenix, AZ | Creosote Labs",
+  "meta_description": "Creosote Labs builds marketing websites, customer portals, and web applications for Phoenix businesses. Fixed price, quoted after a scoping call.",
+  "h1": "Website and web application development in Phoenix",
+  "intro": [
+    "Many customers in Phoenix look up a business online before calling it. A plumbing company, a dental practice, or a physical therapy clinic typically has a site built on WordPress, Squarespace, or Wix, often several years old, with services listed but no pricing and a contact form as the only way to get in touch. Booking and quoting usually happen by phone, and intake forms are often printed PDFs that customers fill out in the lobby or scan back by email.",
+    "Creosote Labs builds websites and web applications for businesses in the Phoenix metro. A marketing site states what the business does, what it charges, and how to book or get in touch. Customer-facing tools such as quote requests, online bookings, intake forms, and client portals sit on the same site and feed the systems the staff already use. For processes that a form cannot handle, we build a web application. Hosting setup, domain configuration, and handover with documentation are included."
+  ],
+  "projects": [
+    "A marketing site for an electrical contractor with service pages, starting prices, and a quote request form that lands in the office inbox and the job tracker.",
+    "An online intake form for a chiropractic office that replaces the clipboard and delivers a completed PDF to the front desk.",
+    "A booking page for a Phoenix tour operator that shows live availability and collects payment at reservation.",
+    "A client portal for an accounting firm where clients upload documents and see the status of their return.",
+    "A web application that lets a wholesale distributor's customers place reorders from their own purchase history."
+  ],
+  "faqs": [
+    {
+      "q": "How is a website project priced?",
+      "a": "Creosote Labs quotes a website project after a scoping call. The quote is a fixed price for the agreed scope, and there is no hourly billing."
+    },
+    {
+      "q": "Can the new site connect to the software we already use?",
+      "a": "In most cases, yes. Forms and bookings can be sent into tools such as QuickBooks, HubSpot, Jobber, or a practice management system, depending on what that software allows. We confirm the connections during scoping."
+    },
+    {
+      "q": "Who owns and hosts the site after handover?",
+      "a": "The business does. We set up hosting and the domain in accounts the business controls, and we deliver documentation so staff can update content and manage the site without us."
+    }
+  ]
+}

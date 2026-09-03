@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "ai-consulting",
+  "segment": "cleaning-companies",
+  "location": null,
+  "title": "AI consulting for cleaning companies | Creosote Labs",
+  "meta_description": "AI consulting for cleaning companies: a one-day operations review, AI tools set up on the company's own quotes and checklists, and staff training.",
+  "h1": "AI consulting for cleaning companies",
+  "intro": [
+    "Many cleaning companies schedule and dispatch through Jobber, Housecall Pro, or ZenMaid, invoice through QuickBooks, and keep the rest in Google Sheets and text messages. Recurring residential clients, one-time deep cleans, and commercial contracts each produce their own paperwork: walkthrough notes, cleaning checklists, quotes, and monthly invoices. Office staff often spend part of each day writing the same emails and re-entering the same information from one tool into another.",
+    "Creosote Labs starts with a one-day operations review of how the company books, schedules, cleans, and bills. We identify where AI tools save time, such as drafting quotes from walkthrough notes, answering routine customer emails, or summarizing crew feedback from the field. We then set up the tools the business already has access to, such as Google Gemini, Microsoft 365 Copilot, or Claude, with the company's own checklists and templates, and train office staff to use them."
+  ],
+  "projects": [
+    "An assistant that drafts a quote email from a completed walkthrough form and the company's price list.",
+    "A setup in Gemini or Copilot that answers customer questions about scheduling, cancellations, and what a service includes, using the company's own policy documents.",
+    "A weekly summary for the owner built from missed-clean reports and complaint emails.",
+    "A process for turning voice notes from crew leads into written job notes in the customer record.",
+    "Templates that generate commercial cleaning proposals from a site survey and square footage."
+  ],
+  "faqs": [
+    {
+      "q": "Do we need to buy a new AI subscription?",
+      "a": "Usually not. We work with the tool the company already has access to; many cleaning offices run on Google Workspace or Microsoft 365, so that means Gemini or Copilot, and Claude is another option."
+    },
+    {
+      "q": "What does the company need to provide for the review?",
+      "a": "Access to the scheduling and invoicing tools the office uses, examples of quotes, checklists, and customer emails, and a day with the owner and office staff for the operations review."
+    },
+    {
+      "q": "How is it priced?",
+      "a": "The operations review is $3,000 for one day on site and a written assessment with a quote for each recommendation. Implementation is quoted from the review, and team training is $1,000 per person."
+    }
+  ]
+}

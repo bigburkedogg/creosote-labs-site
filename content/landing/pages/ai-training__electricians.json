@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "ai-training",
+  "segment": "electricians",
+  "location": null,
+  "title": "Team AI training for electrical contractors | Creosote Labs",
+  "meta_description": "A one-day, hands-on AI workshop for electrical contracting teams, run on the company's own estimates, emails, and job notes. $1,000 per person.",
+  "h1": "Team AI training for electrical contractors",
+  "intro": [
+    "In an electrical contracting office, the people who would benefit most from an AI tool are usually the dispatcher, the estimator, the office manager, and the project leads who write up change orders and close-out documents. Many such offices already have Microsoft 365 or Google Workspace, and the AI features in those accounts often go unused because nobody has shown the team how they apply to a bid package or a warranty letter. Team AI training addresses that gap directly.",
+    "Creosote Labs runs a one-day workshop, on site or remote, in the tool the company already uses. Each participant brings their own computer and their own work: the estimator drafts a bid narrative, the dispatcher writes customer scheduling messages, the office manager prepares a lien waiver request. By the end of the day every person has a working setup and has documented their own process. The team receives a written guide, and a 30-day follow-up session is included."
+  ],
+  "projects": [
+    "An estimator's session producing a bid cover letter and scope narrative from the takeoff and the company's standard exclusions.",
+    "A dispatcher's session building reusable prompts for appointment confirmations, delay notices, and inspection scheduling messages.",
+    "An office manager's session drafting subcontractor agreements, lien waiver requests, and warranty letters from the company's existing templates.",
+    "A project lead's session turning field photos and voice notes into a daily log and a change order request.",
+    "A team-wide exercise writing the company's rules for what may and may not be pasted into an AI tool, including customer and pricing data."
+  ],
+  "faqs": [
+    {
+      "q": "Do the electricians in the field need to attend, or just the office?",
+      "a": "Anyone who writes documents or customer messages benefits, which usually means office staff and project leads. Field electricians who submit notes and photos can attend if the company wants them to."
+    },
+    {
+      "q": "What should participants have ready on the day?",
+      "a": "Each participant needs a laptop with access to the company's Microsoft 365, Google Workspace, or Claude account, plus a few real examples of their own work, such as a recent bid, a customer email thread, or a change order."
+    },
+    {
+      "q": "How is training priced?",
+      "a": "Training is $1,000 per person for up to 10 people, with a 5-person minimum. Larger teams are quoted and travel is included. A program with three monthly follow-up sessions is $1,400 per person."
+    }
+  ]
+}

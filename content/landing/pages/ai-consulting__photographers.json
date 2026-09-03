@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "ai-consulting",
+  "segment": "photographers",
+  "location": null,
+  "title": "AI consulting for photographers | Creosote Labs",
+  "meta_description": "Creosote Labs assesses where AI tools fit in a photography studio, sets them up on the studio's own templates, and trains staff. Review $3,000.",
+  "h1": "AI consulting for photography businesses",
+  "intro": [
+    "Many photography businesses run on a client management tool such as HoneyBook, Dubsado, Studio Ninja, or Táve for inquiries, contracts, and invoices, with Lightroom and Photoshop for editing and Pixieset or ShootProof for gallery delivery. Inquiry replies, pricing guides, session prep emails, and blog posts are typically written by hand, one at a time. AI tools such as Claude, Google Gemini, or Microsoft 365 Copilot apply to that writing and to the sorting, tagging, and reporting around it.",
+    "Creosote Labs starts with a one-day operations review of how the studio books, shoots, edits, and delivers. The written assessment identifies where AI tools save time, with a quote for each recommendation. Implementation sets up the tool the studio already has access to with its own pricing guide, contract templates, and email sequences, so the work it produces matches what the studio already sends. Staff training on the studio's own work is available, with a written guide for the team."
+  ],
+  "projects": [
+    "An inquiry-response assistant that drafts replies from the studio's pricing guide and availability calendar.",
+    "A session prep email generator that fills the studio's what-to-wear and location templates from booking details in HoneyBook.",
+    "A gallery delivery email and blog post drafted from the shoot's date, location, and selected images.",
+    "A tagging workflow that suggests keywords and captions for Lightroom exports before they are uploaded to the website.",
+    "A monthly report that summarizes bookings, revenue by session type, and open invoices from QuickBooks."
+  ],
+  "faqs": [
+    {
+      "q": "What does the operations review cover for a photography studio?",
+      "a": "The review is one day spent on how the studio takes inquiries, books sessions, edits, delivers galleries, and invoices. It produces a written assessment and a quote for each recommendation, at $3,000."
+    },
+    {
+      "q": "Which AI tool would we end up using?",
+      "a": "The studio ends up using the tool it already has access to, such as Claude, Google Gemini, or Microsoft 365 Copilot. We set it up with the studio's own documents rather than adding a new subscription."
+    },
+    {
+      "q": "Is staff training included, and what does it cost?",
+      "a": "Team training is $1,000 per person. It is delivered on the studio's own inquiry emails, templates, and pricing guide, and comes with a written guide for the team."
+    }
+  ]
+}

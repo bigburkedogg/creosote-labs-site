@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "ai-training",
+  "segment": "physical-therapy",
+  "location": null,
+  "title": "AI training for physical therapy clinics | Creosote Labs",
+  "meta_description": "A one-day, hands-on AI workshop for physical therapy clinic staff, run on the clinic's own documents and templates. $1,000 per person, 5-person minimum.",
+  "h1": "Team AI training for physical therapy clinics",
+  "intro": [
+    "Staff at a physical therapy clinic do a good deal of writing between patients. Therapists complete daily notes, re-evaluations, and progress reports in the EMR; the front desk answers insurance questions, chases authorizations, and sends appointment reminders; the owner or office manager prepares payer appeals, job postings, and outreach letters to referring physicians. Many clinics already have Microsoft 365 or Google Workspace, and with it access to Copilot or Gemini, and training on those tools is usually left to each person to figure out.",
+    "Team AI training from Creosote Labs is a one-day workshop, on site or remote, in the AI tool the clinic already pays for. Each participant works on their own computer with their own material: a therapist drafts a progress report from a de-identified evaluation, the front desk builds reusable replies to common patient questions, and the office manager sets up a template for authorization appeals. Everyone leaves with a working setup, their own documented process, and a written team guide. A 30-day follow-up session is included."
+  ],
+  "projects": [
+    "A session exercise in which therapists turn a de-identified daily note into a physician progress report using the clinic's own report format.",
+    "A front desk exercise building a library of replies for insurance, copay, and scheduling questions that match the clinic's policies.",
+    "An office manager exercise drafting an appeal letter for a denied authorization from the payer's denial and the plan of care.",
+    "A group exercise summarizing a month of patient satisfaction survey responses into themes for the next staff meeting.",
+    "A follow-up session 30 days later that reviews what each participant has kept using and refines their written process."
+  ],
+  "faqs": [
+    {
+      "q": "How much does training cost for a small clinic?",
+      "a": "Training is $1,000 per person for up to 10 people, with a 5-person minimum, and travel is included. A program that adds three monthly follow-up sessions is $1,400 per person. Larger teams are quoted."
+    },
+    {
+      "q": "Do participants work with real patient records?",
+      "a": "Participants work with their own documents on their own computers, in the AI tool the clinic already uses. Where the material contains protected health information, we plan the exercises with de-identified examples ahead of the session."
+    },
+    {
+      "q": "Which AI tool is the workshop taught in?",
+      "a": "The workshop runs in the tool the clinic already has, such as Microsoft 365 Copilot, Google Gemini, or Claude. We confirm which tool and which accounts before the day so every participant arrives with working access."
+    }
+  ]
+}

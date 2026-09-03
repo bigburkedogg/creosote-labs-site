@@ -1,0 +1,35 @@
+{
+  "kind": "segment-location",
+  "service": null,
+  "segment": "property-management",
+  "location": "flagstaff",
+  "title": "AI and systems for property managers in Flagstaff",
+  "meta_description": "Creosote Labs helps Flagstaff property management companies automate work orders, owner statements, and leasing, and builds tenant and owner portals.",
+  "h1": "Property management companies in Flagstaff: AI, systems, and websites",
+  "intro": [
+    "Property management companies in Flagstaff generally run on AppFolio, Buildium, or Rent Manager for rent collection and accounting, with QuickBooks for the company's own books and a mix of email, text, and spreadsheets for maintenance coordination. Lease renewals, move-in and move-out inspections, owner statements, vendor work orders, and notices to tenants are produced regularly and often require staff to re-enter the same property and tenant details in several places. Vacancy listings are frequently posted by hand to multiple sites.",
+    "Creosote Labs is based in Flagstaff and serves property management companies across Northern Arizona. The one-day operations review maps how the company handles leasing, maintenance, owner reporting, and accounting, then quotes each recommendation. Common implementation work includes automating lease and notice generation from the property management software, a maintenance request intake that creates the work order and notifies the vendor, owner reporting that runs on a schedule, and a company website with online applications and a maintenance portal. Staff training uses the company's own leases and forms."
+  ],
+  "projects": [
+    "A maintenance intake form that creates the work order in AppFolio or Buildium and sends the vendor the property access details.",
+    "A lease renewal process that drafts the renewal, applies the rent adjustment, and tracks signatures 90 days before expiration.",
+    "An owner statement package that combines the monthly financials, work order summary, and photos into one document.",
+    "A vacancy listing tool that produces the description and posts to the company website and listing syndication.",
+    "A move-in and move-out inspection form completed on a phone, with a comparison report generated for the deposit disposition.",
+    "A company website with available rentals, an online rental application, and separate owner and tenant login areas."
+  ],
+  "faqs": [
+    {
+      "q": "Will this replace AppFolio or Buildium?",
+      "a": "No. We build on the property management software already in use and automate the work around it, such as intake, document generation, and reporting. Replacing the core system is not usually what we recommend."
+    },
+    {
+      "q": "How does pricing work?",
+      "a": "The operations review is a fixed $3,000 for one day on site, and the written assessment prices each recommendation individually. Websites and portals are quoted after a scoping call at a fixed price, with no hourly billing."
+    },
+    {
+      "q": "How long until the assessment is delivered?",
+      "a": "The written assessment, prioritized recommendations, and quotes are delivered within the week after the on-site day."
+    }
+  ]
+}

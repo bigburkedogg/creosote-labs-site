@@ -1,0 +1,35 @@
+{
+  "kind": "service-location",
+  "service": "website-development",
+  "segment": null,
+  "location": "sedona",
+  "title": "Website development in Sedona, Arizona | Creosote Labs",
+  "meta_description": "Creosote Labs builds websites, booking tools, and web applications for Sedona businesses. Fixed price, quoted after a scoping call.",
+  "h1": "Website and web application development in Sedona",
+  "intro": [
+    "Many Sedona businesses find their customers online before those customers arrive in town. Inns and vacation rentals take reservations, tour operators sell seats by the day, spas and studios book appointments, and galleries and shops sell to visitors who want to keep buying after they go home. These businesses often run on a template site plus a separate booking widget, a Shopify or Square store, and a contact form that lands in someone's inbox.",
+    "Creosote Labs builds websites and web applications for businesses in Sedona and throughout Northern Arizona. That ranges from a marketing site with clear services, pricing, and a way to book, to customer-facing tools such as quote requests, reservations, intake forms, and portals, to web applications that replace a manual process for staff and customers. Every project is quoted after a scoping call at a fixed price, and hosting setup, domain configuration, and written documentation are part of the handover."
+  ],
+  "projects": [
+    "A tour company website with trip pages, availability, and online booking that writes each reservation to the company's calendar.",
+    "A direct-booking site for a small inn with room pages, rates, and a reservation form, so fewer bookings pay a platform commission.",
+    "A gallery website with an artist directory and an online store for pieces that ship to buyers after their visit.",
+    "A retreat or wellness center site with an intake form that collects the information staff need before the first appointment.",
+    "A quote-request tool for a wedding planner or caterer that turns a form submission into a draft proposal.",
+    "A staff portal for a vacation rental manager where cleaners and maintenance vendors see their assignments for the day."
+  ],
+  "faqs": [
+    {
+      "q": "What do we need to provide to get started?",
+      "a": "The services, pricing, photos, and text the site should carry, plus access to the domain registrar and any booking or payment tool the site connects to. We cover hosting setup and domain configuration."
+    },
+    {
+      "q": "How is a website project priced?",
+      "a": "Website and application projects are quoted after a scoping call, at a fixed price. Nothing is billed by the hour."
+    },
+    {
+      "q": "Can the site connect to our existing booking or point-of-sale system?",
+      "a": "In most cases, yes. Booking platforms, Square, Shopify, and similar tools offer integrations, and the scoping call is where we confirm what the business's specific tools support."
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "website-development",
+  "segment": "consultants-and-coaches",
+  "location": null,
+  "title": "Website development for consultants and coaches",
+  "meta_description": "Creosote Labs builds websites, application forms, and client portals for consulting and coaching practices. Fixed price, quoted after a scoping call.",
+  "h1": "Website and web application development for consultants and coaches",
+  "intro": [
+    "For many consulting and coaching practices the website is where a referral goes to decide whether to book a call. Many practices currently have a Squarespace or Wix site with a services page, a bio, and a Calendly link on the contact page, plus separate tools for an application form, a course login, and a resource library. Prospective clients often move between three or four different domains before they reach the first conversation.",
+    "Creosote Labs builds a site that states the practice's services and pricing plainly and gives a visitor one clear way to book or apply. Where the practice needs more than a marketing site, we build the application form, a client portal for session notes and shared documents, or a program page where members log in, as part of the same site. Hosting, domain setup, and handover documentation are included in every project."
+  ],
+  "projects": [
+    "A marketing site with a services page, pricing, practitioner bio, and a booking page connected to the practice's calendar.",
+    "A client application form that screens prospective clients with the practice's own qualifying questions before a call is offered.",
+    "A client portal where each client sees their session history, shared notes, and homework in one login.",
+    "A group program page with member login, a session schedule, and recordings from past sessions.",
+    "A speaking and workshops page with a request form that collects event date, audience size, and budget."
+  ],
+  "faqs": [
+    {
+      "q": "How is a website project priced?",
+      "a": "Website and application projects are quoted after a scoping call. The price is fixed for the agreed scope, with no hourly billing."
+    },
+    {
+      "q": "What does the practice need to provide before the build starts?",
+      "a": "The practice provides a description of each service and its price, a bio, any photos or logo files, and access to the current domain registrar. Where existing copy is unclear, we write it with the owner during scoping."
+    },
+    {
+      "q": "Can the practice keep its current booking and payment tools?",
+      "a": "Yes. Tools such as Calendly, Acuity, Stripe, and QuickBooks are connected to the new site rather than replaced, unless the scoping call identifies a reason to change one."
+    }
+  ]
+}

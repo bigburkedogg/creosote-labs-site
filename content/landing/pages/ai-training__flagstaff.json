@@ -1,0 +1,34 @@
+{
+  "kind": "service-location",
+  "service": "ai-training",
+  "segment": null,
+  "location": "flagstaff",
+  "title": "Team AI training in Flagstaff, AZ | Creosote Labs",
+  "meta_description": "A one-day, hands-on AI workshop for Flagstaff teams, delivered on the tools and documents they already use. $1,000 per person, travel included.",
+  "h1": "Team AI training in Flagstaff",
+  "intro": [
+    "Businesses in Flagstaff, from hotels and outfitters to medical practices, contractors, and professional offices, often have an AI tool included in software they already pay for: Copilot inside Microsoft 365, Gemini inside Google Workspace, or a ChatGPT or Claude subscription a few staff members picked up on their own. Usage across a team is often uneven. One person drafts every proposal with it while the rest of the office has never opened it, and there is no shared way of working. Team AI training applies to exactly that gap.",
+    "The workshop is one day, delivered on site in Flagstaff or remotely, in the AI tool the company already uses. Participants work on their own computers with their own documents, so a front desk coordinator practices on real appointment emails and an estimator on real bids. Each person produces work during the session and writes down their own process, and the team leaves with a written guide and a 30-day follow-up session. Pricing is $1,000 per person for up to 10 people, with a 5-person minimum and travel included."
+  ],
+  "projects": [
+    "A hotel front desk team that sets up Gemini to draft guest correspondence from the property's policies and leaves with saved prompts for the 10 most common requests.",
+    "A contractor's office staff who build a Copilot workflow that turns job notes into a formatted change order in the company's Word template.",
+    "A law or accounting office that establishes a firm-wide process for summarizing client documents in Claude, with rules for what may and may not be uploaded.",
+    "A tour operator's reservations team that produces trip confirmation emails and packing lists from a booking record during the session.",
+    "A property management office that drafts owner updates and tenant notices from AppFolio exports and documents the steps for the rest of the team."
+  ],
+  "faqs": [
+    {
+      "q": "Which AI tool do you train on?",
+      "a": "The one the company already uses or has access to, such as Microsoft 365 Copilot, Google Gemini, ChatGPT, or Claude. We do not require a new subscription, and if the team has none yet we can recommend one before the session."
+    },
+    {
+      "q": "What should participants bring?",
+      "a": "Their own laptop, a login to the company's AI tool, and the documents and templates they work with most: the emails they answer, the estimates or reports they produce, the forms they fill out. The session is built around that material."
+    },
+    {
+      "q": "How does pricing work for a team of 12?",
+      "a": "The listed rate is $1,000 per person for up to 10 people with a 5-person minimum. Teams larger than 10 are quoted separately. A program with three monthly follow-up sessions instead of one is $1,400 per person."
+    }
+  ]
+}

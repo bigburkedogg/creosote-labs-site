@@ -1,0 +1,35 @@
+{
+  "kind": "service-segment",
+  "service": "systems-and-automation",
+  "segment": "startups",
+  "location": null,
+  "title": "Systems and automation for startups | Creosote Labs",
+  "meta_description": "Creosote Labs consolidates a startup's spreadsheets, Airtable bases, and Notion pages into one system of record and automates repeat work. Review $3,000.",
+  "h1": "Systems and automation for startups and founders",
+  "intro": [
+    "In the early years a startup's operations often live in whatever was fastest to set up: a Google Sheet for the customer list, an Airtable base for the product roadmap, Notion pages for onboarding checklists, a Zapier account connecting them, and Stripe and QuickBooks Online holding the financial records. Customer records, contracts, and usage data end up in three or four places. Systems and automation work applies where that setup has started to produce duplicate entry, missed follow-up, and reports assembled by hand.",
+    "Creosote Labs consolidates those spreadsheets and disconnected tools into a single system of record, builds the internal tools the company needs for tracking and reporting, and automates the repetitive steps in between. A typical project replaces a set of sheets and Zapier automations with one database and a small internal application the team can maintain. We document the system and hand it over to staff, so it does not depend on the person who built it."
+  ],
+  "projects": [
+    "A customer database that replaces a shared spreadsheet and stays in sync with HubSpot and Stripe.",
+    "An onboarding tracker that creates accounts, sends the welcome email, and schedules the kickoff call when a contract is signed.",
+    "A weekly metrics report that pulls revenue, churn, and pipeline numbers onto one page without manual assembly.",
+    "A contract and vendor tracker that flags renewal dates and outstanding signatures.",
+    "An internal admin tool that shows any customer's plan, invoices, and support history in one place.",
+    "An expense process that routes receipts into QuickBooks Online with the right category already applied."
+  ],
+  "faqs": [
+    {
+      "q": "What happens to the data in our current spreadsheets and Airtable bases?",
+      "a": "It is migrated into the new system as part of implementation. We map the existing columns to the new structure, import the records, and check them against the originals before the old tools are retired."
+    },
+    {
+      "q": "How is the work scoped and priced?",
+      "a": "The work is scoped in a one-day operations review, priced at $3,000, that ends in a written assessment and a quote for each recommendation. Implementation is fixed price and quoted from the review, with no hourly billing."
+    },
+    {
+      "q": "Will our team be able to change the system after handover?",
+      "a": "Yes. Documenting the system and handing it over to staff is part of every project, and we build with tools the team can maintain without a developer on call."
+    }
+  ]
+}

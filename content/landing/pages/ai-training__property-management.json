@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "ai-training",
+  "segment": "property-management",
+  "location": null,
+  "title": "Team AI training for property management companies",
+  "meta_description": "A one-day, hands-on AI workshop for property management staff, on their own templates and tenant files. $1,000 per person, written guide included.",
+  "h1": "Team AI training for property management companies",
+  "intro": [
+    "Staff at a property management company often spend much of the day writing: responses to tenant emails, notices to vacate and late-rent letters, owner updates after a repair, vendor scope descriptions for a bid, and listing descriptions for each vacancy. Many offices already have Microsoft 365 or Google Workspace, and the AI tools included with those accounts, such as Copilot or Gemini, are available but often not set up against the company's own lease templates, notice forms, and owner reporting formats.",
+    "Creosote Labs delivers a one-day, hands-on workshop, on site or remote, in the AI tool the company already uses. Property managers, leasing agents, and maintenance coordinators work on their own computers with their own tenant files, templates, and owner reports, and each participant leaves with a working setup and a documented process for the tasks they handle. A written guide for the whole team and a 30-day follow-up session are included. Pricing is $1,000 per person for up to 10 people, with a 5-person minimum."
+  ],
+  "projects": [
+    "A leasing agent builds a prompt that writes a listing description from the unit's rent roll entry and photos, in the company's style.",
+    "A property manager sets up a reusable process for turning a contractor's invoice and photos into an owner repair update.",
+    "A maintenance coordinator drafts a scope of work for vendor bids from a tenant's request and the inspection notes.",
+    "An office administrator produces late-rent and lease-violation notices from the company's own templates, checked against the lease terms.",
+    "A team lead summarizes a month of tenant correspondence for a property into a short owner report."
+  ],
+  "faqs": [
+    {
+      "q": "Which AI tool is the workshop taught in?",
+      "a": "The workshop is taught in the tool the company already has, such as Microsoft 365 Copilot, Google Gemini, or Claude. The session is built around that tool and the company's own documents, not a generic demo."
+    },
+    {
+      "q": "What do participants need to bring?",
+      "a": "Each participant brings their own computer, a login to the company's AI tool, and the templates and files they use day to day, such as lease forms, notice templates, and a recent owner statement."
+    },
+    {
+      "q": "How much does training cost and how many people can attend?",
+      "a": "Training costs $1,000 per person for up to 10 people, and the minimum group is 5 people. Larger teams receive a quote, and travel is included. A program that adds three monthly follow-up sessions is $1,400 per person."
+    }
+  ]
+}

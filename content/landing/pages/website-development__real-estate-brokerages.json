@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "website-development",
+  "segment": "real-estate-brokerages",
+  "location": null,
+  "title": "Websites for real estate brokerages | Creosote Labs",
+  "meta_description": "Creosote Labs builds brokerage websites, agent directories, and web tools such as inquiry forms and onboarding portals. Fixed price, quoted after a call.",
+  "h1": "Websites and web applications for real estate brokerages",
+  "intro": [
+    "Many real estate brokerages have a website provided by their franchise or by a template vendor, with an IDX listing feed, an agent directory, and a contact form that routes to a general inbox. The pieces the office actually needs from the web tend to sit elsewhere: agent recruiting pages, a place for new agents to submit onboarding paperwork, and a way for sellers or referral partners to request a consultation. Those usually end up as PDFs emailed back and forth.",
+    "Creosote Labs builds the brokerage site and the tools behind it. A marketing site covers the office's services, agent profiles, and a clear way to book a consultation or a recruiting conversation. Behind it, we build the forms and portals staff use directly: an agent onboarding form that collects license numbers, W-9s, and independent contractor agreements, or a seller inquiry form that lands in the CRM as a lead. Hosting, domain setup, and written handover documentation are included."
+  ],
+  "projects": [
+    "A brokerage marketing site with an agent directory, office information, and a booking link for buyer and seller consultations.",
+    "An agent recruiting page with a commission plan overview and an application form that goes straight to the broker.",
+    "An onboarding portal where a new agent uploads their license, W-9, and signed independent contractor agreement.",
+    "A home valuation request form that captures the property address and delivers the lead to Follow Up Boss or kvCORE.",
+    "A referral partner page where out-of-area agents submit a referral and receive confirmation."
+  ],
+  "faqs": [
+    {
+      "q": "Can the site keep the IDX listing search the office has now?",
+      "a": "Yes. IDX feeds come from the MLS vendor and can be placed on a new site the same way they are on the current one. We confirm the vendor and feed during the scoping call."
+    },
+    {
+      "q": "Who owns the site after it is built?",
+      "a": "The brokerage does. The domain, hosting account, and code are set up in the office's name, and handover includes written documentation for whoever maintains it."
+    },
+    {
+      "q": "What does a brokerage website cost?",
+      "a": "Each project is quoted after a scoping call, and the quote is a fixed price for the agreed scope. There is no hourly billing."
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "ai-consulting",
+  "segment": "schools-and-tutoring",
+  "location": null,
+  "title": "AI consulting for schools and tutoring businesses",
+  "meta_description": "Creosote Labs assesses where AI tools fit in a school or tutoring business, sets them up on its own documents, and trains staff. Operations review $3,000.",
+  "h1": "AI consulting for schools and tutoring businesses",
+  "intro": [
+    "Many small schools and tutoring businesses run on Google Workspace or Microsoft 365 for email and documents, a scheduling tool such as Acuity or TutorCruncher for sessions, and QuickBooks for tuition billing. The written work sits around those tools: enrollment forms, intake assessments, session notes, progress reports, lesson plans, and a steady volume of parent email. Much of that writing follows the same structure every time, which is where AI tools apply.",
+    "Creosote Labs starts with a one-day operations review of how the school or tutoring center currently runs, then delivers a written assessment with a quote for each recommendation. Implementation typically means setting up Gemini, Copilot, or Claude with the organization's own templates so staff can draft progress reports from session notes, answer routine enrollment questions, and prepare parent updates in less time. Staff are trained on their own work and receive a written guide."
+  ],
+  "projects": [
+    "An assessment of a tutoring center's intake, scheduling, billing, and reporting processes with a written recommendation for each.",
+    "A progress report setup in Gemini or Copilot that drafts a parent-ready summary from a tutor's session notes and the center's report template.",
+    "A shared enrollment inquiry workflow that drafts replies to common parent questions from the school's own program descriptions and fee schedule.",
+    "A lesson plan assistant configured on a school's curriculum documents so teachers start from the school's format rather than a blank page.",
+    "A monthly reporting process that summarizes attendance and session data from the scheduling tool for the owner or board."
+  ],
+  "faqs": [
+    {
+      "q": "How does pricing work for AI consulting?",
+      "a": "Engagements begin with a one-day operations review at $3,000, which produces a written assessment and a quote for each recommendation. Implementation is quoted from the review, and team training is $1,000 per person."
+    },
+    {
+      "q": "Does the school need to buy new AI software?",
+      "a": "Usually not. We set up the tools the organization already has access to, such as Gemini in Google Workspace, Microsoft 365 Copilot, or Claude, using the school's own documents and templates."
+    },
+    {
+      "q": "What happens to student information?",
+      "a": "The review covers which records can be used with each tool and which should not. Recommendations account for the privacy obligations a school or tutoring business has to families, and the written assessment states them for each item."
+    }
+  ]
+}

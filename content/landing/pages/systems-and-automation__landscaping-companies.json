@@ -1,0 +1,35 @@
+{
+  "kind": "service-segment",
+  "service": "systems-and-automation",
+  "segment": "landscaping-companies",
+  "location": null,
+  "title": "Landscaping systems and automation | Creosote Labs",
+  "meta_description": "Creosote Labs consolidates a landscaping company's scheduling, estimating, and billing spreadsheets into one system and automates repetitive office work.",
+  "h1": "Systems and automation for landscaping companies",
+  "intro": [
+    "Many landscaping companies keep their crew schedule in one place, their estimates in another, and their billing in QuickBooks, with Excel or Google Sheets filling the gaps between them. A single job can touch a route sheet, a material takeoff, a work order for the crew lead, and an invoice, each entered by hand. Maintenance contracts add recurring visits, and irrigation and snow work add seasonal schedules that rarely fit the same spreadsheet.",
+    "Creosote Labs consolidates those pieces into one system of record, whether that means configuring a platform like Jobber or Aspire properly or building an internal tool that fits how the company actually schedules and bills. We automate the handoffs: a signed estimate creates the job, the completed work order generates the invoice, and recurring contract visits appear on the schedule without re-entry. Every project ends with written documentation and a handover to the office staff who will run it."
+  ],
+  "projects": [
+    "A job tracker that carries each project from estimate to work order to invoice without re-keying the customer or address.",
+    "A crew scheduling tool that builds daily route sheets from active maintenance contracts and one-time jobs.",
+    "An automation that pushes completed jobs from Jobber into QuickBooks and flags any invoice that has not been paid in 30 days.",
+    "A material ordering sheet that totals plants, mulch, and hardscape from the week's approved estimates.",
+    "An irrigation service log that records each system's zones, controller settings, and repair history in one place.",
+    "A monthly report that shows revenue, hours, and margin by crew and by service line."
+  ],
+  "faqs": [
+    {
+      "q": "Do we have to switch software?",
+      "a": "Not necessarily. The operations review looks at what the company already uses and recommends either configuring it properly, connecting it to the other tools, or replacing it. Each recommendation comes with its own quote so the choice is the owner's."
+    },
+    {
+      "q": "How is systems and automation work priced?",
+      "a": "It is quoted from the operations review, which is $3,000 for one day on site. Every recommendation in the written assessment carries a fixed price. There is no hourly billing, and the review fee is credited toward implementation that begins within 90 days."
+    },
+    {
+      "q": "What happens to our existing data?",
+      "a": "Existing customer lists, contracts, and job history are migrated into the new system as part of the project. We test the migration before switching over, and the old spreadsheets stay available until the office confirms nothing is missing."
+    }
+  ]
+}

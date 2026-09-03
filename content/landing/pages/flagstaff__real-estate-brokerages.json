@@ -1,0 +1,35 @@
+{
+  "kind": "segment-location",
+  "service": null,
+  "segment": "real-estate-brokerages",
+  "location": "flagstaff",
+  "title": "AI and systems for real estate brokerages in Flagstaff",
+  "meta_description": "Creosote Labs helps Flagstaff real estate brokerages consolidate transaction tracking, commissions, and agent onboarding, and trains agents on AI tools.",
+  "h1": "Real estate brokerages in Flagstaff: AI, systems, and websites",
+  "intro": [
+    "Real estate brokerages in Flagstaff often manage transactions in SkySlope or Dotloop, commissions in Brokermint or a spreadsheet, accounting in QuickBooks, and agent recruiting and marketing in a separate CRM. Broker file review, commission disbursement authorizations, agent onboarding packets, and monthly production reports are frequently assembled by an office administrator moving data between these systems. The brokerage's public website is often a franchise template with limited lead capture for individual agents.",
+    "Creosote Labs is based in Flagstaff and works with brokerages here and throughout Northern Arizona. A one-day operations review covers how the office handles file compliance, commissions, onboarding, and reporting, and produces a quote for each recommendation. Typical implementation work includes a single transaction and commission tracking system, automated compliance reminders to agents, generated production reports for the broker, and a brokerage website with agent pages and lead routing. Team AI training is delivered on the brokerage's own forms and templates."
+  ],
+  "projects": [
+    "A transaction tracker that pulls contract dates from SkySlope or Dotloop and flags missing documents before broker review.",
+    "A commission calculator that produces the disbursement authorization and QuickBooks entry from the closed file.",
+    "An agent onboarding checklist that issues accounts, collects license and E&O documents, and schedules orientation.",
+    "A monthly production report generated automatically for the broker and each agent from closed and pending files.",
+    "A brokerage website with individual agent pages, office listings, and a lead form that routes to the correct agent.",
+    "A one-day training session where agents set up Gemini or Copilot with the office's own listing and buyer templates."
+  ],
+  "faqs": [
+    {
+      "q": "How is a brokerage engagement priced?",
+      "a": "It begins with a one-day operations review at $3,000, credited toward implementation that begins within 90 days. Each recommendation is quoted separately. Team AI training is $1,000 per person for up to 10 people, with a 5-person minimum."
+    },
+    {
+      "q": "Can agents be trained as a group?",
+      "a": "Team AI training is a one-day workshop, on site or remote, where each agent works on their own computer with the brokerage's own documents. A written guide and a 30-day follow-up session are included."
+    },
+    {
+      "q": "What information does the brokerage need to provide?",
+      "a": "We need access to the transaction platform, commission records, and accounting system, plus the office's compliance checklist, onboarding packet, and current reports. We document the current process on site during the review."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "kind": "service-segment",
+  "service": "systems-and-automation",
+  "segment": "outfitters-and-tour-operators",
+  "location": null,
+  "title": "Systems and automation for outfitters and tour operators",
+  "meta_description": "Creosote Labs consolidates booking exports, guide schedules, waivers, and gear logs into one system for outfitters and automates manifests and reporting.",
+  "h1": "Systems and automation for outfitters and tour operators",
+  "intro": [
+    "An outfitter's records often live in several places at once. Reservations sit in Peek Pro or FareHarbor, signed waivers in WaiverSign, guide availability in a shared Google Sheet, gear inventory in another sheet or a paper log, and invoices in QuickBooks. Multi-day trip operators add menus, shopping lists, shuttle schedules, and permit allocations on top. These gaps between systems are where double bookings, stale manifests, and long end-of-season reconciliations tend to come from.",
+    "Creosote Labs consolidates that into one system of record. After the operations review, we build the internal tools the business needs: a trip calendar that pulls bookings from the reservation platform, a guide scheduling tool, a gear and vehicle checkout log, or a menu planner that scales shopping lists to headcount. Repetitive work such as manifest generation, waiver status checks, and invoice creation is automated. The system is documented and handed over to staff."
+  ],
+  "projects": [
+    "A trip tracker that lists every departure with guests, guides, vehicles, and waiver status in one view, fed from the booking platform.",
+    "A guide scheduling tool that matches guide certifications and availability to the trip calendar and sends each guide a weekly assignment.",
+    "A menu and provisioning system for multi-day trips that produces a shopping list and pack-out sheet from the headcount and dietary notes.",
+    "An automation that flags any booked guest without a signed waiver 48 hours before departure and sends the reminder.",
+    "A permit and allocation ledger that tracks user days against each agency permit as bookings come in.",
+    "A gear inventory log with checkout and return by trip, replacing a paper sheet at the warehouse."
+  ],
+  "faqs": [
+    {
+      "q": "Does this replace the booking platform?",
+      "a": "Usually it does not. The booking platform stays where guests reserve and pay. We build the system that sits behind it, pulling reservations in so manifests, schedules, and reports come from one place."
+    },
+    {
+      "q": "How is a systems project priced?",
+      "a": "Every engagement begins with a one-day operations review at $3,000, which produces a written assessment and a fixed quote for each recommendation. Implementation is quoted from that review, with no hourly billing."
+    },
+    {
+      "q": "What does the business need to provide?",
+      "a": "The business provides access to the current spreadsheets and software accounts, a few hours from the office manager or owner during the review, and a staff member to receive the handover and documentation."
+    }
+  ]
+}

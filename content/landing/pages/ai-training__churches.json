@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "ai-training",
+  "segment": "churches",
+  "location": null,
+  "title": "AI training for church staff | Creosote Labs",
+  "meta_description": "A one-day, hands-on AI workshop for church staff, run on the church's own bulletins, letters, and templates. $1,000 per person, travel included.",
+  "h1": "Team AI training for church staff",
+  "intro": [
+    "Church staff produce a steady flow of written material: weekly bulletins, sermon summaries, newsletters, thank-you letters to donors, volunteer emails, curriculum for children's and youth programs, and grant or denomination reports. Many offices already have Google Gemini through Google Workspace or Copilot through Microsoft 365, and pastors, administrators, and ministry directors often use these tools on their own, without a shared method or an agreed policy on what may be entered.",
+    "Creosote Labs delivers a one-day workshop, on site or remote, in the AI tool the church already uses. Each participant works at their own computer on their own material, so the administrator drafts next week's bulletin, the youth director builds a lesson outline, and the pastor prepares a congregational letter, all from the church's real templates. Everyone documents their own process during the day. The team leaves with a written guide, working setups, and a 30-day follow-up session."
+  ],
+  "projects": [
+    "A saved bulletin routine that turns the week's calendar and announcements into a formatted draft in the church's layout.",
+    "A donor thank-you letter process that personalizes each note from a giving export without exposing full records.",
+    "A children's ministry lesson outline built from the church's chosen curriculum and age group.",
+    "A reusable process for turning a sermon recording into a summary, discussion questions, and social posts.",
+    "A written office policy on what information staff may and may not enter into AI tools."
+  ],
+  "faqs": [
+    {
+      "q": "How much does the training cost for a church staff of 6?",
+      "a": "$1,000 per person, with a 5-person minimum and up to 10 people per session, so a staff of 6 is $6,000. Travel is included. A program with three monthly follow-up sessions is $1,400 per person."
+    },
+    {
+      "q": "Can volunteers and part-time staff attend?",
+      "a": "Yes. Anyone who produces documents or communications for the church can participate, as long as they bring a computer with access to the church's AI tool and their own working files."
+    },
+    {
+      "q": "What should the church have ready before the workshop?",
+      "a": "Accounts in the AI tool the church uses, such as Gemini or Copilot, for every participant, and the templates each person works from, including the bulletin, letterhead, newsletter, and lesson formats."
+    }
+  ]
+}

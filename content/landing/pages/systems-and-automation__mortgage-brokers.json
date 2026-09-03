@@ -1,0 +1,35 @@
+{
+  "kind": "service-segment",
+  "service": "systems-and-automation",
+  "segment": "mortgage-brokers",
+  "location": null,
+  "title": "Systems and automation for mortgage brokers | Creosote Labs",
+  "meta_description": "Creosote Labs consolidates the spreadsheets and tools a mortgage brokerage runs on, builds pipeline and tracking tools, and automates borrower follow-up.",
+  "h1": "Systems and automation for mortgage brokers",
+  "intro": [
+    "A mortgage brokerage often keeps its loan files in an LOS like Encompass or Calyx Point while tracking the rest of the business somewhere else: a pipeline spreadsheet in Excel or Google Sheets, lender contacts in Outlook, referral partners in a CRM such as Jungo, commissions in QuickBooks, and rate locks in email. Status questions from agents and borrowers often get answered by whoever can find the file fastest. Systems and automation work addresses the gaps between those tools.",
+    "Creosote Labs consolidates that pipeline into one system of record that pulls from the LOS rather than duplicating it, then builds the internal tools around it: a lock-expiration tracker, a commission reconciliation that matches funded loans against lender statements, and automated status emails to real estate agents at each milestone. We document every piece and hand it to the processors and the broker-owner, with a quote fixed in advance from the operations review."
+  ],
+  "projects": [
+    "A pipeline dashboard that reads loan status from the LOS and replaces the shared tracking spreadsheet.",
+    "A rate lock tracker that flags locks expiring within 7 days and drafts the extension request.",
+    "A commission reconciliation that matches funded loans to lender compensation statements and flags shortfalls.",
+    "Automated milestone emails to the buyer's agent and listing agent when a file moves to underwriting, clear to close, and funded.",
+    "A referral partner report that shows each real estate agent how many of their borrowers closed in the quarter.",
+    "A document-chase automation that sends borrowers a reminder for each outstanding item on the needs list."
+  ],
+  "faqs": [
+    {
+      "q": "Does the new system replace our loan origination system?",
+      "a": "The LOS stays as the loan file of record. We build around it, pulling status and borrower data out of it so the pipeline, tracking, and reporting tools stop depending on manual re-entry."
+    },
+    {
+      "q": "What does a systems and automation project cost?",
+      "a": "It begins with a one-day operations review at $3,000, which produces a written assessment and a quote for each recommendation. Implementation is quoted from that review at a fixed price, with no hourly billing."
+    },
+    {
+      "q": "Who maintains the system after the project ends?",
+      "a": "The brokerage does. Each project ends with staff documentation and a handover, so processors and the broker-owner can run and adjust the system on their own."
+    }
+  ]
+}

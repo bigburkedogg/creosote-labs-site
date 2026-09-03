@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "ai-training",
+  "segment": "hvac-contractors",
+  "location": null,
+  "title": "Team AI training for HVAC contractors | Creosote Labs",
+  "meta_description": "A one-day, hands-on AI workshop for HVAC office and dispatch staff, run on the company's own estimates, agreements, and emails. $1,000 per person.",
+  "h1": "Team AI training for HVAC contractors",
+  "intro": [
+    "The people in an HVAC office who write the most are rarely the technicians. Dispatchers, comfort advisors, and office managers spend their day on replacement proposals, warranty claim letters, agreement renewal notices, customer emails, and supplier correspondence, working in Microsoft 365 or Google Workspace alongside ServiceTitan or FieldEdge. Out of the box, ChatGPT and Copilot do not know a company's pricing, templates, or way of speaking to customers, and the workshop closes that gap.",
+    "The Creosote Labs workshop is one day, on site or remote, in whichever AI tool the company already uses. Each participant brings their own computer and their own work: the office manager brings the renewal letter, the comfort advisor brings last week's proposals, the dispatcher brings the callback emails. By the end of the day each person has a working setup for their own tasks and has written down their own process. The team receives a written guide and a 30-day follow-up session."
+  ],
+  "projects": [
+    "Comfort advisors build a prompt set that turns a load calculation and equipment selection into a 3-option proposal in the company's format.",
+    "Dispatchers set up a template that drafts a courteous reschedule or delay email from a few lines of notes.",
+    "The office manager builds a workflow that reads a manufacturer warranty denial and drafts the appeal with the serial number, install date, and service history filled in.",
+    "Staff practice summarizing long customer email threads and technician notes into a handoff for the next shift.",
+    "The team writes a shared house-style guide so every AI-drafted customer message sounds like the company."
+  ],
+  "faqs": [
+    {
+      "q": "Do technicians need to attend, or just the office?",
+      "a": "That is the company's call. The workshop is most useful for people who write, schedule, and quote, which in HVAC companies is often the office and sales staff. Technicians who write up job notes and recommendations also benefit."
+    },
+    {
+      "q": "What does training cost?",
+      "a": "Training is $1,000 per person for up to 10 people, with a 5-person minimum, and larger teams are quoted. Travel is included. The program with 3 monthly follow-up sessions is $1,400 per person."
+    },
+    {
+      "q": "Which AI tool will we be trained on?",
+      "a": "We train on the one the company already has access to, such as Microsoft 365 Copilot, Google Gemini, or Claude. The workshop is delivered in that tool so the setup each participant builds works the next morning."
+    }
+  ]
+}

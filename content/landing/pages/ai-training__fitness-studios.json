@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "ai-training",
+  "segment": "fitness-studios",
+  "location": null,
+  "title": "AI training for gym and studio staff | Creosote Labs",
+  "meta_description": "A one-day workshop for gym and studio staff on Gemini, Copilot, or Claude, using the studio's own templates. $1,000 per person, 5-person minimum.",
+  "h1": "Team AI training for gyms and fitness studios",
+  "intro": [
+    "The staff of a gym or fitness studio produce a steady volume of written work: class descriptions, monthly schedule announcements, membership renewal emails, replies to reviews, trainer bios, and program handouts. Most of it is written in Gmail, Google Docs, or the membership platform's email tool, one message at a time. Owners and managers often also assemble monthly numbers from platform exports by hand. These are the tasks AI training addresses.",
+    "Creosote Labs delivers a one-day workshop, on site or remote, using the AI tool the studio already has access to, such as Google Gemini or Microsoft 365 Copilot. Each participant works on their own computer with the studio's real templates and produces finished work during the session: a renewal email sequence, a set of class descriptions, or a monthly report from an attendance export. Everyone documents their own process, and the team receives a written guide and a 30-day follow-up session."
+  ],
+  "projects": [
+    "Front desk staff build a reply library for membership freezes, cancellations, and billing questions in the studio's tone.",
+    "Managers set up a monthly report that summarizes attendance and revenue from a Mindbody or Zen Planner export.",
+    "Trainers draft program handouts and client check-in messages from their own session notes.",
+    "The owner sets up a review-response workflow for Google and Yelp that keeps replies consistent.",
+    "The marketing lead produces schedule announcements and class descriptions for email and social from the monthly calendar."
+  ],
+  "faqs": [
+    {
+      "q": "How much does training cost and how many people can attend?",
+      "a": "Training is $1,000 per person for up to 10 people, with a 5-person minimum. Larger teams are quoted. Travel is included. The extended program, which adds three monthly follow-up sessions, is $1,400 per person."
+    },
+    {
+      "q": "Which AI tool is used in the session?",
+      "a": "The session uses the tool the studio already has. Teams on Google Workspace typically use Gemini and teams on Microsoft 365 use Copilot; Claude is another option. We confirm the tool and accounts before the session so nobody spends the day on setup."
+    },
+    {
+      "q": "What should participants bring?",
+      "a": "Participants bring their own computer, a login to the AI tool, and the documents they work with regularly, such as email templates, the class schedule, and a recent platform export. The session uses that material rather than sample files."
+    }
+  ]
+}

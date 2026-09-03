@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "website-development",
+  "segment": "manufacturers",
+  "location": null,
+  "title": "Websites and web apps for manufacturers | Creosote Labs",
+  "meta_description": "Creosote Labs builds capabilities websites, quote request forms, and customer portals for small manufacturers. Fixed price, quoted after a scoping call.",
+  "h1": "Website and web application development for manufacturers",
+  "intro": [
+    "Many small manufacturers have a website that lists capabilities and a phone number, while quotes still arrive as an emailed drawing with a quantity in the subject line. Product information often lives in a PDF catalog, a price list in Excel, and a set of SolidWorks or AutoCAD files that customers cannot see. Website and web application development applies to the marketing site itself, to how quote requests come in, and to the tools distributors and repeat customers use to check orders and reorder parts.",
+    "Creosote Labs builds a marketing site with clear capabilities, materials, tolerances, and certifications, and a quote request form that collects the drawing, material, quantity, and due date in a structured way so the estimator starts with everything needed. For manufacturers with recurring customers, we build a customer portal for order status, reorders, and document downloads such as certificates and drawings. Hosting, domain configuration, and handover documentation are included. Projects are quoted after a scoping call at a fixed price, with no hourly billing."
+  ],
+  "projects": [
+    "A capabilities website listing processes, materials, tolerances, and certifications, with a request-for-quote form on every page.",
+    "A quote request form that accepts drawing files, material, finish, quantity, and due date and routes the package to the estimator.",
+    "A customer portal where repeat buyers see open order status, expected ship dates, and past certificates of conformance.",
+    "An online catalog for standard parts with pricing tiers by quantity and a reorder button for existing accounts.",
+    "A distributor login that shows current stock levels and lead times for the product line."
+  ],
+  "faqs": [
+    {
+      "q": "Can the quote form accept CAD files and drawings?",
+      "a": "Yes. The form can accept STEP, DXF, and PDF files alongside quantity, material, and due date, and deliver the complete package to whoever prices the job."
+    },
+    {
+      "q": "Who hosts the site and what does it cost to keep running?",
+      "a": "Hosting setup and domain configuration are part of the project, and the site is handed over with documentation so the business owns and controls it. Ongoing hosting costs depend on the host chosen and are discussed on the scoping call."
+    },
+    {
+      "q": "How are website projects priced?",
+      "a": "Website and application projects are quoted after a scoping call. Pricing is fixed for the agreed scope, with no hourly billing."
+    }
+  ]
+}

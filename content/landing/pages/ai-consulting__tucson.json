@@ -1,0 +1,34 @@
+{
+  "kind": "service-location",
+  "service": "ai-consulting",
+  "segment": null,
+  "location": "tucson",
+  "title": "AI consulting in Tucson, Arizona | Creosote Labs",
+  "meta_description": "AI consulting for Tucson businesses. Creosote Labs runs a one-day operations review at $3,000, sets up Copilot, Gemini, or Claude, and trains staff.",
+  "h1": "AI consulting in Tucson",
+  "intro": [
+    "Many Tucson businesses are contractors, medical and dental practices, law and accounting firms, restaurants, and property managers, along with the manufacturers and service companies that supply larger employers. Businesses of these kinds often already pay for Microsoft 365 or Google Workspace, and many keep their records in QuickBooks, a spreadsheet, or an industry system such as ServiceTitan, Dentrix, or AppFolio. AI consulting applies where staff spend hours each week preparing documents, answering the same customer emails, and assembling reports from those systems.",
+    "Creosote Labs starts with a one-day operations review of a Tucson business, on site, and delivers a written assessment with a quote for each recommendation. We then set up the AI tool the company already has access to, such as Microsoft 365 Copilot, Google Gemini, or Claude, with its own templates and documents, automate the document preparation and reporting identified in the review, and train staff on their own work. The team receives a written guide it can follow after we leave."
+  ],
+  "projects": [
+    "An estimate-drafting setup for a Tucson HVAC contractor that turns technician notes into a formatted proposal in the company's own template.",
+    "A correspondence assistant for a medical practice that drafts referral letters and appointment reminders from the practice's existing templates.",
+    "A weekly reporting process for a property management company that summarizes AppFolio exports into an owner statement.",
+    "An intake-summary tool for a law firm that turns a consultation transcript into a client memo for attorney review.",
+    "A quote-response process for a small manufacturer that drafts replies to requests for quote from a parts catalog and price list."
+  ],
+  "faqs": [
+    {
+      "q": "What does the operations review cost and what do we receive?",
+      "a": "The operations review costs $3,000 and takes one day on site in Tucson. Within the week, the business receives a written assessment, a prioritized list of recommendations, and a quote for each one. If implementation begins within 90 days, the $3,000 is credited toward it."
+    },
+    {
+      "q": "Do we need to buy new software?",
+      "a": "In most cases the work uses software the business already pays for. Microsoft 365 Copilot, Google Gemini, and Claude are the tools we set up most often, loaded with the company's own documents and templates."
+    },
+    {
+      "q": "How is staff training priced?",
+      "a": "Staff training costs $1,000 per person and takes one day. Participants work on their own computers and documents, and the team receives a written guide to keep."
+    }
+  ]
+}

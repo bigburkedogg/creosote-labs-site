@@ -1,0 +1,35 @@
+{
+  "kind": "service-segment",
+  "service": "systems-and-automation",
+  "segment": "salons-and-spas",
+  "location": null,
+  "title": "Systems and automation for salons and spas | Creosote Labs",
+  "meta_description": "Systems and automation for salons and spas. We connect booking, payroll, inventory, and client records into one system and automate repetitive work.",
+  "h1": "Systems and automation for salons and spas",
+  "intro": [
+    "A salon or spa usually has a booking platform at the center, whether that is Fresha, Phorest, Meevo, Zenoti, Vagaro, or Square, and a ring of spreadsheets around it. Commission and tip splits, product ordering, gift card balances, membership renewals, and stylist booth rent often live in Excel or Google Sheets and get updated by hand at the end of the week. Systems and automation work applies wherever the same numbers get typed twice or a task depends on someone remembering to do it.",
+    "Creosote Labs begins with a one-day operations review, on site, that maps every spreadsheet and manual step and delivers a written assessment with a quote for each recommendation. We then consolidate the pieces the business chooses into one system of record, build the internal tools it needs for commission, inventory, and reporting, and automate the data entry and follow-up between them. Every system is documented and handed over to the staff who will run it."
+  ],
+  "projects": [
+    "A commission and tip calculator that reads closed tickets from the booking platform and produces each stylist's payroll sheet.",
+    "A retail inventory tracker that deducts backbar and shelf products as services are sold and generates a reorder list for the distributor.",
+    "A membership and package tracker that records remaining sessions, flags expirations, and sends renewal reminders.",
+    "A gift card ledger that reconciles balances sold and redeemed against the point-of-sale report.",
+    "A booth rent and chair lease tracker that records payments, generates receipts, and flags late balances.",
+    "An automated no-show and late-cancellation log that applies the salon's policy consistently and records fees charged."
+  ],
+  "faqs": [
+    {
+      "q": "What happens to the booking platform the salon already uses?",
+      "a": "It stays in place. We build around the platform's exports and reports rather than replacing it, and most projects connect it to the spreadsheets that currently sit beside it."
+    },
+    {
+      "q": "How much does a systems project cost?",
+      "a": "The one-day operations review costs $3,000 and results in a written assessment with a quote for each recommendation. Implementation is priced from those quotes, with no hourly billing."
+    },
+    {
+      "q": "Who maintains the system after it is built?",
+      "a": "The salon's own staff maintain it. Each project includes written documentation and a handover session, and the tools are built so a front desk manager or owner can run them without a developer."
+    }
+  ]
+}

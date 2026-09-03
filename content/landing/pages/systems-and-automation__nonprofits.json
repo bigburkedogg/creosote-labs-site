@@ -1,0 +1,35 @@
+{
+  "kind": "service-segment",
+  "service": "systems-and-automation",
+  "segment": "nonprofits",
+  "location": null,
+  "title": "Systems and automation for nonprofits | Creosote Labs",
+  "meta_description": "Creosote Labs consolidates nonprofit donor lists, volunteer schedules, and program tracking spreadsheets into one system and automates the repetitive work.",
+  "h1": "Systems and automation for nonprofits",
+  "intro": [
+    "Nonprofits often keep records in more places than they intend to. Donor history sits in Neon CRM or Bloomerang, the finance side in QuickBooks, volunteer sign-ups in Google Sheets or Volgistics, event registrations in Eventbrite, and program outcomes in a spreadsheet each program manager maintains separately. Reconciling gifts against deposits, preparing a grant report, or answering a board question about a program means pulling from several of these by hand.",
+    "Creosote Labs consolidates that into one system of record and builds the internal tools around it. A typical project connects the donor database to QuickBooks so gifts and deposits match without a monthly cleanup, replaces the program spreadsheets with a single tracking tool, and automates volunteer reminders, pledge follow-up, and the recurring reports the board and funders expect. We document the system and hand it over to staff."
+  ],
+  "projects": [
+    "A program tracking tool that replaces per-program spreadsheets and reports outcomes in the format each funder requires.",
+    "A gift reconciliation automation that matches donor database entries against QuickBooks deposits and flags the differences.",
+    "A volunteer scheduling system that handles sign-ups, shift reminders, and hours reporting.",
+    "A pledge follow-up automation that sends reminders on a schedule and records responses in the donor database.",
+    "A grant calendar that tracks application deadlines, report due dates, and restricted fund balances in one place.",
+    "A monthly board dashboard that assembles financials, fundraising totals, and program numbers without manual copying."
+  ],
+  "faqs": [
+    {
+      "q": "Do we have to switch off our current donor database?",
+      "a": "Usually not. Projects generally connect the existing donor database and accounting software rather than replace them. Whether a tool should be replaced is one of the questions the operations review answers."
+    },
+    {
+      "q": "How is the work priced?",
+      "a": "Engagements begin with a one-day operations review at $3,000, which produces a written assessment and a quote for each recommendation. Implementation is quoted from that review at a fixed price, with no hourly billing."
+    },
+    {
+      "q": "What happens to the system after the project ends?",
+      "a": "It belongs to the organization. We document how it works, train the staff who will use it, and hand it over so that it runs without us."
+    }
+  ]
+}

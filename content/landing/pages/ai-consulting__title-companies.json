@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "ai-consulting",
+  "segment": "title-companies",
+  "location": null,
+  "title": "AI consulting for title companies | Creosote Labs",
+  "meta_description": "Creosote Labs assesses where AI tools fit in a title and escrow company, sets them up on the company's own documents, and trains staff to use them.",
+  "h1": "AI consulting for title and escrow companies",
+  "intro": [
+    "Many title and escrow companies run on a production platform such as SoftPro, Qualia, ResWare, or RamQuest, with Outlook for communication with lenders, agents, and buyers, and Excel for anything the platform does not track. The work is document-heavy: title commitments, curative letters, settlement statements, closing disclosures, wire instructions, and post-closing packets. Much of the day goes to reading incoming documents, rekeying details into the platform, and writing status updates to the parties on each file.",
+    "Creosote Labs assesses where AI tools fit in a title operation and sets them up on the company's own files. That usually means configuring Microsoft 365 Copilot, Google Gemini, or Claude with the company's templates, checklists, and underwriting guidelines, then building the specific uses: summarizing a recorded deed or a lender's closing instructions, drafting a status email from the file notes, or checking a settlement statement against the purchase contract. Staff are trained on their own files, with a written guide for the office."
+  ],
+  "projects": [
+    "An assistant configured with the company's underwriting guidelines that flags exceptions in a preliminary title report and drafts the curative request.",
+    "A setup that reads lender closing instructions and produces a list of conditions for the escrow officer to confirm before funding.",
+    "Status update emails to agents, lenders, and buyers drafted from the file notes in the production platform and reviewed before they go out.",
+    "A comparison of the settlement statement against the purchase contract and the lender's fee sheet that lists discrepancies for review.",
+    "A written guide for the office covering which tasks the AI tool handles and which stay with the escrow officer."
+  ],
+  "faqs": [
+    {
+      "q": "Does the AI tool see our clients' nonpublic personal information?",
+      "a": "We set up the tools the company already licenses, such as Microsoft 365 Copilot or Google Gemini, under the company's own accounts. The assessment identifies which tasks are appropriate for an AI tool and which are not, and data handling is reviewed with the owner during the operations review."
+    },
+    {
+      "q": "How does an engagement start?",
+      "a": "An engagement starts with a one-day operations review, priced at $3,000. We spend the day in the office, document how files currently move, and deliver a written assessment with a quote for each recommendation within the week. Implementation is quoted from the review."
+    },
+    {
+      "q": "What do we need to have ready?",
+      "a": "Access to the production platform and email for the day, a few recent files with their commitments and settlement statements, the office templates, and time with the escrow officers and processors who handle the work."
+    }
+  ]
+}

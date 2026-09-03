@@ -1,0 +1,34 @@
+{
+  "kind": "service-location",
+  "service": "systems-and-automation",
+  "segment": null,
+  "location": "cottonwood",
+  "title": "Systems and automation in Cottonwood, AZ | Creosote Labs",
+  "meta_description": "Creosote Labs replaces the spreadsheets and disconnected tools a Cottonwood, AZ business runs on with one system, and automates repetitive work.",
+  "h1": "Systems and automation in Cottonwood",
+  "intro": [
+    "Many businesses in Cottonwood run on a combination of QuickBooks, a scheduling or point-of-sale system such as Square or Toast, and a set of Excel or Google Sheets files that hold everything the software does not: job lists, inventory counts, vendor contacts, wine club members, and the schedule for the week. A tasting room, a plumbing company, and a property management office each keep the same kind of records in different places, and someone re-enters the same information 2 or 3 times.",
+    "Creosote Labs builds systems and automation for businesses in Cottonwood and the Verde Valley. We start with a one-day operations review, then consolidate the spreadsheets and disconnected tools into one system of record, build the internal tools the business needs for scheduling, quoting, tracking, and reporting, and automate the repetitive steps such as data entry, follow-up messages, and document generation. The finished system is documented and handed over to staff, with a fixed quote for each item before any work begins."
+  ],
+  "projects": [
+    "A single job board for an HVAC or plumbing company that replaces a whiteboard, a text thread, and a spreadsheet of open work orders.",
+    "A wine club database for a tasting room that tracks members, shipments, and pickups in one place instead of 3.",
+    "An automated follow-up sequence for a roofing company that sends the estimate, a reminder, and a thank-you without staff involvement.",
+    "A maintenance request tracker for a property manager that logs the request, assigns the vendor, and closes the ticket when the invoice arrives.",
+    "A weekly reporting tool that pulls sales from Square and labor hours from the schedule into one summary for a restaurant owner."
+  ],
+  "faqs": [
+    {
+      "q": "What happens to our existing spreadsheets?",
+      "a": "Their data moves into the new system, and the spreadsheets are retired once staff have confirmed the numbers match. Nothing is deleted until the business signs off."
+    },
+    {
+      "q": "How is the work priced?",
+      "a": "Pricing is fixed, with no hourly billing. The $3,000 operations review produces a written assessment and a separate quote for each recommendation, so the business chooses which items to build."
+    },
+    {
+      "q": "Who maintains the system after handover?",
+      "a": "Staff at the business do. Every system is documented for them before handover, and the documentation is written for the people who use it day to day rather than for a developer."
+    }
+  ]
+}

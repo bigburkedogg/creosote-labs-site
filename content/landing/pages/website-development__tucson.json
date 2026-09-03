@@ -1,0 +1,34 @@
+{
+  "kind": "service-location",
+  "service": "website-development",
+  "segment": null,
+  "location": "tucson",
+  "title": "Website development in Tucson, Arizona | Creosote Labs",
+  "meta_description": "Creosote Labs builds websites, customer portals, and web applications for Tucson businesses, quoted at a fixed price after a scoping call.",
+  "h1": "Website and web application development in Tucson",
+  "intro": [
+    "Many Tucson businesses reach customers through a mix of Google search, referrals, and seasonal visitors. Restaurants, tour operators, contractors, clinics, and retailers often have a site built years ago on Wix, Squarespace, or WordPress that lists services but does not let a customer request a quote, book an appointment, or complete an intake form. Website and web application development applies when a business needs a site that does that work, or an application that replaces a paper or email process.",
+    "Creosote Labs builds marketing websites with clear services, pricing, and a way to book or contact the business, along with customer-facing tools such as quote requests, bookings, intake forms, and portals for Tucson companies. For businesses whose staff manage a process by email and spreadsheet, we build web applications that replace it. Hosting setup, domain configuration, and handover with documentation are part of every project. Projects are quoted after a scoping call at a fixed price."
+  ],
+  "projects": [
+    "A marketing site for a Tucson landscaping company with service pages, pricing ranges, and a quote request form that reaches the owner's inbox.",
+    "An online booking tool for a desert tour operator that checks availability, collects waivers, and takes deposits through Square.",
+    "A patient intake portal for a physical therapy clinic that replaces paper forms and sends completed records to the front desk.",
+    "A customer portal for a wholesale distributor where accounts view order history, reorder, and download invoices.",
+    "A rental application workflow for a property management company that replaces a PDF form and an email chain."
+  ],
+  "faqs": [
+    {
+      "q": "How is a website project priced?",
+      "a": "Each project receives a fixed-price quote after a scoping call. There is no hourly billing, and hosting and domain setup are included."
+    },
+    {
+      "q": "What do we need to provide?",
+      "a": "The business provides a logo, photos, service descriptions, and pricing if it will be published. If the site includes a booking or quote tool, we also need the questions the business asks a customer today."
+    },
+    {
+      "q": "Can a Tucson business update the site after handover?",
+      "a": "Yes. Every project ends with hosting configured in the business's own accounts and written documentation for updating content."
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "ai-training",
+  "segment": "hotels-and-inns",
+  "location": null,
+  "title": "Team AI training for hotels and inns | Creosote Labs",
+  "meta_description": "One-day AI training for hotel and inn staff, on the property's own tools and guest messages. $1,000 per person, written guide and follow-up included.",
+  "h1": "Team AI training for hotels and inns",
+  "intro": [
+    "The staff of a hotel or inn write all day: replies to guest emails and Booking.com messages, confirmations, group proposals, responses to Google and TripAdvisor reviews, housekeeping notes, and vendor requests. Many properties already have Google Gemini through Google Workspace or Copilot through Microsoft 365 and have not settled on how to use them. Team AI training applies to that writing and to the reading work around it, such as summarizing a long guest thread or a stack of reviews.",
+    "Creosote Labs delivers a one-day workshop at the property or remotely, in the AI tool the team already uses. Front desk, reservations, and management staff work on their own computers with the property's actual templates, policies, and guest messages, and each person produces real work during the session: a review response, a group proposal, a revised confirmation. Everyone leaves with a working setup and a written guide, and a follow-up session 30 days later covers what has changed since."
+  ],
+  "projects": [
+    "A front desk exercise in which each participant drafts replies to 5 real guest inquiries from the property's policies and then compares them with what was actually sent.",
+    "A review response workflow that produces a draft answer to a new Google or TripAdvisor review in the property's voice for a manager to approve.",
+    "A group sales exercise that turns a wedding inquiry email into a room block proposal using the property's rate sheet and contract terms.",
+    "A housekeeping and maintenance exercise that turns end-of-shift notes into a clean handover summary for the next shift.",
+    "A written guide, produced by the participants, recording each person's prompts, templates, and the guest information that stays out of the tool."
+  ],
+  "faqs": [
+    {
+      "q": "How many staff can attend and what does it cost?",
+      "a": "The workshop costs $1,000 per person and takes up to 10 people, with a minimum of 5. Teams larger than 10 receive a quote. Travel to the property is included."
+    },
+    {
+      "q": "Can the workshop run around check-in and checkout?",
+      "a": "Yes, the day is scheduled with the property, and a remote session is an option for teams that cannot leave the desk at the same time. The 30-day follow-up session is included either way."
+    },
+    {
+      "q": "Which AI tool is the training delivered in?",
+      "a": "Training is delivered in the tool the property already has: Google Gemini, Microsoft 365 Copilot, or Claude. Participants use their own accounts and documents, and the program option with three monthly follow-up sessions is $1,400 per person."
+    }
+  ]
+}

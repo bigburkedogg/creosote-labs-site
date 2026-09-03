@@ -1,0 +1,35 @@
+{
+  "kind": "segment-location",
+  "service": null,
+  "segment": "retail-stores",
+  "location": "flagstaff",
+  "title": "Retail stores in Flagstaff | Creosote Labs",
+  "meta_description": "Creosote Labs connects Square or Shopify to inventory, ordering, and an online store for Flagstaff retail stores, and trains staff on AI tools.",
+  "h1": "Retail stores in Flagstaff: AI, systems, and websites",
+  "intro": [
+    "Retail stores in Flagstaff usually run the register on Square, Shopify POS, Lightspeed, or Clover, and keep the books in QuickBooks. What sits outside those systems is the paperwork of buying and stocking: purchase orders, vendor invoices, receiving counts, price changes, and the weekly reorder list, which many stores manage in Excel or on a clipboard. Seasonal swings in foot traffic add a second set of questions about staffing and what to reorder. Our systems, website, and AI services apply to that work.",
+    "Creosote Labs is a Flagstaff company, and we start with a day in the store. The operations review documents how product moves from purchase order to shelf to sale, where counts are re-keyed, and which reports the owner builds by hand, then quotes each recommendation. Implementation might be an inventory and reorder tool that reads from the point of sale, an online store connected to the register, or a training day where staff use AI to write product descriptions and vendor emails from the store's own catalog."
+  ],
+  "projects": [
+    "A reorder report that pulls sales from Square or Shopify POS and lists items below their minimum stock level each week.",
+    "An online store on Shopify that shares inventory with the in-store register so counts stay accurate in both places.",
+    "A purchase order tool that generates vendor orders from the reorder list and files each confirmation when it arrives.",
+    "A receiving checklist that reconciles vendor invoices against what was delivered and flags shortages and price changes.",
+    "An automated follow-up that emails customers a receipt, a gift card balance, or a loyalty reminder after a purchase.",
+    "A training session where staff write product descriptions, social posts, and vendor emails in Gemini or Copilot from the store's own catalog."
+  ],
+  "faqs": [
+    {
+      "q": "Can this connect to Square or Shopify?",
+      "a": "Yes, it can. Both provide exports and an API for sales and inventory data, and most of what we build reads from the point of sale rather than replacing it."
+    },
+    {
+      "q": "How much of the owner's time does the operations review take?",
+      "a": "The review takes one day. We spend it in the store with whoever handles ordering, receiving, and the register, and the written assessment arrives within the week."
+    },
+    {
+      "q": "How is pricing structured for a single store?",
+      "a": "The one-day operations review is $3,000 and is credited toward implementation that begins within 90 days. Implementation and websites are quoted at a fixed price with no hourly billing. Team AI training is $1,000 per person with a 5-person minimum."
+    }
+  ]
+}

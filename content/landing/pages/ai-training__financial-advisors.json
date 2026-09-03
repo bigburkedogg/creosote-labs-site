@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "ai-training",
+  "segment": "financial-advisors",
+  "location": null,
+  "title": "AI training for financial advisory teams | Creosote Labs",
+  "meta_description": "A one-day, hands-on AI workshop for financial advisory teams, run on the firm's own tools and client documents. $1,000 per person, 5-person minimum.",
+  "h1": "Team AI training for financial advisory practices",
+  "intro": [
+    "Advisory teams spend a large share of the week writing: meeting prep notes pulled from the CRM, summaries after each client conversation, follow-up emails, annual review letters, and explanations of a plan recommendation in plain language. Many practices already license Microsoft 365, and many have Copilot or a ChatGPT or Claude account that a few people use informally. Team AI training is a one-day workshop that puts those tools to work on the practice's own documents, with the compliance limits agreed up front.",
+    "Creosote Labs runs the session on site or remote, in the tool the practice has chosen. Each advisor and client service associate works on their own computer with their own client files, building a meeting summary template, a follow-up email format, and a review letter draft they will use the following week. Every participant documents their own process, the team receives a written guide that includes what may and may not be entered into the tool, and a 30-day follow-up session is included."
+  ],
+  "projects": [
+    "A meeting summary prompt that converts an advisor's rough notes into a CRM entry and a client recap email in the firm's tone.",
+    "A review letter exercise in which each advisor drafts an annual review letter from a plan summary and edits it to the firm's standard.",
+    "A plain-language explanation of a Roth conversion or rebalancing recommendation written for a specific client's situation.",
+    "A client service exercise that drafts responses to common requests, such as distribution instructions or beneficiary changes, with the required verification steps kept in.",
+    "A prospect research routine that assembles a pre-meeting brief from the intake questionnaire and public information."
+  ],
+  "faqs": [
+    {
+      "q": "How does the training handle compliance?",
+      "a": "Before the session we agree with the practice on which tool is used and what client information may be entered, and that boundary is written into the guide. Work produced during the day stays in the firm's own systems."
+    },
+    {
+      "q": "What does the training cost?",
+      "a": "The workshop costs $1,000 per person, with a 5-person minimum and a 10-person cap at that rate, and travel is included. Larger teams receive a separate quote, and a program that adds three monthly follow-up sessions is $1,400 per person."
+    },
+    {
+      "q": "What do participants need to bring?",
+      "a": "Each participant brings a laptop logged into the AI tool the firm has chosen, and a few recent real examples of their own work, such as meeting notes, a review letter, and follow-up emails. Each person leaves with a working setup and their own written process."
+    }
+  ]
+}

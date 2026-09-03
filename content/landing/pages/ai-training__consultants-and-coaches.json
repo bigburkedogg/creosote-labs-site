@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "ai-training",
+  "segment": "consultants-and-coaches",
+  "location": null,
+  "title": "Team AI training for consultants and coaches | Creosote Labs",
+  "meta_description": "A one-day, hands-on AI workshop for consulting and coaching teams, run on their own proposals, notes, and templates. $1,000 per person, travel included.",
+  "h1": "Team AI training for consultants and coaches",
+  "intro": [
+    "Consulting and coaching teams produce a large amount of written material for each client: discovery summaries, proposals, workshop agendas, slide decks, session notes, and reports. Most of it is written in Google Docs, Microsoft Word, or PowerPoint from a previous version. Practitioners who have tried ChatGPT or Gemini on their own often find that a general prompt does not know the practice's frameworks, tone, or document formats.",
+    "The Creosote Labs workshop runs for one day, on site or remote, in the AI tool the practice already uses. Each participant brings their own current work: a proposal in progress, last week's session notes, a report due to a client. They finish real deliverables during the session and write down the process they used. The team leaves with a written guide, and a 30-day follow-up session is included."
+  ],
+  "projects": [
+    "A participant drafts a proposal for a live prospect from their discovery notes and the practice's proposal template.",
+    "A participant turns a recorded session into client-ready notes and a follow-up email in their own voice.",
+    "A participant builds a reusable prompt that produces a workshop agenda from a client's stated goals.",
+    "A participant converts a written framework into a slide deck outline in the practice's standard format.",
+    "A participant sets up a reviewer that checks a client report against the original statement of work."
+  ],
+  "faqs": [
+    {
+      "q": "What does the training cost?",
+      "a": "The workshop is $1,000 per person for up to 10 people, with a 5-person minimum. Larger teams are quoted, and travel is included. A program with three monthly follow-up sessions is $1,400 per person."
+    },
+    {
+      "q": "Does the practice need to buy a new AI tool first?",
+      "a": "No. The workshop is delivered in the tool the practice already has access to, such as Microsoft 365 Copilot, Google Gemini, or Claude. We confirm which tool and which accounts before the day."
+    },
+    {
+      "q": "What should each participant bring?",
+      "a": "Each participant brings their own computer, logged in to the practice's documents and AI tool, and two or three pieces of real work in progress, such as a proposal, session notes, or a client report."
+    }
+  ]
+}

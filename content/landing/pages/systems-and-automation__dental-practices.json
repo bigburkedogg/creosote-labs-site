@@ -1,0 +1,35 @@
+{
+  "kind": "service-segment",
+  "service": "systems-and-automation",
+  "segment": "dental-practices",
+  "location": null,
+  "title": "Systems and automation for dental practices | Creosote Labs",
+  "meta_description": "Creosote Labs consolidates the spreadsheets and disconnected tools around a dental practice's software and automates repetitive front desk work.",
+  "h1": "Systems and automation for dental practices",
+  "intro": [
+    "A dental office typically keeps its clinical and scheduling records in Dentrix, Eaglesoft, or Open Dental, but a good deal of the operation lives elsewhere. Insurance verification often runs through a spreadsheet, unscheduled treatment is tracked on a printed report, lab cases are logged in a notebook or Google Sheets, and supply orders and payroll hours sit in QuickBooks or Excel. Systems and automation work addresses the gap between the practice management system and everything the team tracks by hand around it.",
+    "Creosote Labs starts with an operations review, then builds the internal tools the practice chooses from the quoted recommendations. That might be a single lab case tracker that replaces the notebook, an unscheduled treatment list that updates from the practice management system's reports, or an automated end-of-day routine that reconciles deposits against QuickBooks. Each tool is tested with the front desk, documented in plain language, and handed over so the office runs it without us."
+  ],
+  "projects": [
+    "A lab case tracker that logs each crown, denture, or aligner case when it is sent out and flags cases due back before the seat appointment.",
+    "An insurance verification worksheet that pulls tomorrow's schedule and records eligibility, remaining benefits, and frequency limits in one place.",
+    "An unscheduled treatment report that lists patients with accepted but unbooked treatment plans and assigns them to a team member for follow-up.",
+    "A daily reconciliation routine that compares the day sheet from the practice management system with the bank deposit and QuickBooks.",
+    "A supply ordering list that tracks par levels for operatory stock and produces a purchase order when items run low.",
+    "A staff hours and PTO tracker that replaces a shared spreadsheet and feeds payroll."
+  ],
+  "faqs": [
+    {
+      "q": "Can the new tools connect to Dentrix or Open Dental?",
+      "a": "It depends on the system and the version the practice runs. Open Dental has a documented database and API, while other systems often require working from scheduled report exports, and we confirm the approach during the operations review before quoting."
+    },
+    {
+      "q": "How is systems and automation work priced?",
+      "a": "Systems work starts with a one-day operations review at $3,000. The written assessment quotes each recommendation separately, so the practice picks the projects it wants at a fixed price with no hourly billing."
+    },
+    {
+      "q": "Who maintains the tools after handover?",
+      "a": "The office does. Every tool ships with written documentation for staff, and we hand it over in a working session so the office manager can run it, adjust it, and train new hires on it."
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "ai-training",
+  "segment": "roofing-companies",
+  "location": null,
+  "title": "Team AI training for roofing companies | Creosote Labs",
+  "meta_description": "A one-day AI workshop for roofing office and sales staff, run on the company's own estimates, supplements, and homeowner emails. $1,000 per person.",
+  "h1": "Team AI training for roofing companies",
+  "intro": [
+    "The office and sales staff at a roofing company spend much of the day writing: proposals for homeowners, supplement requests to insurance adjusters, scope explanations, material orders, crew instructions, and answers to the same questions about warranties and financing. Many of them already have Microsoft 365 Copilot, Google Gemini, or Claude available through a company account and use it occasionally, without a shared way of working. Training applies to exactly this kind of repeated writing and to reading long documents such as adjuster estimates and manufacturer specifications.",
+    "Creosote Labs runs a one-day, hands-on workshop for the team, on site or remote, in the AI tool the company already uses. Participants bring their own laptops and their own files: last month's proposals, a denied supplement, the warranty FAQ, the crew checklist. Each person builds a working setup for their role during the day, such as a sales rep's proposal drafting process or an office manager's supplement workflow, and documents it. The team leaves with a written guide, and a 30-day follow-up session is included."
+  ],
+  "projects": [
+    "A sales rep's setup that drafts a homeowner proposal cover letter from the estimate and inspection notes.",
+    "An office manager's process for turning an adjuster's scope and the crew's photos into a supplement request.",
+    "A production coordinator's crew brief, generated from the signed contract and material order each morning.",
+    "A shared set of prompts for answering warranty, financing, and scheduling questions in the company's voice.",
+    "A reading workflow that summarizes a manufacturer's installation spec or a commercial bid package before a meeting."
+  ],
+  "faqs": [
+    {
+      "q": "Who at a roofing company should attend?",
+      "a": "Anyone who writes or reads documents as part of the job: sales reps, estimators, office managers, production coordinators, and owners. The workshop is for 5 to 10 people; larger teams are quoted."
+    },
+    {
+      "q": "What does each participant need to bring?",
+      "a": "Each participant brings a laptop with access to the AI tool the company uses and a handful of their own real documents, such as recent proposals, supplement letters, or emails. The day is spent on that material, not on generic examples."
+    },
+    {
+      "q": "What does training cost?",
+      "a": "The workshop costs $1,000 per person for up to 10 people, with a 5-person minimum, and travel is included. A program that adds three monthly follow-up sessions is $1,400 per person."
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "ai-consulting",
+  "segment": "dental-practices",
+  "location": null,
+  "title": "AI consulting for dental practices | Creosote Labs",
+  "meta_description": "Creosote Labs assesses where AI tools fit in a dental practice, sets them up with the practice's own documents, and trains staff to use them.",
+  "h1": "AI consulting for dental practices",
+  "intro": [
+    "Many dental practices run on a practice management system such as Dentrix, Open Dental, or Eaglesoft, with QuickBooks for accounting and a mix of Word documents, email, and paper forms around the edges. Front desk staff spend much of the day on insurance verification, treatment plan follow-up, recall reminders, and correspondence with specialists. AI consulting applies to that surrounding work: the letters, summaries, and follow-up that the practice management system does not write on its own.",
+    "We spend a day in the office documenting how the front desk, hygienists, and dentists handle each step from scheduling to collections, then deliver a written assessment of where AI tools save time and a quote for each recommendation. Implementation means setting up the tool the practice already has access to, such as Microsoft 365 Copilot, Google Gemini, or Claude, with the practice's own templates, then training staff on their own work with a written guide to keep."
+  ],
+  "projects": [
+    "A referral letter template that drafts a letter to an oral surgeon or endodontist from the notes in the patient's chart.",
+    "An assistant set up to write insurance appeal letters from a denied claim and the clinical notes that support it.",
+    "A recall outreach process that drafts personalized reminders for overdue hygiene patients, ready for the front desk to review and send.",
+    "A treatment plan summary written in plain language for the patient, generated from the coded plan in Dentrix or Open Dental.",
+    "A monthly production and collections summary drafted from practice management reports for the owner dentist."
+  ],
+  "faqs": [
+    {
+      "q": "Does patient information leave our practice management system?",
+      "a": "Only what a given task needs leaves the system, and we discuss data handling and a business associate agreement before any work touches patient records. Where possible, projects work from exported reports or templates rather than a live connection to the chart."
+    },
+    {
+      "q": "How much does AI consulting cost for a dental practice?",
+      "a": "Engagements begin with a one-day operations review at $3,000, which produces a written assessment and a quote for each recommendation. Implementation is quoted from the review, and team training is $1,000 per person."
+    },
+    {
+      "q": "What does the practice need to provide for the operations review?",
+      "a": "The review needs a day of access to the office, time with the office manager and a few staff, and a look at the practice management system and the documents the front desk produces. No preparation is required beyond scheduling the day."
+    }
+  ]
+}

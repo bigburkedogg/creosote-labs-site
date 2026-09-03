@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "website-development",
+  "segment": "marketing-agencies",
+  "location": null,
+  "title": "Websites and web apps for marketing agencies | Creosote Labs",
+  "meta_description": "Creosote Labs builds agency marketing sites, client intake forms, approval portals, and live reporting pages. Fixed price, quoted after a scoping call.",
+  "h1": "Website and web application development for marketing agencies",
+  "intro": [
+    "Many marketing agencies build client sites on WordPress, Webflow, or Squarespace, and the agency's own site is often the last project on the board. Agency websites tend to carry a portfolio, a services list, case studies, and a contact form, with new business requests arriving by email and moving into a spreadsheet or HubSpot by hand. Website and web application development covers the agency's own site and the client-facing tools around it.",
+    "Creosote Labs builds marketing sites with clear services, pricing where the agency chooses to publish it, and a way to book a call. We also build the tools an agency uses with its clients directly: an intake form that captures a new project's goals, budget, and assets; a client portal where drafts are reviewed and approved; and a reporting page each client can open instead of waiting for a PDF. Hosting, domain configuration, and documentation are part of every project."
+  ],
+  "projects": [
+    "An agency marketing site with case studies, a services page, and a call-booking form that writes leads to HubSpot.",
+    "A client intake form that collects brand assets, goals, and budget before the kickoff call.",
+    "A client portal for reviewing and approving creative drafts, with each approval recorded and dated.",
+    "A live reporting page for each client that reads from Google Analytics and the ad platforms.",
+    "A quote request tool that gives prospects a scope range based on the services they select."
+  ],
+  "faqs": [
+    {
+      "q": "How are website projects priced?",
+      "a": "Each website or web application project is quoted after a scoping call, and the quote is a fixed price for that scope. There is no hourly billing."
+    },
+    {
+      "q": "Can a client portal connect to the tools the agency already uses?",
+      "a": "In most cases, yes. Portals and reporting pages can read from Google Analytics, ad platforms, and project tools that offer an API, and the scoping call confirms which connections are practical."
+    },
+    {
+      "q": "What does the agency need to provide?",
+      "a": "The agency provides copy, logos, and case study material for a marketing site, plus access to any accounts the site or tool connects to. Hosting and domain setup are handled by us, and documentation is handed over at the end."
+    }
+  ]
+}

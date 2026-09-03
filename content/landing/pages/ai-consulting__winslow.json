@@ -1,0 +1,34 @@
+{
+  "kind": "service-location",
+  "service": "ai-consulting",
+  "segment": null,
+  "location": "winslow",
+  "title": "AI consulting in Winslow, AZ | Creosote Labs",
+  "meta_description": "Creosote Labs assesses where AI tools fit in a Winslow business, sets them up with the company's own documents, and trains staff. Operations review $3,000.",
+  "h1": "AI consulting in Winslow",
+  "intro": [
+    "Winslow sits on Interstate 40, and many of its businesses serve travelers, rail and freight crews, and the surrounding Navajo County communities. Hotels, restaurants, retail shops, medical offices, and trade contractors in town typically run on a mix of Microsoft 365 or Google Workspace, QuickBooks, and an industry system such as a property management system or a scheduling tool. AI consulting applies wherever staff prepare the same documents, emails, and reports by hand each week.",
+    "Creosote Labs serves businesses in Winslow and across Northern Arizona. An engagement starts with a one-day operations review at $3,000, during which we document how the business currently runs and deliver a written assessment with a quote for each recommendation. From there we set up the AI tools the company already has access to, such as Microsoft 365 Copilot, Google Gemini, or Claude, with its own documents and templates, automate document preparation and customer communication, and train staff at $1,000 per person."
+  ],
+  "projects": [
+    "A guest inquiry assistant for a motel that drafts replies to booking questions from the property's own rate and policy documents.",
+    "A visit note summarizer for a medical office that turns dictated notes into the clinic's standard chart format.",
+    "An estimate drafting tool for a contractor that produces a written proposal from job notes and the company's price list.",
+    "A weekly sales and labor report for a restaurant assembled automatically from Toast or Square exports.",
+    "A staff guide documenting how each department uses Copilot or Gemini with the company's templates."
+  ],
+  "faqs": [
+    {
+      "q": "Do we need to buy new software before the review?",
+      "a": "No. We start with the tools the business already pays for, such as Microsoft 365, Google Workspace, or Claude, and set them up with the company's own documents. The review identifies whether anything else is needed."
+    },
+    {
+      "q": "What does the operations review cost and what do we get?",
+      "a": "$3,000 for one day on site. Within the week the business receives a written assessment, prioritized recommendations, and a quote for each item. The fee is credited toward implementation that begins within 90 days."
+    },
+    {
+      "q": "Does Creosote Labs travel to Winslow?",
+      "a": "Yes. Creosote Labs serves businesses across Northern Arizona, and the operations review is done on site at the business. The first step is a 20-minute call."
+    }
+  ]
+}

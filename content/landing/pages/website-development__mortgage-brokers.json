@@ -1,0 +1,35 @@
+{
+  "kind": "service-segment",
+  "service": "website-development",
+  "segment": "mortgage-brokers",
+  "location": null,
+  "title": "Mortgage broker websites and web apps | Creosote Labs",
+  "meta_description": "Creosote Labs builds websites, pre-qualification forms, and borrower portals for mortgage brokerages. Fixed price, quoted after a scoping call.",
+  "h1": "Website and web application development for mortgage brokers",
+  "intro": [
+    "Many mortgage brokerages have a website that lists a phone number and an NMLS ID and not much else, while the borrower-facing work happens through a point-of-sale portal such as Floify, a templated landing page from the CRM, and an online application link in an email signature. Prospective borrowers arrive from a real estate agent's referral or a Google search and often have no clear place to start a conversation or check what they qualify for.",
+    "Creosote Labs builds the brokerage's site with the loan programs, the process, and the team laid out plainly, with required licensing disclosures on every page and a direct path to schedule a call or start an application. Beyond the marketing site, we build the tools borrowers use: a pre-qualification form that collects income, assets, and property details before the first call, a secure document upload, and a status page that shows where a file stands. Hosting, domain setup, and documentation are part of the handover."
+  ],
+  "projects": [
+    "A marketing site with loan program pages, loan officer profiles with NMLS numbers, and a schedule-a-call button on every page.",
+    "A pre-qualification form that gathers income, down payment, and credit range and routes the submission to the assigned loan officer.",
+    "A mortgage payment and closing cost calculator that uses the brokerage's current fee schedule.",
+    "A borrower status page where clients see which documents are received and which are still outstanding.",
+    "A referral partner page where real estate agents submit a borrower introduction and receive a confirmation.",
+    "Migration of an existing site off a CRM-hosted template onto a domain and hosting the brokerage controls."
+  ],
+  "faqs": [
+    {
+      "q": "What does a brokerage website cost?",
+      "a": "Website and application projects are quoted after a scoping call. The price is fixed for the agreed scope, with no hourly billing."
+    },
+    {
+      "q": "Can the site connect to our loan origination system or point-of-sale portal?",
+      "a": "Where the LOS or portal offers a way to receive submissions, the site can hand a pre-qualification or application off to it. We confirm what is possible for the specific tools during the scoping call."
+    },
+    {
+      "q": "What do we need to provide to get started?",
+      "a": "The brokerage provides access to the current domain and any existing site, the loan programs and fee information the site should show, licensing disclosures for the brokerage and each loan officer, and headshots and bios for the team."
+    }
+  ]
+}

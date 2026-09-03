@@ -1,0 +1,35 @@
+{
+  "kind": "service-segment",
+  "service": "systems-and-automation",
+  "segment": "hvac-contractors",
+  "location": null,
+  "title": "Systems and automation for HVAC contractors | Creosote Labs",
+  "meta_description": "Creosote Labs consolidates HVAC estimates, scheduling, and equipment records into one system and automates repetitive work. Operations review $3,000.",
+  "h1": "Systems and automation for HVAC contractors",
+  "intro": [
+    "An HVAC company's records tend to live in several places at once: jobs and invoices in Housecall Pro or ServiceTitan, accounting in QuickBooks, maintenance agreement renewals in a spreadsheet, equipment and refrigerant logs on paper or in Google Sheets, and parts orders in supplier portals. Dispatchers and office staff often re-enter the same customer and equipment details across each of them. Systems and automation work applies wherever that duplicate entry, manual follow-up, or hand-built reporting happens.",
+    "Creosote Labs builds the connections and tools that remove the duplicate work. A typical project links the field service platform to QuickBooks so invoices post once, replaces the renewal spreadsheet with a tracker that generates reminder letters on schedule, and adds a job-costing report that compares quoted hours and parts to actuals. Every system is scoped and quoted from the operations review, tested with the office staff who will use it, documented in plain language, and handed over."
+  ],
+  "projects": [
+    "A maintenance agreement tracker that lists every contract, its renewal date, and its scheduled tune-ups, and sends the renewal notice automatically.",
+    "An integration that posts completed jobs from Jobber or Housecall Pro to QuickBooks without re-keying invoices.",
+    "An equipment database keyed by address, with model, serial number, install date, refrigerant type, and service history for each unit.",
+    "A job-costing report that pulls technician hours and parts from the field platform and compares them to the original estimate.",
+    "A parts reorder sheet that flags truck stock below minimum levels from the items used on closed work orders.",
+    "An automated follow-up that sends a review request and a maintenance offer after each completed install."
+  ],
+  "faqs": [
+    {
+      "q": "Will this replace ServiceTitan or Housecall Pro?",
+      "a": "Usually not, because most projects connect the field service platform to accounting and the other tools around it rather than replacing it. Where a spreadsheet is doing a job the platform can already do, the review will say so."
+    },
+    {
+      "q": "How is systems and automation work priced?",
+      "a": "It is quoted from the one-day operations review, which costs $3,000 and is credited toward implementation that begins within 90 days. Each recommendation in the review comes with its own fixed price. There is no hourly billing."
+    },
+    {
+      "q": "What happens to our existing data?",
+      "a": "Customer, equipment, and agreement records are exported from the current spreadsheets and platforms, cleaned, and loaded into the new system before handover. Nothing is deleted from the original sources until the office has verified the new records."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "kind": "service-segment",
+  "service": "website-development",
+  "segment": "startups",
+  "location": null,
+  "title": "Website and web app development for startups | Creosote Labs",
+  "meta_description": "Creosote Labs builds marketing sites, customer portals, and web applications for startups. Fixed price, quoted after a scoping call, hosting included.",
+  "h1": "Website and web application development for startups",
+  "intro": [
+    "Most startups launch with a marketing site on Webflow, Squarespace, or Framer, a waitlist or signup form, and a pricing page that changes every few months. As the product matures, the company needs more than a brochure: a customer portal where accounts can see invoices and usage, an intake or quote-request form that feeds the sales pipeline, and internal applications that replace manual processes for staff. Website and web application development covers everything from the marketing site through those customer-facing tools.",
+    "Creosote Labs builds the site, portal, or application to a fixed scope agreed on a scoping call, then handles hosting setup, domain configuration, and handover with documentation. Marketing sites are written with clear services, pricing, and a way to book or contact the company. Customer-facing tools connect to the systems already in use, such as HubSpot for leads and Stripe for billing, and are built so the company's own team can update content and settings."
+  ],
+  "projects": [
+    "A marketing site with a services page, a pricing page, and a booking form connected to the founders' calendar.",
+    "A customer portal where accounts log in to view invoices, download contracts, and update payment details through Stripe.",
+    "A quote-request form that collects the details sales needs and creates the deal in HubSpot.",
+    "A self-serve onboarding flow that replaces the email back-and-forth after signup.",
+    "A pilot application that lets early customers use the product before the full build is ready.",
+    "A product documentation site with search and a feedback form on each page."
+  ],
+  "faqs": [
+    {
+      "q": "How are website and application projects priced?",
+      "a": "Website and application projects are quoted after a scoping call. Pricing is fixed for the agreed scope, with no hourly billing, and hosting and domain setup are included."
+    },
+    {
+      "q": "What do we need to have ready before the scoping call?",
+      "a": "Have ready a description of what the site or application needs to do, any existing branding or copy, and a list of the tools it needs to connect to. The scope and quote are prepared from that call."
+    },
+    {
+      "q": "Who owns and maintains the site after launch?",
+      "a": "The company does. Hosting and the domain are set up in the company's own accounts, and handover includes documentation so the team can make changes without us."
+    }
+  ]
+}

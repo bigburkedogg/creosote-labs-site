@@ -1,0 +1,34 @@
+{
+  "kind": "service-location",
+  "service": "ai-consulting",
+  "segment": null,
+  "location": "page",
+  "title": "AI consulting in Page, Arizona | Creosote Labs",
+  "meta_description": "Creosote Labs provides AI consulting for businesses in Page, Arizona: a one-day operations review, tool setup, automation, and staff training.",
+  "h1": "AI consulting in Page",
+  "intro": [
+    "Page sits near Lake Powell, and many of its businesses serve visitors: tour operators, boat rentals, hotels, restaurants, and the retail and service shops that support them. Many of these businesses run on a booking platform such as FareHarbor or Peek, a point-of-sale system such as Square or Toast, QuickBooks for accounting, and email and Google Sheets for everything in between. AI consulting applies where staff spend time on repeated writing, data entry, and reporting across those tools.",
+    "Creosote Labs starts with a one-day operations review on site in Page. We document how the business currently runs, then deliver a written assessment with prioritized recommendations and a quote for each. From there we set up the AI tools the business already pays for, such as Microsoft 365 Copilot, Google Gemini, or Claude, load them with the company's own confirmation emails, waivers, and templates, and train staff to use them on real work."
+  ],
+  "projects": [
+    "An assistant that drafts replies to guest inquiries from a tour operator's own FAQ, cancellation policy, and trip descriptions.",
+    "A weekly report that pulls bookings from FareHarbor and sales from Square into one summary for the owner.",
+    "A process for turning a hotel's guest reviews into a monthly summary of recurring complaints and compliments.",
+    "A setup that drafts seasonal job postings and onboarding checklists from a restaurant's existing manuals.",
+    "A written guide for front-desk staff on using Copilot or Gemini with the company's own documents."
+  ],
+  "faqs": [
+    {
+      "q": "How does the operations review work for a business in Page?",
+      "a": "It is one day on site in Page. We document how the business runs and deliver a written assessment, prioritized recommendations, and a quote for each within the week. The review is $3,000 and is credited toward implementation that begins within 90 days."
+    },
+    {
+      "q": "Do we need to buy new AI software?",
+      "a": "Usually not. We work in the tools the business already has access to, such as Microsoft 365 Copilot, Google Gemini, or Claude, and configure them with the company's own documents and templates."
+    },
+    {
+      "q": "Can this be scheduled outside the busy season?",
+      "a": "Yes. We schedule around the business's calendar, and seasonal businesses often choose the slower months for the review and any training."
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "ai-consulting",
+  "segment": "fitness-studios",
+  "location": null,
+  "title": "AI consulting for gyms and fitness studios | Creosote Labs",
+  "meta_description": "Creosote Labs assesses where AI tools fit in a gym or fitness studio, sets them up on the studio's own documents, and trains staff. The review is $3,000.",
+  "h1": "AI consulting for gyms and fitness studios",
+  "intro": [
+    "Many gyms and fitness studios run on a membership platform such as Mindbody, Zen Planner, Glofox, or Mariana Tek for scheduling and billing, with QuickBooks for accounting, Mailchimp or the platform's built-in tools for email, and Google Sheets for everything else. Waivers, intake forms, class schedules, trainer availability, and membership agreements are produced by hand or from templates kept on the front desk computer. AI consulting applies where staff write, summarize, and answer the same kinds of things repeatedly.",
+    "Creosote Labs starts with a one-day operations review of the studio: how members sign up, how classes are scheduled and covered, how cancellations and freezes are handled, and how the owner reports on retention. The written assessment identifies where a tool the studio already has, such as Google Gemini, Microsoft 365 Copilot, or Claude, can draft member communication, summarize feedback, and prepare reports from platform exports. Each recommendation comes with a quote."
+  ],
+  "projects": [
+    "A member-communication setup that drafts renewal, freeze, and cancellation replies from the studio's own policies and tone.",
+    "A retention report built from Mindbody or Zen Planner exports that summarizes attendance drops and lists members who have stopped coming.",
+    "An onboarding assistant that turns a new member's intake form into a first-week plan for the trainer.",
+    "A class-description and schedule-announcement workflow that produces email and social posts from the monthly schedule.",
+    "A written guide and staff training on using Gemini or Copilot with the studio's waivers, templates, and FAQs."
+  ],
+  "faqs": [
+    {
+      "q": "What does the operations review cost and what does it produce?",
+      "a": "The review is a one-day visit at $3,000. It produces a written assessment of the studio's processes, prioritized recommendations, and a quote for each one. The fee is credited toward implementation that begins within 90 days."
+    },
+    {
+      "q": "Do we need to buy new software before the review?",
+      "a": "No. We work with the tools the studio already has, including the membership platform and whatever Google or Microsoft account the team uses. The assessment may recommend a tool, but that decision comes out of the review, not before it."
+    },
+    {
+      "q": "How is member data handled when AI tools are involved?",
+      "a": "We set up tools inside the studio's own Google or Microsoft account so member records stay under the studio's control, and we document which data each workflow touches. Waivers and health information follow the studio's existing policies."
+    }
+  ]
+}

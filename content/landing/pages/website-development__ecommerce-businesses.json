@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "website-development",
+  "segment": "ecommerce-businesses",
+  "location": null,
+  "title": "Web applications for e-commerce businesses | Creosote Labs",
+  "meta_description": "Creosote Labs builds wholesale portals, configurators, and returns tools around an existing Shopify or WooCommerce store. Fixed price, no hourly billing.",
+  "h1": "Website and web application development for e-commerce businesses",
+  "intro": [
+    "Most e-commerce businesses already have a storefront on Shopify, WooCommerce, or BigCommerce, so website work for them is rarely about building a store from scratch. It is more often about what sits around the store: a wholesale ordering portal for retail accounts, a product configurator for made-to-order items, a returns request form that feeds ShipStation, or a separate brand site that links to the shop. Some businesses also need a staff-facing application for tasks the store platform does not cover.",
+    "Creosote Labs builds those customer-facing tools and web applications and connects them to the store, the shipping software, and the accounting file the business already uses. A project begins with a scoping call, after which we quote a fixed price with no hourly billing. We handle hosting setup and domain configuration, test the finished tool against real orders, and hand it over with written documentation so staff can maintain it without us."
+  ],
+  "projects": [
+    "A wholesale portal where retail accounts log in, see their negotiated pricing, and place orders that land in the same fulfillment queue.",
+    "A product configurator that lets customers choose size, material, and finish for made-to-order items and sends the spec with the order.",
+    "A returns request form that checks the order number, applies the return policy, and creates the label in ShipStation.",
+    "A brand site with product stories, stockist locations, and a press page that links to the existing store.",
+    "A staff application for kitting and bundling that tracks component stock separately from the sellable SKU."
+  ],
+  "faqs": [
+    {
+      "q": "Can the application work with the Shopify store we already have?",
+      "a": "Yes. Projects are built to connect to the existing store, shipping software, and accounting file rather than replace them."
+    },
+    {
+      "q": "What do we need to provide before work starts?",
+      "a": "The project needs a scoping call, access to the store and any tools the application will connect to, and the content or business rules the tool depends on, such as wholesale price lists or the return policy."
+    },
+    {
+      "q": "How are website and application projects priced?",
+      "a": "Website and application projects are quoted after a scoping call at a fixed price, with no hourly billing. Hosting setup and domain configuration are included."
+    }
+  ]
+}

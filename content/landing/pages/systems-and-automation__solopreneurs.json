@@ -1,0 +1,35 @@
+{
+  "kind": "service-segment",
+  "service": "systems-and-automation",
+  "segment": "solopreneurs",
+  "location": null,
+  "title": "Systems and automation for solopreneurs | Creosote Labs",
+  "meta_description": "Creosote Labs consolidates the spreadsheets and disconnected apps a one-person business runs on into one system and automates repeat work. Review $3,000.",
+  "h1": "Systems and automation for one-person businesses",
+  "intro": [
+    "Independent professionals often assemble their operations one app at a time. A consultant might hold leads in a Google Sheet, contracts in HoneyBook or Dubsado, invoices in QuickBooks, and scheduling in Calendly, with none of those connected to each other. Each new client means retyping the same name and details into 4 or 5 places, and the owner is the only person who knows where anything lives. Systems and automation work applies wherever that copying happens: intake, quoting, invoicing, follow-up, and record-keeping.",
+    "Creosote Labs consolidates those pieces into a single system of record and connects the tools that stay. A typical project starts with the one-day operations review at $3,000, which maps every place client information is entered and produces a written assessment with a quote for each fix. From there we build what the review calls for: an intake form that creates the client record, a quoting tool that produces the estimate, and automations that send invoices and reminders on schedule. Everything is documented and handed over to the owner."
+  ],
+  "projects": [
+    "A client database that replaces separate spreadsheets for leads, active projects, and past clients with one record per client.",
+    "An intake form that creates the client record, generates the contract, and schedules the kickoff call in one step.",
+    "A quoting tool that builds a fixed-price estimate from a short questionnaire and the owner's rate table.",
+    "Automated invoice and payment reminder emails triggered by project milestones rather than sent by hand.",
+    "A weekly dashboard showing open proposals, unpaid invoices, and upcoming deadlines in one view.",
+    "Documentation for the whole system so a future assistant or bookkeeper can use it without training from the owner."
+  ],
+  "faqs": [
+    {
+      "q": "Is the operations review required before building anything?",
+      "a": "Yes. Systems and automation work is scoped and quoted from the review, which produces a written assessment with a quote for each recommendation. The $3,000 is credited against implementation that starts within 90 days."
+    },
+    {
+      "q": "Can existing tools like QuickBooks or Calendly stay in place?",
+      "a": "In most cases they can. The review identifies which tools should remain and which are duplicating each other. Where a tool stays, we connect it to the system of record rather than replacing it."
+    },
+    {
+      "q": "What happens to the data already in the spreadsheets?",
+      "a": "We migrate it into the new system as part of implementation, clean up duplicates along the way, and confirm the totals against the original files before the handover."
+    }
+  ]
+}

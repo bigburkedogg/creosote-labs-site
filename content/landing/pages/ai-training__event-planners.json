@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "ai-training",
+  "segment": "event-planners",
+  "location": null,
+  "title": "Team AI training for event and wedding planners",
+  "meta_description": "A one-day, hands-on AI workshop for event planning teams, run on their own proposals, timelines, and vendor emails. $1,000 per person, travel included.",
+  "h1": "Team AI training for event and wedding planners",
+  "intro": [
+    "Planning teams spend much of the week producing documents: client proposals, vendor inquiry emails, contracts, day-of timelines, welcome letters, and post-event recaps. Most of that writing starts from a previous version in Google Docs or Word, or from a template in Aisle Planner or HoneyBook. Coordinators and assistants often have access to Google Gemini or Microsoft 365 Copilot through the company's accounts without a settled way of using them on this work.",
+    "Creosote Labs delivers a one-day, hands-on workshop, on site or remote, in the AI tool the business already uses. Each participant works on their own computer with their own proposals, timelines, and vendor correspondence, produces real work during the session, and documents their own process. The team leaves with a written guide and a working setup, and a 30-day follow-up session is included."
+  ],
+  "projects": [
+    "A lead coordinator drafts a full-service proposal from an inquiry form using the company's pricing and package descriptions.",
+    "An assistant produces a set of vendor outreach emails for a single event from the vendor list and event details.",
+    "A planner builds a day-of timeline and vendor call sheet from a ceremony time and a list of confirmed vendors.",
+    "A team member turns post-event notes into a client recap and an internal lessons file.",
+    "The team writes a shared prompt guide for the documents it produces most often."
+  ],
+  "faqs": [
+    {
+      "q": "How much does training cost, and what is the minimum group size?",
+      "a": "Training is $1,000 per person for up to 10 people, and the minimum group is 5 people. Larger teams are quoted. Travel is included. A program with 3 monthly follow-up sessions is $1,400 per person."
+    },
+    {
+      "q": "Which AI tool is the workshop taught in?",
+      "a": "The workshop is taught in the tool the business already uses, such as Microsoft 365 Copilot, Google Gemini, or Claude. A new subscription is not required for the session."
+    },
+    {
+      "q": "What does each participant need to bring?",
+      "a": "Each participant brings their own computer, a login to the company's AI tool, and a handful of current documents to work on, such as an open proposal, an upcoming event's vendor list, or a timeline in progress."
+    }
+  ]
+}

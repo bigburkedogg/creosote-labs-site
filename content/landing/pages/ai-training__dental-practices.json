@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "ai-training",
+  "segment": "dental-practices",
+  "location": null,
+  "title": "Team AI training for dental practices | Creosote Labs",
+  "meta_description": "A one-day, hands-on AI workshop for dental office teams, run on the practice's own documents and tools. $1,000 per person, 5-person minimum.",
+  "h1": "Team AI training for dental practices",
+  "intro": [
+    "The team in a dental office does a great deal of writing: insurance narratives for crowns and periodontal treatment, appeal letters for denied claims, referral and follow-up letters, patient instructions after procedures, and the office policy manual. Much of it starts from an old example in a Word folder or gets written from scratch between phone calls. Team AI training is for offices that already have access to Microsoft 365 Copilot, Google Gemini, or Claude and want staff to use it on this work.",
+    "The workshop runs for one day, on site or remote, with each participant at their own computer working on their own documents. The office manager brings the appeal letter that went out last week, the hygienist brings the post-op instructions, and each person leaves with a working setup and a written record of their own process. A guide for the whole team and a 30-day follow-up session are included. Pricing is $1,000 per person for up to 10 people, with a 5-person minimum and travel included."
+  ],
+  "projects": [
+    "A session in which the insurance coordinator builds a reusable prompt for clinical narratives on crown and scaling claims, using the practice's own approved examples.",
+    "Post-operative instruction sheets for extractions and implants rewritten at a patient reading level from the dentist's existing handouts.",
+    "An office manager's setup for drafting policy updates, staff memos, and job descriptions from the current employee handbook.",
+    "A front desk process for turning a voicemail transcript or email into a scheduling note and a reply, reviewed before sending.",
+    "A written guide, produced by the participants during the day, that documents how each role in the office uses the tool."
+  ],
+  "faqs": [
+    {
+      "q": "Which AI tool is the training delivered in?",
+      "a": "The workshop runs in the tool the office already uses or has access to, such as Microsoft 365 Copilot, Google Gemini, or Claude. If the practice has not chosen a tool yet, we discuss the options on the scheduling call so accounts are ready before the day."
+    },
+    {
+      "q": "Can we use real patient documents during the workshop?",
+      "a": "Participants work on their own documents, and we plan the day so exercises use de-identified examples or templates wherever patient information is involved. Data handling is covered before the session starts."
+    },
+    {
+      "q": "What does the training cost for a small office?",
+      "a": "The workshop is $1,000 per person for up to 10 people, with a 5-person minimum, so a 5-person office is $5,000 with travel included. A program with three monthly follow-up sessions is $1,400 per person, and larger teams are quoted."
+    }
+  ]
+}

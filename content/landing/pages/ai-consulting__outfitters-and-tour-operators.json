@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "ai-consulting",
+  "segment": "outfitters-and-tour-operators",
+  "location": null,
+  "title": "AI consulting for outfitters and tour operators",
+  "meta_description": "AI consulting for outfitters and tour operators: a one-day operations review, tool setup with the company's own trip documents, and staff training.",
+  "h1": "AI consulting for outfitters and tour operators",
+  "intro": [
+    "Outfitters and tour operators typically take reservations through a booking platform such as FareHarbor, Peek Pro, or Xola, collect waivers through a tool like Smartwaiver, and keep guide schedules, trip manifests, and gear lists in Google Sheets. Guest questions arrive by email and phone, and permit reports, confirmation emails, and packing lists are written by hand each season. AI consulting applies to the writing, lookup, and reporting work that surrounds the booking system rather than the booking system itself.",
+    "Creosote Labs starts with a one-day operations review at the business, following a trip from inquiry to post-trip follow-up and noting where staff retype the same information. The written assessment lists each place an AI tool fits, with a quote for each. Implementation usually means setting up Claude, Gemini, or Copilot with the company's own trip descriptions, waiver language, and email templates, then training office staff and lead guides to use it for their actual work."
+  ],
+  "projects": [
+    "A drafting setup that answers common guest questions about trip difficulty, what to bring, and cancellation terms from the company's own trip pages and policies.",
+    "A pre-trip email assistant that produces confirmation, packing list, and meeting-point messages for each departure from the booking record.",
+    "A permit reporting workflow that assembles the season's use figures from FareHarbor exports into the format the land agency requests.",
+    "A guide briefing generator that turns the trip manifest and guest notes into a one-page sheet for the lead guide.",
+    "A review response process that drafts replies to Google and TripAdvisor reviews in the company's voice for the owner to approve."
+  ],
+  "faqs": [
+    {
+      "q": "What does the operations review cost and what does it produce?",
+      "a": "The review is one day at $3,000. It produces a written assessment with prioritized recommendations and a quote for each one. The fee is credited toward implementation that begins within 90 days."
+    },
+    {
+      "q": "Does the business need to change its booking software?",
+      "a": "No, AI consulting works alongside FareHarbor, Peek Pro, Xola, or whatever platform the business already uses. Recommendations focus on the writing, lookup, and reporting work around it."
+    },
+    {
+      "q": "Is the season a factor in timing?",
+      "a": "Outfitters often schedule the review in the off-season so implementation and training are finished before opening day. Training is $1,000 per person and can be delivered on site or remote."
+    }
+  ]
+}

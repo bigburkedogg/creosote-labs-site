@@ -1,0 +1,35 @@
+{
+  "kind": "service-segment",
+  "service": "systems-and-automation",
+  "segment": "marketing-agencies",
+  "location": null,
+  "title": "Marketing agency systems and automation | Creosote Labs",
+  "meta_description": "Creosote Labs consolidates a marketing agency's retainers, hours, deliverables, and invoicing into one system and automates the monthly work around them.",
+  "h1": "Systems and automation for marketing agencies",
+  "intro": [
+    "A marketing agency typically tracks retainers, hours, and deliverables across several places at once: time in Harvest or Toggl, tasks in Monday.com or Asana, invoices in QuickBooks, and a Google Sheet that reconciles what each client was promised against what was delivered. Content calendars, approval rounds, and reporting dates tend to live in separate spreadsheets. Systems and automation work addresses the gaps between those tools and the manual copying that fills them.",
+    "Creosote Labs consolidates the agency's client records, scopes, hours, and deliverables into one system of record, then builds the internal tools the agency needs on top of it, such as a retainer tracker that shows hours used against hours sold for every account. We automate the work that repeats each month, including invoice preparation, report scheduling, and approval reminders. The system is documented and handed over to the account and operations staff who run it."
+  ],
+  "projects": [
+    "A retainer tracker that pulls logged hours from Harvest and shows burn against each client's monthly allotment.",
+    "Monthly invoice preparation in QuickBooks generated from approved time entries and fixed-fee deliverables.",
+    "A client approval workflow that sends drafts for sign-off and records the response without an email chain.",
+    "A content calendar shared across accounts that replaces one spreadsheet per client.",
+    "A capacity dashboard showing which staff are booked and which have room for new work.",
+    "Automated onboarding that creates the project board, shared folder, and reporting schedule when a contract is signed."
+  ],
+  "faqs": [
+    {
+      "q": "The agency uses different tools than the ones listed. Does that matter?",
+      "a": "No. The operations review documents whatever the agency currently uses, and the recommendations are built around those tools or replace them where that makes sense."
+    },
+    {
+      "q": "How is systems work priced?",
+      "a": "Engagements begin with a one-day operations review at $3,000, which produces a written assessment and a quote for each recommendation. Implementation is quoted from that review with a fixed scope and no hourly billing."
+    },
+    {
+      "q": "Who maintains the system after handover?",
+      "a": "The agency's own staff maintain it. Every system is documented and handed over, and training the people who will run it is part of the implementation."
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "ai-training",
+  "segment": "auto-repair-shops",
+  "location": null,
+  "title": "Team AI training for auto repair shops | Creosote Labs",
+  "meta_description": "A one-day AI workshop for auto repair shop staff, run on the shop's estimates, inspection notes, and customer texts. $1,000 per person, travel included.",
+  "h1": "Team AI training for auto repair shops",
+  "intro": [
+    "The writing in an auto repair shop often falls on the service advisors: the estimate line that explains why a control arm needs replacing, the text that goes out with the digital inspection photos, the reply to a one-star review. Technicians write inspection notes in Tekmetric, AutoLeap, or Shop-Ware that the advisor then translates for the customer. Team AI training applies to that translation work, using whichever tool the shop already has, such as Microsoft 365 Copilot, Google Gemini, or Claude.",
+    "Creosote Labs runs the workshop in one day, on site at the shop or remote, with a 5-person minimum and up to 10 people. Each advisor and technician works on their own computer with real repair orders from that week: turning inspection findings into a customer explanation, drafting a declined-work follow-up, writing a warranty denial that stays polite. Each participant documents their own process, and the team leaves with a written guide and a 30-day follow-up session. Pricing is $1,000 per person, travel included."
+  ],
+  "projects": [
+    "A service advisor prompt set that rewrites technician findings into customer-ready language for the digital inspection text.",
+    "A declined-work follow-up template each advisor builds and saves in the shop's texting tool during the session.",
+    "A review-response routine for Google reviews that pulls the repair order details and drafts a reply in the shop's tone.",
+    "A parts-and-labor explanation sheet for the front counter, written during the workshop from the shop's own estimates.",
+    "A written guide, produced by the participants, covering the prompts and steps they used on their own repair orders."
+  ],
+  "faqs": [
+    {
+      "q": "Do technicians need to attend, or only the service advisors?",
+      "a": "Whoever writes to customers benefits most, which is usually the advisors and the owner. Technicians who write inspection notes often join for the first half. The minimum is 5 people and the standard day covers up to 10."
+    },
+    {
+      "q": "Does the shop need to buy an AI tool first?",
+      "a": "The workshop runs on whatever the shop already has access to, such as Microsoft 365 Copilot, Google Gemini, or Claude. If the shop has none, we discuss the options on the scheduling call before the day."
+    },
+    {
+      "q": "What does training cost and what is included?",
+      "a": "The workshop is $1,000 per person for up to 10 people, with a 5-person minimum, and travel is included. A written guide and a 30-day follow-up session are part of the price, and a program with 3 monthly follow-up sessions is $1,400 per person."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "kind": "segment-location",
+  "service": null,
+  "segment": "outfitters-and-tour-operators",
+  "location": "flagstaff",
+  "title": "Outfitters and tour operators in Flagstaff: AI and systems",
+  "meta_description": "Creosote Labs, based in Flagstaff, builds trip planning tools, booking sites, and automation for outfitters and tour operators, and trains staff on AI.",
+  "h1": "Outfitters and tour operators in Flagstaff: AI, systems, and websites",
+  "intro": [
+    "Outfitters and tour operators in Flagstaff often take reservations through FareHarbor, Peek Pro, or Xola, collect waivers through Smartwaiver or a paper form at the meeting point, and keep everything else in Google Sheets: trip manifests, gear checklists, guide schedules, permit counts, and meal plans. Bookkeeping usually lives in QuickBooks. The work between a confirmed booking and a launched trip is where spreadsheets tend to accumulate, and it is where our systems, website, and training services apply.",
+    "Creosote Labs is based in Flagstaff and works with operators on the trips they actually run. An operations review spends a day with the office and the guides, documents how a booking becomes a manifest, a packing list, and a final invoice, and quotes each fix. From there we build the internal tools, connect the booking system to the rest of the office, and train staff on AI tools using their own confirmation emails and trip documents."
+  ],
+  "projects": [
+    "A trip planning tool that turns a confirmed booking into a manifest, gear list, and meal plan for the guide team.",
+    "An automated pre-trip email sequence that sends waivers, packing lists, and meeting-point details on a schedule after each booking.",
+    "A guide scheduling board that shows who is assigned to each departure and flags trips without a lead guide.",
+    "A booking website connected to FareHarbor or Peek Pro with clear trip descriptions, pricing, and live availability.",
+    "A permit and user-day tracker that replaces a spreadsheet and totals usage by season for agency reporting.",
+    "A training day where office staff use Gemini or Claude to draft customer replies from the company's own trip FAQ."
+  ],
+  "faqs": [
+    {
+      "q": "Does this work with the booking software we already use?",
+      "a": "Yes. FareHarbor, Peek Pro, and Xola all export bookings and offer an API, so we connect to the system already in place rather than replacing it. The operations review confirms what the current setup can share before anything is quoted."
+    },
+    {
+      "q": "When in the season should an operator schedule this?",
+      "a": "Most of the work fits the off-season. The review is one day, and implementation is quoted from it, so scheduling the review after the last trip leaves the quiet months for building and testing before bookings open again."
+    },
+    {
+      "q": "What do the services cost?",
+      "a": "The operations review is $3,000 for one day on site and produces a written assessment with a quote for each recommendation. Training runs one day at $1,000 per person, up to 10 people, and requires at least 5 participants. Websites and applications are quoted at a fixed price after a scoping call."
+    }
+  ]
+}

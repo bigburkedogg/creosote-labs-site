@@ -1,0 +1,34 @@
+{
+  "kind": "service-location",
+  "service": "ai-training",
+  "segment": null,
+  "location": "williams",
+  "title": "Team AI training in Williams, Arizona | Creosote Labs",
+  "meta_description": "One-day, hands-on AI training for teams in Williams, Arizona. $1,000 per person, 5-person minimum, travel included, with a written guide and follow-up.",
+  "h1": "Team AI training in Williams",
+  "intro": [
+    "Teams in Williams often work in hospitality, tourism, retail, and the trades, and their daily writing runs through Microsoft 365 or Google Workspace: guest emails, group proposals, menus, staff schedules, vendor orders, and end-of-season reports. Many of these companies already have access to an AI tool through that subscription, such as Microsoft 365 Copilot or Google Gemini, and some use Claude. Training applies where those tools sit unused because nobody has set them up on the team's own documents.",
+    "Creosote Labs delivers a one-day, hands-on workshop for teams in Williams, on site or remote, in the AI tool the company already uses. Participants work on their own computers with their own documents. Each person produces real work during the session and documents their own process, so the team leaves with a working setup rather than a demonstration. A written guide for the team and a 30-day follow-up session are included. The workshop is $1,000 per person for up to 10 people, with a 5-person minimum, and travel is included."
+  ],
+  "projects": [
+    "A front-desk team sets up templates for answering reservation, cancellation, and group-rate emails in their own voice.",
+    "A restaurant's managers build a routine for turning weekly sales exports into a short written summary for the owner.",
+    "A tour company's office staff produce trip confirmations, packing lists, and waiver reminders from a booking record.",
+    "A retail shop's team drafts product descriptions and seasonal announcements from supplier catalogs.",
+    "A contractor's office staff turn site-visit notes into written estimates and follow-up emails."
+  ],
+  "faqs": [
+    {
+      "q": "How much does training cost for a team in Williams?",
+      "a": "$1,000 per person for up to 10 people, with a 5-person minimum. Larger teams are quoted. Travel to Williams is included. Adding three monthly follow-up sessions brings the price to $1,400 per person."
+    },
+    {
+      "q": "What does each participant need to bring?",
+      "a": "Each participant brings their own computer, a login to the AI tool the company already uses, and the documents and templates they work with every day. The session is built on that real work."
+    },
+    {
+      "q": "What does the team have at the end of the day?",
+      "a": "Every participant leaves with a working setup on their own machine and a process they documented themselves. The team receives a written guide, and a 30-day follow-up session is included."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "kind": "service-segment",
+  "service": "systems-and-automation",
+  "segment": "fitness-studios",
+  "location": null,
+  "title": "Fitness studio systems and automation | Creosote Labs",
+  "meta_description": "Creosote Labs consolidates a gym's membership platform, spreadsheets, and payroll into one system and automates follow-up. Operations review $3,000.",
+  "h1": "Systems and automation for gyms and fitness studios",
+  "intro": [
+    "A fitness studio's records often sit in several places at once: class bookings and memberships in Mindbody, WellnessLiving, or Pike13, trainer hours in a shared Google Sheet, payroll in Gusto or QuickBooks, leads from the website in a Mailchimp list, and personal-training packages tracked in a notebook at the front desk. Reconciling those sources each month, chasing failed payments, and following up with trial members are manual jobs that the platform does not do on its own.",
+    "Creosote Labs consolidates those sources into one system of record and automates the work around it. A typical project connects the membership platform's exports to a single dashboard, builds a trainer scheduling and payroll tool that replaces the spreadsheet, and sets up automated follow-up for trials, missed sessions, and declined cards. We document the system and hand it to the front desk staff who will run it."
+  ],
+  "projects": [
+    "A trainer payroll tool that calculates session pay from class and personal-training records instead of a monthly spreadsheet.",
+    "Automated follow-up sequences for trial visits, expiring packages, and failed membership payments.",
+    "A single dashboard that pulls attendance, revenue, and churn from the membership platform and QuickBooks.",
+    "A lead tracker that captures website and walk-in inquiries and assigns them to staff for follow-up.",
+    "An equipment maintenance log with scheduled reminders for service dates.",
+    "A waiver and intake process that files signed forms against the member record automatically."
+  ],
+  "faqs": [
+    {
+      "q": "Do we have to leave Mindbody or our current platform?",
+      "a": "Usually not. Most projects keep the membership platform as the system for billing and booking and build around its exports and integrations. The operations review states whether a change of platform is worth considering."
+    },
+    {
+      "q": "How is a systems project priced?",
+      "a": "Every engagement begins with a one-day operations review at $3,000. The review produces a written assessment with a fixed quote for each recommended build. There is no hourly billing."
+    },
+    {
+      "q": "What do we need to provide?",
+      "a": "The review needs access to the membership platform's reporting, the spreadsheets the team currently uses, and time with the staff who do the work. The review day covers the rest."
+    }
+  ]
+}

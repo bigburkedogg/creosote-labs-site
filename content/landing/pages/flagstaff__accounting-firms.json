@@ -1,0 +1,35 @@
+{
+  "kind": "segment-location",
+  "service": null,
+  "segment": "accounting-firms",
+  "location": "flagstaff",
+  "title": "AI and systems for accounting firms in Flagstaff",
+  "meta_description": "Creosote Labs, based in Flagstaff, builds systems, automations, websites, and AI training for accounting and bookkeeping firms in northern Arizona.",
+  "h1": "Accounting and bookkeeping firms in Flagstaff: AI, systems, and websites",
+  "intro": [
+    "Accounting and bookkeeping firms in Flagstaff typically run client books in QuickBooks Online or Xero, prepare returns in Drake, Lacerte, or UltraTax, and track deadlines and client requests in a practice tool such as TaxDome or Karbon, or in a spreadsheet. Engagement letters, document request lists, monthly close checklists, and year-end packages are often assembled by hand from prior-year files, and client documents commonly arrive by email, through a portal, and on paper.",
+    "Creosote Labs is based in Flagstaff and meets with firms here in person. An operations review documents how the firm handles intake, document collection, close, and delivery, and produces a written assessment with a quote for each recommendation. Implementation can consolidate the tracking spreadsheets into one system, automate request lists and reminders, and set up Microsoft 365 Copilot or Claude on the firm's own templates. Team AI training is delivered on the firm's actual client work."
+  ],
+  "projects": [
+    "A client tracker that replaces the spreadsheet of tax deadlines, extensions, and missing documents with one system the whole firm updates.",
+    "An automated document request list that goes out to each client from the prior-year return and follows up until items arrive.",
+    "A month-end close checklist that generates itself for each bookkeeping client and records who completed each step.",
+    "A drafting setup in Copilot or Claude that produces engagement letters and client memos from the firm's own templates.",
+    "A website with clear services, pricing tiers, and an intake form that collects the information needed for a first meeting.",
+    "A one-day training session where each staff member learns to summarize client documents and draft correspondence with AI on the firm's own files."
+  ],
+  "faqs": [
+    {
+      "q": "Does client financial data leave the firm during a project?",
+      "a": "No. We work inside the tools the firm already licenses, such as QuickBooks Online, Microsoft 365, or Google Workspace, and any system we build is hosted under the firm's own accounts. We document data handling as part of the handover."
+    },
+    {
+      "q": "Can this be scheduled outside of tax season?",
+      "a": "Yes. The operations review, implementation, and training can each be scheduled at whatever point in the year the firm chooses, and a training session held before filing season means staff have the setup in place when the volume arrives."
+    },
+    {
+      "q": "How is a project priced?",
+      "a": "The operations review is $3,000 for one day on site and produces a quote for each recommendation. Implementation is fixed price from that quote, and team AI training is $1,000 per person with a 5-person minimum."
+    }
+  ]
+}

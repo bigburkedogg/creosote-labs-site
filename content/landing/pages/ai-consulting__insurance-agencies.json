@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "ai-consulting",
+  "segment": "insurance-agencies",
+  "location": null,
+  "title": "AI consulting for insurance agencies | Creosote Labs",
+  "meta_description": "Creosote Labs assesses where AI tools fit in an insurance agency's quoting, renewal, and certificate work. One-day operations review, $3,000.",
+  "h1": "AI consulting for insurance agencies",
+  "intro": [
+    "Independent insurance agencies typically run on an agency management system such as Applied Epic, HawkSoft, EZLynx, or AMS360, alongside carrier portals, a comparative rater, Outlook, and QuickBooks. Much of the day is spent on documents: quote proposals, renewal summaries, certificates of insurance, coverage comparisons, and the emails that go with each of them. AI tools apply best to this document work, where the inputs already exist in the management system and only need to be assembled into a client-ready form.",
+    "Creosote Labs starts with a one-day operations review of the agency: how new business is quoted, how renewals are worked, how certificates are issued, and where staff retype the same information. The written assessment lists where an AI tool the agency already has access to, such as Microsoft 365 Copilot or Claude, can draft proposals, summarize policy documents, or prepare renewal emails from the agency's own templates. Each recommendation comes with a quote, and staff training on the finished setup is $1,000 per person."
+  ],
+  "projects": [
+    "A proposal assistant that turns carrier quotes into a formatted coverage comparison using the agency's own proposal template.",
+    "A policy summary tool that reads a declarations page and produces a plain-language coverage summary for the client file.",
+    "Renewal email drafts generated from the management system's expiration list 60 days before each policy renews.",
+    "A claims intake assistant that collects loss details from a client's email and drafts the first notice of loss for review.",
+    "A prompt library and written guide for producers and account managers, built on the documents the agency already uses."
+  ],
+  "faqs": [
+    {
+      "q": "Does client and policy data have to leave our management system?",
+      "a": "The review looks at which tools the agency already licenses and how each one handles data. Recommendations favor the Microsoft 365 or Google accounts the agency already pays for, and the written assessment notes any recommendation that would require sending data to a new vendor so the owner can decide."
+    },
+    {
+      "q": "What does the operations review cost and what does it include?",
+      "a": "The operations review is $3,000 for one day on site. It produces a written assessment, prioritized recommendations, and a quote for each item, delivered within the week. The fee is credited toward implementation that begins within 90 days."
+    },
+    {
+      "q": "What does the agency need to have ready for the review day?",
+      "a": "Access to the management system and a few recent examples of real work are enough: a quote proposal, a renewal package, and a certificate request. Producers and account managers should be available for short conversations during the day."
+    }
+  ]
+}

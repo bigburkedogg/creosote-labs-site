@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "website-development",
+  "segment": "restaurants",
+  "location": null,
+  "title": "Restaurant website development | Creosote Labs",
+  "meta_description": "Creosote Labs builds restaurant websites with editable menus, reservation and ordering links, and catering inquiry forms. Fixed price, no hourly billing.",
+  "h1": "Website and web application development for restaurants",
+  "intro": [
+    "A restaurant's website usually has to do a few specific jobs: show the current menu and hours, take reservations through OpenTable, Resy, or Tock, take online orders through Toast, Square, or a third-party app, and collect catering and private-event inquiries. Many restaurants run on a template site from Squarespace or Wix, or on a page the POS vendor provides, with the menu uploaded as a PDF that goes out of date. Online ordering and reservations often sit on separate services with their own branding and fees.",
+    "Creosote Labs builds restaurant websites and the customer-facing tools attached to them. A typical project is a marketing site with a menu that staff can edit from a phone, hours and location for search results, and reservation and ordering links wired to the systems the restaurant already uses. Where a template will not do, we build the tool directly, such as a private-dining inquiry form that produces a quote, or a gift card and merchandise store. Hosting, domain setup, and documentation are included."
+  ],
+  "projects": [
+    "A marketing site with a menu editor managers update from a phone, so the printed menu and the web menu match.",
+    "A private-dining and catering inquiry form that collects date, headcount, and menu choices and returns a quote for the manager to confirm.",
+    "A direct online ordering page connected to the POS so orders print in the kitchen without a third-party commission.",
+    "A multi-location site with per-location hours, menus, and Google Business Profile data kept in sync.",
+    "An events calendar and ticket sales page for wine dinners, live music, and holiday seatings."
+  ],
+  "faqs": [
+    {
+      "q": "How are restaurant website projects priced?",
+      "a": "Website and application projects are quoted after a scoping call, at a fixed price with no hourly billing. Hosting setup and domain configuration are included."
+    },
+    {
+      "q": "Can the new site keep the reservation and ordering systems a restaurant already uses?",
+      "a": "Yes, the existing systems stay. We connect the site to the reservation and ordering services already in place, or build ordering directly into the site when that is the better fit."
+    },
+    {
+      "q": "What does the restaurant need to provide?",
+      "a": "The restaurant provides the current menu, hours, photos, logo, and access to the domain registrar and any reservation or ordering accounts. We handle hosting, setup, and handover documentation."
+    }
+  ]
+}

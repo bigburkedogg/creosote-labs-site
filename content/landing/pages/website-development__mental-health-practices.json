@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "website-development",
+  "segment": "mental-health-practices",
+  "location": null,
+  "title": "Websites and web apps for mental health practices",
+  "meta_description": "Creosote Labs builds websites, intake forms, and client portals for mental health practices. Fixed price, quoted after a scoping call.",
+  "h1": "Website and web application development for mental health practices",
+  "intro": [
+    "Most mental health practices are found through a Psychology Today profile, an insurance directory, or a referral, and the practice website is where a prospective client goes next to check clinician bios, fees, insurance accepted, and how to get started. Many practice sites are a template with a contact form, while intake paperwork, consent forms, and the good-faith estimate are still emailed as PDFs or handled through a client portal that is separate from the site. Website work covers both the marketing site and those client-facing steps.",
+    "Creosote Labs builds practice websites with clinician pages, a plain list of services and fees, accepted insurance, and a request-appointment form that routes to the right person. Where the practice wants more, we build the client-facing tools around it: a screening form that asks the questions the front desk asks on the first call, a page that explains what happens after a request, and links that hand off to the SimplePractice or TherapyNotes client portal for scheduling and paperwork. Hosting, the domain, and documentation are part of the handover."
+  ],
+  "projects": [
+    "A practice website with a page per clinician listing specialties, license type, session format, and current availability.",
+    "A new-client request form that collects concern, insurance, and preferred times and sends a confirmation with next steps and the practice's fee notice.",
+    "A services and fees page with a good-faith estimate calculator based on session type and frequency.",
+    "A group practice site that lets the office manager add or remove clinicians and update availability without editing code.",
+    "A referral form for physicians and schools that submits directly to the intake coordinator's queue."
+  ],
+  "faqs": [
+    {
+      "q": "Can the site handle intake paperwork and scheduling?",
+      "a": "It can link to or embed the client portal the practice already uses, such as SimplePractice or TherapyNotes, for signed consents and scheduling. We can also build a screening form on the site itself; anything that collects health information is discussed during scoping so hosting and agreements are set up appropriately."
+    },
+    {
+      "q": "How much does a practice website cost?",
+      "a": "Website and application projects are quoted after a scoping call, at a fixed price with no hourly billing. The quote depends on the number of pages, forms, and integrations."
+    },
+    {
+      "q": "What does the practice need to provide?",
+      "a": "Clinician bios and photos, the fee schedule and insurance list, and access to the domain registrar. We handle hosting setup, domain configuration, and documentation at handover."
+    }
+  ]
+}

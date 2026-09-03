@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "ai-consulting",
+  "segment": "landscaping-companies",
+  "location": null,
+  "title": "AI consulting for landscaping companies | Creosote Labs",
+  "meta_description": "Creosote Labs assesses where AI tools fit in a landscaping company, sets them up on the company's own estimates and contracts, and trains office staff.",
+  "h1": "AI consulting for landscaping companies",
+  "intro": [
+    "Landscaping companies typically run on a field service platform such as Jobber, Service Autopilot, or LMN for scheduling and invoicing, QuickBooks for accounting, and a set of Word or Google Docs templates for proposals and maintenance contracts. Much of the office work between those tools is writing: turning site notes into an estimate, answering the same customer questions about service dates, and preparing seasonal renewal letters. That writing is where AI tools apply most directly.",
+    "Creosote Labs starts with a one-day operations review, on site, documenting how estimates, work orders, and customer communication currently move through the company. We then set up the AI tool the business already has access to, such as Microsoft 365 Copilot, Google Gemini, or Claude, with its own proposal templates, plant and material lists, and service descriptions. The written assessment includes a quote for each recommendation, and staff training covers the company's own work rather than generic examples."
+  ],
+  "projects": [
+    "An assistant set up on the company's proposal template that drafts a maintenance proposal from a site visit's notes and photos.",
+    "A customer reply workflow that drafts answers to scheduling and service questions from the company's own policies and calendar.",
+    "A seasonal renewal process that produces personalized contract renewal letters from last year's service records.",
+    "A reporting setup that summarizes weekly crew hours and job costs from Jobber or LMN exports into a short owner's report.",
+    "A written guide for office staff covering which tasks to hand to the AI tool and how to check its output."
+  ],
+  "faqs": [
+    {
+      "q": "Which AI tool will we use?",
+      "a": "The one the business already has access to. Many landscaping offices are on Microsoft 365 or Google Workspace, so that usually means Copilot or Gemini; Claude is another option. We set it up with the company's own documents rather than introducing new software."
+    },
+    {
+      "q": "What does the operations review cost, and what do we get?",
+      "a": "The operations review is $3,000 for one day on site. It produces a written assessment, prioritized recommendations, and a quote for each recommendation, delivered within the week. The fee is credited toward implementation that begins within 90 days."
+    },
+    {
+      "q": "What do we need to have ready before the review?",
+      "a": "Access to the software the office uses, examples of recent estimates, contracts, and invoices, and time with the people who produce them. Nothing needs to be cleaned up first; the review documents how the business runs today."
+    }
+  ]
+}

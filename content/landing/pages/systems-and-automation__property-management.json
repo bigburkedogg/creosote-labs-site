@@ -1,0 +1,35 @@
+{
+  "kind": "service-segment",
+  "service": "systems-and-automation",
+  "segment": "property-management",
+  "location": null,
+  "title": "Systems and automation for property managers",
+  "meta_description": "We consolidate the spreadsheets around AppFolio, Buildium, or Rent Manager into one system and automate work orders, renewals, and month-end.",
+  "h1": "Systems and automation for property management companies",
+  "intro": [
+    "Property management companies typically keep the core of the business in AppFolio, Buildium, or Rent Manager, then track everything the platform does not cover in spreadsheets: vendor lists and insurance certificates, key logs, lease expiration calendars, capital projects, and owner onboarding checklists. Work orders often come in by phone, email, and the tenant portal, and someone re-keys them. Month-end frequently means exporting reports, cleaning them in Excel, and emailing statements to each owner one at a time.",
+    "Creosote Labs consolidates those side spreadsheets into one system of record connected to the management platform, builds the internal tools the office needs for vendor tracking, inspections, and renewals, and automates the re-keying and the month-end run. Every build is documented and handed over to staff. Engagements begin with a one-day operations review at $3,000, which produces a written assessment and a quote for each recommendation, and implementation is scoped and priced from that review."
+  ],
+  "projects": [
+    "A vendor database that tracks licenses, W-9s, and insurance certificate expirations and flags vendors who fall out of compliance.",
+    "A work order intake that routes phone and email maintenance requests into the management platform without manual re-entry.",
+    "A lease expiration tracker that lists renewals due in the next 90 days and generates the renewal offer for each unit.",
+    "An inspection app for move-in, move-out, and periodic walkthroughs that produces a photo report from a phone.",
+    "A month-end routine that assembles owner statements, attaches invoices, and sends them in one run.",
+    "An owner onboarding checklist that tracks management agreements, W-9s, bank details, and property setup steps."
+  ],
+  "faqs": [
+    {
+      "q": "Can this connect to AppFolio, Buildium, or Rent Manager?",
+      "a": "Where a platform offers an API or scheduled export, the system connects to it; where it does not, imports and exports are automated on a schedule. The operations review determines which applies and quotes accordingly."
+    },
+    {
+      "q": "How is implementation priced?",
+      "a": "Implementation is quoted per recommendation from the operations review, with a fixed scope and no hourly billing. The $3,000 review fee is credited toward implementation that begins within 90 days."
+    },
+    {
+      "q": "What happens after the build?",
+      "a": "Each system is documented and handed over to staff, including written instructions for the people who will run it day to day."
+    }
+  ]
+}

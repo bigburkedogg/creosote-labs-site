@@ -1,0 +1,35 @@
+{
+  "kind": "service-segment",
+  "service": "ai-training",
+  "segment": "accounting-firms",
+  "location": null,
+  "title": "Team AI training for accounting firms · Creosote Labs",
+  "meta_description": "A one-day, hands-on AI workshop for accounting and bookkeeping staff, run on the firm's own documents and tools. The cost is $1,000 per person.",
+  "h1": "Team AI training for accounting and bookkeeping firms",
+  "intro": [
+    "Staff at accounting and bookkeeping firms spend much of the day writing: client emails about missing documents, explanations of a tax position, cover notes on financial statements, and responses to IRS notices. Many firms already have Microsoft 365 Copilot or Google Gemini through an existing subscription, or individual staff use ChatGPT or Claude on their own, without a shared method for what is safe to enter and what is not. Training applies to exactly these writing and review tasks.",
+    "Creosote Labs delivers a one-day workshop at the firm's office or remotely, in the AI tool the firm has chosen. Each participant works on their own computer with their own client correspondence, templates, and working papers, and produces real deliverables during the session: a drafted engagement letter, a client reminder sequence, a summary of a long document. Each person documents their own process, the firm receives a written guide, and a follow-up session takes place 30 days later."
+  ],
+  "projects": [
+    "An exercise that drafts a document request email from a list of open items in the firm's practice management tool.",
+    "An exercise that turns a set of QuickBooks Online reports into a plain-language monthly summary for a client.",
+    "A session on summarizing a lengthy IRS notice or a lease agreement into the points a preparer needs.",
+    "A drafting exercise that produces a first engagement letter from the firm's template and last year's fee.",
+    "A reusable prompt for reviewing a bank reconciliation for unusual transactions, built by each participant.",
+    "A firm-wide session that sets rules for what client information may be entered into the tool."
+  ],
+  "faqs": [
+    {
+      "q": "Which AI tool is the workshop taught in?",
+      "a": "The workshop is taught in the tool the firm already uses or has decided to adopt, such as Microsoft 365 Copilot, Google Gemini, or Claude. If the firm has not chosen, we discuss the options on the scheduling call and confirm the tool before the session."
+    },
+    {
+      "q": "Is client data used during the session?",
+      "a": "Participants work with their own documents so the exercises match real work. Part of the day covers which information may be entered into the tool under the firm's confidentiality obligations, and the written guide records the rules the firm settles on."
+    },
+    {
+      "q": "What does training cost and how many people can attend?",
+      "a": "Training costs $1,000 per person, with a 5-person minimum and a cap of 10 people at that rate; larger teams receive a quote. Travel is included, and the version with three monthly follow-up sessions is $1,400 per person."
+    }
+  ]
+}

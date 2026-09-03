@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "website-development",
+  "segment": "event-planners",
+  "location": null,
+  "title": "Websites and web apps for event planners",
+  "meta_description": "Creosote Labs builds marketing websites, inquiry forms, and client portals for event and wedding planners. Fixed price, quoted after a scoping call.",
+  "h1": "Website and web application development for event and wedding planners",
+  "intro": [
+    "An event planner's website typically carries a portfolio of past weddings and corporate events, a description of planning packages, and a contact form that feeds a client management tool such as HoneyBook or Dubsado. Many planners also rely on The Knot and WeddingWire listings for inquiries, and hand clients a shared spreadsheet or PDF for the guest list, budget, and vendor contacts. Website and web application development covers the public site and the tools clients use during planning.",
+    "Creosote Labs builds marketing websites with clear packages, pricing, and a way to book a consultation, and customer-facing tools such as an inquiry form that captures the event date, venue, and guest count before the first call. For planners who want clients working in one place, we build a client portal for timelines, payment schedules, and approvals. Hosting setup, domain configuration, and handover with documentation are included in every project."
+  ],
+  "projects": [
+    "A marketing website with planning packages, portfolio galleries, and a consultation booking form.",
+    "An inquiry form that checks date availability and collects venue, guest count, and budget range before a call is scheduled.",
+    "A client portal where each couple or corporate client can view the timeline, approve vendor selections, and see their payment schedule.",
+    "An online guest list and RSVP tool that the client updates and the planner reads from directly.",
+    "A vendor directory page that the business maintains in one place and publishes to its site."
+  ],
+  "faqs": [
+    {
+      "q": "How is a website project priced?",
+      "a": "Website and application projects are quoted after a scoping call. Pricing is fixed for the agreed scope, with no hourly billing."
+    },
+    {
+      "q": "Will the site work with our HoneyBook or Dubsado inquiry pipeline?",
+      "a": "Where the tool accepts form submissions or provides an API, the site's inquiry form sends new leads directly into it. The scoping call confirms which tool the business uses and how it should connect."
+    },
+    {
+      "q": "Who handles hosting and the domain after launch?",
+      "a": "Hosting setup and domain configuration are part of the project. At handover the business receives the account logins and written documentation for updating pages and forms."
+    }
+  ]
+}

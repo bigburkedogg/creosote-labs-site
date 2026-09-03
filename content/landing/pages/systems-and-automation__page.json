@@ -1,0 +1,35 @@
+{
+  "kind": "service-location",
+  "service": "systems-and-automation",
+  "segment": null,
+  "location": "page",
+  "title": "Systems and automation in Page, Arizona | Creosote Labs",
+  "meta_description": "Creosote Labs consolidates spreadsheets and disconnected tools into one system for businesses in Page, Arizona, and automates repetitive work.",
+  "h1": "Systems and automation in Page",
+  "intro": [
+    "Businesses in Page often carry a spreadsheet for each part of the operation: a Google Sheet for crew scheduling, an Excel workbook for boat or vehicle maintenance, a shared calendar for private tours, and QuickBooks for invoicing. Tour operators, marinas, hotels, and the contractors who serve them tend to add a new tool each season, and the pieces stop lining up. Systems and automation work applies wherever the same information is typed into more than one place.",
+    "Creosote Labs consolidates those spreadsheets and disconnected tools into one system of record, then builds the internal tools the business needs on top of it: a scheduling board, a quoting form, a maintenance log, a reporting page. We automate the repetitive steps, such as copying reservations into a manifest or generating an invoice at the end of a trip. Every system is documented and handed over to staff, and pricing is quoted from the operations review."
+  ],
+  "projects": [
+    "A trip manifest that fills itself from the day's bookings, with guide assignments, vehicle, and departure time in one view.",
+    "A maintenance log for boats and vans that schedules service by hours or miles and flags anything overdue.",
+    "A group quoting tool that produces a written quote and deposit invoice from a single request form.",
+    "A housekeeping board for a hotel that assigns rooms from the day's checkouts and records completion.",
+    "A work order system for a local contractor that replaces a paper ticket and a separate billing spreadsheet.",
+    "A nightly sync that moves Square or FareHarbor sales into QuickBooks without retyping."
+  ],
+  "faqs": [
+    {
+      "q": "What happens to our existing spreadsheets?",
+      "a": "They become the starting data for the new system. We import what is current, retire the copies that are no longer needed, and keep any sheet that still does its job."
+    },
+    {
+      "q": "How is a systems project priced?",
+      "a": "Each recommendation from the $3,000 operations review comes with its own fixed quote. There is no hourly billing, and the review fee is credited toward implementation that begins within 90 days."
+    },
+    {
+      "q": "Who maintains the system after handover?",
+      "a": "Staff do. Every system comes with written documentation, and we train the people who use it before handing it over."
+    }
+  ]
+}

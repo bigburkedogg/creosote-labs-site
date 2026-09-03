@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "ai-training",
+  "segment": "plumbers",
+  "location": null,
+  "title": "Team AI training for plumbing companies | Creosote Labs",
+  "meta_description": "A one-day, hands-on AI workshop for plumbing office staff and technicians, run on the company's own estimates, job notes, and emails. $1,000 per person.",
+  "h1": "Team AI training for plumbing companies",
+  "intro": [
+    "The office side of a plumbing company handles a steady volume of written work: estimates, invoice descriptions, customer emails, warranty claims to manufacturers, and job notes that come in from the field as a few words on a phone. Many plumbing offices already have Microsoft 365 Copilot or Google Gemini included in the subscription the company pays for, and staff are often not shown how to use it on the documents in front of them. Team AI training covers exactly that.",
+    "Creosote Labs runs a one-day workshop, on site or remote, in the AI tool the company already uses. Participants bring their own laptops and their own work: the estimate template, the warranty claim form, the customer email inbox. Over the day each person produces real output, such as a finished estimate written from a technician's notes, and writes down the process they used. The team leaves with a written guide and a 30-day follow-up session. The cost is $1,000 per person for up to 10 people, with a 5-person minimum."
+  ],
+  "projects": [
+    "An exercise where the dispatcher turns a technician's text message into a complete, itemized estimate using the company's price book.",
+    "A customer email module covering appointment confirmations, no-show follow-ups, and plain explanations of why a repair costs what it does.",
+    "A warranty claim exercise that drafts the manufacturer submission from the invoice and the failed part's model number.",
+    "A session for technicians on dictating job notes in the truck and having the tool clean them up before they reach the office.",
+    "A review-response exercise that produces replies to recent Google reviews in the owner's voice, with a set of reusable prompts."
+  ],
+  "faqs": [
+    {
+      "q": "Do technicians attend, or just office staff?",
+      "a": "Both can attend. Sessions are built around the people in the room and the work they actually do, so a group can mix dispatchers, office managers, and lead technicians as long as there are at least 5 participants."
+    },
+    {
+      "q": "What software do we need before the day?",
+      "a": "The company needs only the AI tool it already has, such as Copilot in Microsoft 365, Gemini in Google Workspace, or Claude. Each participant needs a laptop and access to the documents they normally work with."
+    },
+    {
+      "q": "Is there anything after the workshop?",
+      "a": "A written guide and a 30-day follow-up session are included at $1,000 per person. Companies that want 3 monthly follow-up sessions instead pay $1,400 per person, and travel is included either way."
+    }
+  ]
+}

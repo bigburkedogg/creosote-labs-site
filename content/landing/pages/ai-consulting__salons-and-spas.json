@@ -1,0 +1,35 @@
+{
+  "kind": "service-segment",
+  "service": "ai-consulting",
+  "segment": "salons-and-spas",
+  "location": null,
+  "title": "AI consulting for salons and spas | Creosote Labs",
+  "meta_description": "AI consulting for salons and spas. We assess where AI fits in booking, client records, and marketing, set it up, and train staff. Operations review $3,000.",
+  "h1": "AI consulting for salons and spas",
+  "intro": [
+    "Many salons and spas run on a booking platform such as Vagaro, Square Appointments, Booksy, GlossGenius, Mindbody, or Boulevard, with QuickBooks for the books and phone calls throughout the day. Client notes, service menus, gift certificates, retail inventory, and stylist schedules often sit in several places at once. AI consulting covers the parts of that work that involve writing, sorting, and answering the same questions repeatedly, without replacing the booking system the business already depends on.",
+    "Creosote Labs starts with a one-day operations review that documents how the salon or spa currently handles booking, intake, retail, and marketing, then delivers a written assessment with a quote for each recommendation. From there we set up tools the business already has access to, such as Google Gemini or Claude, with its own service menu, intake forms, and policies. We automate confirmation and follow-up messages, review requests, and monthly reporting, and train the front desk and stylists on their own work."
+  ],
+  "projects": [
+    "An assistant that drafts replies to booking, pricing, and cancellation questions from the salon's own service menu and policies.",
+    "A review-request sequence that sends the right message after each service type and flags negative feedback for the owner.",
+    "A monthly report that pulls sales by stylist, service, and retail product out of the booking platform into a one-page summary.",
+    "A spa intake process that turns a completed form into a client summary for the technician before the appointment.",
+    "A written guide for front desk staff covering how to use the assistant for rebooking and waitlist messages.",
+    "Product description and promotion copy generated from the retail inventory list and current specials."
+  ],
+  "faqs": [
+    {
+      "q": "Does the salon need to switch booking software?",
+      "a": "No, it does not. We work with the platform the business already uses and connect AI tools to the data and documents it produces. Replacing a booking system is only recommended if the review shows it is causing the problem."
+    },
+    {
+      "q": "How is AI consulting priced?",
+      "a": "An engagement opens with a one-day operations review at $3,000. The review produces a written assessment and a quote for each recommendation, implementation is quoted from that assessment, and team training is $1,000 per person."
+    },
+    {
+      "q": "What does a salon or spa need to provide before the review?",
+      "a": "The business provides access to the booking platform, a copy of the service menu and intake forms, and time with the owner and front desk during the day on site. We document the rest during the review."
+    }
+  ]
+}

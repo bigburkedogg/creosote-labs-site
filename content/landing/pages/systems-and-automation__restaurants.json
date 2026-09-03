@@ -1,0 +1,35 @@
+{
+  "kind": "service-segment",
+  "service": "systems-and-automation",
+  "segment": "restaurants",
+  "location": null,
+  "title": "Systems and automation for restaurants | Creosote Labs",
+  "meta_description": "Creosote Labs connects POS, scheduling, vendor invoices, and inventory into one system for restaurants and automates the work between them.",
+  "h1": "Systems and automation for restaurants",
+  "intro": [
+    "Restaurants typically keep their operating data in several places at once. Sales live in the POS, whether Toast, Square, or Clover. Labor lives in 7shifts or HotSchedules. Vendor invoices from Sysco, US Foods, and local suppliers arrive on paper or by email, inventory counts are taken on clipboards or in Google Sheets, and the bookkeeper reconciles all of it in QuickBooks at month end. Systems and automation work applies wherever those records are copied by hand from one place to another.",
+    "Creosote Labs consolidates those records into one system of record and builds the tools around it. A project might connect POS sales exports, labor hours, and vendor invoices into a single daily report, replace the inventory clipboard with a counting tool that generates the order guide, or build a catering tracker that carries an event from inquiry to invoice. Each engagement starts with a one-day operations review, and every system is documented and handed over to the managers who will run it."
+  ],
+  "projects": [
+    "A daily flash report that pulls sales from the POS and hours from the scheduling system into one page for the owner each morning.",
+    "An inventory count tool for phones and tablets that produces the vendor order guide and flags items below par.",
+    "A vendor invoice pipeline that reads emailed PDFs from suppliers and enters line items into QuickBooks for the bookkeeper to approve.",
+    "A catering and private-event tracker that holds the inquiry, menu, deposit, event sheet, and final invoice in one record.",
+    "A recipe and plate-cost database that recalculates food cost when supplier prices change.",
+    "A prep list generator that builds each station's list from the day's reservations and the par sheet."
+  ],
+  "faqs": [
+    {
+      "q": "What does a restaurant need to have ready before the operations review?",
+      "a": "The restaurant should have access ready for the POS, scheduling, and accounting systems, plus a sample of the documents managers use day to day, such as order guides, prep lists, and event sheets. We collect the rest on site."
+    },
+    {
+      "q": "How is a systems project priced?",
+      "a": "The one-day operations review is $3,000 and produces a written assessment with a quote for each recommendation. Implementation is quoted from that review at a fixed price, with no hourly billing."
+    },
+    {
+      "q": "Who maintains the system after it is built?",
+      "a": "The restaurant's own staff maintain it. Every system is documented and handed over to the managers who use it, and the operations review fee is credited toward implementation that begins within 90 days."
+    }
+  ]
+}

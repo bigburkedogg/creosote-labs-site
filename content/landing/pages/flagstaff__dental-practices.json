@@ -1,0 +1,35 @@
+{
+  "kind": "segment-location",
+  "service": null,
+  "segment": "dental-practices",
+  "location": "flagstaff",
+  "title": "Dental practices in Flagstaff: AI, systems, and websites",
+  "meta_description": "Creosote Labs helps Flagstaff dental practices with practice management workflows, front desk automation, patient-facing websites, and AI training.",
+  "h1": "Dental practices in Flagstaff: AI, systems, and websites",
+  "intro": [
+    "Dental practices typically run on a practice management system such as Dentrix, Eaglesoft, or Open Dental, with patient communication handled by a tool like Weave and a separate portal for insurance claims. Treatment plans, new patient intake forms, recall lists, and insurance verification often involve rekeying the same information more than once, and front desk staff spend much of the day on phone calls, reminders, and paperwork that follow a fixed pattern.",
+    "Creosote Labs, based in Flagstaff, works with dental practices on the administrative side of the office. An operations review maps how a patient moves from first call to completed treatment and paid claim. Systems and automation work connects intake, scheduling, and billing so information is entered once. A website project adds online appointment requests and digital intake forms. Team AI training covers patient correspondence, treatment plan letters, and insurance appeals using the practice's own templates."
+  ],
+  "projects": [
+    "A digital new patient intake form that collects health history and insurance details before the first visit.",
+    "An automation that sends recall and hygiene reminders from the practice management system's schedule.",
+    "A treatment plan letter generator that turns coded procedures into a plain-language summary for the patient.",
+    "A website with provider bios, services, insurance information, and an appointment request form.",
+    "An insurance verification checklist that tracks each new patient's eligibility status before the appointment.",
+    "A one-day training session for front desk and billing staff on drafting claim appeals and patient emails with AI tools."
+  ],
+  "faqs": [
+    {
+      "q": "How is patient information handled during a project?",
+      "a": "Project scope is defined in the operations review, and any work that touches patient records is designed around the practice's existing systems and privacy obligations. Access is limited to what the specific project requires."
+    },
+    {
+      "q": "What do we need to provide before the operations review?",
+      "a": "The review needs a day on site with the office manager and front desk available, plus access to see how the practice management system and current forms are used. The written assessment and quotes follow within the week."
+    },
+    {
+      "q": "Is training delivered in our office?",
+      "a": "It can be. Team AI training is a one-day session, on site or remote, at $1,000 per person for up to 10 people with a 5-person minimum. Travel is included, and staff work in the AI tool the practice already has access to."
+    }
+  ]
+}

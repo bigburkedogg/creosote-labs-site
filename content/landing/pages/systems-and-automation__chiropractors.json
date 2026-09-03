@@ -1,0 +1,35 @@
+{
+  "kind": "service-segment",
+  "service": "systems-and-automation",
+  "segment": "chiropractors",
+  "location": null,
+  "title": "Automation for chiropractic offices | Creosote Labs",
+  "meta_description": "Creosote Labs replaces the spreadsheets and manual steps around a chiropractic office's practice software with one system, documented and handed over.",
+  "h1": "Systems and automation for chiropractic offices",
+  "intro": [
+    "A chiropractic office typically keeps scheduling, charting, and billing inside a practice management system such as ChiroTouch, Platinum System, or Jane App, but a good deal of work happens outside it. Care plan tracking, package and membership counts, referral sources, reactivation call lists, and the reconciliation between the billing module and QuickBooks often live in Excel or on paper at the front desk. Systems and automation applies to that work around the edges of the software.",
+    "Creosote Labs consolidates those side records into one system of record, builds the internal tools the office is missing, and automates the repetitive steps. A typical project connects exported visit and payment data to a single tracking tool, generates recurring documents automatically, and gives the owner a report that no longer requires assembling numbers by hand. Every build ends with written documentation and a handover to the staff who will run it."
+  ],
+  "projects": [
+    "A care plan tracker that pulls visit counts from the practice management system and flags patients who have fallen behind their prescribed schedule.",
+    "A reactivation list that identifies patients with no visit in 90 days and produces the call sheet and text template for the front desk.",
+    "Automated reconciliation between daily collections in the billing module and deposits in QuickBooks, with exceptions listed for review.",
+    "A referral source report that ties each new patient to the attorney, physician, or marketing channel that sent them.",
+    "A package and membership ledger that tracks prepaid visits remaining and expiration dates without a separate spreadsheet.",
+    "Automatic generation of records request responses and attorney lien paperwork from a single patient record."
+  ],
+  "faqs": [
+    {
+      "q": "Can the system read data out of ChiroTouch or Jane App?",
+      "a": "Most practice management systems export reports as CSV or offer an API, and the tools we build work from those exports. The operations review confirms what the office's specific software makes available."
+    },
+    {
+      "q": "Does the office lose its current process during the build?",
+      "a": "No. The new tool runs alongside the existing spreadsheets until staff are confident in it, and the old process is retired only after the handover."
+    },
+    {
+      "q": "What does a systems and automation project cost?",
+      "a": "Projects begin with a 1-day operations review at $3,000, which produces a written assessment and a fixed quote for each recommendation. There is no hourly billing."
+    }
+  ]
+}

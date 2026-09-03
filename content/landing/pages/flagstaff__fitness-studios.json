@@ -1,0 +1,35 @@
+{
+  "kind": "segment-location",
+  "service": null,
+  "segment": "fitness-studios",
+  "location": "flagstaff",
+  "title": "Gyms and fitness studios in Flagstaff | Creosote Labs",
+  "meta_description": "Creosote Labs builds reporting, follow-up, and booking tools around Mindbody or Zen Planner for Flagstaff gyms and studios, and trains staff on AI tools.",
+  "h1": "Gyms and fitness studios in Flagstaff: AI, systems, and websites",
+  "intro": [
+    "Gyms and fitness studios in Flagstaff typically run memberships, class schedules, and payments through Mindbody, Zen Planner, Glofox, or Wodify, with QuickBooks for the books and Google Sheets for everything the membership software does not cover: trainer pay, lead follow-up, waiver tracking, retail sales, and attendance trends. Many front desks still handle intake forms and membership agreements by hand. That gap between the membership platform and the rest of the studio is where our systems, website, and training services apply.",
+    "Creosote Labs is a Flagstaff business. We begin with a one-day operations review at the studio, documenting how a new lead becomes a member, how trainers are scheduled and paid, and which numbers the owner checks every month, then deliver a written assessment with a quote for each item. Implementation could be a reporting dashboard that reads from Mindbody, an automated follow-up sequence for trial visitors, or a training day where staff learn to use AI on their own class descriptions and member emails."
+  ],
+  "projects": [
+    "A membership dashboard that pulls attendance, cancellations, and revenue from Mindbody or Zen Planner into one monthly view.",
+    "An automated follow-up sequence for trial visitors that sends a reminder, a class recommendation, and a membership offer on a schedule.",
+    "A trainer pay calculator that reads class counts from the scheduling platform and produces a pay summary each period.",
+    "A website with the class schedule, pricing, and a trial booking form that feeds the membership system directly.",
+    "A digital intake form that collects the waiver, health questionnaire, and membership agreement in one step and files them by member.",
+    "A training workshop where instructors draft class descriptions, member newsletters, and program guides in Claude or Gemini."
+  ],
+  "faqs": [
+    {
+      "q": "Will this replace Mindbody or Zen Planner?",
+      "a": "Usually it does not. Membership platforms handle billing and scheduling well, and most projects connect to the platform's reports or API to cover what it does not do. If a switch makes sense, the operations review says so and quotes it."
+    },
+    {
+      "q": "What does the studio need to have ready for the review?",
+      "a": "The studio should have access to the membership software, the spreadsheets kept outside it, and time with the owner and front desk staff during the day. We handle the documentation."
+    },
+    {
+      "q": "How does pricing work for a small studio?",
+      "a": "The operations review is $3,000 for the day and is credited toward implementation that begins within 90 days. Implementation is quoted from the review at a fixed price. Team AI training is $1,000 per person and has a 5-person minimum."
+    }
+  ]
+}

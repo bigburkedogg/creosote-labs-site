@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "website-development",
+  "segment": "roofing-companies",
+  "location": null,
+  "title": "Roofing company websites and web apps | Creosote Labs",
+  "meta_description": "Websites and web applications for roofing companies: services, service area, inspection requests, quote forms, and job status portals for homeowners.",
+  "h1": "Website and web application development for roofing companies",
+  "intro": [
+    "Roofing work usually starts with a homeowner searching for a roofer after a storm, a leak, or an inspection report, and the company's website is often the first thing they see. Many roofing company sites are several years old, list services without saying what happens next, and have a contact form that is hard to check from the field. Behind the site, the same company often takes inspection requests by phone, sends quotes by email, and answers job status questions by text.",
+    "Creosote Labs builds roofing company websites that state the services offered, the service area, the roofing systems installed, and what happens after a homeowner requests an inspection. We add the customer-facing tools that fit the company: an inspection request form that creates a lead in AccuLynx or JobNimbus, a financing and quote request page, and a job portal where homeowners can see photos, the schedule, and their invoice. Hosting, domain setup, and a written handover are included in every project."
+  ],
+  "projects": [
+    "A marketing site with pages for residential replacement, repair, commercial roofing, and storm damage, each with a request-an-inspection button.",
+    "An inspection request form that collects the address, roof type, and photos from the homeowner and sends the lead into the company's job management software.",
+    "A homeowner portal showing inspection photos, the signed proposal, the build date, and the balance due.",
+    "A commercial maintenance page where property managers can log a leak with a photo and receive a work order number.",
+    "A photo gallery driven by CompanyCam exports so completed jobs appear on the site without manual uploads."
+  ],
+  "faqs": [
+    {
+      "q": "Can the website connect to the software we already use for jobs?",
+      "a": "Yes, where that software offers an integration or an email intake. Forms on the site can create leads in platforms such as AccuLynx or JobNimbus, or they can send a structured email to the office if a direct connection is not available."
+    },
+    {
+      "q": "What do we need to provide to get started?",
+      "a": "To get started we need a list of services and the service area, photos of completed roofs, any manufacturer certifications to display, and access to the current domain. We handle hosting, setup, and writing where needed."
+    },
+    {
+      "q": "What does a roofing company website cost?",
+      "a": "We quote each website or application project after a scoping call. The price is fixed for the agreed scope and there is no hourly billing."
+    }
+  ]
+}

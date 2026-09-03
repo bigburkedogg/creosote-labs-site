@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "website-development",
+  "segment": "outfitters-and-tour-operators",
+  "location": null,
+  "title": "Website development for outfitters and tour operators",
+  "meta_description": "Marketing sites, group quote forms, and guest portals for outfitters and tour operators, built around the booking platform already in use. Fixed price.",
+  "h1": "Website and web application development for outfitters and tour operators",
+  "intro": [
+    "Most outfitters sell through their website. A guest reads the trip page, checks dates and price, and books through a widget from FareHarbor, Xola, or Checkfront placed on the page. Many of these sites were built on Squarespace or WordPress several seasons ago and have grown to include trip pages, FAQ pages, gear lists, and a blog, with pricing and availability that no longer match the booking system. Private groups, corporate outings, and school programs often still book by phone or an emailed form.",
+    "Creosote Labs builds the marketing site and the tools behind it. A site project covers trip pages with current pricing, a clear way to book, and the hosting and domain setup. Beyond the site, we build custom booking and intake tools: a private group quote request that captures dates, headcount, and ability level; a guest portal for waivers, packing lists, and meeting instructions; or a staff-facing application that replaces a manual process. Projects are quoted after a scoping call at a fixed price."
+  ],
+  "projects": [
+    "A marketing site with one page per trip, current-season pricing, and the existing FareHarbor or Xola widget on each trip page for direct booking.",
+    "A private group and charter request form that collects dates, group size, and experience level and returns a written quote to the guest.",
+    "A guest portal where each booked party signs the waiver, sees the packing list, and finds the meeting time and location for their departure.",
+    "A trip conditions page the office updates each morning with river flow, trail status, or weather, replacing the same answer given repeatedly by phone.",
+    "A gift certificate and voucher page that issues a code guests redeem in the booking system."
+  ],
+  "faqs": [
+    {
+      "q": "How is a website project priced?",
+      "a": "Projects are quoted after a scoping call, at a fixed price with no hourly billing. Hosting setup, domain configuration, and handover documentation are included in the quote."
+    },
+    {
+      "q": "Can the business keep its current booking platform?",
+      "a": "Yes, the site is built around the booking widget the business already uses, whether FareHarbor, Peek Pro, Xola, or Checkfront, so reservations and payments continue to run through it."
+    },
+    {
+      "q": "What needs to be ready before the project starts?",
+      "a": "The project needs trip descriptions, current pricing, photos, and access to the domain registrar and booking platform. Missing copy can be drafted during the project from the material the business already has."
+    }
+  ]
+}

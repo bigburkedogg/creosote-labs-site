@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "website-development",
+  "segment": "veterinary-clinics",
+  "location": null,
+  "title": "Websites for veterinary clinics | Creosote Labs",
+  "meta_description": "Creosote Labs builds veterinary clinic websites with appointment requests, online intake forms, refill requests, and client portals. Fixed price.",
+  "h1": "Website and web application development for veterinary clinics",
+  "intro": [
+    "Veterinary clinic websites tend to do three jobs: list services and hours, let a client request an appointment, and hold the new-patient forms. Many clinics use a template site from their practice management vendor or a general builder, with appointment requests going to an email inbox and new-client intake forms still printed in the lobby. Online booking, when it exists, usually runs through a separate tool such as PetDesk or Vetstoria that may not match the rest of the site.",
+    "Creosote Labs builds the marketing site and the client-facing tools behind it. A project for a clinic typically includes service pages with pricing where the clinic chooses to publish it, an appointment request form that captures the pet, the reason for the visit, and preferred times, and a new-client intake form that arrives at the front desk complete before the first appointment. Hosting, domain configuration, and documentation are part of every build, and projects are fixed price after a scoping call."
+  ],
+  "projects": [
+    "A clinic website with pages for wellness exams, surgery, dental care, and emergency hours, and a clear way to call or request an appointment.",
+    "An online new-client intake form covering owner contact details, pet history, and prior vaccination records, with uploads for previous medical files.",
+    "A prescription refill request page that sends the medication, patient name, and pickup preference to the pharmacy queue.",
+    "A client portal where owners view upcoming appointments, vaccination due dates, and their pet's discharge instructions.",
+    "A boarding reservation tool that collects dates, feeding instructions, and proof of vaccination before confirming a stay."
+  ],
+  "faqs": [
+    {
+      "q": "How are website projects priced?",
+      "a": "Projects are quoted after a scoping call, at a fixed price with no hourly billing. The quote covers design, build, hosting setup, domain configuration, and handover documentation."
+    },
+    {
+      "q": "Can the site work with our existing online booking?",
+      "a": "Yes, the site can link to or embed the booking tool the clinic already uses, or we can build an appointment request form that emails the front desk or writes into a shared schedule."
+    },
+    {
+      "q": "What does the clinic need to send before the build starts?",
+      "a": "The clinic provides a list of services, hours, staff bios and photos if they are to appear, the current intake forms, and access to the domain registrar. We handle the rest, including hosting."
+    }
+  ]
+}

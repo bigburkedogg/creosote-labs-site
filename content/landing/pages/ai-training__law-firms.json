@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "ai-training",
+  "segment": "law-firms",
+  "location": null,
+  "title": "Team AI training for law firms · Creosote Labs",
+  "meta_description": "A one-day, hands-on AI workshop for attorneys and staff, run on the firm's own documents and tools. It is $1,000 per person with a 5-person minimum.",
+  "h1": "Team AI training for law firms",
+  "intro": [
+    "Attorneys and staff at small firms frequently already have an AI tool available to them, either Copilot inside Microsoft 365 or a Claude or ChatGPT subscription someone signed up for. Use is often uneven: some attorneys draft with it daily, support staff may never have opened it, and firms are frequently unsure what their confidentiality obligations allow. Team AI training addresses that spread by getting everyone working in the same tool, on the same rules, with the firm's own documents.",
+    "Creosote Labs delivers the workshop in one day, on site or remote, in the tool the firm already uses. Each participant works on their own computer with their own matters: an attorney drafts a motion outline from a case file, a paralegal summarizes a records production, the billing clerk writes up narrative time entries. Everyone documents their own process during the session. The firm receives a written guide, and a follow-up session 30 days later covers what stuck and what did not."
+  ],
+  "projects": [
+    "A workshop where each attorney builds a reusable prompt for turning a client interview memo into a first-draft demand letter in the firm's format.",
+    "A paralegal session on summarizing medical records and deposition transcripts into a dated chronology with page citations.",
+    "A session for the front desk on drafting client status emails and appointment confirmations from matter notes in the firm's voice.",
+    "A billing exercise where staff convert shorthand time entries into narrative descriptions that satisfy the firm's invoicing standards.",
+    "A firm-wide exercise that produces a written AI use policy covering which documents may go into the tool and what must be reviewed before it leaves the office."
+  ],
+  "faqs": [
+    {
+      "q": "Is the workshop appropriate for a firm concerned about client confidentiality?",
+      "a": "The workshop runs in the tool the firm already uses and under the data terms the firm has agreed to. Part of the day is spent writing down which document types may be used with the tool, and that becomes part of the written guide."
+    },
+    {
+      "q": "What does the training cost?",
+      "a": "The workshop is $1,000 per person for up to 10 people, with a 5-person minimum. Larger teams are quoted, and travel is included. A program with three monthly follow-up sessions is $1,400 per person."
+    },
+    {
+      "q": "What should participants bring?",
+      "a": "Each participant brings their own laptop with access to the firm's AI tool, and a few real documents they work with regularly, such as a recent intake, a draft letter, or a set of records to summarize."
+    }
+  ]
+}

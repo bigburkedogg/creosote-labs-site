@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "ai-consulting",
+  "segment": "roofing-companies",
+  "location": null,
+  "title": "AI consulting for roofing companies | Creosote Labs",
+  "meta_description": "AI consulting for roofing companies. We assess where AI fits in estimating, insurance claims, and job files, set up the tools, and train staff.",
+  "h1": "AI consulting for roofing companies",
+  "intro": [
+    "Many roofing companies run on a job management platform such as AccuLynx, JobNimbus, or Roofr, with QuickBooks for accounting, CompanyCam for job photos, and aerial measurement reports from EagleView or Hover. Around those tools sits a large amount of written work: estimates, insurance supplement letters, material orders, warranty documents, and follow-up with homeowners and adjusters. AI tools apply most directly to that written work, and to pulling information out of the photos, reports, and emails a job produces.",
+    "Creosote Labs starts with a one-day operations review of how a roofing company estimates, sells, schedules, and closes out jobs. The written assessment identifies where AI tools save time, such as drafting supplement requests from an adjuster's scope, summarizing inspection photos into a homeowner report, or turning a signed contract into a material order. We then set up the tool the company already has access to, such as Microsoft 365 Copilot, Google Gemini, or Claude, with its own templates, and train office staff to use it."
+  ],
+  "projects": [
+    "A prompt and template set that drafts an insurance supplement letter from the adjuster's estimate and the crew's job photos.",
+    "An assistant that reads an EagleView or Hover report and fills in the company's estimate template with the measured squares, pitch, and waste factor.",
+    "A written homeowner inspection report generated from CompanyCam photos and the inspector's notes.",
+    "A review of the sales and production process with a ranked list of where AI tools apply and a quote for each.",
+    "A follow-up email workflow that drafts messages to homeowners at each stage of a job, from inspection through final invoice."
+  ],
+  "faqs": [
+    {
+      "q": "Which AI tool will we use?",
+      "a": "We use the tool the company already has access to, such as Microsoft 365 Copilot, Google Gemini, or Claude. The review covers which tool fits the company's existing accounts and job management software, and the setup uses the company's own estimates, contracts, and templates."
+    },
+    {
+      "q": "What does the office need to provide for the operations review?",
+      "a": "We need one day of access to the people who estimate, sell, schedule, and invoice, plus examples of the documents they produce. The written assessment and a quote for each recommendation are delivered within the week."
+    },
+    {
+      "q": "What does AI consulting cost?",
+      "a": "The operations review is a fixed $3,000 for one day on site. Any implementation work is quoted in the written assessment that follows, and team training runs $1,000 per person."
+    }
+  ]
+}

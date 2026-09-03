@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "website-development",
+  "segment": "insurance-agencies",
+  "location": null,
+  "title": "Insurance agency websites and web apps | Creosote Labs",
+  "meta_description": "Creosote Labs builds insurance agency websites, quote request forms, certificate request pages, and client portals. Fixed price, quoted after a call.",
+  "h1": "Websites and web applications for insurance agencies",
+  "intro": [
+    "An insurance agency's website usually needs to do a few specific jobs: explain which lines the agency writes (personal, commercial, life, and benefits), list the carriers it represents, and give a prospect a way to request a quote or a certificate without calling. Many agency sites are built on a carrier-provided template or a general-purpose builder, with a contact form that lands in one inbox. Quote requests then get retyped into EZLynx or the management system by hand.",
+    "Creosote Labs builds agency websites and the client-facing tools behind them. A marketing site covers lines of coverage, carriers, staff, and a clear path to contact or request a quote. Beyond the site, we build structured quote request forms that collect the details an underwriter needs for auto, home, or a business owner's policy, certificate request forms for commercial clients, and simple client portals for viewing policy documents. Projects are quoted after a scoping call at a fixed price, with hosting, domain setup, and handover documentation included."
+  ],
+  "projects": [
+    "A marketing website organized by line of coverage, with a page per product and a quote request on each.",
+    "An online quote request form for personal auto and home that asks for drivers, vehicles, and prior carrier before a producer calls.",
+    "A certificate of insurance request page where commercial clients enter the holder's name and address and receive a confirmation.",
+    "A client portal where policyholders download declarations pages and ID cards without calling the office.",
+    "A commercial intake form for business owner's policy and general liability prospects, delivered to the account manager as a formatted summary."
+  ],
+  "faqs": [
+    {
+      "q": "Can a quote request form send data into our management system?",
+      "a": "It depends on the system. Many agency management systems accept email or CSV imports and some offer an API, so the scoping call establishes what is possible. At minimum, every submission arrives as a formatted email and a record the agency can export."
+    },
+    {
+      "q": "How much does an agency website cost?",
+      "a": "Websites and web applications are quoted after a scoping call, at a fixed price with no hourly billing. Hosting setup, domain configuration, and handover documentation are included in the quote."
+    },
+    {
+      "q": "What does the agency need to provide?",
+      "a": "The agency provides the lines of coverage written, the carriers represented, staff names and photos, licensing information for the footer, and access to the current domain. Existing brochures or proposal templates help set the tone of the copy."
+    }
+  ]
+}

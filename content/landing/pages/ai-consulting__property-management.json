@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "ai-consulting",
+  "segment": "property-management",
+  "location": null,
+  "title": "AI consulting for property management companies",
+  "meta_description": "AI consulting for property management companies: where AI tools fit alongside AppFolio or Buildium, from a $3,000 operations review to staff training.",
+  "h1": "AI consulting for property management companies",
+  "intro": [
+    "Many property management companies run on a platform such as AppFolio, Buildium, or Rent Manager for leases, rent collection, and work orders, with QuickBooks or the platform's own ledger for owner accounting. Around that platform sits a large amount of written work: lease renewals, owner statements and cover notes, tenant notices, inspection reports, and vendor correspondence. AI tools apply most directly to that writing, and to the reporting that often gets assembled by hand each month.",
+    "Creosote Labs starts with a one-day operations review at the company's office, following how a work order, a renewal, and a month-end owner statement move from start to finish. The written assessment identifies where an AI tool the company already has access to, such as Microsoft 365 Copilot, Google Gemini, or Claude, can draft, summarize, or check that work, with a quote for each recommendation. Implementation and staff training follow from the review."
+  ],
+  "projects": [
+    "A setup that drafts lease renewal letters from the rent roll and the company's renewal terms, ready for a property manager to review.",
+    "A monthly owner update drafted from AppFolio or Buildium reports and the maintenance log for each property.",
+    "A tenant-communication assistant that drafts responses to common maintenance and billing questions in the company's own tone.",
+    "A move-out inspection summary that turns inspector notes and photos into a deposit disposition letter.",
+    "A vendor-bid comparison that reads three contractor quotes and lays them out side by side for the owner."
+  ],
+  "faqs": [
+    {
+      "q": "Do we need to switch off AppFolio or Buildium to use AI tools?",
+      "a": "The review works with the platform the company already runs on, and AI tools are set up alongside it using the company's own documents and templates. Nothing has to be replaced."
+    },
+    {
+      "q": "What does the operations review cost and what do we receive?",
+      "a": "The review is $3,000 for one day on site. It produces a written assessment with prioritized recommendations and a quote for each, delivered within the week, and the fee is credited toward implementation that begins within 90 days."
+    },
+    {
+      "q": "What happens with tenant and owner data?",
+      "a": "The tools recommended are ones the company already has access to, configured within the company's own accounts. Which documents go into those tools is decided during the review and written into the assessment."
+    }
+  ]
+}

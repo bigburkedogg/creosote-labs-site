@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "ai-training",
+  "segment": "cleaning-companies",
+  "location": null,
+  "title": "AI training for cleaning company staff | Creosote Labs",
+  "meta_description": "A one-day, hands-on AI workshop for cleaning company office staff, using the company's own quotes, emails, and checklists. $1,000 per person.",
+  "h1": "Team AI training for cleaning companies",
+  "intro": [
+    "The office side of a cleaning company is often a small group handling quotes, scheduling changes, customer complaints, hiring, and invoicing, usually in Google Workspace or Microsoft 365 alongside a scheduling app such as Jobber or ZenMaid. Owners and office managers write the same kinds of messages every day: quote follow-ups, reschedule notices, responses to reviews, job postings, and reminders to crews. Much of that writing can be drafted by the AI tool already included in the office's software subscription.",
+    "Creosote Labs delivers a one-day workshop, on site or remote, in Gemini, Copilot, or Claude, using the company's own quote templates, customer emails, and cleaning checklists. Each participant works on their own computer and produces real output during the day: a reusable quote draft, a set of review responses, a job posting, and a written record of how they did it. Everyone goes home with a written guide, and we hold a follow-up session 30 days later."
+  ],
+  "projects": [
+    "Office staff build a saved prompt that drafts a quote email from a walkthrough form and the price list.",
+    "The owner sets up a repeatable process for responding to online reviews in the company's voice.",
+    "A scheduler turns a week of crew call-outs and client skips into a rewritten route plan and the customer notices that go with it.",
+    "The office manager drafts an updated employee handbook section and crew training checklist from existing notes.",
+    "Each participant documents their own workflow into the shared written guide."
+  ],
+  "faqs": [
+    {
+      "q": "Is there a minimum number of participants?",
+      "a": "Yes, the minimum is 5 participants. The workshop is $1,000 per person for up to 10 people; larger teams are quoted, and travel is included."
+    },
+    {
+      "q": "Do cleaning crews need to attend, or only office staff?",
+      "a": "The session is built around whoever does the writing and administrative work, which is usually the owner, office manager, and schedulers. Crew leads who write job notes or handle customer messages can be included."
+    },
+    {
+      "q": "Is there anything after the day itself?",
+      "a": "A written guide for the team and a 30-day follow-up session are included. A program with three monthly follow-up sessions is available at $1,400 per person."
+    }
+  ]
+}

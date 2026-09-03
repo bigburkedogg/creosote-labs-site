@@ -1,0 +1,34 @@
+{
+  "kind": "service-location",
+  "service": "website-development",
+  "segment": null,
+  "location": "flagstaff",
+  "title": "Website and web app development in Flagstaff | Creosote Labs",
+  "meta_description": "Marketing websites, booking and quoting tools, and web applications for Flagstaff businesses. Fixed-price quotes after a scoping call, hosting included.",
+  "h1": "Website and web application development in Flagstaff",
+  "intro": [
+    "Flagstaff businesses serve local residents as well as visitors, and many of those customers look a business up online before they call. Restaurants, hotels, outfitters, and service companies often run on a site built years ago on Wix, Squarespace, or WordPress, with bookings handled on a separate platform and quote requests arriving by phone or through a contact form that goes to one inbox. Website and web application work applies when that setup no longer matches how the business sells.",
+    "We build marketing websites with clear services, pricing, and a way to book or contact the business, and customer-facing tools such as quote requests, intake forms, bookings, and portals. Where a manual process sits behind the site, we build the web application that replaces it for staff and customers. Projects are quoted after a scoping call at a fixed price with no hourly billing, and hosting setup, domain configuration, and documentation are included in the handover. Being based in Flagstaff, we can meet on site during scoping and launch."
+  ],
+  "projects": [
+    "A marketing site for a guided tour company with trip pages, dates, pricing, and a booking form that writes to the operator's calendar.",
+    "A quote request tool for a roofing or landscaping company where customers upload photos and receive a scheduled estimate visit.",
+    "A patient intake portal for a physical therapy or chiropractic office that collects forms before the first appointment and sends them to the front desk.",
+    "An online menu and catering order form for a restaurant that replaces PDF menus and phone orders.",
+    "A rental application and maintenance request page for a property management company, connected to the existing AppFolio or Buildium account."
+  ],
+  "faqs": [
+    {
+      "q": "How is a website project priced?",
+      "a": "Every project is quoted after a scoping call at a fixed price. There is no hourly billing, and hosting setup and domain configuration are part of the quote."
+    },
+    {
+      "q": "Can you work with our existing domain and hosting?",
+      "a": "Yes. We can keep the current domain, move it, or set up new hosting as part of the project, and we document the configuration at handover so the business controls its own accounts."
+    },
+    {
+      "q": "What do we need to provide?",
+      "a": "The services and prices the site should list, any photos or logo files the business already has, and access to the current domain registrar. Copy can be written from a conversation if the business does not have it."
+    }
+  ]
+}

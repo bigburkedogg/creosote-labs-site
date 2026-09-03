@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "ai-training",
+  "segment": "outfitters-and-tour-operators",
+  "location": null,
+  "title": "Team AI training for outfitters and tour operators",
+  "meta_description": "A one-day, hands-on AI workshop for outfitter office staff and guides, on their own tools and documents. $1,000 per person, written guide included.",
+  "h1": "Team AI training for outfitters and tour operators",
+  "intro": [
+    "The office side of an outfitting business produces a lot of written work between trips. Reservation staff answer the same questions about difficulty, weather, and what to pack; the owner writes permit renewals, insurance applications, and grant or partnership letters; guides write trip reports and incident notes; and someone updates the website, the newsletter, and the social accounts. Much of it is done in Gmail, Google Docs, and Google Sheets, alongside a booking platform such as FareHarbor or Peek Pro.",
+    "Team AI training is a one-day workshop, on site or remote, in the AI tool the company already has, whether Gemini in Google Workspace, Copilot, or Claude. Each participant works on their own computer with their own documents. A reservations lead might set up a guest-inquiry response process from the company's trip pages; a trip leader might build a post-trip report template. Everyone leaves with a working setup, a written guide for the team, and a 30-day follow-up session."
+  ],
+  "projects": [
+    "Reservation staff set up a response process that answers guest inquiries from the company's own trip pages, FAQ, and cancellation policy.",
+    "The owner builds a template for permit renewal narratives and insurance renewal questionnaires from last year's submissions.",
+    "Guides create a trip report format that turns voice notes recorded at the take-out into a written report.",
+    "The marketing lead sets up a process that drafts the monthly newsletter and trip announcements from the season calendar.",
+    "The office manager produces a season-end summary from a FareHarbor export, with the steps documented for next year."
+  ],
+  "faqs": [
+    {
+      "q": "How is training priced?",
+      "a": "Training is $1,000 per person for up to 10 people, and the minimum group is 5. Larger groups are quoted separately, and travel is included. A program with three monthly follow-up sessions is $1,400 per person."
+    },
+    {
+      "q": "When during the year does training work best?",
+      "a": "Off-season and shoulder-season dates are the usual choice, since the workshop takes a full day and the follow-up session lands 30 days later. Remote delivery is available if the team is spread out."
+    },
+    {
+      "q": "What should each participant bring?",
+      "a": "Each participant brings a laptop with access to the company's AI tool and to the documents they work with, such as the inquiry inbox, trip descriptions, or last season's reports. No prior experience with AI tools is needed."
+    }
+  ]
+}

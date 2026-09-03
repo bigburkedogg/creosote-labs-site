@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "ai-consulting",
+  "segment": "financial-advisors",
+  "location": null,
+  "title": "AI consulting for financial advisors | Creosote Labs",
+  "meta_description": "Creosote Labs assesses where AI fits in a financial advisory practice, sets it up on the firm's own templates, and trains staff. Operations review, $3,000.",
+  "h1": "AI consulting for financial advisory practices",
+  "intro": [
+    "Financial advisory practices typically run on a CRM such as Redtail, Wealthbox, or Salesforce, a planning platform such as eMoney, MoneyGuidePro, or RightCapital, a custodian portal such as Schwab Advisor Center or Fidelity Wealthscape, and Microsoft 365 or Google Workspace for email and documents. Client meetings produce notes, follow-up letters, financial plans, and account paperwork, and much of that writing is done by hand. AI consulting applies where that drafting and summarizing takes staff time every week.",
+    "Creosote Labs begins with a one-day operations review of the practice, then sets up the AI tool the firm already licenses, such as Microsoft 365 Copilot or Claude, with the firm's own meeting note template, client letter formats, and plan summary language. We automate the first draft of meeting summaries, follow-up emails, and annual review letters, keep every output inside the firm's existing review and archiving process, and train the advisors and client service staff on their own client work."
+  ],
+  "projects": [
+    "A meeting summary workflow that turns an advisor's dictated notes into a CRM note and a client follow-up email in the firm's format.",
+    "An annual review letter draft produced from the client's plan summary and the prior year's letter.",
+    "A first-draft generator for client-facing explanations of a plan recommendation, written at the reading level the firm specifies.",
+    "A prospect inquiry triage that reads incoming emails and drafts a reply and a Redtail task for the advisor.",
+    "A written AI use guide for the practice covering what staff may and may not put into the tool."
+  ],
+  "faqs": [
+    {
+      "q": "Does client data leave our systems?",
+      "a": "We set up the tools the firm already licenses, such as Microsoft 365 Copilot, under the firm's own account and data terms. What may be entered into the tool, and what stays out, is agreed with the practice's compliance reviewer and written into the guide we leave with the team."
+    },
+    {
+      "q": "How does pricing work?",
+      "a": "An engagement opens with a one-day operations review for $3,000, which produces a written assessment and a separate quote for each recommendation, and implementation is priced from those quotes. Team training is $1,000 per person."
+    },
+    {
+      "q": "What does the practice need to provide for the operations review?",
+      "a": "The practice provides one day of access to the office, the CRM, the planning software, and the document templates in use, plus time with the advisors and client service staff who do the work. The written assessment and quotes are delivered within the week."
+    }
+  ]
+}

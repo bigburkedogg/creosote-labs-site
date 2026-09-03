@@ -1,0 +1,34 @@
+{
+  "kind": "service-location",
+  "service": "systems-and-automation",
+  "segment": null,
+  "location": "camp-verde",
+  "title": "Systems and automation in Camp Verde, AZ | Creosote Labs",
+  "meta_description": "Creosote Labs consolidates spreadsheets and disconnected tools into one system for Camp Verde businesses. One-day operations review, $3,000.",
+  "h1": "Systems and automation in Camp Verde",
+  "intro": [
+    "Many businesses in Camp Verde run on a mix of Excel or Google Sheets workbooks, a QuickBooks file, and a job or booking system that does not talk to the others. A contractor might track leads in a spreadsheet, quote in Word, and invoice in QuickBooks, entering the same customer three times. A tour operator or lodging business often keeps reservations, waivers, and staff schedules in separate places. Systems and automation work applies wherever the same information is typed more than once.",
+    "Creosote Labs works with Camp Verde businesses to consolidate those tools into a single system of record, build the internal tools they need for scheduling, quoting, tracking, and reporting, and automate data entry, follow-up, and document generation. Each project begins with a one-day operations review at $3,000, which produces a written assessment and a fixed quote for every recommendation. Implementation is quoted from that review, and the finished system is documented and handed over to staff."
+  ],
+  "projects": [
+    "A job tracker for a construction company that carries a customer from first call through estimate, work order, and QuickBooks invoice without re-entry.",
+    "A reservation and waiver system for a tour operator that replaces a shared spreadsheet and a folder of signed PDFs.",
+    "An inventory and reorder tool for a retail store that reads sales from Square and flags items below their reorder point.",
+    "An order and delivery log for a pecan orchard or vineyard that generates packing slips and wholesale invoices from one entry.",
+    "A weekly owner's report that pulls from the booking system and QuickBooks automatically instead of being assembled by hand."
+  ],
+  "faqs": [
+    {
+      "q": "Will we have to give up QuickBooks or our booking software?",
+      "a": "No. The goal is one system of record, which usually means connecting the tools that work and replacing the spreadsheets that fill the gaps between them. Any change to a core tool would be a recommendation in the written assessment, not a requirement."
+    },
+    {
+      "q": "What do we need to prepare before the operations review?",
+      "a": "We need access to the spreadsheets and tools the business runs on, and time with the people who use them. The review is one day on site, and the assessment is delivered within the week."
+    },
+    {
+      "q": "How is implementation priced?",
+      "a": "Every recommendation in the assessment comes with its own fixed quote. There is no hourly billing, and the $3,000 review fee is credited toward implementation that begins within 90 days."
+    }
+  ]
+}

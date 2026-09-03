@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "website-development",
+  "segment": "electricians",
+  "location": null,
+  "title": "Websites for electrical contractors | Creosote Labs",
+  "meta_description": "Creosote Labs builds websites, quote request forms, and customer portals for electrical contractors. Fixed price, quoted after a scoping call.",
+  "h1": "Website and web application development for electrical contractors",
+  "intro": [
+    "Many electrical contractors get work from referrals, a Google Business Profile, and a website that has not changed since the company was founded. The site usually lists services and a phone number, while quote requests come in by phone and get written on a notepad. Website and web application development applies to the marketing site itself and to what sits behind it: a service request form, an online estimate for common jobs, and a customer page for project updates.",
+    "Creosote Labs builds a site that states what the company does, the areas it serves, its license number, and how to book a visit, with a request form that lands in the office inbox or directly in the dispatch software. For companies that want more, we add a quoting tool for standard jobs such as EV charger installs or panel replacements and a portal where commercial clients can see work orders and invoices. Hosting, domain setup, and documentation are part of the handover."
+  ],
+  "projects": [
+    "A marketing site with service pages for residential, commercial, and EV charger work, license and insurance details, and a booking form.",
+    "A service request form that collects the address, photos of the panel, and a description of the problem, then creates the job in Jobber.",
+    "An instant estimate page for fixed-scope jobs such as ceiling fan installs and outlet additions, priced from the company's rate sheet.",
+    "A commercial client portal showing open work orders, completed inspections, and outstanding invoices for each property.",
+    "A maintenance reminder page that lets past customers schedule an annual panel and surge protection check."
+  ],
+  "faqs": [
+    {
+      "q": "Can the site connect to the software we already use for dispatch?",
+      "a": "Yes. Form submissions can create a job or lead in Housecall Pro, Jobber, or ServiceTitan, or they can arrive as an email to the office if the company prefers."
+    },
+    {
+      "q": "What do we need to provide before the project starts?",
+      "a": "Before the project starts we need the current service list and pricing, license and insurance details, photos of recent work, and access to the domain registrar. We collect all of this on the scoping call."
+    },
+    {
+      "q": "How are website projects priced?",
+      "a": "Website and application projects are quoted after a scoping call. Pricing is fixed for the agreed scope, with no hourly billing."
+    }
+  ]
+}

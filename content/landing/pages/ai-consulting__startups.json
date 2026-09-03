@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "ai-consulting",
+  "segment": "startups",
+  "location": null,
+  "title": "AI consulting for startups | Creosote Labs",
+  "meta_description": "Creosote Labs assesses where AI tools fit in a startup, sets them up on the team's own documents, and trains staff. The operations review is $3,000.",
+  "h1": "AI consulting for startups and founders",
+  "intro": [
+    "Many startups run on a small set of tools adopted in the first year: Google Workspace or Microsoft 365 for email and documents, Slack for internal communication, Notion for wikis and planning, HubSpot for the sales pipeline, Stripe for billing, and QuickBooks Online for the books. The founders write most of the investor updates, customer proposals, onboarding documents, and job descriptions themselves. AI consulting applies to the recurring writing, research, and reporting that sits across those tools.",
+    "Creosote Labs starts with a one-day operations review of how the company actually works, then delivers a written assessment of where AI tools save time and a quote for each recommendation. Implementation typically means setting up Claude, Gemini, or Copilot with the company's own templates, product documentation, and past customer correspondence, so drafts come out in the company's voice. We then train the team on their own work and leave a written guide."
+  ],
+  "projects": [
+    "An investor update workflow that pulls the month's metrics from Stripe and HubSpot into a draft memo in the company's existing format.",
+    "A support inbox setup in which Claude drafts replies from the product documentation and a person reviews and sends them.",
+    "A sales proposal assistant built on the company's past proposals and current pricing sheet.",
+    "A hiring workflow that produces the job description, screening questions, and candidate summaries from one role brief.",
+    "A research process that turns competitor and market notes into a standard one-page brief for the founders."
+  ],
+  "faqs": [
+    {
+      "q": "How does pricing work for a startup that is still small?",
+      "a": "Engagements begin with a one-day operations review at $3,000, which produces a written assessment and a quote for each recommendation. Implementation is quoted from the review, and team training is $1,000 per person."
+    },
+    {
+      "q": "Do we need to buy new AI software?",
+      "a": "New software is usually not needed. We set up the tools the company already has access to, such as Microsoft 365 Copilot, Google Gemini, or Claude, with the company's own documents and templates."
+    },
+    {
+      "q": "What does the team need to provide for the review?",
+      "a": "The review needs a day with the founders and whoever runs operations, access to the tools in use, and examples of the documents the company produces most often. The written assessment is delivered within the week."
+    }
+  ]
+}

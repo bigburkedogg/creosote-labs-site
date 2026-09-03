@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "ai-training",
+  "segment": "photographers",
+  "location": null,
+  "title": "Team AI training for photographers | Creosote Labs",
+  "meta_description": "A one-day, hands-on AI workshop for photography studios, run on the studio's own inquiry emails, pricing guides, and templates. $1,000 per person.",
+  "h1": "Team AI training for photography studios",
+  "intro": [
+    "Photography studios with a few staff or associate shooters typically share a set of written materials: inquiry reply templates, a pricing guide, session prep and what-to-wear emails, gallery delivery messages, blog posts, and social captions. This writing is repeated for every client and usually done in Gmail, HoneyBook, or Dubsado. Studios often have access to an AI tool already, through Google Workspace, Microsoft 365, or a Claude account, but have not put their own documents into it.",
+    "Creosote Labs runs a one-day workshop, on site or remote, in the AI tool the studio already uses. Each participant works on their own computer with their own templates and client emails, producing real work during the session: an inquiry reply, a session prep email, a blog post from a recent shoot, a caption set. Each person documents their own process, and the team leaves with a written guide and a 30-day follow-up session. Training is $1,000 per person for up to 10 people, with a 5-person minimum."
+  ],
+  "projects": [
+    "A setup that drafts inquiry replies from the studio's pricing guide and open dates.",
+    "A session prep email that fills in what-to-wear and location guidance from the booking details.",
+    "A blog post and caption set drafted from a shoot's date, venue, and a short description of the day.",
+    "A gallery delivery message with print ordering instructions matched to the studio's lab.",
+    "A vendor thank-you and review request email written from a wedding's vendor list."
+  ],
+  "faqs": [
+    {
+      "q": "How many people do we need for a workshop?",
+      "a": "The workshop has a 5-person minimum and runs for up to 10 people at $1,000 per person. Larger teams are quoted. Associate photographers and office staff can attend together."
+    },
+    {
+      "q": "What should participants bring?",
+      "a": "Participants bring their own laptop, a login to the AI tool the studio uses, and the templates and recent client emails they work from. The session uses the studio's real material, not sample documents."
+    },
+    {
+      "q": "Is there anything after the workshop day itself?",
+      "a": "A written guide for the team and a 30-day follow-up session are included. A program with three monthly follow-up sessions is $1,400 per person. Travel is included in both."
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "kind": "service-location",
+  "service": "ai-training",
+  "segment": null,
+  "location": "camp-verde",
+  "title": "Team AI training in Camp Verde, Arizona | Creosote Labs",
+  "meta_description": "A one-day, hands-on AI workshop for Camp Verde teams, delivered on their own tools and documents. $1,000 per person, 5-person minimum, travel included.",
+  "h1": "Team AI training in Camp Verde",
+  "intro": [
+    "Employers in Camp Verde range from construction and trade companies to restaurants, hotels, retail stores, farms, and town government, and many of them already pay for a tool that includes AI: Microsoft 365 with Copilot, Google Workspace with Gemini, or a Claude or ChatGPT subscription. Staff often use it for the occasional email and not much else. Training applies where the tool is available but nobody has worked out how it fits the company's actual documents and tasks.",
+    "Creosote Labs delivers a one-day, hands-on workshop for Camp Verde teams, on site or remote, in the AI tool the company already uses. Participants work on their own computers with their own documents, produce real work during the session, and write down their own process as they go. Each team leaves with a working setup, a written guide, and a 30-day follow-up session. Pricing is $1,000 per person for up to 10 people, with a 5-person minimum, and travel to Camp Verde is included."
+  ],
+  "projects": [
+    "A session for a contractor's office staff on drafting estimates, change orders, and customer updates from the company's own templates.",
+    "A session for a hotel or inn's front desk on answering guest inquiries and writing policy responses in the property's voice.",
+    "A session for a restaurant's managers on writing schedules, vendor emails, and menu descriptions with the tool they already have.",
+    "A session for a retail store's team on product descriptions, weekly sales summaries, and supplier correspondence.",
+    "A session for town or nonprofit staff on preparing meeting summaries, grant narratives, and public notices from existing documents."
+  ],
+  "faqs": [
+    {
+      "q": "Which AI tool is the workshop taught in?",
+      "a": "The workshop is taught in whichever tool the company already uses, such as Microsoft 365 Copilot, Google Gemini, Claude, or ChatGPT. Participants work in their own accounts on their own computers."
+    },
+    {
+      "q": "What should participants bring?",
+      "a": "Each participant brings their own laptop and the documents they work with most: templates, recent emails, forms, and reports. The session is built around producing real work from those files."
+    },
+    {
+      "q": "What is included in the price?",
+      "a": "$1,000 per person covers the one-day session, a written guide for the team, a 30-day follow-up session, and travel. A program with three monthly follow-up sessions is $1,400 per person. Teams larger than 10 are quoted."
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "kind": "service-segment",
+  "service": "ai-training",
+  "segment": "schools-and-tutoring",
+  "location": null,
+  "title": "Team AI training for schools and tutoring businesses",
+  "meta_description": "A one-day, hands-on AI workshop for teachers, tutors, and office staff, run on the school's own tools and documents. $1,000 per person, 5-person minimum.",
+  "h1": "Team AI training for schools and tutoring businesses",
+  "intro": [
+    "In many cases teachers, tutors, and office staff at a school or tutoring center already have an AI tool available, either Gemini inside Google Workspace or Copilot inside Microsoft 365. Their daily writing is well suited to it: lesson plans, session notes, progress reports, parent emails, program descriptions, and enrollment correspondence. What is usually missing is a working method each person can apply to their own documents, and agreement across the team on what is appropriate to use it for.",
+    "Creosote Labs runs a one-day workshop, on site or remote, in the AI tool the organization already uses. Participants bring their own computers and their own documents and produce real work during the session: a progress report drafted from real session notes, a term newsletter, a reply to a common parent inquiry. Each person documents their own process, the team receives a written guide, and a 30-day follow-up session is included."
+  ],
+  "projects": [
+    "A workshop for a tutoring center's staff on drafting progress reports from session notes in the center's template.",
+    "A session for a school's front office on handling enrollment inquiries and parent correspondence with Gemini or Copilot.",
+    "A teacher-focused day on preparing lesson plans, differentiated practice sets, and rubrics from the school's own curriculum documents.",
+    "A workshop for an administrator and office team on summarizing attendance and billing data for the owner or board.",
+    "A program with three monthly follow-up sessions for a growing tutoring company adding new tutors each term."
+  ],
+  "faqs": [
+    {
+      "q": "How much does team AI training cost?",
+      "a": "$1,000 per person for up to 10 people, with a 5-person minimum. Larger teams are quoted, travel is included, and a program with three monthly follow-up sessions is $1,400 per person."
+    },
+    {
+      "q": "Do teachers and tutors need any AI experience beforehand?",
+      "a": "No. The day starts from the tool the school already has and each participant works on their own computer with their own documents, so prior experience is not required."
+    },
+    {
+      "q": "What should participants bring?",
+      "a": "A laptop with access to the organization's AI tool and a few real documents from their own work, such as a lesson plan, recent session notes, or a parent email they need to write."
+    }
+  ]
+}

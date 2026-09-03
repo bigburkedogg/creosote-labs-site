@@ -1,0 +1,35 @@
+{
+  "kind": "service-segment",
+  "service": "website-development",
+  "segment": "financial-advisors",
+  "location": null,
+  "title": "Website development for financial advisors | Creosote Labs",
+  "meta_description": "Creosote Labs builds websites, prospect intake forms, secure document upload, and client portals for financial advisory practices. Fixed-price quotes.",
+  "h1": "Websites and web applications for financial advisory practices",
+  "intro": [
+    "Financial advisory practices typically have a marketing site that lists the advisors, the services offered, and a contact form, often built on a template from a broker-dealer or a compliance-approved vendor. Prospects arrive from referrals and search, then schedule through Calendly or by phone, and new clients receive onboarding documents by email and DocuSign. Website and web application development applies to the public site, the scheduling and intake steps, and any client-facing tool the practice wants to offer.",
+    "Creosote Labs builds the practice's website with a plain description of who the firm serves, how it is compensated, and how to book an introductory meeting, with required disclosures and Form ADV links placed where the compliance reviewer wants them. Beyond the site, we build prospect intake forms that feed the CRM, a secure document upload for tax returns and statements, and client portals that show meeting history and outstanding requests. Hosting, domain configuration, and handover documentation are included in every project."
+  ],
+  "projects": [
+    "A marketing website for an independent RIA with advisor bios, a services and fees page, disclosures, and a meeting booking link.",
+    "A prospect questionnaire that collects goals, assets, and household details before the first meeting and creates the record in Wealthbox.",
+    "A secure upload page where clients send tax returns and statements ahead of a planning meeting.",
+    "A client portal that lists upcoming reviews, the documents the practice has requested, and what has been received.",
+    "A fee calculator page that shows a prospect the annual cost at a given asset level based on the firm's published schedule.",
+    "A seminar registration page that exports the attendee list to the practice's CRM."
+  ],
+  "faqs": [
+    {
+      "q": "Can the site be reviewed by compliance before it goes live?",
+      "a": "It can. We deliver the site on a staging address so the firm's compliance reviewer or broker-dealer can review it before launch, and the changes they require are made as part of the project."
+    },
+    {
+      "q": "How is a website project priced?",
+      "a": "A website or application project is quoted after a scoping call, and the price is fixed for that scope with no hourly billing. Hosting and domain setup are part of the quote."
+    },
+    {
+      "q": "What does the practice need to provide?",
+      "a": "The practice provides advisor bios and photos, the fee schedule, the disclosures and Form ADV the firm is required to display, and access to the domain registrar. If the project includes a CRM connection, we also need a login to that CRM."
+    }
+  ]
+}

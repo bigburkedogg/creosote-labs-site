@@ -1,0 +1,34 @@
+{
+  "kind": "service-location",
+  "service": "ai-consulting",
+  "segment": null,
+  "location": "camp-verde",
+  "title": "AI consulting in Camp Verde, Arizona | Creosote Labs",
+  "meta_description": "AI consulting for Camp Verde businesses: a one-day operations review, tool setup, automation, and staff training. Reviews are $3,000.",
+  "h1": "AI consulting in Camp Verde",
+  "intro": [
+    "Businesses in Camp Verde include retail shops, restaurants and lodging, construction trades, and farms and vineyards in the Verde Valley. Businesses of this kind usually run on a small set of tools: QuickBooks for invoicing, Microsoft 365 or Google Workspace for email and documents, and a scheduling or point-of-sale system such as Square or Jobber. AI consulting applies wherever staff spend time drafting estimates, answering the same customer emails, or assembling reports by hand from those systems.",
+    "Creosote Labs serves businesses in Camp Verde and the rest of the Verde Valley. An engagement starts with a one-day operations review at $3,000. We document how the business currently runs, identify the tasks where an AI tool would save time, and deliver a written assessment with a quote for each recommendation. From there we set up the tool the company already has access to, such as Microsoft 365 Copilot, Google Gemini, or Claude, with the company's own templates, and train staff on their own work."
+  ],
+  "projects": [
+    "An estimate-drafting setup for a contractor that turns site notes into a written proposal in the company's own format.",
+    "A response assistant for a lodging business that drafts replies to booking inquiries from the property's policies and rates.",
+    "A monthly reporting process for a retail store that pulls sales figures from Square and QuickBooks into a written summary.",
+    "A document-preparation workflow for a farm or vineyard that produces wholesale price sheets and order confirmations from a template.",
+    "A written guide and training session so restaurant staff can use the AI tool they already have for menus, schedules, and vendor emails."
+  ],
+  "faqs": [
+    {
+      "q": "What does the operations review include?",
+      "a": "The review is one day on site with the team. We document current processes and deliver a written assessment with prioritized recommendations and a quote for each within the week. The $3,000 fee is credited toward implementation that begins within 90 days."
+    },
+    {
+      "q": "Do we need to buy new software?",
+      "a": "Usually not. We set up the AI tool the business already has access to, such as Microsoft 365 Copilot, Google Gemini, or Claude, with the company's own documents and templates."
+    },
+    {
+      "q": "Does Creosote Labs travel to Camp Verde?",
+      "a": "Yes. The operations review is done on site, and training can be delivered on site or remote. Travel is included in training pricing."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "kind": "service-segment",
+  "service": "systems-and-automation",
+  "segment": "plumbers",
+  "location": null,
+  "title": "Plumbing company systems and automation | Creosote Labs",
+  "meta_description": "Creosote Labs consolidates a plumbing company's spreadsheets and tools into one system, builds quoting and tracking tools, and automates repeat work.",
+  "h1": "Systems and automation for plumbing companies",
+  "intro": [
+    "Even with a field service platform in place, a plumbing company often keeps parts of the operation elsewhere. Inventory on trucks lives in a Google Sheet, water heater warranty registrations in a binder, service agreement renewals in an Excel file the office manager updates by hand, and permit tracking in email. Each of these takes re-entry when something changes, and none of them talk to ServiceTitan or QuickBooks. Systems and automation work addresses that gap between the platform and everything around it.",
+    "Creosote Labs builds the single system of record those pieces belong in and connects it to the tools already running the business. A typical project replaces 3 or 4 spreadsheets with one internal application for truck stock, service agreements, and permit status, with automated reminders when a renewal or inspection comes due. Every project is scoped and quoted from the operations review, documented in writing, and handed to the office staff who will run it. Pricing is fixed, with no hourly billing."
+  ],
+  "projects": [
+    "A truck inventory tracker that records parts used per job and generates a restock list for the supply house run each morning.",
+    "A service agreement database that flags annual water heater flushes and backflow tests coming due and queues the reminder call.",
+    "An automation that creates the QuickBooks invoice when a job is marked complete in Housecall Pro, with no re-keying by the office.",
+    "A permit and inspection log tied to each job, with a dashboard showing which jobs are waiting on the city.",
+    "A callback tracker that records warranty returns by technician and job type for the owner's monthly review.",
+    "A commercial maintenance schedule for property management accounts, with a report each customer receives after the visit."
+  ],
+  "faqs": [
+    {
+      "q": "Do we have to leave ServiceTitan or Housecall Pro?",
+      "a": "No, the platform stays as the dispatch and invoicing system. We build around it, using its exports and integrations, and consolidate the work that currently lives outside it."
+    },
+    {
+      "q": "How is a project priced?",
+      "a": "The operations review is $3,000 for one day on site and produces a quote for each recommendation. Implementation is priced from that quote as a fixed amount, with no hourly billing. Implementation that starts within 90 days of the review has the $3,000 credited against it."
+    },
+    {
+      "q": "Who maintains the system afterward?",
+      "a": "The office staff maintain it, since every build includes written documentation and a handover so the people using it day to day can run it without Creosote Labs."
+    }
+  ]
+}
