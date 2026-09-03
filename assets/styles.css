@@ -124,6 +124,8 @@ h3, .h3 { font-size: 21px; margin-top: 28px; }
 .small { font-size: 15px; color: var(--fg-muted); }
 .mono { font-family: var(--font-mono); font-variant-numeric: tabular-nums; }
 .prose { max-width: 66ch; }
+.wrap.prose { max-width: 1040px; }
+.wrap.prose > :not(.tiers):not(.hub):not(.shots) { max-width: 66ch; }
 
 /* Placeholders in the draft. Remove the class when the real thing goes in. */
 .tk {
