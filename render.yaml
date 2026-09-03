@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: creosote-labs
+    runtime: static
+    repo: https://github.com/bigburkedogg/creosote-labs-site
+    branch: main
+    staticPublishPath: .
+    pullRequestPreviewsEnabled: false
+    headers:
+      - path: /*
+        name: X-Frame-Options
+        value: SAMEORIGIN
