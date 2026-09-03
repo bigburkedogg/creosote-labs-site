@@ -1,52 +1,52 @@
 # Creosote Labs — website
 
-Static site, five pages, no framework. Creosote design system (forest / cream / tan;
-Fraunces, Inter, JetBrains Mono).
+Live: https://bigburkedogg.github.io/creosote-labs-site/ (GitHub Pages, serving `docs/` from `main`).
+Every push to `main` redeploys in about a minute.
+
+## How it's built
 
 ```
-index.html      Offerings (home) — review, rebuilds, on-site days, training, proof, promises
-training.html   Team training — prices, before the day, agenda, what each person leaves with
-work.html       Client work (Canyon REO) + lab builds
-writing.html    Notes and videos, email signup
-about.html      Brian
-styles.css      all styles; tokens at the top
-site.js         mobile nav + current-page marker
-tools/build_preview.py   assembles dist/preview.html (single file, hash routing) for artifacts/email
-serve.command   double-click to serve locally at http://localhost:8785
+content/site.json            brand, contact, nav, booking link, base path, custom domain
+content/pages/*.json         Home, Training, Work, Writing, About — all copy lives here
+content/landing/             SEO landing pages: services.json, segments.json, locations.json, pages/*.json
+content/media/               uploaded images (photo, screenshots)
+content/notes.md             notes from the admin app for Claude
+assets/                      styles.css, site.js
+build.py                     content + assets -> docs/   (standard library only)
+docs/                        generated output — never edit by hand, it is overwritten
+admin/                       the editing app (server.py + ui.html)
+admin.command                double-click: opens http://localhost:8786
+serve.command                double-click: builds and serves the site at http://localhost:8785
 ```
 
-## Placeholders
+## Editing copy
 
-Anything wrapped in `<span class="tk">…</span>` or a `.tk-box` is a placeholder and renders
-yellow. Remove the class when the real thing goes in. Current list:
+Double-click `admin.command`. Pick a page on the left, edit the fields, **Save** (rebuilds the
+preview; the Preview button opens it), **Publish** (commits and pushes; live in about a minute).
+Yellow fields are placeholders that still need real content; filling them clears the yellow on the site.
 
-- Booking link (every page's "Pick a time" button and the header button, which points at `#book`)
-- Ben Dove's quote and permission to name Canyon REO; link to the live meal planner; two screenshots
-- One-page training PDF
-- Live links for Longtable and Modern Lyceum; Scenario screenshots on demo data; receipt-pipeline start month
-- "Now building" line on Work
-- Three writing entries (draft titles in place), YouTube link, list-tool hookup for the signup form
-- Photo and the one-sentence COO line on About
+Images: upload next to the field (photo, screenshots) and Save.
 
-## Run locally
+Notes for Claude: the box at the bottom left saves to `content/notes.md`; Claude reads it next session.
 
-`./serve.command` or `python3 -m http.server 8785` from this folder.
+## Landing pages
 
-## Preview file
+`content/landing/pages/` holds one JSON per page. URL shapes:
 
-`python3 tools/build_preview.py` writes `dist/preview.html` (ignored by git). Pages are the
-source of truth; never edit the preview directly.
+- `/<service>/<business-type>/`   e.g. `/ai-consulting/dental-practices/`
+- `/<service>/<town>/`            e.g. `/website-development/sedona/`
+- `/flagstaff/<business-type>/`   Flagstaff-only pages
+- hubs: `/industries/`, `/locations/`, `/<service>/`, `/<town>/`
 
-## Deploy
+`build.py` also writes `sitemap.xml` and `robots.txt`.
 
-Live on GitHub Pages from `main`: https://bigburkedogg.github.io/creosote-labs-site/
-Every push to `main` redeploys in about a minute. The repo is public for that reason;
-keep anything private out of it.
+## Custom domain
 
-Custom domain, once bought:
-1. GitHub side: `gh api -X PUT repos/bigburkedogg/creosote-labs-site/pages -f cname=<domain>`
-   then `-f https_enforced=true` once the certificate is issued.
-2. DNS side (at the registrar): apex `A` records to 185.199.108.153, 185.199.109.153,
-   185.199.110.153, 185.199.111.153; `www` `CNAME` to `bigburkedogg.github.io`.
+1. Buy the domain. Put it in `content/site.json` as `custom_domain`, set `base_path` to `""` and
+   `base_url` to `https://<domain>`, then Publish (this writes `docs/CNAME`).
+2. GitHub: `gh api -X PUT repos/bigburkedogg/creosote-labs-site/pages -f cname=<domain>`, then
+   `-f https_enforced=true` once the certificate is issued.
+3. DNS at the registrar: apex `A` records to 185.199.108.153, 185.199.109.153, 185.199.110.153,
+   185.199.111.153; `www` `CNAME` to `bigburkedogg.github.io`.
 
-`render.yaml` is included if the site ever moves to Render (static site, publish path `.`).
+`render.yaml` is included if the site ever moves to Render (publish path `docs`).
