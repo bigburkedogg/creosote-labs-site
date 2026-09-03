@@ -28,8 +28,11 @@ def rewrite(fragment: str) -> str:
     for name, h in HASH.items():
         fragment = fragment.replace(f'href="{name}"', f'href="{h}"')
     # in-page anchors (#pricing, #book) must scroll within the visible page,
-    # not be read as a page name by the hash router
-    return re.sub(r'href="#([A-Za-z][\w-]*)"', r'href="#" data-anchor="\1"', fragment)
+    # not be read as a page name by the hash router; page links stay as hashes
+    slugs = {slug for _, slug in PAGES}
+    def anchor(m):
+        return m.group(0) if m.group(1) in slugs else f'href="#" data-anchor="{m.group(1)}"'
+    return re.sub(r'href="#([A-Za-z][\w-]*)"', anchor, fragment)
 
 header = rewrite(header)
 body = rewrite("\n".join(mains))
@@ -40,8 +43,8 @@ router = """
   var pages=document.querySelectorAll('.page');
   var links=document.querySelectorAll('.nav a[href^="#"]');
   function show(){
-    var slug=(location.hash||'#offerings').slice(1);
-    if(!document.querySelector('.page[data-page="'+slug+'"]')) slug='offerings';
+    var slug=(location.hash||'#services').slice(1);
+    if(!document.querySelector('.page[data-page="'+slug+'"]')) slug='services';
     pages.forEach(function(p){p.hidden=p.dataset.page!==slug;});
     links.forEach(function(a){ if(a.getAttribute('href')==='#'+slug) a.setAttribute('aria-current','page'); else a.removeAttribute('aria-current'); });
     window.scrollTo(0,0);
