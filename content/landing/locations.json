@@ -1,0 +1,16 @@
+[
+  {"slug": "flagstaff", "name": "Flagstaff", "state": "Arizona", "region": "Northern Arizona", "primary": true},
+  {"slug": "sedona", "name": "Sedona", "state": "Arizona", "region": "Northern Arizona"},
+  {"slug": "prescott", "name": "Prescott", "state": "Arizona", "region": "Northern Arizona"},
+  {"slug": "cottonwood", "name": "Cottonwood", "state": "Arizona", "region": "Verde Valley"},
+  {"slug": "camp-verde", "name": "Camp Verde", "state": "Arizona", "region": "Verde Valley"},
+  {"slug": "williams", "name": "Williams", "state": "Arizona", "region": "Northern Arizona"},
+  {"slug": "page", "name": "Page", "state": "Arizona", "region": "Northern Arizona"},
+  {"slug": "winslow", "name": "Winslow", "state": "Arizona", "region": "Northern Arizona"},
+  {"slug": "kingman", "name": "Kingman", "state": "Arizona", "region": "Northwestern Arizona"},
+  {"slug": "payson", "name": "Payson", "state": "Arizona", "region": "Rim Country"},
+  {"slug": "show-low", "name": "Show Low", "state": "Arizona", "region": "White Mountains"},
+  {"slug": "phoenix", "name": "Phoenix", "state": "Arizona", "region": "Phoenix metro"},
+  {"slug": "scottsdale", "name": "Scottsdale", "state": "Arizona", "region": "Phoenix metro"},
+  {"slug": "tucson", "name": "Tucson", "state": "Arizona", "region": "Southern Arizona"}
+]

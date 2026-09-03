@@ -1,0 +1,25 @@
+{
+  "brand": "Creosote Labs",
+  "base_url": "https://bigburkedogg.github.io/creosote-labs-site",
+  "base_path": "/creosote-labs-site",
+  "phone": "415-484-2417",
+  "phone_tel": "+14154842417",
+  "email": "brian@brianburke.net",
+  "booking_url": "",
+  "cta_label": "Schedule a call",
+  "nav": [
+    {"label": "Services", "href": "index.html"},
+    {"label": "Training", "href": "training.html"},
+    {"label": "Work", "href": "work.html"},
+    {"label": "Writing", "href": "writing.html"},
+    {"label": "About", "href": "about.html"}
+  ],
+  "footer_links": [
+    {"label": "Industries", "href": "industries/"},
+    {"label": "Locations", "href": "locations/"}
+  ],
+  "book": {
+    "heading": "Schedule a call",
+    "text": "A 20-minute conversation about your business and what you're looking to fix. No obligation."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "title": "Writing · Creosote Labs",
+  "meta_description": "Articles and videos from Creosote Labs on AI and operations for small businesses.",
+  "eyebrow": "Writing",
+  "h1": "Articles and videos",
+  "sub": "Practical notes on AI and operations for small businesses.",
+  "posts": [
+    {"date": "", "title": "What an operations review covers", "text": "What we look at during a one-day review and what the written assessment includes.", "href": ""},
+    {"date": "", "title": "Generating invoices from your existing templates with Claude", "text": "A step-by-step account of a three-hour setup at a small business.", "href": ""},
+    {"date": "", "title": "Consolidating spreadsheets into a single system", "text": "How a business with trip data in five places moved to one.", "href": ""}
+  ],
+  "video_label": "Videos",
+  "video_url": "",
+  "newsletter_heading": "Newsletter",
+  "newsletter_text": "Occasional updates on new articles and tools. Unsubscribe at any time.",
+  "newsletter_action": ""
+}

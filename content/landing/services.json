@@ -1,0 +1,58 @@
+[
+  {
+    "slug": "ai-consulting",
+    "name": "AI consulting",
+    "name_in_sentence": "AI consulting",
+    "summary": "We assess where AI tools fit in a business, implement them, and train staff to use them in their day-to-day work.",
+    "what_we_do": [
+      "Assess current processes and identify where AI tools save time.",
+      "Set up the tools the business already has access to, such as Microsoft 365 Copilot, Google Gemini, or Claude, with the company's own documents and templates.",
+      "Automate document preparation, customer communication, and reporting.",
+      "Train staff on the company's own work, with a written guide for the team."
+    ],
+    "pricing_summary": "Engagements begin with a one-day operations review at $3,000, which produces a written assessment and a quote for each recommendation. Implementation is quoted from the review. Team training is $1,000 per person.",
+    "main_page_anchor": "index.html#services"
+  },
+  {
+    "slug": "systems-and-automation",
+    "name": "Systems and automation",
+    "name_in_sentence": "systems and automation",
+    "summary": "We consolidate spreadsheets and disconnected tools into a single system, build the internal tools a business needs, and automate repetitive work.",
+    "what_we_do": [
+      "Consolidate spreadsheets and disconnected tools into one system of record.",
+      "Build internal tools for scheduling, quoting, tracking, and reporting.",
+      "Automate repetitive work such as data entry, follow-up, and document generation.",
+      "Document the system and hand it over to staff."
+    ],
+    "pricing_summary": "Engagements begin with a one-day operations review at $3,000, which produces a written assessment and a quote for each recommendation. Implementation is quoted from the review.",
+    "main_page_anchor": "index.html#services"
+  },
+  {
+    "slug": "website-development",
+    "name": "Website and web application development",
+    "name_in_sentence": "website and web application development",
+    "summary": "We build websites, customer portals, and web applications for businesses, from a marketing site to a booking or quoting tool customers use directly.",
+    "what_we_do": [
+      "Marketing websites with clear services, pricing, and a way to book or contact the business.",
+      "Customer-facing tools such as quote requests, bookings, intake forms, and portals.",
+      "Web applications that replace manual processes for staff and customers.",
+      "Hosting setup, domain configuration, and handover with documentation."
+    ],
+    "pricing_summary": "Website and application projects are quoted after a scoping call. Fixed price, no hourly billing.",
+    "main_page_anchor": "index.html#services"
+  },
+  {
+    "slug": "ai-training",
+    "name": "Team AI training",
+    "name_in_sentence": "team AI training",
+    "summary": "A one-day, hands-on workshop delivered on a team's own tools, documents, and templates. Every participant leaves with a working setup and a written guide.",
+    "what_we_do": [
+      "One day, on site or remote, in the AI tool the company already uses.",
+      "Participants work on their own computers with their own documents.",
+      "Each participant produces real work during the session and documents their own process.",
+      "A written guide for the team and a 30-day follow-up session are included."
+    ],
+    "pricing_summary": "$1,000 per person for up to 10 people, with a 5-person minimum. Larger teams are quoted. Travel is included. A program with three monthly follow-up sessions is $1,400 per person.",
+    "main_page_anchor": "training.html"
+  }
+]

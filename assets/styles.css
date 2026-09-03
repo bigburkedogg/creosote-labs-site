@@ -264,6 +264,18 @@ section.block > .wrap > h2:first-child { margin-top: 0; }
 @media (max-width: 720px) { .about-grid { grid-template-columns: minmax(0, 1fr); } }
 .photo { aspect-ratio: 4 / 5; }
 
+/* ---- landing pages & hubs ---- */
+.crumbs { font-size: 14px; color: var(--fg-muted); margin: 0 0 12px; }
+.crumbs a { color: var(--fg-muted); }
+.hub { list-style: none; padding: 0; margin: 8px 0 24px; }
+.hub li { padding: 10px 0; border-top: 1px solid var(--rule); margin: 0; }
+.hub.cols { columns: 2; column-gap: 40px; }
+.hub.cols li { break-inside: avoid; border-top: 0; padding: 4px 0; }
+@media (max-width: 720px) { .hub.cols { columns: 1; } }
+.related ul { columns: 1; }
+img.photo { width: 100%; height: auto; border-radius: 4px; object-fit: cover; }
+.shots img { width: 100%; height: auto; border: 1px solid var(--border); border-radius: 4px; }
+
 /* ---- book & footer ---- */
 .book { padding: 56px 0; border-top: 1px solid var(--tan); background: var(--bg-sunken); scroll-margin-top: 72px; }
 .book h2 { margin-bottom: 8px; }

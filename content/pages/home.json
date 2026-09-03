@@ -1,0 +1,80 @@
+{
+  "title": "Creosote Labs",
+  "meta_description": "AI and operations consulting for small businesses. Creosote Labs helps owner-run businesses replace spreadsheets and manual processes with systems that fit how they operate, builds their websites and applications, and trains teams to use AI tools in their day-to-day work.",
+  "hero": {
+    "h1": "AI and operations consulting for small businesses.",
+    "sub": "Creosote Labs helps owner-run businesses replace spreadsheets and manual processes with systems that fit how they operate, builds the websites and applications they need, and trains teams to use AI tools in their day-to-day work.",
+    "primary_label": "Schedule a call",
+    "secondary_label": "See pricing"
+  },
+  "services_heading": "Services",
+  "services": [
+    {
+      "name": "Operations review",
+      "text": "We spend a day on site with your team, document how your business currently runs, and deliver a written assessment with prioritized recommendations and a quote for each.",
+      "link_label": "",
+      "link_href": ""
+    },
+    {
+      "name": "Systems and automation",
+      "text": "We consolidate spreadsheets and disconnected tools into a single system, build the internal tools your business needs, and automate repetitive work.",
+      "link_label": "",
+      "link_href": ""
+    },
+    {
+      "name": "Websites and web applications",
+      "text": "We build marketing websites, customer portals, and web applications, from a site with clear services and pricing to a booking or quoting tool your customers use directly.",
+      "link_label": "",
+      "link_href": ""
+    },
+    {
+      "name": "Team AI training",
+      "text": "A one-day, hands-on workshop delivered on your team's own tools, documents, and templates. Every participant leaves with a working setup and a written guide.",
+      "link_label": "Details",
+      "link_href": "training.html"
+    }
+  ],
+  "pricing_heading": "Pricing",
+  "pricing_intro": "Fixed scope, no hourly billing.",
+  "pricing": [
+    {
+      "name": "Operations review",
+      "amount": "$3,000",
+      "unit": "",
+      "text": "One day on site. A written assessment, prioritized recommendations, and a quote for each item, delivered within the week.",
+      "note": "Credited toward implementation that begins within 90 days."
+    },
+    {
+      "name": "Systems and automation",
+      "amount": "Custom pricing",
+      "unit": "",
+      "text": "Scoped and quoted from the operations review. Systems consolidation, custom applications, automation, staff documentation, and handover.",
+      "note": ""
+    },
+    {
+      "name": "Websites and web applications",
+      "amount": "Custom pricing",
+      "unit": "",
+      "text": "Quoted after a scoping call. Marketing sites, customer-facing tools, and web applications, with hosting and domain setup included.",
+      "note": ""
+    },
+    {
+      "name": "Team AI training",
+      "amount": "$1,000",
+      "unit": "per person",
+      "text": "One day, up to 10 people, 5-person minimum. Larger teams quoted. Travel included.",
+      "note": "Training program with three monthly follow-up sessions: $1,400 per person."
+    }
+  ],
+  "process_heading": "How it works",
+  "process": [
+    {"name": "Schedule a call.", "text": "A 20-minute conversation about your business and what you're looking to fix."},
+    {"name": "Operations review.", "text": "One day on site. You receive a written assessment and quoted recommendations within the week."},
+    {"name": "Implementation.", "text": "We build, test, and deploy the systems you choose, document them, and hand them over to your staff."}
+  ],
+  "clients_heading": "Who we work with",
+  "clients_text": "Creosote Labs works with owner-operated businesses of roughly 5 to 50 employees across a range of industries, including outfitters and tour operators, trades and contractors, professional practices, and property management.",
+  "clients_link_label": "See recent work",
+  "testimonial_quote": "",
+  "testimonial_cite": ""
+}

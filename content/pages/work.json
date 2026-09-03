@@ -1,0 +1,36 @@
+{
+  "title": "Work · Creosote Labs",
+  "meta_description": "Recent client work and projects from Creosote Labs, including an operations and systems engagement for a river outfitter.",
+  "eyebrow": "Work",
+  "h1": "Client work and projects",
+  "client_heading": "Client work",
+  "case": {
+    "client_name": "",
+    "client_text": "A river outfitter running approximately 60 trips per year. The office ran on Excel, OneDrive, HubSpot, QuickBooks Desktop, and paper.",
+    "situation_heading": "Situation",
+    "situation": "Trip information was maintained in five separate places. Menu planning went out to customers as four attachments with each confirmation. Operating procedures were not documented.",
+    "work_heading": "What we did",
+    "work": [
+      "Built a customer-facing meal-planning application that trip clients use to plan and submit their menus, replacing the attachments.",
+      "Rebuilt the trip tracker with a due date and completion date for every milestone of every trip.",
+      "Wrote the staff reference guide and new-hire training guide.",
+      "Set up Claude on the office computer with a reference folder built from the company's own documents, including invoice generation from the company's existing templates."
+    ],
+    "app_url": "",
+    "results_heading": "Results",
+    "results": "",
+    "ongoing": "Creosote Labs continues to support the client's operations on an ongoing basis.",
+    "screenshots": []
+  },
+  "projects_heading": "Projects",
+  "projects_intro": "Software built by Creosote Labs outside of client engagements.",
+  "projects": [
+    {"name": "Longtable", "status": "2026", "text": "Meal planning for group trips and events. Generates menus, shopping lists, and daily packing lists from a single plan.", "href": ""},
+    {"name": "Modern Lyceum", "status": "2026", "text": "A study application for adults that schedules review sessions based on what the user has missed.", "href": ""},
+    {"name": "Scenario", "status": "2026 · internal", "text": "Personal financial planning. Compares the effect of a decision on cash, debt, and net worth over several years.", "href": ""},
+    {"name": "sigmap", "status": "2026 · internal", "text": "Identifies every signature and initial field in a real-estate contract package automatically.", "href": ""},
+    {"name": "Receipt pipeline", "status": "2026 · internal", "text": "Converts a photo of a receipt into a categorized accounting entry with no manual data entry.", "href": ""},
+    {"name": "Daily brief", "status": "2026 · internal", "text": "An automated morning report combining calendar, email, weather, finances, and task list.", "href": ""},
+    {"name": "Educational apps", "status": "2026 · personal", "text": "Two game-based applications for teaching reading and arithmetic to a middle-school student.", "href": ""}
+  ]
+}
