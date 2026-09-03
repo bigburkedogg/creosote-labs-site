@@ -39,5 +39,14 @@ source of truth; never edit the preview directly.
 
 ## Deploy
 
-Any static host works (Cloudflare Pages, Netlify, Vercel, GitHub Pages). Brian picks.
-Point the domain at the host; no build step required.
+Live on GitHub Pages from `main`: https://bigburkedogg.github.io/creosote-labs-site/
+Every push to `main` redeploys in about a minute. The repo is public for that reason;
+keep anything private out of it.
+
+Custom domain, once bought:
+1. GitHub side: `gh api -X PUT repos/bigburkedogg/creosote-labs-site/pages -f cname=<domain>`
+   then `-f https_enforced=true` once the certificate is issued.
+2. DNS side (at the registrar): apex `A` records to 185.199.108.153, 185.199.109.153,
+   185.199.110.153, 185.199.111.153; `www` `CNAME` to `bigburkedogg.github.io`.
+
+`render.yaml` is included if the site ever moves to Render (static site, publish path `.`).
