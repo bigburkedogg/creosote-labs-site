@@ -1,25 +1,34 @@
 {
   "brand": "Creosote Labs",
-  "base_url": "https://bigburkedogg.github.io/creosote-labs-site",
-  "base_path": "/creosote-labs-site",
-  "phone": "415-484-2417",
-  "phone_tel": "+14154842417",
+  "title": "Creosote Labs",
+  "meta_description": "Creosote Labs works on applied AI — what these systems do once they are deployed into a working business. We build tools, run them in production, and publish what we find.",
+  "base_url": "",
+  "base_path": "",
+  "custom_domain": "",
   "email": "brian@brianburke.net",
-  "booking_url": "",
-  "cta_label": "Schedule a call",
   "nav": [
-    {"label": "Services", "href": "index.html"},
-    {"label": "Training", "href": "training.html"},
-    {"label": "Work", "href": "work.html"},
-    {"label": "Writing", "href": "writing.html"},
-    {"label": "About", "href": "about.html"}
+    {
+      "label": "Writing",
+      "href": "writing.html"
+    },
+    {
+      "label": "Projects",
+      "href": "projects.html"
+    },
+    {
+      "label": "About",
+      "href": "about.html"
+    },
+    {
+      "label": "Work with us",
+      "href": "work-with-us.html"
+    }
   ],
-  "footer_links": [
-    {"label": "Industries", "href": "industries/"},
-    {"label": "Locations", "href": "locations/"}
-  ],
-  "book": {
-    "heading": "Schedule a call",
-    "text": "A 20-minute conversation about your business and what you're looking to fix. No obligation."
+  "footer_links": [],
+  "contact": {
+    "heading": "Work with us",
+    "text": "We are open to collaborations, and we take on a small number of outside engagements each year.",
+    "link_label": "Get in touch",
+    "link_href": "work-with-us.html"
   }
 }

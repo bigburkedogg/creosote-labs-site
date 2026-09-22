@@ -1,12 +1,31 @@
+# Render Blueprint for the Creosote Labs site.
+# https://render.com/docs/blueprint-spec
+#
+# The site is pre-built: build.py writes docs/, docs/ is committed, and Render
+# serves those files as-is. There is deliberately no build command — Render's
+# build image does not guarantee the Python 3.12+ that build.py requires, and a
+# deploy should never be the first place a build failure shows up.
+#
+# Using this file is optional. README.md has the click-by-click version for
+# creating the same service by hand in the dashboard.
+
 services:
   - type: web
     name: creosote-labs
     runtime: static
     repo: https://github.com/bigburkedogg/creosote-labs-site
     branch: main
-    staticPublishPath: .
+    # Build Command: leave empty. staticPublishPath is the generator's output.
+    staticPublishPath: ./docs
+    autoDeploy: true
     pullRequestPreviewsEnabled: false
     headers:
       - path: /*
         name: X-Frame-Options
         value: SAMEORIGIN
+      - path: /*
+        name: X-Content-Type-Options
+        value: nosniff
+      - path: /*
+        name: Referrer-Policy
+        value: strict-origin-when-cross-origin

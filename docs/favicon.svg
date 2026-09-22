@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="Creosote Labs">
+  <style>
+    :root { --m: #56663f; }
+    @media (prefers-color-scheme: dark) { :root { --m: #a9b58d; } }
+    .s { stroke: var(--m); stroke-width: 2.4; stroke-linecap: round; fill: none; }
+  </style>
+  <g class="s">
+    <path d="M16 28V5"/>
+    <path d="M16 11 8.5 7"/><path d="M16 11 23.5 7"/>
+    <path d="M16 19 9 15.5"/><path d="M16 19 23 15.5"/>
+  </g>
+</svg>

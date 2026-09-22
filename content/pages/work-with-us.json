@@ -1,0 +1,34 @@
+{
+  "title": "Work with us · Creosote Labs",
+  "meta_description": "Creosote Labs is open to collaborations and takes on a small number of outside engagements each year.",
+  "eyebrow": "Work with us",
+  "h1": "Work with us",
+  "intro": "We are open to collaborations, and we take on a small number of outside engagements each year. The ones that work best tend to overlap with something we are already working on.\n\nIf you think you have one of those, tell us about it.",
+  "form": {
+    "action": "",
+    "method": "post",
+    "submit_label": "Send",
+    "fields": [
+      {
+        "name": "name",
+        "label": "Name",
+        "type": "text",
+        "required": true
+      },
+      {
+        "name": "email",
+        "label": "Email",
+        "type": "email",
+        "required": true
+      },
+      {
+        "name": "project",
+        "label": "What are you working on?",
+        "type": "textarea",
+        "required": true
+      }
+    ],
+    "success_text": "Thanks. We read everything that comes through here.",
+    "error_text": "That did not send. You can reach us by email instead."
+  }
+}

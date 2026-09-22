@@ -1,3 +1,2 @@
 User-agent: *
 Allow: /
-Sitemap: https://bigburkedogg.github.io/creosote-labs-site/creosote-labs-site/sitemap.xml
