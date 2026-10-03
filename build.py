@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """Build the Creosote Labs site.
 
-content/  (JSON pages, Markdown posts)  +  assets/  ->  docs/  (published by Render)
+content/  (JSON pages, Markdown posts)  +  assets/  ->  docs/  (the published folder)
 
-Standard library only. Run: python3 build.py
+Standard library only. Run: /opt/homebrew/bin/python3 build.py
 """
 import datetime
 import html
@@ -24,7 +24,11 @@ DOCS = ROOT / "docs"
 PAGES = CONTENT / "pages"
 WRITING = CONTENT / "writing"
 
-MARK = ('<svg viewBox="-120 -120 240 240" aria-hidden="true"><g stroke="currentColor" stroke-width="9" '
+# The Creosote Labs mark, copied from the proposals design system
+# (assets/marks/creosote_labs_mark_*.svg). Strokes and dots are heavier than in the
+# original so it stays legible at header size, and it takes the text colour of its
+# container instead of a fixed fill.
+MARK = ('<svg viewBox="-120 -120 240 240" aria-hidden="true" focusable="false"><g stroke="currentColor" stroke-width="9" '
         'stroke-linecap="round" fill="none"><path d="M0 85.5V-95"/><path d="M0-55-55-90"/><path d="M0-55 55-90"/>'
         '<path d="M0-10-65-33"/><path d="M0-10 65-33"/><path d="M0 33-57 15"/><path d="M0 33 57 15"/>'
         '<path d="M0 70-38 60"/><path d="M0 70 38 60"/></g><g fill="currentColor"><circle cx="0" cy="-95" r="10"/>'
@@ -35,17 +39,17 @@ MARK = ('<svg viewBox="-120 -120 240 240" aria-hidden="true"><g stroke="currentC
 
 FONTS = ('<link rel="preconnect" href="https://fonts.googleapis.com">\n'
          '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>\n'
-         '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500'
+         '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300..600'
          '&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">')
 
 MONTHS = ("January", "February", "March", "April", "May", "June",
           "July", "August", "September", "October", "November", "December")
 
-# Field styling for the contact form. Inline because assets/styles.css has no
-# stacked-form rules; move these into the stylesheet when it is next touched.
-FIELD = ("font:inherit;font-size:15px;padding:10px 12px;border:1px solid var(--border-strong);"
-         "border-radius:4px;background:var(--bg-elev);color:var(--fg);width:100%;box-sizing:border-box")
-LABEL = "display:block;font-size:15px;font-weight:500;margin:0 0 6px"
+OFFSITE = ("http://", "https://", "mailto:", "tel:", "data:", "//")
+
+# Old paths that now live elsewhere: each is written as a small noindex page that
+# forwards to the new one, keeping any #fragment, so existing links keep working.
+ALIASES = {"projects.html": "systems.html"}
 
 
 def jload(path):
@@ -60,19 +64,20 @@ def filled(s):
     return bool((s or "").strip()) if isinstance(s, str) else bool(s)
 
 
-def tk(label):
-    return f'<span class="tk">{esc(label)}</span>'
+def placeholder(label):
+    """The yellow marker for copy that is still to be written. Loud on purpose."""
+    return f'<span class="placeholder">Placeholder — {esc(label)}</span>'
 
 
-def paras(text, cls=""):
-    c = f' class="{cls}"' if cls else ""
-    return "".join(f"<p{c}>{esc(p.strip())}</p>" for p in re.split(r"\n\s*\n", text or "") if p.strip())
+def num(n):
+    return f"{n:02d}"
 
 
-# ---------------------------------------------------------------- markdown (posts)
+# ---------------------------------------------------------------- markdown
 # A deliberately small subset: ## / ### headings, paragraphs, - and 1. lists,
 # > blockquotes, ``` fences, --- rules, **bold**, *italic*, `code`,
 # [label](url), and [[placeholder]], which renders as a yellow placeholder chip.
+# Posts use all of it; JSON copy uses the inline part (see Site.inline).
 def _emph(s):
     s = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", s)
     s = re.sub(r"(?<!\w)\*([^*\n]+)\*(?!\w)", r"<em>\1</em>", s)
@@ -91,7 +96,8 @@ def md_inline(text):
     text = re.sub(r"`([^`\n]+)`",
                   lambda m: put(f'<code class="mono">{html.escape(m.group(1), quote=True)}</code>'), text)
     out = html.escape(text, quote=True)
-    out = re.sub(r"\[\[(.+?)\]\]", lambda m: put(f'<span class="tk">{_emph(m.group(1))}</span>'), out)
+    out = re.sub(r"\[\[(.+?)\]\]",
+                 lambda m: put(f'<span class="placeholder">Placeholder — {_emph(m.group(1))}</span>'), out)
     out = re.sub(r"\[([^\]\n]+)\]\(([^)\s]+)\)",
                  lambda m: put(f'<a href="{m.group(2)}">{_emph(m.group(1))}</a>'), out)
     out = _emph(out)
@@ -119,8 +125,7 @@ def md(text):
                 buf.append(lines[i])
                 i += 1
             i += 1
-            out.append('<pre class="mono" style="overflow-x:auto"><code>'
-                       + html.escape("\n".join(buf), quote=True) + "</code></pre>")
+            out.append('<pre class="mono"><code>' + html.escape("\n".join(buf), quote=True) + "</code></pre>")
             continue
         if not s:
             flush()
@@ -234,6 +239,7 @@ def load_posts():
     return posts
 
 
+# ---------------------------------------------------------------- site
 class Site:
     def __init__(self):
         self.cfg = jload(CONTENT / "site.json")
@@ -246,7 +252,7 @@ class Site:
     def url(self, path):
         if not path:
             return ""
-        if path.startswith(("http://", "https://", "mailto:", "tel:", "#")):
+        if path.startswith(OFFSITE + ("#",)):
             return path
         return f"{self.bp}/{path.lstrip('/')}"
 
@@ -257,12 +263,16 @@ class Site:
         """Link form of a path: a directory index links to the directory."""
         return self.url(path).removesuffix("index.html")
 
+    def label_for(self, path, default):
+        """The nav label of a page, so links elsewhere call it by the same name."""
+        return next((n.get("label") for n in self.cfg.get("nav", []) if n.get("href") == path), default)
+
     # ---- links ----
     def link_ok(self, href):
         """True for external and anchor links, and for internal links this build writes."""
         if not filled(href):
             return False
-        if href.startswith(("http://", "https://", "mailto:", "tel:", "#")):
+        if href.startswith(OFFSITE + ("#",)):
             return True
         target = href.split("#")[0].split("?")[0].lstrip("/")
         if target == "" or target.endswith("/"):
@@ -280,18 +290,31 @@ class Site:
             out.append(f'site.json contact: "{c.get("link_label")}" -> {c.get("link_href")}')
         return out
 
+    # ---- copy ----
+    def inline(self, text):
+        """One line of JSON copy: inline Markdown, with internal links given the base path."""
+        def fix(m):
+            ref = html.unescape(m.group(1))
+            return m.group(0) if ref.startswith(OFFSITE + ("#",)) else f'href="{esc(self.url(ref))}"'
+        return re.sub(r'href="([^"]*)"', fix, md_inline((text or "").strip()))
+
+    def rich(self, text, cls=""):
+        """A block of JSON copy: a blank line starts a new paragraph."""
+        c = f' class="{cls}"' if cls else ""
+        return "".join(f"<p{c}>{self.inline(p)}</p>" for p in re.split(r"\n\s*\n", text or "") if p.strip())
+
     # ---- shared chrome ----
     def header(self, current):
         links = "".join(
             f'<a href="{self.url(n["href"])}"{" aria-current=\"page\"" if n["href"] == current else ""}>{esc(n["label"])}</a>'
             for n in self.cfg.get("nav", []) if self.link_ok(n.get("href")))
-        cta = (f'<a class="btn" href="{self.url(self.cfg["cta_href"])}">{esc(self.cfg["cta_label"])}</a>'
+        cta = (f'<a class="btn btn-small" href="{self.url(self.cfg["cta_href"])}">{esc(self.cfg["cta_label"])}</a>'
                if filled(self.cfg.get("cta_label")) and self.link_ok(self.cfg.get("cta_href")) else "")
+        brand = esc(self.cfg["brand"])
         return (f'<header class="site-header"><div class="wrap bar">'
-                f'<a class="wordmark" href="{self.url("index.html")}" aria-label="{esc(self.cfg["brand"])} home">{MARK}'
-                f'<span>{esc(self.cfg["brand"])}</span></a>'
-                f'<button class="nav-toggle" aria-expanded="false" aria-controls="nav">Menu</button>'
-                f'<nav id="nav" class="nav">{links}{cta}</nav>'
+                f'<a class="wordmark" href="{self.href("index.html")}" aria-label="{brand} home">{MARK}'
+                f'<span>{brand}</span></a>'
+                f'<nav class="nav" aria-label="Main">{links}{cta}</nav>'
                 f'</div></header>')
 
     def contact_line(self):
@@ -303,15 +326,22 @@ class Site:
         return " · ".join(bits)
 
     def footer(self):
-        links = [l for l in self.cfg.get("footer_links", []) if self.link_ok(l.get("href"))]
-        extra = " · ".join(f'<a href="{self.url(l["href"])}">{esc(l["label"])}</a>' for l in links)
+        items = self.cfg.get("footer_links") or self.cfg.get("nav", [])
+        links = "".join(f'<a href="{self.url(n["href"])}">{esc(n["label"])}</a>'
+                        for n in items if self.link_ok(n.get("href")))
         if self.has_feed:
-            extra = (extra + " · " if extra else "") + f'<a href="{self.url("feed.xml")}">RSS</a>'
-        return (f'<footer class="site-footer"><div class="wrap"><p><strong>{esc(self.cfg["brand"])}</strong></p>'
-                f'<p>{self.contact_line()}</p>' + (f'<p>{extra}</p>' if extra else "") + '</div></footer>')
+            links += f'<a href="{self.url("feed.xml")}">RSS</a>'
+        brand = esc(self.cfg["brand"])
+        year = datetime.date.today().year
+        contact = self.contact_line()
+        return (f'<footer class="site-footer"><div class="wrap foot">'
+                f'<p class="foot-brand">{MARK}<span>{brand}</span></p>'
+                f'<nav class="foot-nav" aria-label="Footer">{links}</nav>'
+                f'<p class="foot-meta">{contact + "<br>" if contact else ""}© {year} {brand}</p>'
+                f'</div></footer>')
 
-    def contact_block(self):
-        """The closing panel. Vague by design: no pricing, no scheduler, no urgency."""
+    def band(self, number=""):
+        """The closing invitation. Plain by design: no pricing, no scheduler, no urgency."""
         c = self.cfg.get("contact") or {}
         if not filled(c.get("heading")) and not filled(c.get("text")):
             return ""
@@ -319,9 +349,10 @@ class Site:
         if filled(c.get("link_label")) and self.link_ok(c.get("link_href")):
             link = (f'<p class="actions"><a class="btn" href="{self.url(c["link_href"])}">'
                     f'{esc(c["link_label"])}</a></p>')
-        return (f'<section class="book" id="contact"><div class="wrap"><h2>{esc(c.get("heading", ""))}</h2>'
-                f'<p>{esc(c.get("text", ""))}</p>{link}'
-                f'<p class="contact">{self.contact_line()}</p></div></section>')
+        line = self.contact_line()
+        contact = f'<p class="band-contact">{line}</p>' if line else ""
+        return section(number, c.get("heading", ""), self.rich(c.get("text", "")) + link + contact,
+                       sid="contact", cls="band")
 
     def page(self, *, path, title, meta, body, current=None, head="", canonical=None, index=True):
         href = canonical if filled(canonical) else (self.base_url + self.href(path))
@@ -331,105 +362,192 @@ class Site:
         doc = (f'<!doctype html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n'
                f'<meta name="viewport" content="width=device-width, initial-scale=1">\n'
                f'<title>{esc(title)}</title>\n<meta name="description" content="{esc(meta)}">\n'
-               f'{robots}<link rel="canonical" href="{esc(href)}">\n{feed}{FONTS}\n'
-               f'<link rel="stylesheet" href="{self.url("styles.css")}">\n{head}</head>\n<body>\n'
-               f'{self.header(current)}\n<main>\n{body}\n</main>\n{self.footer()}\n'
+               f'{robots}<link rel="canonical" href="{esc(href)}">\n{feed}'
+               f'<link rel="icon" href="{self.url("favicon.svg")}" type="image/svg+xml">\n'
+               f'<meta name="theme-color" content="#faf6ee" media="(prefers-color-scheme: light)">\n'
+               f'<meta name="theme-color" content="#0f1a11" media="(prefers-color-scheme: dark)">\n'
+               f'{FONTS}\n<link rel="stylesheet" href="{self.url("styles.css")}">\n{head}</head>\n<body>\n'
+               f'{self.header(current)}\n<main id="main">\n{body}\n</main>\n{self.footer()}\n'
                f'<script src="{self.url("site.js")}"></script>\n</body>\n</html>\n')
         out = DOCS / path
         out.parent.mkdir(parents=True, exist_ok=True)
         out.write_text(doc)
         self.pages_out.append((path, index))
 
+    def redirect(self, path, target):
+        """A moved page: a noindex stub that forwards to `target`, keeping any #fragment."""
+        to = self.url(target)
+        name = self.label_for(target, target)
+        doc = (f'<!doctype html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n'
+               f'<meta name="viewport" content="width=device-width, initial-scale=1">\n'
+               f'<title>{esc(name)} · {esc(self.cfg["brand"])}</title>\n'
+               f'<meta name="robots" content="noindex">\n'
+               f'<link rel="canonical" href="{esc(self.base_url + self.href(target))}">\n'
+               f'<meta http-equiv="refresh" content="0; url={esc(to)}">\n'
+               f'<script>location.replace({json.dumps(to)} + location.hash);</script>\n'
+               f'<style>body{{margin:0;padding:24px 16px;font:16px/1.6 system-ui,sans-serif;'
+               f'background:#faf6ee;color:#0f1a11}}a{{color:#1f3324}}</style>\n</head>\n<body>\n'
+               f'<p>This page has moved to <a href="{esc(to)}">{esc(name)}</a>.</p>\n</body>\n</html>\n')
+        (DOCS / path).write_text(doc)
+
 
 # ---------------------------------------------------------------- shared blocks
-def post_list(site, posts, heading="h2"):
+def section(number, title, inner, *, sid="", cls=""):
+    """A numbered section. On wide screens the number sits in the left rail."""
+    rail = f'<p class="sec-num">{esc(number)}</p>' if filled(number) else ""
+    head = f'<h2 class="sec-title">{esc(title)}</h2>' if filled(title) else ""
+    ident = f' id="{esc(sid)}"' if filled(sid) else ""
+    return (f'<section class="{esc(("sec " + cls).strip())}"{ident}><div class="wrap grid">'
+            f'<div class="rail">{rail}</div><div class="main">{head}{inner}</div></div></section>')
+
+
+def page_title(h1, lead="", eyebrow=""):
+    """The top of every page but the home page. An eyebrow that only repeats the h1 is dropped."""
+    eb = ""
+    if filled(eyebrow) and eyebrow.strip().lower() != (h1 or "").strip().lower():
+        eb = f'<p class="eyebrow">{esc(eyebrow)}</p>'
+    ld = f'<p class="lead">{esc(lead)}</p>' if filled(lead) else ""
+    return (f'<div class="page-title"><div class="wrap grid"><div class="rail"></div>'
+            f'<div class="main">{eb}<h1>{esc(h1)}</h1>{ld}</div></div></div>')
+
+
+def system_card(site, s, *, full):
+    """A system as a card: status line, name, then either the full write-up or a summary."""
+    status = f'<p class="status">{esc(s["status"])}</p>' if filled(s.get("status")) else ""
+    name = esc(s.get("name", ""))
+    if full:
+        ident = f' id="{esc(s["id"])}"' if filled(s.get("id")) else ""
+        detail = f'<p class="detail">{site.inline(s["detail"])}</p>' if filled(s.get("detail")) else ""
+        visit = (f'<p class="visit"><a href="{esc(s["href"])}">Visit {name}</a></p>'
+                 if filled(s.get("href")) else "")
+        return (f'<li class="card"{ident}>{status}<h3>{name}</h3>'
+                f'<div class="card-text">{site.rich(s.get("text", ""))}</div>{detail}{visit}</li>')
+    target = site.url("systems.html") + (f'#{s["id"]}' if filled(s.get("id")) else "")
+    summary = s.get("summary") if filled(s.get("summary")) else s.get("text", "")
+    return (f'<li class="card card-link">{status}<h3><a href="{esc(target)}">{name}</a></h3>'
+            f'<p>{site.inline(summary)}</p><p class="more" aria-hidden="true">Read more</p></li>')
+
+
+def system_groups(d):
+    """systems.json holds groups of systems; a flat `systems` list also works."""
+    if d.get("groups"):
+        return d["groups"]
+    return [{"heading": "", "systems": d.get("systems") or []}]
+
+
+def all_systems(d):
+    return [s for g in system_groups(d) for s in g.get("systems") or []]
+
+
+def post_list(site, posts, heading="h3"):
+    """The notes index: date in mono on the left, title and standfirst on the right."""
     rows = ""
     for p in posts:
-        date = (f'<time datetime="{esc(p["date"])}">{esc(p["shown"])}</time>'
-                if filled(p["shown"]) else tk("date"))
+        date = (f'<time datetime="{esc(p["date"])}">{esc(p["date"])}</time>'
+                if filled(p["shown"]) else placeholder("date"))
         if p["draft"]:
-            date += " · <strong>Draft</strong>"
-        stand = f'<p class="small">{esc(p["standfirst"])}</p>' if filled(p["standfirst"]) else ""
-        rows += (f'<li class="post"><p class="date">{date}</p>'
-                 f'<{heading}><a href="{site.href(post_path(p))}">{esc(p["title"])}</a></{heading}>'
-                 f'{stand}</li>')
-    return f'<ul class="posts">{rows}</ul>'
-
-
-def project_list(site, projects, anchors=False):
-    rows = ""
-    for p in projects:
-        status = esc(p.get("status", ""))
-        if filled(p.get("href")):
-            status += f' · <a href="{esc(p["href"])}">Visit</a>'
-        pid = f' id="{esc(p["id"])}"' if anchors and filled(p.get("id")) else ""
-        rows += (f'<li class="entry"{pid}><div><h3>{esc(p.get("name", ""))}</h3>'
-                 f'<p class="status">{status}</p></div>'
-                 f'<div><p>{esc(p.get("text", ""))}</p></div></li>')
-    return f'<ul class="entries">{rows}</ul>'
+            date += ' <span class="tag">Draft</span>'
+        stand = f'<p class="stand">{esc(p["standfirst"])}</p>' if filled(p["standfirst"]) else ""
+        rows += (f'<li class="note"><p class="date">{date}</p><div class="note-main">'
+                 f'<{heading} class="note-title"><a href="{site.href(post_path(p))}">{esc(p["title"])}</a></{heading}>'
+                 f'{stand}</div></li>')
+    return f'<ul class="notes">{rows}</ul>'
 
 
 def more_link(site, label, href):
     if not (filled(label) and site.link_ok(href)):
         return ""
-    return f'<p class="actions"><a class="btn btn-quiet" href="{site.url(href)}">{esc(label)}</a></p>'
+    return f'<p class="more-link"><a href="{site.url(href)}">{esc(label)}</a></p>'
 
 
 # ---------------------------------------------------------------- pages
-def build_home(site, d, posts, projects):
-    """The homepage is the writing and the work. Everything else is navigation."""
-    h = d.get("hero", {})
-    body = [f'<section class="hero"><div class="wrap"><h1>{esc(h.get("h1", site.cfg["brand"]))}</h1>'
-            f'<p class="sub">{esc(h.get("sub", ""))}</p></div></section>']
+def build_home(site, d, posts, systems):
+    """The description, the four areas, six systems, the latest notes, and the invitation."""
+    h = d.get("hero") or {}
+    lead = f'<p class="lead">{esc(h["sub"])}</p>' if filled(h.get("sub")) else ""
+    body = [f'<section class="hero"><div class="wrap grid"><div class="rail"></div><div class="main">'
+            f'<h1>{esc(h.get("h1") or site.cfg["brand"])}</h1>{lead}</div></div></section>']
+    n = 0
 
-    live = [p for p in posts if not p["draft"]][: int(d.get("writing_count", 3) or 3)]
-    listing = post_list(site, live, "h3") if live else \
-        f'<p class="muted">{esc(d.get("writing_empty_text", "Nothing published yet."))}</p>'
-    body.append(f'<section class="block" id="writing"><div class="wrap">'
-                f'<h2>{esc(d.get("writing_heading", "Writing"))}</h2>{listing}'
-                f'{more_link(site, d.get("writing_link_label"), d.get("writing_link_href"))}</div></section>')
+    areas = [a for a in d.get("areas") or [] if filled(a.get("name"))]
+    if areas:
+        n += 1
+        items = "".join(f'<li class="area"><p class="area-num">{n}.{i}</p><h3>{esc(a["name"])}</h3>'
+                        f'{site.rich(a.get("text", ""))}</li>' for i, a in enumerate(areas, 1))
+        body.append(section(num(n), d.get("areas_heading", "What we work on"),
+                            f'<ol class="areas">{items}</ol>', sid="areas"))
 
-    featured = [p for key in d.get("projects_featured") or [] for p in projects if p.get("id") == key]
+    by_id = {s.get("id"): s for s in systems if filled(s.get("id")) and filled(s.get("name"))}
+    wanted = d.get("systems_featured") or []
+    for key in wanted:
+        if key not in by_id:
+            print(f"  note: home.json features system id '{key}', which systems.json does not define")
+    featured = [by_id[key] for key in wanted if key in by_id]
     if featured:
-        body.append(f'<section class="block" id="projects"><div class="wrap">'
-                    f'<h2>{esc(d.get("projects_heading", "Projects"))}</h2>{project_list(site, featured)}'
-                    f'{more_link(site, d.get("projects_link_label"), d.get("projects_link_href"))}</div></section>')
-        missing = [k for k in d.get("projects_featured") or [] if not any(p.get("id") == k for p in projects)]
-        for k in missing:
-            print(f"  note: home.json features project id '{k}', which projects.json does not define")
+        n += 1
+        cards = "".join(system_card(site, s, full=False) for s in featured)
+        body.append(section(num(n), d.get("systems_heading", "Systems"),
+                            f'<ul class="cards cards-3">{cards}</ul>'
+                            + more_link(site, d.get("systems_link_label"), d.get("systems_link_href")),
+                            sid="systems"))
 
-    body.append(site.contact_block())
+    if "writing.html" in site.planned:
+        n += 1
+        live = [p for p in posts if not p["draft"]][: int(d.get("notes_count", 3) or 3)]
+        listing = post_list(site, live) if live else \
+            f'<p class="empty">{esc(d.get("notes_empty_text", "Nothing published yet."))}</p>'
+        body.append(section(num(n), d.get("notes_heading", "Notes"),
+                            listing + more_link(site, d.get("notes_link_label"), d.get("notes_link_href")),
+                            sid="notes"))
+
+    body.append(site.band(num(n + 1)))
     site.page(path="index.html", title=d.get("title", site.cfg["brand"]),
               meta=d.get("meta_description", site.cfg.get("meta_description", "")),
               body="\n".join(body), current="index.html")
 
 
-def build_projects(site, d):
-    intro = f'<p class="intro">{esc(d["intro"])}</p>' if filled(d.get("intro")) else ""
-    body = f'''
-<section class="page-title"><div class="wrap"><p class="eyebrow">{esc(d.get("eyebrow", "Projects"))}</p><h1>{esc(d.get("h1", "Projects"))}</h1></div></section>
-<section class="block"><div class="wrap">{intro}{project_list(site, d.get("projects") or [], anchors=True)}</div></section>
-{site.contact_block()}'''
-    site.page(path="projects.html", title=d.get("title", "Projects"),
-              meta=d.get("meta_description", ""), body=body, current="projects.html")
+def build_systems(site, d):
+    body = [page_title(d.get("h1", "Systems"), d.get("intro", ""), d.get("eyebrow", ""))]
+    seen, n = set(), 0
+    for g in system_groups(d):
+        items = []
+        for s in g.get("systems") or []:
+            if not filled(s.get("name")):
+                print(f"  note: systems.json has an entry with no name in '{g.get('heading', '')}' — skipped")
+                continue
+            if filled(s.get("id")):
+                if s["id"] in seen:
+                    print(f"  note: systems.json uses the id '{s['id']}' twice — links will reach the first")
+                seen.add(s["id"])
+            items.append(s)
+        if not items:
+            continue
+        n += 1
+        intro = f'<p class="sec-intro">{esc(g["intro"])}</p>' if filled(g.get("intro")) else ""
+        cards = "".join(system_card(site, s, full=True) for s in items)
+        body.append(section(num(n), g.get("heading", ""), f'{intro}<ul class="cards cards-2">{cards}</ul>',
+                            sid=g.get("id", "")))
+    body.append(site.band())
+    site.page(path="systems.html", title=d.get("title", "Systems"),
+              meta=d.get("meta_description", ""), body="\n".join(body), current="systems.html")
 
 
 def build_about(site, d):
-    work = ""
-    if d.get("work"):
-        items = "".join(f'<li class="service"><h3>{esc(w.get("name", ""))}</h3><p>{esc(w.get("text", ""))}</p></li>'
-                        for w in d["work"])
-        work = (f'<section class="block"><div class="wrap"><h2>{esc(d.get("work_heading", "What we work on"))}</h2>'
-                f'<ul class="services">{items}</ul></div></section>')
-    closing = (f'<section class="block"><div class="wrap prose">{paras(d["closing"])}</div></section>'
-               if filled(d.get("closing")) else "")
-    body = f'''
-<section class="page-title"><div class="wrap"><p class="eyebrow">{esc(d.get("eyebrow", "About"))}</p><h1>{esc(d.get("h1", "About"))}</h1></div></section>
-<section class="block"><div class="wrap prose">{paras(d.get("intro"))}</div></section>
-{work}{closing}
-{site.contact_block()}'''
+    body = [page_title(d.get("h1", "About"), d.get("lead", ""), d.get("eyebrow", ""))]
+    n = 0
+    for s in d.get("sections") or []:
+        if not (filled(s.get("heading")) or filled(s.get("text"))):
+            continue
+        n += 1
+        body.append(section(num(n), s.get("heading", ""), f'<div class="prose">{site.rich(s.get("text", ""))}</div>'))
+    if filled(d.get("leadership")):
+        # leadership_sentence is Brian's to write; until he does, the page says so in yellow.
+        extra = (site.inline(d["leadership_sentence"]) if filled(d.get("leadership_sentence"))
+                 else placeholder("one sentence from Brian"))
+        body.append(section("", "", f'<div class="prose"><p>{site.inline(d["leadership"])} {extra}</p></div>',
+                            cls="sec-quiet"))
     site.page(path="about.html", title=d.get("title", "About"),
-              meta=d.get("meta_description", ""), body=body, current="about.html")
+              meta=d.get("meta_description", ""), body="\n".join(body), current="about.html")
 
 
 def build_contact_page(site, d):
@@ -438,74 +556,70 @@ def build_contact_page(site, d):
     for fld in f.get("fields") or []:
         name, label = esc(fld.get("name", "")), esc(fld.get("label", ""))
         req = " required" if fld.get("required") else ""
+        auto = {"name": ' autocomplete="name"', "email": ' autocomplete="email"'}.get(fld.get("name", ""), "")
         if fld.get("type") == "textarea":
-            control = f'<textarea id="{name}" name="{name}" rows="6" style="{FIELD};resize:vertical"{req}></textarea>'
+            control = f'<textarea id="f-{name}" name="{name}" rows="6"{req}></textarea>'
         else:
-            control = f'<input id="{name}" name="{name}" type="{esc(fld.get("type", "text"))}" style="{FIELD}"{req}>'
-        fields += f'<p style="margin:0 0 16px"><label for="{name}" style="{LABEL}">{label}</label>{control}</p>'
+            control = f'<input id="f-{name}" name="{name}" type="{esc(fld.get("type", "text"))}"{auto}{req}>'
+        fields += f'<p class="field"><label for="f-{name}">{label}</label>{control}</p>'
     action = f.get("action", "")
     if filled(action):
-        note, disabled = "", ""
+        note, disabled, act = "", "", f' action="{esc(action)}"'
     else:
-        note = (f'<p>{tk("form endpoint not set — put one in content/pages/work-with-us.json at form.action; "
-                        "until then the email address below is the working route")}</p>')
-        disabled = " disabled"
-    form = (f'<form method="{esc(f.get("method", "post"))}" action="{esc(action) if filled(action) else ""}" '
-            f'style="max-width:460px;margin-top:24px" '
+        note = ('<p class="form-note">' + placeholder(
+            "form endpoint not set. Put one in content/pages/work-with-us.json at form.action; "
+            "until then, the email address below is the working route.") + "</p>")
+        disabled, act = " disabled", ""
+    form = (f'<form class="form" method="{esc(f.get("method", "post"))}"{act} '
             f'data-success="{esc(f.get("success_text", ""))}" data-error="{esc(f.get("error_text", ""))}">'
-            f'{fields}<p style="margin:0"><button class="btn" type="submit"{disabled}>'
+            f'{fields}<p class="actions"><button class="btn" type="submit"{disabled}>'
             f'{esc(f.get("submit_label", "Send"))}</button></p></form>') if fields else ""
-    body = f'''
-<section class="page-title"><div class="wrap"><p class="eyebrow">{esc(d.get("eyebrow", "Work with us"))}</p><h1>{esc(d.get("h1", "Work with us"))}</h1></div></section>
-<section class="block"><div class="wrap prose">{paras(d.get("intro"))}{note}{form}
-<p class="contact">{site.contact_line()}</p></div></section>'''
+    fallback = site.inline(d["fallback"]) if filled(d.get("fallback")) else site.contact_line()
+    inner = (f'<div class="prose">{site.rich(d.get("intro", ""))}</div>{note}{form}'
+             + (f'<p class="fallback">{fallback}</p>' if fallback else ""))
+    body = page_title(d.get("h1", "Work with us"), d.get("lead", ""), d.get("eyebrow", "")) + section("", "", inner)
     site.page(path="work-with-us.html", title=d.get("title", "Work with us"),
               meta=d.get("meta_description", ""), body=body, current="work-with-us.html")
 
 
-# ---------------------------------------------------------------- writing
+# ---------------------------------------------------------------- notes
 def build_writing_index(site, d, posts):
-    listing = post_list(site, posts) if posts else \
-        f'<p class="muted">{esc(d.get("empty_text", "Nothing published yet."))}</p>'
-    feed_line = f'<p class="small" style="margin-top:24px"><a href="{site.url("feed.xml")}">RSS feed</a></p>' \
-        if site.has_feed else ""
+    listing = post_list(site, posts, "h2") if posts else \
+        f'<p class="empty">{esc(d.get("empty_text", "Nothing published yet."))}</p>'
+    feed_line = f'<p class="more-link"><a href="{site.url("feed.xml")}">RSS feed</a></p>' if site.has_feed else ""
     subscribe = ""
     if filled(d.get("subscribe_action")):
-        subscribe = f'''
-<section class="block"><div class="wrap prose"><h2 class="h3" style="margin-top:0">{esc(d.get("subscribe_heading", "Subscribe"))}</h2>
-<p class="muted">{esc(d.get("subscribe_text", ""))}</p>
-<form class="signup" action="{esc(d["subscribe_action"])}" method="post"><input type="email" name="email" placeholder="Email address" aria-label="Email address" required><button class="btn" type="submit">{esc(d.get("subscribe_button_label", "Subscribe"))}</button></form></div></section>'''
-    sub = f'<p class="sub">{esc(d["sub"])}</p>' if filled(d.get("sub")) else ""
-    body = f'''
-<section class="page-title"><div class="wrap"><p class="eyebrow">{esc(d.get("eyebrow", "Writing"))}</p><h1>{esc(d.get("h1", "Writing"))}</h1>{sub}</div></section>
-<section class="block"><div class="wrap">{listing}{feed_line}</div></section>
-{subscribe}
-{site.contact_block()}'''
-    site.page(path="writing.html", title=d.get("title", f'Writing · {site.cfg["brand"]}'),
+        subscribe = section("", d.get("subscribe_heading", "Subscribe"), (
+            f'<p class="sec-intro">{esc(d.get("subscribe_text", ""))}</p>'
+            f'<form class="signup" action="{esc(d["subscribe_action"])}" method="post">'
+            f'<input type="email" name="email" placeholder="Email address" aria-label="Email address" autocomplete="email" required>'
+            f'<button class="btn" type="submit">{esc(d.get("subscribe_button_label", "Subscribe"))}</button></form>'))
+    body = (page_title(d.get("h1", "Notes"), d.get("sub", ""), d.get("eyebrow", ""))
+            + section("", "", listing + feed_line, cls="sec-list") + subscribe + site.band())
+    site.page(path="writing.html", title=d.get("title", f'Notes · {site.cfg["brand"]}'),
               meta=d.get("meta_description", ""), body=body, current="writing.html")
 
 
 def build_post(site, p):
-    banner = ('<p class="tk-box">Draft — scaffolding, not a finished post. Replace it or finish it, then set '
+    banner = ('<p class="draft-banner">Draft: scaffolding, not a finished post. Replace it or finish it, then set '
               '<code class="mono">draft: false</code> in the front matter.</p>') if p["draft"] else ""
     source = ""
     if filled(p["canonical"]):
         host = re.sub(r"^https?://(www\.)?", "", p["canonical"]).split("/")[0]
         source = f'<p class="small">First published at <a href="{esc(p["canonical"])}">{esc(host)}</a>.</p>'
-    date = (f'<p class="small mono"><time datetime="{esc(p["date"])}">{esc(p["shown"])}</time></p>'
-            if filled(p["shown"]) else f'<p class="small">{tk("date")}</p>')
-    stand = f'<p class="sub">{esc(p["standfirst"])}</p>' if filled(p["standfirst"]) else ""
-    back = (f'<p class="crumbs"><a href="{site.url("writing.html")}">Writing</a></p>'
+    stamp = (f'<p class="post-date"><time datetime="{esc(p["date"])}">{esc(p["shown"])}</time></p>'
+             if filled(p["shown"]) else f'<p class="post-date">{placeholder("date")}</p>')
+    stand = f'<p class="lead">{esc(p["standfirst"])}</p>' if filled(p["standfirst"]) else ""
+    back = (f'<p class="crumbs"><a href="{site.url("writing.html")}">{esc(site.label_for("writing.html", "Notes"))}</a></p>'
             if "writing.html" in site.planned else "")
     rendered = md(p["body"])
-    body = f'''
-<article>
-<section class="page-title"><div class="wrap">{back}<h1>{esc(p["title"])}</h1>{date}{stand}</div></section>
-<section class="block"><div class="wrap prose">{banner}{source}
+    body = f'''<article>
+<header class="page-title"><div class="wrap grid"><div class="rail"></div><div class="main">{back}<h1>{esc(p["title"])}</h1>{stamp}{stand}</div></div></header>
+<section class="sec sec-post"><div class="wrap grid"><div class="rail"></div><div class="main prose">{banner}{source}
 {rendered}
-</div></section>
+</div></div></section>
 </article>
-{site.contact_block()}'''
+{site.band()}'''
     meta = p["standfirst"] or re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", rendered)).strip()[:180]
     site.page(path=post_path(p), title=f'{p["title"]} · {site.cfg["brand"]}', meta=meta, body=body,
               canonical=p["canonical"], index=not p["draft"], current="writing.html")
@@ -527,7 +641,7 @@ def build_feed(site, posts, d):
                   f"<pubDate>{format_datetime(dt)}</pubDate>"
                   + (f"<description>{esc(p['standfirst'])}</description>" if filled(p["standfirst"]) else "")
                   + f"<content:encoded><![CDATA[{content}]]></content:encoded></item>")
-    desc = d.get("meta_description") or site.cfg.get("meta_description") or f'Writing from {site.cfg["brand"]}.'
+    desc = d.get("meta_description") or site.cfg.get("meta_description") or f'Notes from {site.cfg["brand"]}.'
     (DOCS / "feed.xml").write_text(
         '<?xml version="1.0" encoding="UTF-8"?>\n'
         '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" '
@@ -541,11 +655,46 @@ def build_feed(site, posts, d):
     return len(live)
 
 
+# ---------------------------------------------------------------- link check
+def check_links(site):
+    """Every internal href and src in docs/ must reach a file this build wrote, and a
+    #fragment must name an id on the page it points at."""
+    root = DOCS.resolve()
+    pages = {f.resolve(): f.read_text() for f in sorted(DOCS.rglob("*.html"))}
+    ids = {f: set(re.findall(r'\sid="([^"]+)"', text)) for f, text in pages.items()}
+    bad, checked = [], 0
+    for f, text in pages.items():
+        for attr, ref in re.findall(r'\s(href|src)="([^"]*)"', text):
+            ref = html.unescape(ref)
+            if ref.startswith(OFFSITE):
+                continue
+            checked += 1
+            path, _, frag = ref.partition("#")
+            path = path.split("?")[0]
+            if not path:
+                target = f
+            elif path.startswith("/"):
+                if site.bp and (path == site.bp or path.startswith(site.bp + "/")):
+                    path = path[len(site.bp):] or "/"
+                target = root / path.lstrip("/")
+            else:
+                target = f.parent / path
+            if path.endswith("/") or target.is_dir():
+                target = target / "index.html"
+            target = target.resolve()
+            where = f'{f.relative_to(root)}: {attr}="{ref}"'
+            if not (target == root or root in target.parents) or not target.is_file():
+                bad.append(f"{where} reaches no file")
+            elif frag and target in ids and frag not in ids[target]:
+                bad.append(f'{where} names no id "{frag}" on that page')
+    return checked, bad
+
+
 # ---------------------------------------------------------------- build
 BUILDERS = {  # content/pages/<stem>.json -> (output path, builder)
-    "home": ("index.html", None),          # built first, needs posts + projects
-    "writing": ("writing.html", None),     # built from content/writing/
-    "projects": ("projects.html", build_projects),
+    "home": ("index.html", None),          # built first, needs posts + systems
+    "writing": ("writing.html", None),     # the notes archive, built from content/writing/
+    "systems": ("systems.html", build_systems),
     "about": ("about.html", build_about),
     "work-with-us": ("work-with-us.html", build_contact_page),
 }
@@ -565,6 +714,7 @@ def main():
     if posts:
         planned.add("writing.html")
     planned.update(post_path(p) for p in posts)
+    planned.update(old for old, new in ALIASES.items() if new in planned)
     site.planned = planned
     site.has_feed = bool(posts)
 
@@ -574,7 +724,7 @@ def main():
         print(f"  note: base_path is '{site.bp}' — right for a GitHub Pages project site, wrong at a domain root")
     if posts and not site.base_url:
         print("  note: base_url is empty in content/site.json, so feed and sitemap URLs come out relative; "
-              "set it to the deployed origin (https://<name>.onrender.com, or the custom domain)")
+              "set it to the deployed origin")
 
     if DOCS.exists():
         shutil.rmtree(DOCS)
@@ -589,14 +739,17 @@ def main():
     if filled(site.cfg.get("custom_domain")):
         (DOCS / "CNAME").write_text(site.cfg["custom_domain"].strip() + "\n")
 
-    projects = (jload(present["projects"]).get("projects") or []) if "projects" in present else []
+    systems = all_systems(jload(present["systems"])) if "systems" in present else []
     writing_cfg = jload(present["writing"]) if "writing" in present else {}
 
     if "home" in present:
-        build_home(site, jload(present["home"]), posts, projects)
+        build_home(site, jload(present["home"]), posts, systems)
     for stem, (_, builder) in BUILDERS.items():
         if builder and stem in present:
             builder(site, jload(present[stem]))
+    for old, new in ALIASES.items():
+        if new in planned:
+            site.redirect(old, new)
     if "writing.html" in planned:
         build_writing_index(site, writing_cfg, posts)
     for p in posts:
@@ -611,9 +764,14 @@ def main():
                                       f'<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{urls}</urlset>\n')
     sm = f"Sitemap: {site.abs('sitemap.xml')}\n" if site.base_url else ""  # must be absolute or omitted
     (DOCS / "robots.txt").write_text(f"User-agent: *\nAllow: /\n{sm}")
+
+    checked, bad = check_links(site)
+    for b in bad:
+        print(f"  note: broken link — {b}")
     drafts = sum(1 for p in posts if p["draft"])
     print(f"built {len(site.pages_out)} pages -> {DOCS}")
     print(f"  {len(posts)} post(s): {live} published, {drafts} draft(s) kept out of the feed and sitemap")
+    print(f"  links: {checked} internal href/src checked, {len(bad)} broken")
     return 0
 
 

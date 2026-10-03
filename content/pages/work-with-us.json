@@ -3,7 +3,7 @@
   "meta_description": "Creosote Labs is open to collaborations and takes on a small number of outside engagements each year.",
   "eyebrow": "Work with us",
   "h1": "Work with us",
-  "intro": "We are open to collaborations, and we take on a small number of outside engagements each year. The ones that work best tend to overlap with something we are already working on.\n\nIf you think you have one of those, tell us about it.",
+  "intro": "We are open to collaborations, and we take on a small number of outside engagements each year. The ones that fit best overlap with work already under way here: operations systems, document tooling, teaching applications, and assessment-and-course engines for practitioners.\n\nTell us what you are working on, where it stands and what you would want from us. A few sentences are enough to start.",
   "form": {
     "action": "",
     "method": "post",
@@ -28,7 +28,8 @@
         "required": true
       }
     ],
-    "success_text": "Thanks. We read everything that comes through here.",
-    "error_text": "That did not send. You can reach us by email instead."
-  }
+    "success_text": "Thank you. Your message has been sent.",
+    "error_text": "The message did not send. Please email brian@brianburke.net instead."
+  },
+  "fallback": "If you prefer email, write to [brian@brianburke.net](mailto:brian@brianburke.net)."
 }

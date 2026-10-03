@@ -1,27 +1,22 @@
 {
   "title": "About · Creosote Labs",
-  "meta_description": "Creosote Labs is a research and product group working on applied AI: operations systems, document tooling, and teaching applications that run in production.",
+  "meta_description": "Creosote Labs is a research organization working on applied AI. We build and run systems in production, publish notes on what we find, and develop products.",
   "eyebrow": "About",
   "h1": "About",
-  "intro": "Creosote Labs is a research and product group working on applied AI.\n\nWe build software and then run it: operations systems inside working businesses, tools that read documents never meant to be read by a machine, and applications that teach. A system that has been live through a busy season behaves differently from one that has been demonstrated, and that difference is most of what we write about.",
-  "work_heading": "What we work on",
-  "work": [
+  "sections": [
     {
-      "name": "Operations systems",
-      "text": "Scheduling, inventory and logistics for businesses whose work is booked months ahead and then executed in the field, where a late change has to reach every downstream list at once."
+      "heading": "What we build and run",
+      "text": "Creosote Labs is a research organization working on applied AI: what these systems do once they are deployed into a working business. We build software and run it in production: operations systems, document tooling, teaching applications, and assessment-and-course engines for practitioners. We also develop products of our own, including Longtable and Scenario."
     },
     {
-      "name": "Document tooling",
-      "text": "Pulling structure out of documents laid out for human readers rather than for machines — contracts, agency forms, and packets that arrive as flat PDFs with nothing machine-readable in them."
+      "heading": "What we publish",
+      "text": "We publish notes on what we build and how it behaves in use, including the parts that did not work. They are on the [notes page](writing.html) and in the [RSS feed](feed.xml)."
     },
     {
-      "name": "Teaching applications",
-      "text": "Turning a fixed body of source material into something a specific reader can work through, and checking whether they actually did."
-    },
-    {
-      "name": "Deployment and handover",
-      "text": "What a system needs in order to keep running after the people who built it are gone: documentation, defaults, and the failure modes that surface in month three rather than week one."
+      "heading": "How to reach us",
+      "text": "Write to us through the [Work with us](work-with-us.html) page, or email [brian@brianburke.net](mailto:brian@brianburke.net)."
     }
   ],
-  "closing": "The systems are on the projects page. What we have published is on the writing page."
+  "leadership": "The lab is led by a former chief operating officer of a venture-backed technology startup.",
+  "leadership_sentence": ""
 }

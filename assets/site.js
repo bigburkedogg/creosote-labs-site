@@ -1,13 +1,14 @@
 /* Creosote Labs — progressive enhancement only. The pages are complete without it.
 
-   1. A skip link, since the generated markup has no landmark shortcut.
-   2. Drops an eyebrow that only repeats the <h1> beneath it.
+   1. A skip link to <main>.
+   2. Drops an eyebrow that only repeats the <h1> beneath it (build.py already
+      leaves those out; this catches hand-made pages).
    3. Submits the contact form in place when it has a real endpoint, using the
       data-success / data-error text the template already carries.
-   4. Points the browser at assets/favicon.svg.
+   4. Points the browser at favicon.svg when a page has no icon link.
 
-   The primary navigation needs no script: four short items wrap onto a second
-   row at narrow widths, so .nav-toggle stays hidden in the stylesheet. */
+   The navigation needs no script: four short items wrap onto a second row at
+   narrow widths. */
 (function () {
   "use strict";
 
@@ -35,7 +36,7 @@
     doc.head.appendChild(icon);
   }
 
-  // ---- "Writing / Writing" ------------------------------------------------
+  // ---- eyebrow that repeats the h1 ----------------------------------------
   Array.prototype.forEach.call(doc.querySelectorAll(".page-title .eyebrow"), function (el) {
     var h1 = el.parentNode && el.parentNode.querySelector("h1");
     if (!h1) return;

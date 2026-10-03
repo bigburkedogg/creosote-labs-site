@@ -1,17 +1,18 @@
 # Creosote Labs — website
 
-A static site. `build.py` reads `content/` and writes `docs/`; Render publishes `docs/`.
+A static site. `build.py` reads `content/` and writes `docs/`, which is what gets published.
 Standard library only, no dependencies, no build step on the server.
 
 ```
-content/site.json            brand, contact details, nav, base path/URL, custom domain
+content/site.json            brand, contact details, nav, base path/URL, custom domain,
+                             and the "Work with us" band shown at the foot of most pages
 content/pages/*.json         one file per page — all page copy lives here
-content/writing/*.md         one file per post — the essay archive
+content/writing/*.md         one file per post — the notes archive
 content/media/               images referenced from the JSON
-assets/                      styles.css, site.js — copied to docs/ as-is
-build.py                     content + assets -> docs/
+assets/                      styles.css, site.js, favicon.svg — copied to docs/ as-is
+build.py                     content + assets -> docs/, then checks every internal link
 docs/                        generated output. Never edit by hand; it is deleted and
-                             rewritten on every build, and it is committed so Render
+                             rewritten on every build, and it is committed so the host
                              has something to serve.
 admin/                       the JSON editing app (server.py + ui.html)
 admin.command                double-click: opens http://localhost:8786
@@ -24,10 +25,54 @@ Each `content/pages/<name>.json` maps to `<name>.html`, except `home.json`, whic
 becomes `index.html`. `build.py` has one renderer per page and a table (`BUILDERS`)
 that wires them up; a JSON file with no renderer is skipped with a note rather than
 silently ignored. Delete a page's JSON and the page disappears, along with any nav or
-footer link pointing at it — links are checked against the pages the build actually
-writes, and dead ones are dropped with a note in the build output.
+footer link pointing at it.
 
-## Writing
+| File | Page | What it holds |
+|---|---|---|
+| `home.json` | `index.html` | The two-sentence description (`hero.h1`, `hero.sub`), the four areas under *What we work on*, the ids of the six systems featured as cards, and the Notes section (latest published posts). The *Work with us* band closes the page. |
+| `systems.json` | `systems.html` | Every system, in `groups` (*Client work*, *Lab builds*). `projects.html` is written as a redirect to it, so old links and `#anchors` keep working. |
+| `writing.json` | `writing.html` | The notes archive (labelled *Notes* in the nav). The posts themselves are Markdown; see below. |
+| `about.json` | `about.html` | Three numbered sections, then the `leadership` line and `leadership_sentence`. |
+| `work-with-us.json` | `work-with-us.html` | The invitation, the form, and the email fallback. |
+
+### Systems
+
+```
+{
+  "id": "sigmap",                       anchor on systems.html; home.json features by id
+  "name": "sigmap",
+  "status": "Internal tool · in use",   the mono status line on the card
+  "summary": "One sentence.",           used on the home page card
+  "text": "3 to 5 sentences.",          used on systems.html
+  "detail": "One concrete detail.",     the line at the foot of the card
+  "href": ""                            optional outside link; adds "Visit <name>"
+}
+```
+
+Client work is described by what it does. Do not put client names, personal finance
+figures or a child's name in any of these fields.
+
+### Copy in the JSON files
+
+Long text fields (`text`, `intro`, `sections[].text` and the like) are plain text with a
+little inline Markdown: a blank line starts a new paragraph, and `[label](href)`,
+`**bold**`, `*italic*` and `` `code` `` work. Internal links are written as page paths
+(`writing.html`) and get the base path added at build time.
+
+### Placeholders
+
+Copy that is still to be written renders as a yellow chip whose text starts with
+`Placeholder —`, so a search of `docs/` for that word finds every one. Two places produce
+one today:
+
+- `about.json` → `leadership_sentence`: empty, so the page shows
+  `Placeholder — one sentence from Brian`. Type the sentence into that field.
+- `work-with-us.json` → `form.action`: empty, so the form's Send button is switched off and
+  a placeholder says the email address is the working route. Put a form endpoint there.
+
+In Markdown posts and inline JSON copy, `[[text in double brackets]]` makes the same chip.
+
+## Notes (the writing archive)
 
 One Markdown file per post in `content/writing/`. The admin app edits JSON, not posts;
 posts are written in a text editor.
@@ -54,11 +99,11 @@ Body starts here.
 | `slug` | URL segment. Defaults to the filename minus the date. |
 | `date` | `YYYY-MM-DD`. Sorts the archive and sets the feed's `pubDate`. |
 | `standfirst` | Optional. Shown under the headline, used as the meta description and the feed summary. |
-| `draft` | `true` keeps the post out of the feed, the sitemap and the homepage, marks it "Draft" in the archive, and sets `noindex` on its page. It is still built, so you can read it. |
+| `draft` | `true` keeps the post out of the feed, the sitemap and the home page's Notes section, marks it "Draft" in the archive, and sets `noindex` on its page. It is still built, so you can read it. |
 | `canonical` | Only when the piece ran somewhere else first. Points the page's canonical link there and prints "First published at …" above the body. Leave it out and this site is the canonical home, which is the default and the intent. |
 
-Posts are published at `/writing/<slug>/`. The archive is `/writing.html`, the feed is
-`/feed.xml`, and every page links to the feed in its `<head>`.
+Posts are published at `/writing/<slug>/`. The archive is `/writing.html` (labelled
+*Notes*), the feed is `/feed.xml`, and every page links to the feed in its `<head>`.
 
 **Cross-posting to Substack:** publish here first, leave `canonical` out, then paste the
 post into Substack. Substack's own canonical tag will point back here if you set it in
@@ -71,10 +116,10 @@ A small subset, on purpose: `##` and `###` headings, paragraphs, `-` and `1.` li
 `>` quotes, ` ``` ` fenced code, `---` rules, `**bold**`, `*italic*`, `` `code` ``, and
 `[label](url)`.
 
-One addition: `[[text in double brackets]]` renders as a yellow placeholder chip, the
-same marker the JSON pages use for unfinished copy. Use it for a figure or a citation
-you have not confirmed yet — it is loud on the page and impossible to publish by
-accident without noticing.
+One addition: `[[text in double brackets]]` renders as a yellow `Placeholder —` chip,
+the same marker the JSON pages use for unfinished copy. Use it for a figure or a
+citation you have not confirmed yet — it is loud on the page and impossible to publish
+by accident without noticing.
 
 ## Build and preview
 
@@ -86,8 +131,10 @@ accident without noticing.
 old GitHub Pages path in the browser; go to http://localhost:8785/ instead.
 
 The build prints a note for anything that needs attention: a post with no date, two
-posts claiming one slug, a nav link with no page behind it, a featured project id that
-`projects.json` does not define, an unset `base_url`.
+posts claiming one slug, a nav link with no page behind it, a featured system id that
+`systems.json` does not define, an unset `base_url`. After writing `docs/` it checks
+every internal `href` and `src` on every page, including `#anchors`, and prints a
+note for each one that does not resolve; the last line of output gives the count.
 
 ## Deploying on Render
 
@@ -143,3 +190,15 @@ pick the repo → **Apply**. Either route produces one static site; do not do bo
 
 `custom_domain` in `site.json` writes `docs/CNAME`, which only GitHub Pages reads.
 Render ignores it. Harmless to leave empty.
+
+## Decisions for Brian
+
+- **Form endpoint.** The Work with us form has no backend. A hosted form service (one
+  that accepts a POST and emails it on) is the usual choice; `site.js` already submits in
+  place and shows the success and error text once `form.action` is set. Until then, email
+  is the route.
+- **The two notes.** Both posts in `content/writing/` are drafts, so the home page's Notes
+  section reads "Nothing published yet." and the archive lists both marked Draft. Finish
+  and publish one, or leave them as drafts.
+- **`base_url`.** Empty, so canonical links, the feed and the sitemap use relative URLs.
+  Set it to the live origin.

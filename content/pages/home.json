@@ -1,22 +1,43 @@
 {
   "title": "Creosote Labs",
-  "meta_description": "Creosote Labs works on applied AI — what these systems do once they are deployed into a working business. We build tools, run them in production, and publish what we find.",
+  "meta_description": "Creosote Labs is a research organization working on applied AI: what these systems do once they are deployed into a working business. We also develop products.",
   "hero": {
-    "h1": "Creosote Labs",
-    "sub": "We work on applied AI — what these systems actually do once they are deployed into a working business, rather than what they do in a demo. We build tools, run them in production, and publish what we find."
+    "h1": "Creosote Labs is a research organization working on applied AI: what these systems do once they are deployed into a working business.",
+    "sub": "We build and run systems in production, publish notes on what we find, and develop products of our own."
   },
-  "writing_heading": "Recent writing",
-  "writing_count": 3,
-  "writing_link_label": "All writing",
-  "writing_link_href": "writing.html",
-  "writing_empty_text": "Nothing published yet.",
-  "projects_heading": "Selected work",
-  "projects_featured": [
-    "river-outfitter-operations",
-    "sigmap",
-    "rsi-course",
-    "longtable"
+  "areas_heading": "What we work on",
+  "areas": [
+    {
+      "name": "Operations systems",
+      "text": "Software that runs scheduling, inventory and logistics for businesses whose work is booked in advance and carried out in the field. A change entered once, such as a guest's dietary restriction, reaches every list that depends on it."
+    },
+    {
+      "name": "Document tooling",
+      "text": "Tools that pull structure out of documents laid out for people rather than machines: contracts, agency forms and flat PDF packets. The output includes the page and position of each field, down to every signature and initial line in a contract packet."
+    },
+    {
+      "name": "Teaching applications",
+      "text": "Applications that turn a fixed body of source material into something a specific reader can work through. The work includes placing the reader at the right level and checking what they learned, with placement exams, graded answers and spaced review."
+    },
+    {
+      "name": "Assessment and course engines for practitioners",
+      "text": "Software that runs an assessment on a practitioner's website, sends the email that follows it and sells the practitioner's courses. The assessment brings in new contacts, and course payments run through Stripe."
+    }
   ],
-  "projects_link_label": "All projects",
-  "projects_link_href": "projects.html"
+  "systems_heading": "Systems",
+  "systems_featured": [
+    "river-outfitter-operations",
+    "assessment-course-engine",
+    "sigmap",
+    "longtable",
+    "private-university",
+    "rsi-course"
+  ],
+  "systems_link_label": "All systems",
+  "systems_link_href": "systems.html",
+  "notes_heading": "Notes",
+  "notes_count": 3,
+  "notes_link_label": "All notes",
+  "notes_link_href": "writing.html",
+  "notes_empty_text": "Nothing published yet."
 }

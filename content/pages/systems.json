@@ -1,0 +1,113 @@
+{
+  "title": "Systems · Creosote Labs",
+  "meta_description": "Systems built and run by Creosote Labs: trip operations for a river outfitter, an assessment and course engine, document tooling, teaching applications and products in development.",
+  "eyebrow": "Systems",
+  "h1": "Systems",
+  "intro": "Systems we have built and run: client work first, then lab builds.",
+  "groups": [
+    {
+      "id": "client-work",
+      "heading": "Client work",
+      "intro": "Built for outside businesses. Each system is described by what it does, and clients are not named.",
+      "systems": [
+        {
+          "id": "river-outfitter-operations",
+          "name": "Trip operations for a river outfitter",
+          "status": "In production since 2026",
+          "summary": "Menu planning, shopping and packing lists, and a trip tracker for an outfitter's multi-day river trips.",
+          "text": "A trip-operations system for an outfitter that runs about 60 multi-day river trips a year. Customers plan their trip menus in a web planner that draws on a 775-recipe library. Each menu becomes a shopping list ordered by store section and a packing list broken out by camp and storage bin, and a dietary restriction entered once carries into every list. The trip tracker records a due date and a completion date for each milestone. We also wrote the staff and new-hire guides and set up the office to produce its own invoices from its existing templates.",
+          "detail": "Before the system, trip information was kept in 5 places, and every booking confirmation went out with 4 menu-planning attachments.",
+          "href": ""
+        },
+        {
+          "id": "assessment-course-engine",
+          "name": "Assessment and course engine for a practitioner",
+          "status": "Deployed since 2026",
+          "summary": "An assessment, an email engine and online courses for a practitioner's website, run as a single system.",
+          "text": "A system for a practitioner's website with 3 parts: an assessment that visitors take on the site, an email engine that sends the messages that follow, and online courses. The assessment works as a lead magnet and brings new contacts into the email engine. The courses are sold on the same site.",
+          "detail": "Course payments run through Stripe.",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "lab-builds",
+      "heading": "Lab builds",
+      "intro": "Our own products, tools and teaching applications.",
+      "systems": [
+        {
+          "id": "longtable",
+          "name": "Longtable",
+          "status": "Product · in development",
+          "summary": "Food planning for events where the headcount and the dietary needs are still changing.",
+          "text": "Longtable plans food for events where the headcount and the dietary needs are still changing. It covers 4 formats: plated weddings, retreat and lodge kitchens, backcountry expeditions and week-ahead meal prep. The formats share a single recipe library and menu generator. The recipe library is original to Longtable and contains no client data.",
+          "detail": "Changing a single guest's restriction regenerates the menu, the shopping list, the packing list and the cost per head together.",
+          "href": ""
+        },
+        {
+          "id": "scenario",
+          "name": "Scenario",
+          "status": "Product · in development",
+          "summary": "A planning tool that projects what a financial decision does to cash, debt and net worth.",
+          "text": "Scenario is a planning tool for financial decisions with long-term effects, such as taking on a loan, selling an asset or a change in income. It projects each option several years forward. The options are shown side by side.",
+          "detail": "Every option is projected on the same 3 measures: cash, debt and net worth.",
+          "href": ""
+        },
+        {
+          "id": "sigmap",
+          "name": "sigmap",
+          "status": "Internal tool · in use",
+          "summary": "Finds the signature and initial lines in flat real-estate contract PDFs from the page geometry.",
+          "text": "Real-estate contract packets often arrive as flat PDFs with no fillable fields, so each signature and initial line has to be placed by hand before the packet goes out for signing. sigmap finds those lines from the geometry of the page rather than from an image of it. Working from the geometry gives coordinates exact enough to use.",
+          "detail": "On a real packet, a width threshold on the blank run that follows a party label cut the candidate fields from 722 to 90.",
+          "href": ""
+        },
+        {
+          "id": "private-university",
+          "name": "Private university",
+          "status": "Study application · in use",
+          "summary": "A study application with 13 courses, each opening with a placement exam.",
+          "text": "A study application with 13 courses. Each course opens with a placement exam. A grader checks the learner's answers, and access is password-protected.",
+          "detail": "The modules for each course are written after its placement exam, to the level the learner placed at.",
+          "href": ""
+        },
+        {
+          "id": "modern-lyceum",
+          "name": "Modern Lyceum",
+          "status": "Study application · in use",
+          "summary": "A spaced-repetition study application for adult learners, organized by subject.",
+          "text": "Modern Lyceum is a spaced-repetition study application for adult learners. Material is organized by subject. Each study session is built from the items that are due for review.",
+          "detail": "An item's next review is scheduled further out each time it is answered correctly.",
+          "href": ""
+        },
+        {
+          "id": "rsi-course",
+          "name": "The RSI Debate, Decoded",
+          "status": "Course · 2026",
+          "summary": "A 17-module course built from a single 3-hour technical conversation, for readers without a computer-science background.",
+          "text": "A course built from the transcript of a 3-hour technical conversation between 3 researchers, written for a reader with no formal computer-science background. It has 17 modules and the full transcript, aligned to its timestamps. Every factual claim carries a verification status, and the places where the source and the public record disagree are flagged in the course. It runs without a network connection.",
+          "detail": "A 346-term glossary is linked from the text.",
+          "href": ""
+        },
+        {
+          "id": "teaching-apps",
+          "name": "Teaching applications for a young reader",
+          "status": "2 applications · 2026",
+          "summary": "A phonics game and an arithmetic game, each written to what the reader can actually do.",
+          "text": "A pair of game-based applications built for a young reader. The first is a phonics progression organized as 12 gates. The second covers times tables and column addition with carrying. Both are written to what the reader can actually do rather than to a grade level.",
+          "detail": "The arithmetic application carries no reading load, so a weak reader is never blocked from the math.",
+          "href": ""
+        },
+        {
+          "id": "internal-systems",
+          "name": "Internal systems",
+          "status": "Internal · in daily use",
+          "summary": "The software that runs our own operations, from receipts and bank feeds to a morning report.",
+          "text": "The software that runs our own operations. A photographed receipt becomes a categorized ledger entry without manual data entry. Bank and card feeds reconcile on a schedule, and a morning report assembles calendar, mail, weather and balances each day.",
+          "detail": "New systems run here before they go near a client's business.",
+          "href": ""
+        }
+      ]
+    }
+  ]
+}

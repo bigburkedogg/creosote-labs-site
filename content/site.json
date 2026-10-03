@@ -1,19 +1,19 @@
 {
   "brand": "Creosote Labs",
   "title": "Creosote Labs",
-  "meta_description": "Creosote Labs works on applied AI — what these systems do once they are deployed into a working business. We build tools, run them in production, and publish what we find.",
+  "meta_description": "Creosote Labs is a research organization working on applied AI: what these systems do once they are deployed into a working business. We also develop products.",
   "base_url": "",
   "base_path": "",
   "custom_domain": "",
   "email": "brian@brianburke.net",
   "nav": [
     {
-      "label": "Writing",
-      "href": "writing.html"
+      "label": "Systems",
+      "href": "systems.html"
     },
     {
-      "label": "Projects",
-      "href": "projects.html"
+      "label": "Notes",
+      "href": "writing.html"
     },
     {
       "label": "About",
@@ -27,7 +27,7 @@
   "footer_links": [],
   "contact": {
     "heading": "Work with us",
-    "text": "We are open to collaborations, and we take on a small number of outside engagements each year.",
+    "text": "We are open to collaborations, and we take on a small number of outside engagements each year. Tell us what you are working on.",
     "link_label": "Get in touch",
     "link_href": "work-with-us.html"
   }

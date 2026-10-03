@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="Creosote Labs">
   <style>
-    :root { --m: #56663f; }
-    @media (prefers-color-scheme: dark) { :root { --m: #a9b58d; } }
+    :root { --m: #1f3324; }
+    @media (prefers-color-scheme: dark) { :root { --m: #c9a87a; } }
     .s { stroke: var(--m); stroke-width: 2.4; stroke-linecap: round; fill: none; }
   </style>
   <g class="s">

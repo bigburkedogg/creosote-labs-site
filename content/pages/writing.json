@@ -1,12 +1,12 @@
 {
-  "title": "Writing · Creosote Labs",
-  "meta_description": "Essays from Creosote Labs on applied AI — what we built, how it behaved once it was running, and where it failed.",
-  "eyebrow": "Writing",
-  "h1": "Writing",
-  "sub": "Notes from the work — what we built, how it behaved once it was running, and where it failed.",
+  "title": "Notes · Creosote Labs",
+  "meta_description": "Notes from Creosote Labs on applied AI: build notes, source checks and the tools we use.",
+  "eyebrow": "Notes",
+  "h1": "Notes",
+  "sub": "Build notes, source checks and tools from our work, newest first.",
   "empty_text": "Nothing published yet.",
   "subscribe_heading": "Subscribe",
-  "subscribe_text": "New essays by email.",
+  "subscribe_text": "New notes by email.",
   "subscribe_button_label": "Subscribe",
   "subscribe_action": ""
 }
