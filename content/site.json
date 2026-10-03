@@ -3,7 +3,7 @@
   "title": "Creosote Labs",
   "meta_description": "Creosote Labs works on applied AI — what these systems do once they are deployed into a working business. We build tools, run them in production, and publish what we find.",
   "base_url": "",
-  "base_path": "",
+  "base_path": "/creosote-labs-site",
   "custom_domain": "",
   "email": "brian@brianburke.net",
   "nav": [
