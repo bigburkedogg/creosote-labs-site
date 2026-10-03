@@ -57,7 +57,7 @@
       <button class="quiet" onclick="save()">Save</button>
       <button onclick="publish()">Publish</button>
     </div>
-    <p class="msg" id="msg">Save rebuilds the preview. Publish pushes the site live; the live site updates in about a minute. Yellow fields are placeholders still to be filled in.</p>
+    <p class="msg" id="msg">Save rebuilds the preview. Publish pushes the site live; the live site updates in about a minute. Yellow fields are empty; an empty field is left off the page.</p>
     <form id="form" onsubmit="return false"></form>
   </main>
 </div>
@@ -65,7 +65,7 @@
 let files = [], basePath = '', current = null, data = null;
 
 const humanize = k => k.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
-const isLong = (k, v) => v.length > 70 || /text|intro|sub|situation|results|ongoing|summary|detail|leadership|fallback|answer|^a$|meta_description|quote/.test(k);
+const isLong = (k, v) => v.length > 70 || /text|intro|sub|summary|detail|lead|meta_description/.test(k);
 
 async function api(method, url, body) {
   const r = await fetch(url, { method, headers: { 'Content-Type': 'application/json' }, body: body ? JSON.stringify(body) : undefined });
@@ -144,7 +144,10 @@ function control(p, label, value) {
   el.value = value; if (!value.trim()) el.classList.add('empty');
   el.oninput = () => { set(p, el.value); el.classList.toggle('empty', !el.value.trim()); if (el.tagName === 'TEXTAREA') { el.style.height = 'auto'; el.style.height = el.scrollHeight + 'px'; } };
   wrap.appendChild(el);
-  if (/photo|screenshots|file/.test(k)) { const d = document.createElement('div'); d.className = 'drop'; d.innerHTML = `Upload an image: <input type="file" accept="image/*">`; d.querySelector('input').onchange = e => upload(e.target.files[0], p, el); wrap.appendChild(d); }
+  if (/^image$|photo|screenshot/.test(k)) {
+    const h = document.createElement('p'); h.className = 'hint'; h.textContent = 'A file under content/media/, e.g. projects/longtable.png (a 1440x900 PNG). Leave empty for no image; a missing file is left off the page.'; wrap.appendChild(h);
+    const d = document.createElement('div'); d.className = 'drop'; d.innerHTML = `Upload an image: <input type="file" accept="image/*">`; d.querySelector('input').onchange = e => upload(e.target.files[0], p, el); wrap.appendChild(d);
+  }
   requestAnimationFrame(() => { if (el.tagName === 'TEXTAREA') { el.style.height = 'auto'; el.style.height = el.scrollHeight + 'px'; } });
   return wrap;
 }

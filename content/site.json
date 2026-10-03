@@ -1,18 +1,19 @@
 {
   "brand": "Creosote Labs",
-  "title": "Creosote Labs",
-  "meta_description": "Creosote Labs is a research organization working on applied AI: what these systems do once they are deployed into a working business. We also develop products.",
+  "owner": "Brian Burke",
+  "title": "Creosote Labs · Brian Burke",
+  "meta_description": "Creosote Labs is Brian Burke's software studio. It builds operations software for small businesses, teaching software and products of its own, and runs what it builds.",
   "base_url": "https://bigburkedogg.github.io",
   "base_path": "/creosote-labs-site",
   "custom_domain": "",
   "email": "brian@brianburke.net",
   "nav": [
     {
-      "label": "Systems",
-      "href": "systems.html"
+      "label": "Projects",
+      "href": "projects.html"
     },
     {
-      "label": "Notes",
+      "label": "Writing",
       "href": "writing.html"
     },
     {
@@ -20,15 +21,9 @@
       "href": "about.html"
     },
     {
-      "label": "Work with us",
-      "href": "work-with-us.html"
+      "label": "Contact",
+      "href": "contact.html"
     }
   ],
-  "footer_links": [],
-  "contact": {
-    "heading": "Work with us",
-    "text": "We are open to collaborations, and we take on a small number of outside engagements each year. Tell us what you are working on.",
-    "link_label": "Get in touch",
-    "link_href": "work-with-us.html"
-  }
+  "footer_links": []
 }

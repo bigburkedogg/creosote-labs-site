@@ -1,22 +1,7 @@
 {
-  "title": "About · Creosote Labs",
-  "meta_description": "Creosote Labs is a research organization working on applied AI. We build and run systems in production, publish notes on what we find, and develop products.",
-  "eyebrow": "About",
-  "h1": "About",
-  "sections": [
-    {
-      "heading": "What we build and run",
-      "text": "Creosote Labs is a research organization working on applied AI: what these systems do once they are deployed into a working business. We build software and run it in production: operations systems, document tooling, teaching applications, and assessment-and-course engines for practitioners. We also develop products of our own, including Longtable and Scenario."
-    },
-    {
-      "heading": "What we publish",
-      "text": "We publish notes on what we build and how it behaves in use, including the parts that did not work. They are on the [notes page](writing.html) and in the [RSS feed](feed.xml)."
-    },
-    {
-      "heading": "How to reach us",
-      "text": "Write to us through the [Work with us](work-with-us.html) page, or email [brian@brianburke.net](mailto:brian@brianburke.net)."
-    }
-  ],
-  "leadership": "The lab is led by a former chief operating officer of a venture-backed technology startup.",
-  "leadership_sentence": ""
+  "title": "Brian Burke · Creosote Labs",
+  "meta_description": "Brian Burke builds software and runs it. Before Creosote Labs he was chief operating officer of a venture-backed Silicon Valley startup, where he ran the company's operations and worked with its investors.",
+  "h1": "Brian Burke",
+  "text": "Brian Burke builds software and runs it. Before Creosote Labs he was chief operating officer of a venture-backed Silicon Valley startup, where he ran the company's operations and worked with its investors. Before that he taught adults for a decade as a yoga teacher, a personal trainer and a golf coach. He is a licensed real-estate agent, owns and renovates rental property, and has a philosophy degree from the University of San Francisco.\n\nCreosote Labs started in 2026. Its work so far is on the [projects page](projects.html): a trip-operations system for a river outfitter, a practice website that sells courses, two products in development, five teaching applications and a set of tools. Most of it was built in 2026 with AI coding tools, by one person, and runs in production.\n\nCreosote also trains teams to build this way: one day, on their own work.",
+  "contact": "Write to [brian@brianburke.net](mailto:brian@brianburke.net)."
 }

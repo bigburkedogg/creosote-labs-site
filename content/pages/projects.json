@@ -1,0 +1,172 @@
+{
+  "title": "Projects · Creosote Labs",
+  "meta_description": "Everything Creosote Labs has built, grouped by who it was for.",
+  "h1": "Projects",
+  "intro": "Everything Creosote Labs has built, grouped by who it was for. One client is not named until they have agreed to be.",
+  "groups": [
+    {
+      "id": "for-clients",
+      "heading": "For clients",
+      "projects": [
+        {
+          "id": "river-outfitter-operations",
+          "name": "Trip operations for a river outfitter",
+          "status": "In production since 2026 · client",
+          "summary": "An outfitter running multi-day river trips kept its trip information in five places and sent four menu-planning attachments with every booking.",
+          "text": "An outfitter running multi-day river trips kept its trip information in five places and sent four menu-planning attachments with every booking. Creosote replaced that with one system. Guests plan their trip menu in a web planner built on a 775-recipe library; each menu produces a shopping list ordered by store section and a packing list broken out by camp and storage bin, and a dietary restriction entered once reaches every list. A trip tracker records the due date and the done date of each milestone. Creosote also wrote the staff and new-hire guides, recovered three weeks of lost CRM email through the mail and CRM APIs, and set the office up to produce its own invoices from its existing templates.",
+          "detail": "The client's name and a reference are available on request.",
+          "image": "projects/river-outfitter-operations.png",
+          "href": ""
+        },
+        {
+          "id": "wild-relating",
+          "name": "WILD Relating",
+          "status": "Live since October 2026 · client",
+          "summary": "A sexology practice needed a way to turn podcast listeners into clients.",
+          "text": "A sexology practice needed a way to turn podcast listeners into clients. Creosote rebuilt the practice's site as one application: an eight-question assessment that sorts each visitor into one of five patterns, an email engine that sends the sequence written for that pattern, courses sold on the same site, and an admin page that lists every contact and every message. It runs on Render, and the owner edits the content in the browser.",
+          "detail": "The assessment is the lead magnet; course payments run through Stripe.",
+          "image": "projects/wild-relating.png",
+          "href": "https://wild-relating.onrender.com/"
+        }
+      ]
+    },
+    {
+      "id": "products",
+      "heading": "Products",
+      "projects": [
+        {
+          "id": "longtable",
+          "name": "Longtable",
+          "status": "In development",
+          "summary": "Food planning for events where the headcount and the dietary needs keep changing: plated weddings, retreat and lodge kitchens, backcountry expeditions and week-ahead meal prep.",
+          "text": "Food planning for events where the headcount and the dietary needs keep changing: plated weddings, retreat and lodge kitchens, backcountry expeditions and week-ahead meal prep. The four formats share one recipe library and one menu generator, so changing a single guest's restriction regenerates the menu, the shopping list, the packing list and the cost per head together.",
+          "detail": "The recipe library is Longtable's own.",
+          "image": "projects/longtable.png",
+          "href": ""
+        },
+        {
+          "id": "scenario",
+          "name": "Scenario",
+          "status": "In development",
+          "summary": "A planning tool for the money decisions with long effects: selling a rental, refinancing, stopping work for a year.",
+          "text": "A planning tool for the money decisions with long effects: selling a rental, refinancing, stopping work for a year.",
+          "detail": "The comparable software is sold to financial advisors, not to the person making the decision.",
+          "image": "projects/scenario.png",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "teaching-software",
+      "heading": "Teaching software",
+      "projects": [
+        {
+          "id": "the-university",
+          "name": "The University",
+          "status": "In use since 2026 · private",
+          "summary": "A private university for one learner: thirteen courses across history, language, computing, mathematics and the body, each opening with a placement exam.",
+          "text": "A private university for one learner: thirteen courses across history, language, computing, mathematics and the body, each opening with a placement exam. The modules for a course are written after its placement exam, to the level the learner placed at. A grader checks answers, and review is spaced.",
+          "detail": "Runs on Render behind a password.",
+          "image": "projects/university.png",
+          "href": ""
+        },
+        {
+          "id": "modern-lyceum",
+          "name": "Modern Lyceum",
+          "status": "Live",
+          "summary": "A spaced-repetition study application for adults.",
+          "text": "A spaced-repetition study application for adults. Material is organized by subject, each session is built from the items due for review, and an item's next review moves further out each time it is answered correctly.",
+          "detail": "Installs as a web app and works offline.",
+          "image": "projects/modern-lyceum.png",
+          "href": "https://modern-lyceum.onrender.com/"
+        },
+        {
+          "id": "rsi-course",
+          "name": "The RSI Debate, Decoded",
+          "status": "2026",
+          "summary": "",
+          "text": "",
+          "detail": "A static site; the whole course reads offline.",
+          "image": "projects/rsi-course.png",
+          "href": ""
+        },
+        {
+          "id": "gate-city",
+          "name": "Gate City",
+          "status": "In use",
+          "summary": "Two role-playing games for a young reader who reads below grade level: a reading quest and a math game set in the same world.",
+          "text": "Two role-playing games for a young reader who reads below grade level: a reading quest and a math game set in the same world. Every line is spoken aloud, and each curriculum starts at the player's real ability rather than the grade on paper.",
+          "detail": "The two games share a world and never a cast.",
+          "image": "projects/gate-city.png",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "id": "tools",
+      "heading": "Tools",
+      "projects": [
+        {
+          "id": "sigmap",
+          "name": "sigmap",
+          "status": "In use",
+          "summary": "Real-estate contract packets arrive as flat PDFs with no fillable fields, so every signature and initial line has to be placed by hand before the packet goes out for signing.",
+          "text": "Real-estate contract packets arrive as flat PDFs with no fillable fields, so every signature and initial line has to be placed by hand before the packet goes out for signing. sigmap finds those lines from the geometry of the page rather than from an image of it, which gives coordinates exact enough to use.",
+          "detail": "",
+          "image": "projects/sigmap.png",
+          "href": ""
+        },
+        {
+          "id": "southwest-modern",
+          "name": "Southwest Modern",
+          "status": "Built 2026",
+          "summary": "The website for Brian's real-estate brand: a neighborhood-match assessment, sixteen neighborhood guides, two email guides, a home-value request and an admin contact list, on the same engine as WILD Relating.",
+          "text": "The website for Brian's real-estate brand: a neighborhood-match assessment, sixteen neighborhood guides, two email guides, a home-value request and an admin contact list, on the same engine as WILD Relating.",
+          "detail": "The engine is a Flask application with SQLite, Markdown content and Stripe.",
+          "image": "projects/southwest-modern.png",
+          "href": ""
+        },
+        {
+          "id": "daily-brief",
+          "name": "Daily Brief",
+          "status": "In daily use",
+          "summary": "A morning page that assembles the day's calendar, the mail that needs an answer, the task list and the finances from their APIs.",
+          "text": "A morning page that assembles the day's calendar, the mail that needs an answer, the task list and the finances from their APIs. Opening the page is what refreshes it.",
+          "detail": "",
+          "image": "",
+          "href": ""
+        },
+        {
+          "id": "finance-system",
+          "name": "Finance system",
+          "status": "In daily use",
+          "summary": "Bank and card transactions pulled through SimpleFin into one yearly workbook, receipts filed and matched, property-level reporting for a rental portfolio, and a net-worth dashboard.",
+          "text": "Bank and card transactions pulled through SimpleFin into one yearly workbook, receipts filed and matched, property-level reporting for a rental portfolio, and a net-worth dashboard.",
+          "detail": "",
+          "image": "",
+          "href": ""
+        },
+        {
+          "id": "clip-pipeline",
+          "name": "Podcast clip pipeline",
+          "status": "In use",
+          "summary": "Turns long podcast episodes into captioned vertical clips: download, transcript, clip plan, render.",
+          "text": "Turns long podcast episodes into captioned vertical clips: download, transcript, clip plan, render.",
+          "detail": "",
+          "image": "",
+          "href": ""
+        },
+        {
+          "id": "this-site",
+          "name": "This site",
+          "status": "Live",
+          "summary": "Generated from JSON by a Python script with no dependencies, with a browser editor that saves, previews and publishes in one click.",
+          "text": "Generated from JSON by a Python script with no dependencies, with a browser editor that saves, previews and publishes in one click.",
+          "detail": "",
+          "image": "",
+          "href": ""
+        }
+      ]
+    }
+  ]
+}

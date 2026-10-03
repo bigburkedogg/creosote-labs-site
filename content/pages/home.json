@@ -1,43 +1,29 @@
 {
-  "title": "Creosote Labs",
-  "meta_description": "Creosote Labs is a research organization working on applied AI: what these systems do once they are deployed into a working business. We also develop products.",
+  "title": "Creosote Labs · Brian Burke",
+  "meta_description": "Creosote Labs is Brian Burke's software studio. It builds operations software for small businesses, teaching software and products of its own, and runs what it builds.",
   "hero": {
-    "h1": "Creosote Labs is a research organization working on applied AI: what these systems do once they are deployed into a working business.",
-    "sub": "We build and run systems in production, publish notes on what we find, and develop products of our own."
+    "h1": "Creosote Labs is Brian Burke's software studio.",
+    "sub": "It builds operations software for small businesses, teaching software and products of its own, and runs what it builds. Everything on this site exists. The line under each name says whether it is live, in use or still being built."
   },
-  "areas_heading": "What we work on",
-  "areas": [
-    {
-      "name": "Operations systems",
-      "text": "Software that runs scheduling, inventory and logistics for businesses whose work is booked in advance and carried out in the field. A change entered once, such as a guest's dietary restriction, reaches every list that depends on it."
-    },
-    {
-      "name": "Document tooling",
-      "text": "Tools that pull structure out of documents laid out for people rather than machines: contracts, agency forms and flat PDF packets. The output includes the page and position of each field, down to every signature and initial line in a contract packet."
-    },
-    {
-      "name": "Teaching applications",
-      "text": "Applications that turn a fixed body of source material into something a specific reader can work through. The work includes placing the reader at the right level and checking what they learned, with placement exams, graded answers and spaced review."
-    },
-    {
-      "name": "Assessment and course engines for practitioners",
-      "text": "Software that runs an assessment on a practitioner's website, sends the email that follows it and sells the practitioner's courses. The assessment brings in new contacts, and course payments run through Stripe."
-    }
-  ],
-  "systems_heading": "Systems",
-  "systems_featured": [
+  "projects_heading": "Projects",
+  "projects_featured": [
+    "wild-relating",
     "river-outfitter-operations",
-    "assessment-course-engine",
-    "sigmap",
-    "longtable",
-    "private-university",
-    "rsi-course"
+    "modern-lyceum",
+    "the-university",
+    "southwest-modern",
+    "longtable"
   ],
-  "systems_link_label": "All systems",
-  "systems_link_href": "systems.html",
-  "notes_heading": "Notes",
-  "notes_count": 3,
-  "notes_link_label": "All notes",
-  "notes_link_href": "writing.html",
-  "notes_empty_text": "Nothing published yet."
+  "projects_link_label": "All projects",
+  "projects_link_href": "projects.html",
+  "about_heading": "About",
+  "about_text": "Brian Burke ran operations as chief operating officer of a venture-backed Silicon Valley startup, taught adults for a decade, and is a licensed real-estate agent. He started Creosote Labs in 2026 and builds with AI coding tools.",
+  "about_link_label": "More about Brian",
+  "about_link_href": "about.html",
+  "writing_heading": "Writing",
+  "writing_count": 3,
+  "writing_link_label": "All writing",
+  "writing_link_href": "writing.html",
+  "contact_heading": "Contact",
+  "contact_text": "To talk about a project, write to [brian@brianburke.net](mailto:brian@brianburke.net)."
 }
