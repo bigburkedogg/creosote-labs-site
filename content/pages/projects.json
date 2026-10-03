@@ -13,7 +13,7 @@
           "name": "Trip operations for a river outfitter",
           "status": "In production since 2026 · client",
           "summary": "An outfitter running multi-day river trips kept its trip information in five places and sent four menu-planning attachments with every booking.",
-          "text": "An outfitter running multi-day river trips kept its trip information in five places and sent four menu-planning attachments with every booking. Creosote replaced that with one system. Guests plan their trip menu in a web planner built on a 775-recipe library; each menu produces a shopping list ordered by store section and a packing list broken out by camp and storage bin, and a dietary restriction entered once reaches every list. A trip tracker records the due date and the done date of each milestone. Creosote also wrote the staff and new-hire guides, recovered three weeks of lost CRM email through the mail and CRM APIs, and set the office up to produce its own invoices from its existing templates.",
+          "text": "An outfitter running multi-day river trips kept its trip information in five places and sent four menu-planning attachments with every booking. Creosote replaced that with one system. Guests plan their trip menu in a web planner built on a library of more than 900 recipes; each menu produces a shopping list ordered by store section and a packing list broken out by camp and storage bin, and a dietary restriction entered once reaches every list. A trip tracker records the due date and the done date of each milestone. Creosote also wrote the staff and new-hire guides, recovered three weeks of lost CRM email through the mail and CRM APIs, and set the office up to produce its own invoices from its existing templates.",
           "detail": "The client's name and a reference are available on request.",
           "image": "projects/river-outfitter-operations.png",
           "href": ""
@@ -23,8 +23,8 @@
           "name": "WILD Relating",
           "status": "Live since October 2026 · client",
           "summary": "A sexology practice needed a way to turn podcast listeners into clients.",
-          "text": "A sexology practice needed a way to turn podcast listeners into clients. Creosote rebuilt the practice's site as one application: an eight-question assessment that sorts each visitor into one of five patterns, an email engine that sends the sequence written for that pattern, courses sold on the same site, and an admin page that lists every contact and every message. It runs on Render, and the owner edits the content in the browser.",
-          "detail": "The assessment is the lead magnet; course payments run through Stripe.",
+          "text": "A sexology practice needed a way to turn podcast listeners into clients. Creosote rebuilt the practice's site as one application: an eight-question assessment that sorts each visitor into one of five patterns, an email engine that queues the sequence written for that pattern, a shelf of courses with checkout built in, and an admin page that lists every contact and every message. It runs on Render, and the owner edits the content in the browser.",
+          "detail": "The assessment is the lead magnet. Checkout and email delivery switch on with the owner's Stripe and sender keys.",
           "image": "projects/wild-relating.png",
           "href": "https://wild-relating.onrender.com/"
         }
@@ -49,7 +49,7 @@
           "name": "Scenario",
           "status": "In development",
           "summary": "A planning tool for the money decisions with long effects: selling a rental, refinancing, stopping work for a year.",
-          "text": "A planning tool for the money decisions with long effects: selling a rental, refinancing, stopping work for a year.",
+          "text": "A planning tool for the money decisions with long effects: selling a rental, refinancing, stopping work for a year. Each option is projected years forward on the same measures, net worth, liquid cash, cash flow and the cash low point, and the options sit side by side.",
           "detail": "The comparable software is sold to financial advisors, not to the person making the decision.",
           "image": "projects/scenario.png",
           "href": ""
@@ -64,10 +64,10 @@
           "id": "the-university",
           "name": "The University",
           "status": "In use since 2026 · private",
-          "summary": "A private university for one learner: thirteen courses across history, language, computing, mathematics and the body, each opening with a placement exam.",
-          "text": "A private university for one learner: thirteen courses across history, language, computing, mathematics and the body, each opening with a placement exam. The modules for a course are written after its placement exam, to the level the learner placed at. A grader checks answers, and review is spaced.",
+          "summary": "A private university for one learner: thirteen courses across history, language, computing, mathematics and the body, twelve of them opening with a placement exam.",
+          "text": "A private university for one learner: thirteen courses across history, language, computing, mathematics and the body, twelve of them opening with a placement exam. The modules for a course are written after its placement exam, to the level the learner placed at. A grader checks answers, and review is spaced.",
           "detail": "Runs on Render behind a password.",
-          "image": "projects/university.png",
+          "image": "",
           "href": ""
         },
         {
@@ -84,8 +84,8 @@
           "id": "rsi-course",
           "name": "The RSI Debate, Decoded",
           "status": "2026",
-          "summary": "",
-          "text": "",
+          "summary": "A seventeen-module course built from a single technical conversation about recursive self-improvement in AI, written for readers without a computer-science background.",
+          "text": "A seventeen-module course built from a single technical conversation about recursive self-improvement in AI, written for readers without a computer-science background.",
           "detail": "A static site; the whole course reads offline.",
           "image": "projects/rsi-course.png",
           "href": ""
@@ -163,7 +163,7 @@
           "summary": "Generated from JSON by a Python script with no dependencies, with a browser editor that saves, previews and publishes in one click.",
           "text": "Generated from JSON by a Python script with no dependencies, with a browser editor that saves, previews and publishes in one click.",
           "detail": "",
-          "image": "",
+          "image": "projects/creosote-site.png",
           "href": ""
         }
       ]
