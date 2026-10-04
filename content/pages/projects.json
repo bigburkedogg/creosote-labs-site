@@ -1,8 +1,8 @@
 {
   "title": "Projects · Creosote Labs",
-  "meta_description": "Everything Creosote Labs has built, grouped by who it was for.",
+  "meta_description": "Software built by Creosote Labs: trip operations for a river outfitter, a website for a sexology practice, Longtable, Scenario, four teaching projects and a set of tools.",
   "h1": "Projects",
-  "intro": "Everything Creosote Labs has built, grouped by who it was for. One client is not named until they have agreed to be.",
+  "intro": "",
   "groups": [
     {
       "id": "for-clients",
@@ -11,20 +11,20 @@
         {
           "id": "river-outfitter-operations",
           "name": "Trip operations for a river outfitter",
-          "status": "In production since 2026 · client",
+          "status": "In production",
           "summary": "An outfitter running multi-day river trips kept its trip information in five places and sent four menu-planning attachments with every booking.",
           "text": "An outfitter running multi-day river trips kept its trip information in five places and sent four menu-planning attachments with every booking. Creosote replaced that with one system. Guests plan their trip menu in a web planner built on a library of more than 900 recipes; each menu produces a shopping list ordered by store section and a packing list broken out by camp and storage bin, and a dietary restriction entered once reaches every list. A trip tracker records the due date and the done date of each milestone. Creosote also wrote the staff and new-hire guides, recovered three weeks of lost CRM email through the mail and CRM APIs, and set the office up to produce its own invoices from its existing templates.",
-          "detail": "The client's name and a reference are available on request.",
+          "detail": "",
           "image": "projects/river-outfitter-operations.png",
           "href": ""
         },
         {
           "id": "wild-relating",
           "name": "WILD Relating",
-          "status": "Live since October 2026 · client",
-          "summary": "A sexology practice needed a way to turn podcast listeners into clients.",
+          "status": "Live since October 2026",
+          "summary": "Assessment, email sequences and course checkout for a sexology practice.",
           "text": "A sexology practice needed a way to turn podcast listeners into clients. Creosote rebuilt the practice's site as one application: an eight-question assessment that sorts each visitor into one of five patterns, an email engine that queues the sequence written for that pattern, a shelf of courses with checkout built in, and an admin page that lists every contact and every message. It runs on Render, and the owner edits the content in the browser.",
-          "detail": "The assessment is the lead magnet. Checkout and email delivery switch on with the owner's Stripe and sender keys.",
+          "detail": "",
           "image": "projects/wild-relating.png",
           "href": "https://wild-relating.onrender.com/"
         }
@@ -40,7 +40,7 @@
           "status": "In development",
           "summary": "Food planning for events where the headcount and the dietary needs keep changing: plated weddings, retreat and lodge kitchens, backcountry expeditions and week-ahead meal prep.",
           "text": "Food planning for events where the headcount and the dietary needs keep changing: plated weddings, retreat and lodge kitchens, backcountry expeditions and week-ahead meal prep. The four formats share one recipe library and one menu generator, so changing a single guest's restriction regenerates the menu, the shopping list, the packing list and the cost per head together.",
-          "detail": "The recipe library is Longtable's own.",
+          "detail": "",
           "image": "projects/longtable.png",
           "href": ""
         },
@@ -63,10 +63,10 @@
         {
           "id": "the-university",
           "name": "The University",
-          "status": "In use since 2026 · private",
+          "status": "In use · private",
           "summary": "A private university for one learner: thirteen courses across history, language, computing, mathematics and the body, twelve of them opening with a placement exam.",
           "text": "A private university for one learner: thirteen courses across history, language, computing, mathematics and the body, twelve of them opening with a placement exam. The modules for a course are written after its placement exam, to the level the learner placed at. A grader checks answers, and review is spaced.",
-          "detail": "Runs on Render behind a password.",
+          "detail": "",
           "image": "",
           "href": ""
         },
@@ -96,7 +96,7 @@
           "status": "In use",
           "summary": "Two role-playing games for a young reader who reads below grade level: a reading quest and a math game set in the same world.",
           "text": "Two role-playing games for a young reader who reads below grade level: a reading quest and a math game set in the same world. Every line is spoken aloud, and each curriculum starts at the player's real ability rather than the grade on paper.",
-          "detail": "The two games share a world and never a cast.",
+          "detail": "The two games share a world but not a cast.",
           "image": "projects/gate-city.png",
           "href": ""
         }

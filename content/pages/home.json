@@ -3,7 +3,7 @@
   "meta_description": "Creosote Labs is Brian Burke's software studio. It builds operations software for small businesses, teaching software and products of its own, and runs what it builds.",
   "hero": {
     "h1": "Creosote Labs is Brian Burke's software studio.",
-    "sub": "It builds operations software for small businesses, teaching software and products of its own, and runs what it builds. Everything on this site exists. The line under each name says whether it is live, in use or still being built."
+    "sub": "It builds operations software for small businesses, teaching software and products of its own, and runs what it builds."
   },
   "projects_heading": "Projects",
   "projects_featured": [
@@ -17,7 +17,7 @@
   "projects_link_label": "All projects",
   "projects_link_href": "projects.html",
   "about_heading": "About",
-  "about_text": "Brian Burke ran operations as chief operating officer of a venture-backed Silicon Valley startup, taught adults for a decade, and is a licensed real-estate agent. He started Creosote Labs in 2026 and builds with AI coding tools.",
+  "about_text": "Brian Burke was chief operating officer of a venture-backed Silicon Valley startup, taught adults for a decade, and is a licensed real-estate agent. He started Creosote Labs in 2026 and builds with AI coding tools.",
   "about_link_label": "More about Brian",
   "about_link_href": "about.html",
   "writing_heading": "Writing",
@@ -25,5 +25,5 @@
   "writing_link_label": "All writing",
   "writing_link_href": "writing.html",
   "contact_heading": "Contact",
-  "contact_text": "To talk about a project, write to [brian@brianburke.net](mailto:brian@brianburke.net)."
+  "contact_text": "Write to [brian@brianburke.net](mailto:brian@brianburke.net)."
 }
