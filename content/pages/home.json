@@ -1,15 +1,15 @@
 {
-  "title": "Creosote Labs · Brian Burke",
-  "meta_description": "Creosote Labs is Brian Burke's software studio. It builds operations software for small businesses, teaching software and products of its own, and runs what it builds.",
+  "title": "Creosote Labs · Custom software, built with AI",
+  "meta_description": "Creosote Labs is a software studio. It builds operations systems for small businesses, course and teaching software, and products of its own, and runs what it builds.",
   "hero": {
-    "h1": "Creosote Labs is Brian Burke's software studio.",
-    "sub": "It builds operations software for small businesses, teaching software and products of its own, and runs what it builds."
+    "h1": "Custom software, built with AI.",
+    "sub": "Creosote Labs is a software studio. It builds operations systems for small businesses, course and teaching software, and products of its own, and runs what it builds."
   },
   "projects_heading": "Projects",
   "projects_featured": [
     "wild-relating",
     "longtable",
-    "modern-lyceum",
+    "course-builder",
     "scenario",
     "southwest-modern",
     "gate-city"

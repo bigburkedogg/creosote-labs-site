@@ -1,6 +1,6 @@
 {
   "title": "Projects · Creosote Labs",
-  "meta_description": "Software built by Creosote Labs: trip operations for a river outfitter, a website for a sexology practice, Longtable, Scenario, four teaching projects and a set of tools.",
+  "meta_description": "Software built by Creosote Labs: trip operations for a river outfitter, a website for a sexology practice, Longtable, Scenario, a course builder, two learning games and a set of tools.",
   "h1": "Projects",
   "intro": "",
   "groups": [
@@ -61,44 +61,34 @@
       "heading": "Teaching software",
       "projects": [
         {
-          "id": "the-university",
-          "name": "The University",
-          "status": "In use · private",
-          "summary": "A private university for one learner: thirteen courses across history, language, computing, mathematics and the body, twelve of them opening with a placement exam.",
-          "text": "A private university for one learner: thirteen courses across history, language, computing, mathematics and the body, twelve of them opening with a placement exam. The modules for a course are written after its placement exam, to the level the learner placed at. A grader checks answers, and review is spaced.",
+          "id": "course-builder",
+          "name": "Course builder",
+          "status": "In use · 13 courses built",
+          "summary": "Builds a course on any subject for one learner: a placement exam first, then modules written to the level the learner placed at.",
+          "text": "Builds a course on any subject for one learner. It writes the placement exam first: three to six strands, each starting in the middle and moving up or down with every answer, with written questions graded against a rubric, and a result that is a route through the course rather than a score. The modules are then written by a language model to a fixed specification, shorter where the learner placed high and fuller where they placed low, and a checker rejects any quiz question whose answer is not in the module's own text. The finished course runs in a static web app with a quiz engine, written-answer grading and a progress record. Thirteen courses so far, from the history of technology and linear algebra to Spanish and dog training: 92 modules and 12 placement exams.",
           "detail": "",
-          "image": "",
-          "href": ""
-        },
-        {
-          "id": "modern-lyceum",
-          "name": "Modern Lyceum",
-          "status": "Live",
-          "summary": "A spaced-repetition study application for adults.",
-          "text": "A spaced-repetition study application for adults. Material is organized by subject, each session is built from the items due for review, and an item's next review moves further out each time it is answered correctly.",
-          "detail": "Installs as a web app and works offline.",
-          "image": "projects/modern-lyceum.png",
-          "href": "https://modern-lyceum.onrender.com/"
-        },
-        {
-          "id": "rsi-course",
-          "name": "The RSI Debate, Decoded",
-          "status": "2026",
-          "summary": "A seventeen-module course built from a single technical conversation about recursive self-improvement in AI, written for readers without a computer-science background.",
-          "text": "A seventeen-module course built from a single technical conversation about recursive self-improvement in AI, written for readers without a computer-science background.",
-          "detail": "A static site; the whole course reads offline.",
-          "image": "projects/rsi-course.png",
+          "image": "projects/course-builder.png",
           "href": ""
         },
         {
           "id": "gate-city",
           "name": "Gate City",
-          "status": "In use",
-          "summary": "Two role-playing games for a young reader who reads below grade level: a reading quest and a math game set in the same world.",
-          "text": "Two role-playing games for a young reader who reads below grade level: a reading quest and a math game set in the same world. Every line is spoken aloud, and each curriculum starts at the player's real ability rather than the grade on paper.",
-          "detail": "The two games share a world but not a cast.",
+          "status": "Live",
+          "summary": "A reading game for a young reader who reads below grade level, set in an anime dungeon-hunter world.",
+          "text": "A reading game for a young reader who reads below grade level, set in an anime dungeon-hunter world. Twelve gates follow the phonics sequence from three-letter words to multisyllable words and affixes, each with word lists, sight words, decodable sentences with comprehension questions and a boss passage. Every word and line is spoken by a neural voice that runs in the browser, every purchase in the shop is a money-math problem, and a save follows the player between devices with a name and a four-number code. The whole game is one HTML file.",
+          "detail": "",
           "image": "projects/gate-city.png",
-          "href": ""
+          "href": "https://gate-city.onrender.com/"
+        },
+        {
+          "id": "gate-city-mint",
+          "name": "Gate City: The Mint",
+          "status": "Live",
+          "summary": "A math game in the same world: the times tables and column arithmetic, every problem spoken aloud.",
+          "text": "A math game set in the same world as Gate City. Twelve gates teach the times tables from 2 to 12 and column addition and subtraction, carrying, borrowing and borrowing across zeros, as a mix of the written method and the mental strategy behind it, each with its own visual model. Every problem is read aloud, so a player whose reading lags their math is never stuck on the words. Each solved problem is a strike against a counterfeit coin, and clearing the district rebuilds the Master Die and mints the First Coin.",
+          "detail": "",
+          "image": "projects/gate-city-mint.png",
+          "href": "https://gate-city-mint.onrender.com/"
         }
       ]
     },
@@ -124,26 +114,6 @@
           "text": "The website for Brian's real-estate brand: a neighborhood-match assessment, sixteen neighborhood guides, two email guides, a home-value request and an admin contact list, on the same engine as WILD Relating.",
           "detail": "The engine is a Flask application with SQLite, Markdown content and Stripe.",
           "image": "projects/southwest-modern.png",
-          "href": ""
-        },
-        {
-          "id": "daily-brief",
-          "name": "Daily Brief",
-          "status": "In daily use",
-          "summary": "A morning page that assembles the day's calendar, the mail that needs an answer, the task list and the finances from their APIs.",
-          "text": "A morning page that assembles the day's calendar, the mail that needs an answer, the task list and the finances from their APIs. Opening the page is what refreshes it.",
-          "detail": "",
-          "image": "",
-          "href": ""
-        },
-        {
-          "id": "finance-system",
-          "name": "Finance system",
-          "status": "In daily use",
-          "summary": "Bank and card transactions pulled through SimpleFin into one yearly workbook, receipts filed and matched, property-level reporting for a rental portfolio, and a net-worth dashboard.",
-          "text": "Bank and card transactions pulled through SimpleFin into one yearly workbook, receipts filed and matched, property-level reporting for a rental portfolio, and a net-worth dashboard.",
-          "detail": "",
-          "image": "",
           "href": ""
         },
         {
