@@ -63,12 +63,12 @@
         {
           "id": "course-builder",
           "name": "Course builder",
-          "status": "In use · 13 courses built",
+          "status": "Open source · 13 courses built",
           "summary": "Builds a course on any subject for one learner: a placement exam first, then modules written to the level the learner placed at.",
-          "text": "Builds a course on any subject for one learner. It writes the placement exam first: three to six strands, each starting in the middle and moving up or down with every answer, with written questions graded against a rubric, and a result that is a route through the course rather than a score. The modules are then written by a language model to a fixed specification, shorter where the learner placed high and fuller where they placed low, and a checker rejects any quiz question whose answer is not in the module's own text. The finished course runs in a static web app with a quiz engine, written-answer grading and a progress record. Thirteen courses so far, from the history of technology and linear algebra to Spanish and dog training: 92 modules and 12 placement exams.",
+          "text": "Builds a course on any subject for one learner. It writes the placement exam first: three to six strands, each starting in the middle and moving up or down with every answer, with written questions graded against a rubric, and a result that is a route through the course rather than a score. The modules are then written by a language model to a fixed specification, shorter where the learner placed high and fuller where they placed low, and a checker rejects any quiz question whose answer is not in the module's own text. The finished course runs in a static web app with a quiz engine, written-answer grading and a progress record. Thirteen courses so far, from the history of technology and linear algebra to Spanish and dog training: 92 modules and 12 placement exams. The engine, the checker and the Claude Code skill are open source under MIT.",
           "detail": "",
           "image": "projects/course-builder.png",
-          "href": ""
+          "href": "https://github.com/bigburkedogg/course-builder"
         },
         {
           "id": "gate-city",
